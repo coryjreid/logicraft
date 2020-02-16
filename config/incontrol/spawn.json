@@ -1,0 +1,12 @@
+[
+    {
+        "dimension": [
+            -6
+        ],
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:bat",
+        "result": "deny"
+    }
+]

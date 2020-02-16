@@ -1,0 +1,8 @@
+{
+  "hasBiomeEssence": false,
+  "generators": {
+    "topaz": {
+      "enable": false
+    }
+  }
+}

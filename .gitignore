@@ -1,0 +1,24 @@
+# Directories
+downloads/
+journeymap/
+logs/
+mods/
+saves/
+screenshots/
+shaderpacks/
+
+# Files
+.mixin.out
+.curseclient
+.ReAuth.cfg
+BotaniaVars.dat
+
+# Only in the top-level directory
+/*.log
+/*.txt
+/*.json
+/*.dll
+/*.dat
+
+# Include our modpack version file
+!modpack-version.txt

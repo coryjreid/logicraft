@@ -1,0 +1,16 @@
+{
+  "wallBlock": {
+    "block": "minecraft:netherrack"
+  },
+  "fillerBlock": {
+    "block": "minecraft:netherrack"
+  },
+  "topBlock": {
+    "block": "minecraft:netherrack"
+  },
+  "generators": {
+    "eyebulbs": {
+      "enable": false
+    }
+  }
+}

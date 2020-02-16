@@ -1,0 +1,8 @@
+{
+  "hasBiomeEssence": false,
+  "generators": {
+    "malachite": {
+      "enable": false
+    }
+  }
+}

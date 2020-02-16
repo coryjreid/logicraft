@@ -1,0 +1,7 @@
+{
+  "generators": {
+    "sapphire": {
+      "enable": false
+    }
+  }
+}

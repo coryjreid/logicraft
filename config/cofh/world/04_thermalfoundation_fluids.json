@@ -1,0 +1,90 @@
+{
+    "dependencies": "thermalfoundation",
+    "populate": {
+        "petro_vein": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"type": "large-vein",
+				"block": "thermalfoundation:fluid_petrotheum",
+				"material": [
+					"minecraft:sand",
+					"minecraft:sandstone"
+				],
+				"sparse": false,
+				"cluster-size": 15				
+			},
+			"material": [
+					"minecraft:sand",
+					"minecraft:sandstone"
+			],
+			"chunk-chance": 6,
+			"cluster-count": 1,
+			"vein-height": 10,
+			"vein-diameter": 15,
+			"vertical-density": 3,
+			"horizontal-density": 7,
+			"min-height": 40,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": [
+							"SANDY"
+						]
+					}
+				]
+			},
+			"dimension": "all"
+        },
+        "cryo_lakes": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_cryotheum",
+				"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+				],
+				"use-material": true
+			},
+			"cluster-count": 2,
+			"chunk-chance": 4,
+			"min-height": 50,
+			"max-height": 150,
+			"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+			],
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+    }
+}

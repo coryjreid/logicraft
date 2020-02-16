@@ -1,0 +1,7 @@
+{
+  "weights": {
+    "wet_temperate": 20,
+    "warm_temperate": 20,
+    "hot_swamp": 20
+  }
+}

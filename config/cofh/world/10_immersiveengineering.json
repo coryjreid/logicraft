@@ -1,0 +1,31 @@
+{
+    "dependencies": "immersiveengineering",
+    "populate": {
+        "uranium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [
+                    {
+                        "name": "immersiveengineering:ore",
+                        "properties": {
+                            "type": "uranium"
+                        }
+                    }
+                ],
+                "material": "minecraft:stone",
+                "cluster-size": 4
+            },
+            "cluster-count": 8,
+            "max-height": 33,
+            "min-height": 3,
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        }
+    }
+}

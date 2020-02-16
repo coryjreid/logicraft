@@ -1,0 +1,8 @@
+{
+  "hasBiomeEssence": false,
+  "generators": {
+    "tanzanite": {
+      "enable": false
+    }
+  }
+}

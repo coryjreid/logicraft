@@ -1,0 +1,8 @@
+{
+  "hasBiomeEssence": false,
+  "generators": {
+    "amber": {
+      "enable": false
+    }
+  }
+}

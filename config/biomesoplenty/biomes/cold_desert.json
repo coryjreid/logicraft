@@ -1,0 +1,11 @@
+{
+  "hasBiomeEssence": false,
+  "generators": {
+    "hard_ice_splatter": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    }
+  }
+}

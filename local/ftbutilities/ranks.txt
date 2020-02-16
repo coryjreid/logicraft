@@ -1,0 +1,38 @@
+// For more info visit https://github.com/FTBTeam/FTB-Ranks/wiki
+
+[player]
+power: 1
+default_player_rank: true
+command: false
+command.me: true
+command.seed: true
+command.ftbutilities.chunks.unclaim: true
+command.ftbutilities.chunks.help: true
+command.ftbutilities.chunks.load: true
+command.ftbutilities.chunks.unclaim_all: true
+command.ftbutilities.chunks.unload: true
+command.ftbutilities.chunks.claim: true
+command.ftbutilities.chunks.unload_all: true
+command.ftbutilities.chunks.info: true
+command.ftbutilities.trash_can: true
+ftbutilities: false
+ftbutilities.claims.max_chunks: 500
+ftbutilities.claims.bypass_limits: false
+ftbutilities.chunkloader.max_chunks: 50
+ftbutilities.chat.formatting: true
+ftbutilities.chat.nickname.colors: true
+ftbutilities.chat.nickname.set: true
+ftbutilities.chat.speak: true
+ftbutilities.chat.text.color: white
+ftbutilities.chat.name_format: <{name}>
+ftbutilities.leaderboard: true
+ftbutilities.badge: https://i.imgur.com/sFgXLdg.png
+
+[admin]
+parent: player
+power: 100
+default_op_rank: true
+command: true
+ftbutilities: true
+ftbutilities.chat.name_format: <&4{name}&r>
+ftbutilities.claims.bypass_limits: true

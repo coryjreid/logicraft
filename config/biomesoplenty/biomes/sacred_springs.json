@@ -1,0 +1,11 @@
+{
+  "hasBiomeEssence": false,
+  "generators": {
+    "topaz": {
+      "enable": false
+    }
+  },
+  "weights": {
+    "tropical": 3
+  }
+}

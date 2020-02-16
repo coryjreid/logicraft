@@ -1,0 +1,7 @@
+{
+  "generators": {
+    "peridot": {
+      "enable": false
+    }
+  }
+}

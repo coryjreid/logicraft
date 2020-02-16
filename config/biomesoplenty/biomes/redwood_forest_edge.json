@@ -1,0 +1,7 @@
+{
+  "generators": {
+    "amber": {
+      "enable": false
+    }
+  }
+}

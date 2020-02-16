@@ -1,0 +1,10 @@
+{
+  "fillerBlock": {
+    "block": "minecraft:packed_ice"
+  },
+  "generators": {
+    "tanzanite": {
+      "enable": false
+    }
+  }
+}
