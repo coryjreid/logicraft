@@ -16,9 +16,9 @@ is easy for my friends to install using the Twitch launcher and is not genearlly
 expected to be a popular public pack like FTB. But, please feel free to
 contribute if you find issues!
 
-| Modpack Version  | Minecraft Version | Forge Version | Link |
-| :--------------: | :---------------: | :------------: | :---: |
-| `3.4.7`          | `1.12.2`          | `14.23.5.2838` | [Curseforge](https://www.curseforge.com/minecraft/modpacks/logicraft_/) |
+| Modpack Version  | Minecraft Version | Forge Version | Link | Changelog |
+| :--------------: | :---------------: | :------------: | :---: | :--: |
+| `3.4.7`          | `1.12.2`          | `14.23.5.2838` | [Curseforge](https://www.curseforge.com/minecraft/modpacks/logicraft_/) | [Changelog](CHANGELOG.md) |
 
 ## Contributing
 
