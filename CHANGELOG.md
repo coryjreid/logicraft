@@ -1,4 +1,4 @@
-# Version 3.4.7
+# Version 3.4.7 (Feb 16, 2020)
 
 The majority of these updates are centered around ore generation. It was discovered that Aluminum and Dimensional Shards were not generating (or struggling to generate). Most fixes are related to these fixes.
 
@@ -53,7 +53,7 @@ These oregen changes separate the ores into more distinct spawning layers. The g
 
 * Added new texture for Clay Ore
 
-# Version 3.3.7
+# Version 3.3.7 (Feb 15, 2020)
 
 ## Config Changes
 
@@ -62,7 +62,7 @@ These oregen changes separate the ores into more distinct spawning layers. The g
 * Turn on retrogeneration to spawn more aluminum
 * Increase gold generation rate
 
-# Version 3.3.6
+# Version 3.3.6 (Feb 15, 2020)
 
 ## Config Changes
 
@@ -70,7 +70,7 @@ These oregen changes separate the ores into more distinct spawning layers. The g
 
 * Add Aluminum ore generation that was missing
 
-# Version 3.3.5
+# Version 3.3.5 (Feb 14, 2020)
 
 ## Updates
 
@@ -97,7 +97,7 @@ These oregen changes separate the ores into more distinct spawning layers. The g
 * RFTools
 * UniDict
 
-# Version 3.3.4
+# Version 3.3.4 (Dec 05, 2019)
 
 ## Config Changes
 
@@ -105,7 +105,7 @@ These oregen changes separate the ores into more distinct spawning layers. The g
 
 * Disabled generation of Mekanism Tin and Copper
 
-# Version 3.3.3
+# Version 3.3.3 (Dec 05, 2019)
 
 ## Additions
 
@@ -114,13 +114,13 @@ These oregen changes separate the ores into more distinct spawning layers. The g
 * Mekanism Generators
 * Mekanism Tools
 
-# Version 3.2.3
+# Version 3.2.3 (Dec 05, 2019)
 
 ## Updates
 
 * List of changed mods unavailable (but probably a lot of them)
 
-# Version 3.2.2
+# Version 3.2.2 (Nov 17, 2019)
 
 ## Updates
 
@@ -134,7 +134,7 @@ These oregen changes separate the ores into more distinct spawning layers. The g
     * Settings
     * Permissions
 
-# Version 3.2.1 
+# Version 3.2.1 (Nov 17, 2019)
 
 ## Updates
 
@@ -142,12 +142,12 @@ These oregen changes separate the ores into more distinct spawning layers. The g
 * Loot Tweaker
 * FTBUtilities 
 
-# Version 3.1.0 
+# Version 3.1.0 (Jun 03, 2019)
 
 ## Additions 
 
 * Gravestone
 
-# Version 3.0.0 
+# Version 3.0.0 (Jun 03, 2019)
 
 Initial Release
