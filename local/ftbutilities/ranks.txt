@@ -35,4 +35,6 @@ default_op_rank: true
 command: true
 ftbutilities: true
 ftbutilities.chat.name_format: <&4{name}&r>
+ftbutilities.chunkloader.max_chunks: 30000
+ftbutilities.claims.max_chunks: 30000
 ftbutilities.claims.bypass_limits: true

@@ -1,3 +1,15 @@
+# Version 3.4.9 (Feb 17, 2020)
+
+## Updates
+
+* SolarFluxReborn
+
+## Config Changes
+
+### FTBUtilities
+
+* Raise the defined claim/load limits for OPs
+
 # Version 3.4.8 (Feb 16, 2020)
 
 ## Config Changes

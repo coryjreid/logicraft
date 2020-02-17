@@ -21,4 +21,6 @@ BotaniaVars.dat
 /*.dat
 
 # Include our modpack version file
+!manifest.json
+!minecraftinstance.json
 !modpack-version.txt
