@@ -1,3 +1,12 @@
+# Version 3.4.8 (Feb 16, 2020)
+
+## Config Changes
+
+### Immersive Engineering
+
+* Removed bad recipes for IE plates
+* Added recipes to make Thermal Foundation plates with IE hammer
+
 # Version 3.4.7 (Feb 16, 2020)
 
 The majority of these updates are centered around ore generation. It was discovered that Aluminum and Dimensional Shards were not generating (or struggling to generate). Most fixes are related to these fixes.
