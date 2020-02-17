@@ -12,7 +12,7 @@ you when you least expect it.
 This is a custom-made modpack that my friends and I play on a server I host at
 home. This modpack's main focus is our entertainment. It may undergo vast
 periods of time with little attention. It is released "publicly" only so that it
-is easy for my friends to install using the Twitch launcher and is not genearlly
+is easy for my friends to install using the Twitch launcher and is not generally
 expected to be a popular public pack like FTB. But, please feel free to
 contribute if you find issues!
 
