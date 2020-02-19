@@ -1,3 +1,11 @@
+# Version 3.4.10 (Feb 18, 2020)
+
+## Config Changes
+
+### In Control!
+
+* Re-enable spawning of bats (needed for some crafting recipes)
+
 # Version 3.4.9 (Feb 17, 2020)
 
 ## Updates
