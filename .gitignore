@@ -20,6 +20,10 @@ BotaniaVars.dat
 /*.dll
 /*.dat
 
+# Ignore some auto-generated config files
+config/biomesoplenty/biomes/defaults/*
+config/splash.properties
+
 # Include our modpack version file
 !modpack-version.txt
 !manifest.json
