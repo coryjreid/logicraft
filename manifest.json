@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Logicraft_",
-  "version": "3.4.10",
+  "version": "3.4.11",
   "author": "EtherealWrath",
   "projectID": 323471,
   "files": [
@@ -332,7 +332,7 @@
     },
     {
       "projectID": 246974,
-      "fileID": 2883838,
+      "fileID": 2884054,
       "required": true
     },
     {

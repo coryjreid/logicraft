@@ -1,3 +1,17 @@
+# Version 3.4.11 (Feb 19, 2020)
+
+## Updates
+
+* SolarFluxReborn
+
+## Config Changes
+
+### Inventory Tweaks
+
+* Disable middle-click sorting
+* Enable sorting on pickup
+* Enable auto-equip armor
+
 # Version 3.4.10 (Feb 18, 2020)
 
 ## Config Changes
