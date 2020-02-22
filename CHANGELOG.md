@@ -1,3 +1,9 @@
+# Version 3.5.11 (Feb 22, 2020)
+
+## Removals
+
+* World Stripper (was meant to be debugging only)
+
 # Version 3.4.11 (Feb 19, 2020)
 
 ## Updates
