@@ -1,3 +1,17 @@
+# Version 3.5.12 (Feb 22, 2020)
+
+## Updates
+
+* FTB Library
+
+## Config Changes
+
+### Default Options
+
+* Set default keybinds
+* Set default options
+* Add default server configuration
+
 # Version 3.5.11 (Feb 22, 2020)
 
 ## Removals
