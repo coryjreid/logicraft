@@ -1,3 +1,24 @@
+# Version 3.6.13 (Feb 23, 2020)
+
+## Updates
+
+* Solar Flux Reborn ([bugfix](https://gitlab.com/DragonForge/SolarFluxReborn/issues/88))
+
+## Config Changes
+
+### Natures Compass
+
+* Exclude Sacred Springs
+* Update HUD position to prevent conflicts
+
+### Simply Jetpacks 2
+
+* Update HUD position to prevent conflicts
+
+### TheOneProbe
+
+* Update HUD position to prevent conflicts
+
 # Version 3.6.12 (Feb 23, 2020)
 
 ## Additions
