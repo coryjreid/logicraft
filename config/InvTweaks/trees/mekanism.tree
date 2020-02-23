@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# This is the modded minecraft tree.  There may be a newer version available at
+# https://github.com/IMarvinTPA/inventory-tweaks/tree/develop/src/main/resources/assets/inventorytweaks
+# Help on maintaining and expanding the tree is welcomed, please contact IMarvinTPA.
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+# IMarvinTPA for the modded tree.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.12.2">
+	<equipment treeOrder="10">
+		<weapon treeOrder="10">
+			<munition treeOrder="20">
+				<bow mergeChildren="true" treeOrder="30">
+					<itemElectricBow id="mekanism:electricbow" treeOrder="60"/>
+				</bow>
+			</munition>
+			<itemFlamethrower id="mekanism:flamethrower" treeOrder="80"/>
+		</weapon>
+		<tool treeOrder="20">
+			<paxel mergeChildren="true" treeOrder="10">
+				<miningTool treeOrder="10">
+					<diggingTool treeOrder="10">
+						<choppingTool treeOrder="10">
+							<farmingTool treeOrder="10">
+								<itemAtomicDisassembler id="mekanism:atomicdisassembler" treeOrder="30"/>
+							</farmingTool>
+						</choppingTool>
+					</diggingTool>
+				</miningTool>
+			</paxel>
+			<blockMovers treeOrder="100">
+				<itemCardboardBox id="mekanism:cardboardbox" treeOrder="130"/>
+			</blockMovers>
+			<fluidMovers treeOrder="110">
+				<itemGaugeDropper id="mekanism:gaugedropper" treeOrder="30"/>
+			</fluidMovers>
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
+				<itemConfigurator id="mekanism:configurator" treeOrder="370"/>
+			</wrench>
+			<multimeters treeOrder="160">
+				<itemConfigurationCard id="mekanism:configurationcard" treeOrder="20"/>
+				<itemNetworkReader id="mekanism:networkreader" treeOrder="60"/>
+			</multimeters>
+			<teleport treeOrder="330">
+				<itemPortableTeleporter id="mekanism:portableteleporter" treeOrder="80"/>
+			</teleport>
+			<instrument treeOrder="350">
+				<itemSeismicReader id="mekanism:seismicreader" treeOrder="80"/>
+				<itemWalkie-Talkie id="mekanism:walkietalkie" treeOrder="90"/>
+			</instrument>
+		</tool>
+		<armor treeOrder="30">
+			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
+				<armoredJetpacks treeOrder="10">
+					<itemArmoredJetpack id="mekanism:armoredjetpack" treeOrder="20"/>
+					<itemJetpack id="mekanism:jetpack" treeOrder="150"/>
+				</armoredJetpacks>
+			</chestplate>
+		</armor>
+	</equipment>
+	<block treeOrder="20">
+		<manufacturedBlock treeOrder="50">
+			<fence treeOrder="20">
+				<itemBlackPlasticBarrier id="mekanism:plasticfence" treeOrder="170"/>
+			</fence>
+			<constructionBlock treeOrder="70">
+				<glass treeOrder="40">
+					<glassBlock id="glass" treeOrder="10">
+						<itemStructuralGlass id="mekanism:basicblock" damage="10" treeOrder="110"/>
+					</glassBlock>
+				</glass>
+				<roads treeOrder="70">
+					<itemWhitePlasticRoad id="mekanism:roadplasticblock" treeOrder="110"/>
+				</roads>
+				<decorativeblocks treeOrder="80">
+					<itemWhitePlasticBlock id="mekanism:plasticblock" treeOrder="590"/>
+					<itemWhiteReinforcedPlasticBlock id="mekanism:reinforcedplasticblock" treeOrder="600"/>
+					<itemWhiteSlickPlasticBlock id="mekanism:slickplasticblock" treeOrder="610"/>
+				</decorativeblocks>
+				<sticks treeOrder="230">
+					<itemPlaStick id="mekanism:polyethene" damage="3" treeOrder="60"/>
+				</sticks>
+			</constructionBlock>
+		</manufacturedBlock>
+		<mechanism treeOrder="60">
+			<lighting treeOrder="30">
+				<decorativeLights treeOrder="120">
+					<itemWhiteGlowPanel id="mekanism:glowpanel" treeOrder="370"/>
+					<itemWhitePlasticGlowBlock id="mekanism:glowplasticblock" treeOrder="380"/>
+				</decorativeLights>
+			</lighting>
+			<resourceTransfer treeOrder="320">
+				<groundItemCollector treeOrder="10">
+					<itemLaserTractorBeam id="mekanism:machineblock2" damage="15" treeOrder="230"/>
+				</groundItemCollector>
+				<mekPipes treeOrder="90">
+					<itemBasicLogisticalTransporter id="mekanism:transmitter" treeOrder="10"/>
+					<itemLogisticalSorter id="mekanism:machineblock" damage="15" treeOrder="20"/>
+				</mekPipes>
+				<transDimensionalTransfer treeOrder="150">
+					<itemQuantumEntangloporter id="mekanism:machineblock3" damage="0" treeOrder="60"/>
+				</transDimensionalTransfer>
+			</resourceTransfer>
+			<generators treeOrder="400">
+				<fuelGenerators treeOrder="20">
+					<itemFuelwoodHeater id="mekanism:machineblock3" damage="6" treeOrder="210"/>
+					<itemResistiveHeater id="mekanism:machineblock3" damage="4" treeOrder="220"/>
+				</fuelGenerators>
+				<nuclearGenerators treeOrder="120">
+					<itemLaser id="mekanism:machineblock2" damage="13" treeOrder="340"/>
+					<itemLaserAmplifier id="mekanism:machineblock2" damage="14" treeOrder="350"/>
+				</nuclearGenerators>
+				<steamProducers treeOrder="150">
+					<itemBoilerCasing id="mekanism:basicblock2" damage="7" treeOrder="30"/>
+					<itemBoilerValve id="mekanism:basicblock2" damage="8" treeOrder="40"/>
+				</steamProducers>
+			</generators>
+			<machines treeOrder="410">
+				<poweredCrafting treeOrder="10">
+					<itemFormulaicAssemblicator id="mekanism:machineblock3" damage="5" treeOrder="190"/>
+				</poweredCrafting>
+				<poweredFurnaces treeOrder="20">
+					<itemEnergizedSmelter id="mekanism:machineblock" damage="10" treeOrder="80"/>
+				</poweredFurnaces>
+				<poweredGrinders treeOrder="30">
+					<itemCrusher id="mekanism:machineblock" damage="3" treeOrder="60"/>
+					<itemPrecisionSawmill id="mekanism:machineblock2" damage="5" treeOrder="110"/>
+				</poweredGrinders>
+				<dictionaryBlock treeOrder="110">
+					<itemOredictionificator id="mekanism:machineblock3" damage="3" treeOrder="30"/>
+				</dictionaryBlock>
+				<poweredMining treeOrder="130">
+					<itemDigitalMiner id="mekanism:machineblock" damage="4" treeOrder="160"/>
+				</poweredMining>
+				<poweredFluids treeOrder="140">
+					<poweredFluidCollector treeOrder="50">
+						<itemElectricPump id="mekanism:machineblock" damage="12" treeOrder="30"/>
+					</poweredFluidCollector>
+					<poweredFluidPlacer treeOrder="60">
+						<itemFluidicPlenisher id="mekanism:machineblock2" damage="12" treeOrder="30"/>
+					</poweredFluidPlacer>
+				</poweredFluids>
+				<poweredGasses treeOrder="150">
+					<itemRotaryCondensentrator id="mekanism:machineblock2" damage="0" treeOrder="10"/>
+					<itemChemicalOxidizer id="mekanism:machineblock2" damage="1" treeOrder="20"/>
+					<itemElectrolyticSeparator id="mekanism:machineblock2" damage="4" treeOrder="30"/>
+				</poweredGasses>
+				<remoteAccess treeOrder="240">
+					<itemTeleporterFrame id="mekanism:basicblock" damage="7" treeOrder="100"/>
+					<itemTeleporter id="mekanism:machineblock" damage="11" treeOrder="110"/>
+				</remoteAccess>
+				<mekanismMachines treeOrder="250">
+					<itemChemicalCrystallizer id="mekanism:machineblock2" damage="8" treeOrder="10"/>
+					<itemChemicalDissolutionChamber id="mekanism:machineblock2" damage="6" treeOrder="20"/>
+					<itemPurificationChamber id="mekanism:machineblock" damage="9" treeOrder="30"/>
+					<itemChemicalInfuser id="mekanism:machineblock2" damage="2" treeOrder="40"/>
+					<itemChemicalInjectionChamber id="mekanism:machineblock2" damage="3" treeOrder="50"/>
+					<itemChemicalWasher id="mekanism:machineblock2" damage="7" treeOrder="60"/>
+					<itemCombiner id="mekanism:machineblock" damage="2" treeOrder="70"/>
+					<itemEnrichmentChamber id="mekanism:machineblock" damage="0" treeOrder="80"/>
+					<itemMetallurgicInfuser id="mekanism:machineblock" damage="8" treeOrder="90"/>
+					<itemOsmiumCompressor id="mekanism:machineblock" damage="1" treeOrder="100"/>
+					<itemPressurizedReactionChamber id="mekanism:machineblock2" damage="10" treeOrder="110"/>
+					<itemBasicSmeltingFactory id="mekanism:machineblock" damage="5" treeOrder="120"/>
+					<itemAdvancedSmeltingFactory id="mekanism:machineblock" damage="6" treeOrder="130"/>
+					<itemEliteSmeltingFactory id="mekanism:machineblock" damage="7" treeOrder="140"/>
+					<itemSecurityDesk id="mekanism:basicblock2" damage="9" treeOrder="150"/>
+					<itemPressureDisperser id="mekanism:basicblock2" damage="6" treeOrder="160"/>
+					<itemSuperheatingElement id="mekanism:basicblock2" damage="5" treeOrder="170"/>
+					<itemThermalEvaporationBlock id="mekanism:basicblock2" damage="0" treeOrder="180"/>
+					<itemThermalEvaporationController id="mekanism:basicblock" damage="14" treeOrder="190"/>
+					<itemThermalEvaporationValve id="mekanism:basicblock" damage="15" treeOrder="200"/>
+					<itemSeismicVibrator id="mekanism:machineblock2" damage="9" treeOrder="210"/>
+					<itemSolarNeutronActivator id="mekanism:machineblock3" damage="1" treeOrder="220"/>
+				</mekanismMachines>
+			</machines>
+			<machineupgrades treeOrder="420">
+				<factoryUpgrades treeOrder="40">
+					<itemSpeedUpgrade id="mekanism:speedupgrade" treeOrder="10"/>
+					<itemEnergyUpgrade id="mekanism:energyupgrade" treeOrder="20"/>
+					<itemMufflingUpgrade id="mekanism:mufflingupgrade" treeOrder="30"/>
+					<itemFilterUpgrade id="mekanism:filterupgrade" treeOrder="40"/>
+					<itemGasUpgrade id="mekanism:gasupgrade" treeOrder="50"/>
+					<itemAnchorUpgrade id="mekanism:anchorupgrade" treeOrder="60"/>
+					<itemBasicTierInstaller id="mekanism:tierinstaller" treeOrder="70"/>
+				</factoryUpgrades>
+			</machineupgrades>
+		</mechanism>
+	</block>
+	<resources treeOrder="30">
+		<miningResources treeOrder="10">
+			<dust treeOrder="40">
+				<itemEnrichedIron id="mekanism:enrichediron" treeOrder="770"/>
+			</dust>
+		</miningResources>
+		<huntingResources treeOrder="20">
+			<itemRawRubberDict oreDictName="itemRawRubber" treeOrder="230">
+				<itemSubstrate id="mekanism:substrate" treeOrder="10"/>
+			</itemRawRubberDict>
+			<itemPlasticDict oreDictName="itemPlastic" treeOrder="250">
+				<itemHDPEPellet id="mekanism:polyethene" damage="0" mergePrevious="true" treeOrder="10"/>
+			</itemPlasticDict>
+		</huntingResources>
+	</resources>
+	<item treeOrder="40">
+		<utility treeOrder="10">
+			<storage treeOrder="30">
+				<chests treeOrder="10">
+					<itemPersonalChest id="mekanism:machineblock" damage="13" treeOrder="310"/>
+				</chests>
+				<barrels treeOrder="40">
+					<itemBasicBin id="mekanism:basicblock" damage="6" treeOrder="40"/>
+				</barrels>
+				<powerStorage treeOrder="130">
+					<itemChargepad id="mekanism:machineblock" damage="14" treeOrder="180"/>
+					<itemBasicEnergyCube id="mekanism:energycube" treeOrder="290"/>
+					<itemInductionCasing id="mekanism:basicblock2" damage="1" treeOrder="300"/>
+					<itemInductionPort id="mekanism:basicblock2" damage="2" treeOrder="310"/>
+					<itemBasicInductionCell id="mekanism:basicblock2" damage="3" treeOrder="320"/>
+					<itemBasicInductionProvider id="mekanism:basicblock2" damage="4" treeOrder="330"/>
+				</powerStorage>
+			</storage>
+			<readableBooks treeOrder="90">
+				<itemDictionary id="mekanism:dictionary" treeOrder="390"/>
+			</readableBooks>
+			<tnts treeOrder="140">
+				<itemObsidianTNT id="mekanism:obsidiantnt" treeOrder="40"/>
+			</tnts>
+		</utility>
+		<fluidPortableStorage treeOrder="20">
+			<itemBasicFluidTank id="mekanism:machineblock2" damage="11" treeOrder="100"/>
+		</fluidPortableStorage>
+		<fluidStorage treeOrder="50">
+			<fluidMultiBlockTanks treeOrder="50">
+				<itemDynamicTank id="mekanism:basicblock" damage="9" treeOrder="90"/>
+				<itemDynamicValve id="mekanism:basicblock" damage="11" treeOrder="100"/>
+			</fluidMultiBlockTanks>
+		</fluidStorage>
+		<gasStorage treeOrder="60">
+			<itemBasicGasTank id="mekanism:gastank" treeOrder="10"/>
+		</gasStorage>
+		<patterns treeOrder="100">
+			<itemCraftingFormula id="mekanism:craftingformula" treeOrder="60"/>
+		</patterns>
+		<parts treeOrder="120">
+			<mechanicalParts treeOrder="10">
+				<rods oreDictName="rod" treeOrder="20">
+					<itemHDPERod id="mekanism:polyethene" damage="1" treeOrder="560"/>
+				</rods>
+				<sheets treeOrder="30">
+					<itemHDPESheet id="mekanism:polyethene" damage="2" treeOrder="30"/>
+				</sheets>
+				<plates treeOrder="40">
+					<plateCarbonDict oreDictName="plateCarbon" treeOrder="120">
+						<itemCompressedCarbon id="mekanism:compressedcarbon" mergePrevious="true" treeOrder="10"/>
+					</plateCarbonDict>
+					<plateDiamondDict oreDictName="plateDiamond" treeOrder="320">
+						<itemCompressedDiamond id="mekanism:compresseddiamond" mergePrevious="true" treeOrder="10"/>
+					</plateDiamondDict>
+					<plateObsidianDict oreDictName="plateObsidian" treeOrder="510">
+						<itemCompressedObsidian id="mekanism:compressedobsidian" mergePrevious="true" treeOrder="10"/>
+					</plateObsidianDict>
+					<plateRedstoneDict oreDictName="plateRedstone" treeOrder="570">
+						<itemCompressedRedstone id="mekanism:compressedredstone" mergePrevious="true" treeOrder="10"/>
+					</plateRedstoneDict>
+				</plates>
+				<cores treeOrder="100">
+					<itemElectrolyticCore id="mekanism:electrolyticcore" treeOrder="160"/>
+					<itemTeleportationCore id="mekanism:teleportationcore" treeOrder="170"/>
+				</cores>
+				<frames treeOrder="120">
+					<itemSteelCasing id="mekanism:basicblock" damage="8" treeOrder="320"/>
+				</frames>
+			</mechanicalParts>
+		</parts>
+		<decoration treeOrder="130">
+			<itemWhiteBalloon id="mekanism:balloon" treeOrder="490"/>
+		</decoration>
+		<plant treeOrder="170">
+			<plantMatter treeOrder="90">
+				<itemBioFuel id="mekanism:biofuel" treeOrder="50"/>
+			</plantMatter>
+		</plant>
+		<digital treeOrder="300">
+			<robots treeOrder="40">
+				<itemRobit id="mekanism:robit" treeOrder="10"/>
+			</robots>
+		</digital>
+	</item>
+</stuff>

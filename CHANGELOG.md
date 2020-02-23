@@ -1,3 +1,19 @@
+# Version 3.6.12 (Feb 23, 2020)
+
+## Additions
+
+* Emoticons
+
+## Config Changes
+
+### Inventory Tweaks
+
+* Add a default tree files for a number of mods
+
+### Default Options
+
+* Some keybind updates
+
 # Version 3.5.12 (Feb 22, 2020)
 
 ## Updates

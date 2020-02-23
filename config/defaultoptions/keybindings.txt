@@ -36,31 +36,31 @@ key_key.ftbutilities.nbt:0:NONE
 key_key.ftbutilities.trash:211:NONE
 key_key.ironbackpacks.equip:0:NONE
 key_key.ironbackpacks.open:0:NONE
-key_simplyjetpacks.keybind.engine:34:NONE
-key_simplyjetpacks.keybind.hover:38:NONE
-key_simplyjetpacks.keybind.charger:25:NONE
-key_simplyjetpacks.keybind.emergencyhover:19:NONE
+key_simplyjetpacks.keybind.engine:33:NONE
+key_simplyjetpacks.keybind.hover:19:NONE
+key_simplyjetpacks.keybind.charger:33:CONTROL
+key_simplyjetpacks.keybind.emergencyhover:19:CONTROL
 key_key.toastcontrol.clear:0:NONE
 key_dshuds.keybind.SelectionBox:0:NONE
 key_dshuds.keybind.LightLevel:101:NONE
 key_dshuds.keybind.ChunkBorders:100:NONE
 key_key.jei.toggleOverlay:0:NONE
-key_key.jei.focusSearch:15:NONE
+key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0:NONE
 key_key.jei.toggleEditMode:0:NONE
 key_key.jei.showRecipe:17:NONE
 key_key.jei.showUses:31:NONE
-key_key.jei.recipeBack:44:NONE
+key_key.jei.recipeBack:0:NONE
 key_key.jei.previousPage:30:NONE
 key_key.jei.nextPage:32:NONE
 key_key.jei.bookmark:16:NONE
 key_key.jei.toggleBookmarkOverlay:46:NONE
-key_Toggle Outer Box Only:0:NONE
 key_Toggle Active:0:NONE
+key_Toggle Outer Box Only:0:NONE
 key_bbw.key.mode:47:NONE
 key_bbw.key.fluidmode:47:CONTROL
-key_bs.sprint.toggle:0:NONE
-key_bs.sneak.toggle:0:NONE
+key_bs.sprint.toggle:52:NONE
+key_bs.sneak.toggle:51:NONE
 key_bs.menu:0:NONE
 key_nei.options.keys.gui.botania_corporea_request:0:NONE
 key_key.carry.desc:42:NONE
@@ -131,6 +131,15 @@ key_key.toggleDislocator:0:NONE
 key_key.cycleDigAOE:0:NONE
 key_key.cycleAttackAOE:0:NONE
 key_key.toggleShields:0:NONE
+key_emoticons.keys.random:16:CONTROL
+key_emoticons.keys.emote1:2:CONTROL
+key_emoticons.keys.emote2:3:CONTROL
+key_emoticons.keys.emote3:4:CONTROL
+key_emoticons.keys.emote4:2:ALT
+key_emoticons.keys.emote5:3:ALT
+key_emoticons.keys.emote6:4:ALT
+key_emoticons.keys.emotes:210:NONE
+key_emoticons.keys.stop_emote:197:NONE
 key_mekanism.key.mode:47:NONE
 key_mekanism.key.armorMode:47:NONE
 key_mekanism.key.feetMode:47:NONE

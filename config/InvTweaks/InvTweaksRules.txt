@@ -29,3 +29,47 @@ D LOCKED
 # AVAILABLE KEYWORDS
 # Open the 'InvTweaksTree.txt' file for a list of available keywords. If an item
 # is missing from the item tree (for example mod items), you can add it there.
+
+# Default
+D1 meleeWeapon
+D2 tool
+D3
+D4
+D5
+D6
+D7 craftingTables
+D8 beds
+D9
+
+Mining:
+D1 miningTool
+D2 diggingTool
+D3 naturalBlock
+D4 gravel
+D5 waterBucket
+D6
+D7
+D8
+D9 
+
+Chopping:
+D1 choppingTool
+D2 miningTool
+D3 diggingTool
+D4 naturalBlock
+D5 gravel
+D6 waterBucket
+D7
+D8
+D9 
+
+Fighting:
+D1 meleeWeapon
+D2 paxel
+D3
+D4
+D5
+D6
+D7
+D8
+D9
