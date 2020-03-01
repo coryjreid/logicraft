@@ -1,3 +1,27 @@
+# Version 3.7.15 (Mar 01, 2020)
+
+## Config Changes
+
+### FTBUtilities
+
+* MOTD and AFK Timer
+
+### Inventory Tweaks
+
+* Tweak some sorting rules
+
+### Draconic Evolution
+
+* Move the HUD to (hopefully) prevent overlapping with other mods
+
+### Default Options
+
+* Set auto-jump off by default
+
+### JEI
+
+* Do not set JEI to cheat mode by default (sorry!)
+
 # Version 3.7.14 (Mar 01, 2020)
 
 ## Config Changes

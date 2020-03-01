@@ -2599,6 +2599,7 @@
 			<torch id="torch" treeOrder="10"/>
 			<flintAndSteel id="flint_and_steel" treeOrder="20"/>
 			<storage treeOrder="30">
+				<portableGrid id="refinedstorage:portable_grid" treeOrder="10"/>
 				<chests treeOrder="10">
 					<chest id="chest" treeOrder="10"/>
 					<chest2 id="trapped_chest" treeOrder="20"/>
@@ -2625,7 +2626,6 @@
 					<drawerBasicDict oreDictName="drawerBasic" treeOrder="10"/>
 				</drawers>
 				<portablePowerStorage treeOrder="140">
-					<portableGrid id="refinedstorage:portable_grid" treeOrder="10"/>
 					<batteryDict oreDictName="battery" treeOrder="70"/>
 				</portablePowerStorage>
 				<backpacks treeOrder="40">

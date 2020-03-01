@@ -39,7 +39,7 @@ D5
 D6
 D7 craftingTables
 D8 beds
-D9
+D9 portableGrid
 
 Mining:
 D1 miningTool
@@ -50,7 +50,7 @@ D5 waterBucket
 D6 torch
 D7 craftingTables
 D8 backpacks
-D9 portablePowerStorage
+D9 portableGrid
 
 Chopping:
 D1 choppingTool
@@ -59,17 +59,17 @@ D3 diggingTool
 D4 naturalBlock
 D5 gravel
 D6 waterBucket
-D7
-D8
-D9 
+D7 craftingTables
+D8 beds
+D9 portableGrid
 
 Fighting:
 D1 meleeWeapon
-D2 paxel
+D2 munition
 D3
 D4
 D5
 D6
-D7
-D8
-D9
+D7 craftingTables
+D8 beds
+D9 portableGrid
