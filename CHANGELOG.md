@@ -1,3 +1,11 @@
+# Version 3.7.14 (Mar 01, 2020)
+
+## Config Changes
+
+### FTBUtilities
+
+* Add some required Team permissions
+
 # Version 3.7.13 (Feb 29, 2020)
 
 ## Additions
