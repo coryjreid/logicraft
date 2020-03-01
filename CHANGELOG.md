@@ -1,3 +1,33 @@
+# Version 3.7.13 (Feb 29, 2020)
+
+## Additions
+
+* /Dank/Null
+* Cyclic
+* Random Things
+
+## Removals
+
+* Emoticons (Caused unpleasant visual glitches)
+
+## Config Changes
+
+### Dank Null
+
+* Disable HUD
+
+### JEI Integration
+
+* Show item registration ID on TOP tooltip
+
+### Random Things
+
+* Remove a bunch of OP crap
+  
+## Known Issues
+
+* Couldn't hide Random Things Spectre Coil Nr. 416 in JEI
+
 # Version 3.6.13 (Feb 23, 2020)
 
 ## Updates

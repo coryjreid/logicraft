@@ -2625,8 +2625,12 @@
 					<drawerBasicDict oreDictName="drawerBasic" treeOrder="10"/>
 				</drawers>
 				<portablePowerStorage treeOrder="140">
+					<portableGrid id="refinedstorage:portable_grid" treeOrder="10"/>
 					<batteryDict oreDictName="battery" treeOrder="70"/>
 				</portablePowerStorage>
+				<backpacks treeOrder="40">
+					<diamondBackpack id="ironbackpacks:backpack"/>
+				</backpacks>
 			</storage>
 			<furnaces treeOrder="40">
 				<furnace id="furnace" treeOrder="10"/>

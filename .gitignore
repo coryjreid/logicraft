@@ -23,9 +23,14 @@ BotaniaVars.dat
 # Ignore some auto-generated config files
 config/biomesoplenty/biomes/defaults/*
 config/splash.properties
+config/jei/worldSettings.cfg
 
 # Ignore configs that players may customize
 config/emoticons/keys.json
+
+# Ignore dev-only configs
+config/worldstripper.cfg
+config/moresoundconfig.cfg
 
 # Include our modpack version file
 !modpack-version.txt

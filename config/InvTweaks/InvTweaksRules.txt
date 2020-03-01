@@ -47,10 +47,10 @@ D2 diggingTool
 D3 naturalBlock
 D4 gravel
 D5 waterBucket
-D6
-D7
-D8
-D9 
+D6 torch
+D7 craftingTables
+D8 backpacks
+D9 portablePowerStorage
 
 Chopping:
 D1 choppingTool

@@ -11,7 +11,11 @@ recipes.addShaped(<minecraft:chest> * 4, [
   [<ore:logWood>, <ore:logWood>, <ore:logWood>]
 ]);
 
-/* Immersive Engineering */
+/************************
+ *
+ * IMMERSIVE ENGINEERING
+ *
+ ************************/
 /* Add recipes for correct plates */
 recipes.addShapeless("immersiveengineering_material/plate_silver", <thermalfoundation:material:322>, [<ore:ingotSilver>, <immersiveengineering:tool>]);
 recipes.addShapeless("immersiveengineering_material/plate_steel", <thermalfoundation:material:352>, [<ore:ingotSteel>, <immersiveengineering:tool>]);

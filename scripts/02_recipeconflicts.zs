@@ -5,7 +5,11 @@
  *
  ************************************************************/
 
-/* Immersive Engineering */
+/************************
+ *
+ * IMMERSIVE ENGINEERING
+ *
+ ************************/
 /* Remove recipes for wrong plates */
 recipes.removeShapeless(<immersiveengineering:metal:33>, [<ore:ingotSilver>, <immersiveengineering:tool>]);
 recipes.removeShapeless(<immersiveengineering:metal:38>, [<ore:ingotSteel>, <immersiveengineering:tool>]);
