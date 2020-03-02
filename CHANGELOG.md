@@ -1,3 +1,31 @@
+# Version 3.7.17 (Mar 02, 2020)
+
+## Additions
+
+* Material Changer (to edit armor values)
+
+## Updates
+
+* Cyclic
+
+## Config Changes
+
+### FTB Utilities
+
+* Fix the %$&!^@) permissions so the mod stops breaking
+
+### JEI Integration
+
+* Enable display of additional info on tooltips in advancedTooltip mode
+
+### Mekanism
+
+* Adjust the durability of Obisidian tools/armor to be in-line with modpack
+
+### Botania
+
+* Buff end-game armor/tools to hopefully compete with Draconic Evolution armor/tools
+
 # Version 3.7.16 (Mar 01, 2020)
 
 ## Config Changes

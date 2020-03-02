@@ -24,6 +24,7 @@ BotaniaVars.dat
 config/biomesoplenty/biomes/defaults/*
 config/splash.properties
 config/jei/worldSettings.cfg
+config/brandon3055/ResourceCache/*
 
 # Ignore configs that players may customize
 config/emoticons/keys.json

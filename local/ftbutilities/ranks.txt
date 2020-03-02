@@ -1,54 +1,71 @@
 // For more info visit https://github.com/FTBTeam/FTB-Ranks/wiki
 
-[player]
-power: 1
-default_player_rank: true
-command: false
-command.me: true
-command.seed: true
-command.ftbutilities.chunks.unclaim: true
-command.ftbutilities.chunks.help: true
-command.ftbutilities.chunks.load: true
-command.ftbutilities.chunks.unclaim_all: true
-command.ftbutilities.chunks.unload: true
-command.ftbutilities.chunks.claim: true
-command.ftbutilities.chunks.unload_all: true
-command.ftbutilities.chunks.info: true
-command.ftbutilities.trash_can: true
-command.ftblib.team.settings: true
-command.ftblib.team.list: true
-command.ftblib.team.delete: true
-command.ftblib.team.help: true
-command.ftblib.team.kick: true
-command.ftblib.team.leave: true
-command.ftblib.team.transfer_ownership: true
-command.ftblib.team.get: true
-command.ftblib.team.create: true
-command.ftblib.team.join: true
-command.ftblib.team.request_invite: true
-command.ftblib.team.status: true
-command.ftblib.team.info: true
-ftbutilities: false
-ftbutilities.claims.max_chunks: 500
-ftbutilities.claims.bypass_limits: false
-ftbutilities.chunkloader.max_chunks: 50
+[dawning]
 ftbutilities.chat.formatting: true
 ftbutilities.chat.nickname.colors: true
 ftbutilities.chat.nickname.set: true
 ftbutilities.chat.speak: true
 ftbutilities.chat.text.color: white
 ftbutilities.chat.name_format: <{name}>
-ftbutilities.leaderboard: true
 ftbutilities.badge: https://i.imgur.com/sFgXLdg.png
-ftbutilities.afk.timer=0s
+
+[player]
+power: 1
+default_player_rank: true
+parent: dawning
+// Remove these commands
+command.ftbutilities.inv: false
+command.ftbutilities.mute: false
+command.ftbutilities.unmute: false
+command.morpheus.morpheus: false
+command.trigger: false
+command.xnet: false
+command.rftoolsdim: false
+command.rftools: false
+command.botania: false
+command.aroma1997sdimension: false
+command.aroma1997core: false
+command.journeymap: false
+command.carryon: false
+command.cofhworld: false
+command.deepresonance: false
+command.ftbutilities.nbtedit: false
+command.laggoggles: false
+command.badwithernocookiereloaded: false
+command.forge: false
+// Chunk Claiming
+ftbutilities.claims.max_chunks: 500
+ftbutilities.claims.bypass_limits: false
+ftbutilities.chunkloader.max_chunks: 50
 
 [admin]
-parent: player
 power: 100
+parent: dawning
 default_op_rank: true
-command: true
-ftbutilities: true
+// Re-enable disabled commands
+// This *shouldn't* be necessary, but mod is retarded...
+command.ftbutilities.inv: true
+command.ftbutilities.mute: true
+command.ftbutilities.unmute: true
+command.morpheus.morpheus: true
+command.trigger: true
+command.xnet: true
+command.rftoolsdim: true
+command.rftools: true
+command.botania: true
+command.aroma1997sdimension: true
+command.aroma1997core: true
+command.journeymap: true
+command.carryon: true
+command.cofhworld: true
+command.deepresonance: true
+command.ftbutilities.nbtedit: true
+command.laggoggles: true
+command.badwithernocookiereloaded: true
+command.forge: true
+// Chat Formatting
 ftbutilities.chat.name_format: <&4{name}&r>
+// Chunk Claiming
 ftbutilities.chunkloader.max_chunks: 30000
 ftbutilities.claims.max_chunks: 30000
 ftbutilities.claims.bypass_limits: true
