@@ -1,3 +1,11 @@
+# Version 3.7.18 (Mar 02, 2020)
+
+## Config Changes
+
+### Material Changer
+
+* Fix config issue blocking login on servers
+
 # Version 3.7.17 (Mar 02, 2020)
 
 ## Additions
