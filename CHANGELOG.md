@@ -1,3 +1,11 @@
+# Version 3.7.16 (Mar 01, 2020)
+
+## Config Changes
+
+### FTBUtilities
+
+* Enable AFK timer (notify 5m, but do not kick)
+
 # Version 3.7.15 (Mar 01, 2020)
 
 ## Config Changes

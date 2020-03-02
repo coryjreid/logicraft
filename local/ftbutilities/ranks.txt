@@ -40,6 +40,7 @@ ftbutilities.chat.text.color: white
 ftbutilities.chat.name_format: <{name}>
 ftbutilities.leaderboard: true
 ftbutilities.badge: https://i.imgur.com/sFgXLdg.png
+ftbutilities.afk.timer=0s
 
 [admin]
 parent: player
