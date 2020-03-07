@@ -1,3 +1,14 @@
+# Version 3.8.18 (Mar 06, 2020)
+
+## Additions
+
+* OpenSecurity
+
+## Updates
+
+* Nature's Compass
+* Reborn Core
+
 # Version 3.7.18 (Mar 02, 2020)
 
 ## Config Changes
