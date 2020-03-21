@@ -1,3 +1,17 @@
+# Version 3.8.19 (Mar 21, 2020)
+
+## Config Changes
+
+### BetterFPS
+
+* Disable Fast Beacon setting (it breaks the beacon effect see: [this issue](https://github.com/Guichaguri/BetterFps/issues/97) on GitHub)
+
+## Updates
+
+* Pam's HarvestCraft
+* Random Things
+* Reborn Core
+
 # Version 3.8.18 (Mar 06, 2020)
 
 ## Additions
