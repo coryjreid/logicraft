@@ -1,3 +1,14 @@
+# Version 3.9.19 (Mar 23, 2020)
+
+## Config Changes
+
+### RFTools
+
+* Remove/hide a bunch of unused syringes
+* Add spawner configs for Evoker, Vindicator, Phoenix, Elder Guardian, Gaia Guardian, and Spirit
+* Tweak spawner config for Iron Golem
+* Revert spawner config for Enderman to RFTools default
+
 # Version 3.8.19 (Mar 21, 2020)
 
 ## Config Changes
