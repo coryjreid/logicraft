@@ -1,3 +1,50 @@
+# Version 3.9.20 (Aug 30, 2020)
+
+## Updates
+
+* /dank/null
+* AppleSkin
+* Aroma1997Core
+* Aroma1997s Dimensional World
+* Bad Wither No Cookie - Reloaded
+* Bounding Box Outline Reloaded
+* Carry On
+* Chisel
+* Chunk-Pregenerator
+* CoFH Core
+* CoFH World
+* ConnectedTexturesMod
+* Controlling
+* CraftTweaker
+* Cyclic
+* Dynamic Surroundings
+* Exotic Birds
+* Flux Networks
+* FTB Library
+* FTB Utilities
+* Immersive Engineering
+* In Control!
+* Inventory Tweaks
+* JEI Integration
+* JourneyMap
+* Just Enough HarvestCraft (JEHC)
+* Just Enough Items (JEI)
+* LagGoggles
+* LootTweaker
+* McHorse's McLib
+* OpenSecurity
+* Reborn Core
+* Redstone Arsenal
+* Redstone Flux
+* Refined Storage
+* Refined Storage Addons
+* Simply Jetpacks 2
+* Thermal Cultivation
+* Thermal Dynamics
+* Thermal Expansion
+* Thermal Foundation
+* Thermal Innovation
+
 # Version 3.9.19 (Mar 23, 2020)
 
 ## Config Changes
