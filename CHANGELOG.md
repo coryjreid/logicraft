@@ -1,3 +1,20 @@
+# Version 3.9.21 (Sep 30, 2020)
+
+## Config Changes
+
+### Better Sprinting
+
+* Enable Run in All Directions
+
+### Simply Jetpacks 2
+
+* Adjust some keybinds
+
+## Updates
+
+* Bounding Box Outline Reloaded \
+  (actually use the Forge version, not the Litemod version)
+
 # Version 3.9.20 (Aug 30, 2020)
 
 ## Updates
