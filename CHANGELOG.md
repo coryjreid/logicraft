@@ -1,3 +1,11 @@
+# Version 3.9.22 (Sep 7, 2020)
+
+## Config Changes
+
+### Chisel
+
+* Disable increased movement speed on concrete
+
 # Version 3.9.21 (Sep 30, 2020)
 
 ## Config Changes
