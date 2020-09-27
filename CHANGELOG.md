@@ -1,3 +1,14 @@
+# Version 3.9.23 (Sep 26, 2020)
+
+## Updates
+
+* Brandon's Core
+* Chunk-Pregenerator
+* Draconic Evolution
+* Solar Flux Reborn
+* UniDict
+* WanionLib
+
 # Version 3.9.22 (Sep 7, 2020)
 
 ## Config Changes
