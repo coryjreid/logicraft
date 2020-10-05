@@ -1,3 +1,9 @@
+# Version 3.9.24 (October 4, 2020)
+
+## Config Changes
+
+* Added Endstone to Enderman loot table
+
 # Version 3.9.23 (Sep 26, 2020)
 
 ## Updates
