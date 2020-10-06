@@ -1,3 +1,45 @@
+# Version 3.9.25 (October 6, 2020)
+
+## Config Changes
+
+* Update Forge version to `1.12.2 - 14.23.5.2854`
+* Minor GUI tweaks to SimplyJetpacks2, Nature's Compass, and Draconic Evolution \
+  _Note: You may need to make adjustments based on your resolution with DE_
+* Disabled some unintentional SimplyJetpacks2 integrations \
+  _Note: Mekanism and Immersive Engineering_
+* Reduced cost of Endstone per Enderman spawn with RFTools spawner
+* Enderman drop rates for Ender Pearls and Endstone adjusted
+* Silver Fish can now drop Dimensional Shards on death
+* Silver Fish RFTools spawner values have been adjusted
+  * |MATTER  | Type          | QTY/Spawn |
+    |-------:|:-------------:|:---------:|
+    | Key    | Nether Quartz | `0.05`    |
+    | Bulk   | Dirt          | `0.2`     |
+    | Living | Any           | `10`      |
+  * `400RF` per spawn
+* Vex can now drop Nether Quartz on death
+* Vex can now be spawned with the RFTools Spawner
+  * |MATTER  | Type              | QTY/Spawn |
+    |-------:|:-----------------:|:---------:|
+    | Key    | Dimensional Shard | `0.05`    |
+    | Bulk   | Dirt              | `0.2`     |
+    | Living | Any               | `10`      |
+  * `400RF` per spawn
+
+**Loot Rates**
+* Each adjustment was added as an additional pool
+* Each added/adjusted pool is fixed to `1` _guaranteed_ roll
+* Roll can contain `0-2` items
+* Looting level offers a multiplier on stack size
+
+When a mob dies if it has loot pools the game will attempt to generate loot from
+_each_ pool using the following formula:
+
+`ROLL x STACK_SIZE x LOOTING_LEVEL = DROP_AMOUNT`
+
+Example: \
+`1 x 2 x 3 = 6` items _from that pool_
+
 # Version 3.9.24 (October 4, 2020)
 
 ## Config Changes

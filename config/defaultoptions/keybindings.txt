@@ -43,6 +43,9 @@ key_key.ironbackpacks.equip:0:NONE
 key_key.ironbackpacks.open:0:NONE
 key_key.mclib.dashboard:0:NONE
 key_key.toastcontrol.clear:0:NONE
+key_Strip World:78:NONE
+key_Dress World:210:NONE
+key_Inspect Block:199:NONE
 key_dshuds.keybind.SelectionBox:0:NONE
 key_dshuds.keybind.LightLevel:101:NONE
 key_dshuds.keybind.ChunkBorders:100:NONE
@@ -57,8 +60,8 @@ key_key.jei.previousPage:30:NONE
 key_key.jei.nextPage:32:NONE
 key_key.jei.bookmark:16:NONE
 key_key.jei.toggleBookmarkOverlay:16:CONTROL
-key_Toggle Outer Box Only:0:NONE
 key_Toggle Active:102:NONE
+key_Toggle Outer Box Only:0:NONE
 key_bbw.key.mode:34:NONE
 key_bbw.key.fluidmode:34:CONTROL
 key_bs.sprint.toggle:17:ALT
