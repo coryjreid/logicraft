@@ -1,3 +1,10 @@
+# Version 3.9.26 (October 6, 2020)
+
+## Config Changes
+
+* Make Exotic Birds spawning maximum rarity (i.e. reduce spawning)
+* _Actually_ disable the IE and Mek integrations for SimplyJetpacks2
+
 # Version 3.9.25 (October 6, 2020)
 
 ## Config Changes
