@@ -43,7 +43,7 @@ endstonePool.addItemEntryHelper(
  ******************************************************************************/
 val silverfishTable = LootTweaker.getTable("minecraft:entities/silverfish");
 
-# Add Dimensional Shards
+# Add Nether Quartz
 val quartzPool = silverfishTable.addPool("netherquartz", 1, 1, 0, 0);
 quartzPool.addItemEntryHelper(
     <minecraft:quartz>,
@@ -62,7 +62,7 @@ quartzPool.addItemEntryHelper(
  ******************************************************************************/
 val vexTable = LootTweaker.getTable("minecraft:entities/vex");
 
-# Add Nether Quartz
+# Add Dimensional Shards
 val dimensionalshardPool = vexTable.addPool("dimensionalshard", 1, 1, 0, 0);
 dimensionalshardPool.addItemEntryHelper(
     <rftools:dimensional_shard>,
