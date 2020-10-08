@@ -1,6 +1,6 @@
 {
-	"capacity": 64000000,
-	"generation": 8192,
-	"transfer": 64000,
+	"capacity": 6400000,
+	"generation": 512,
+	"transfer": 4096,
 	"connected_textures": true
 }

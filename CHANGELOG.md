@@ -1,3 +1,19 @@
+# Version 3.9.27 (October 7, 2020)
+
+## Config Changes
+
+* Rebalance Solar Flux Reborn solar panels to progress in a linear fashion
+  |            | 1      | 2       | 3       | 4       | 5        | 6        | 7        | 8         |
+  |-----------:|:------:|:-------:|:-------:|:-------:|:--------:|:--------:|:--------:|:---------:|
+  | Capacity   | 100K   | 200K    | 400K    | 800K    | 1.6M     | 3.2M     | 6.4M     | 12.8M     |
+  | Generation | 8 RF/t | 16 RF/t | 32 RF/t | 64 RF/t | 128 RF/t | 256 RF/t | 512 RF/t | 1024 RF/t |
+  | Transfer   | 64 RF  | 128 RF  | 256 RF  | 512 RF  | 1024 RF  | 2048 RF  | 4096 RF  | 8192 RF   |
+* Disable Draconic Evolution integration with Solar Flux Reborn
+
+## Updates
+
+* Cyclic
+
 # Version 3.9.26 (October 6, 2020)
 
 ## Config Changes
