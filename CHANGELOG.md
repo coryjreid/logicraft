@@ -1,4 +1,10 @@
-# Version 3.9.29 (October 9, 2020)
+# Version 3.9.30 (October 8, 2020)
+
+## Config Changes
+
+* Undo second adjustment to Solar Flux Reborn which was too aggressive
+
+# Version 3.9.29 (October 8, 2020)
 
 ## Config Changes
 

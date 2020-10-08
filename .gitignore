@@ -6,6 +6,7 @@ mods/
 saves/
 screenshots/
 shaderpacks/
+.idea/
 
 # Files
 .mixin.out
