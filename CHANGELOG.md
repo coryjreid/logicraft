@@ -1,3 +1,9 @@
+# Version 3.9.29 (October 9, 2020)
+
+## Config Changes
+
+* Move The One Probe GUI back to original position
+
 # Version 3.9.28 (October 8, 2020)
 
 ## Config Changes
