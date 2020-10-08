@@ -1,3 +1,17 @@
+# Version 3.9.28 (October 8, 2020)
+
+## Config Changes
+
+* Disable permanent daytime in mining dimension
+* Increase speed of crafing when using Reborn Storage
+* Increase speed of patterns being recognized by Refined Storage when inserted
+  into Reborn Storage crafter storagee
+* Remove RF storage from Solar Flux Reborn solar panels
+* Further reduce RF generation from Solar Flux Reborn panels
+* Reposition the following GUI elements
+  * Simply Jetpacks 2 GUI (bottom right corner)
+  * Draconic Evolution (either side of item bar)
+
 # Version 3.9.27 (October 7, 2020)
 
 ## Config Changes
