@@ -1,3 +1,9 @@
+# Version 3.9.31 (October 8, 2020)
+
+## Config Changes
+
+* Add back power storage to Solar Flux Reborn solar panels as it is necessary for them to generate power
+
 # Version 3.9.30 (October 8, 2020)
 
 ## Config Changes

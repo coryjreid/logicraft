@@ -1,5 +1,5 @@
 {
-	"capacity": 0,
+	"capacity": 800000,
 	"generation": 64,
 	"transfer": 512,
 	"connected_textures": true

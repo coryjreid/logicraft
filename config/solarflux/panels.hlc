@@ -3,7 +3,7 @@
 +C:Solar Flux={
   +C:solarflux:1={
     # How many RF/FE does this solar panel store? (Default: 25000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=100000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
@@ -21,7 +21,7 @@
 
   +C:solarflux:2={
     # How many RF/FE does this solar panel store? (Default: 125000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=200000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
@@ -39,7 +39,7 @@
 
   +C:solarflux:3={
     # How many RF/FE does this solar panel store? (Default: 425000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=400000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
@@ -57,7 +57,7 @@
 
   +C:solarflux:4={
     # How many RF/FE does this solar panel store? (Default: 2000000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=800000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
@@ -75,7 +75,7 @@
 
   +C:solarflux:5={
     # How many RF/FE does this solar panel store? (Default: 8000000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=1600000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
@@ -93,7 +93,7 @@
 
   +C:solarflux:6={
     # How many RF/FE does this solar panel store? (Default: 32000000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=3200000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
@@ -111,7 +111,7 @@
 
   +C:solarflux:7={
     # How many RF/FE does this solar panel store? (Default: 64000000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=6400000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
@@ -129,7 +129,7 @@
 
   +C:solarflux:8={
     # How many RF/FE does this solar panel store? (Default: 128000000, Range: [1;9223372036854775807])
-    +L:Capacity=0
+    +L:Capacity=12800000
 
     # Does this solar panel connect textures with other panels of this type? (Default: true)
     +B:Connected Texture=true
