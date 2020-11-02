@@ -1,3 +1,16 @@
+# Version 3.9.32 (November 1, 2020)
+
+## Added
+
+* Project Intelligence
+* VanillaFix
+
+## Updated
+
+* Cyclic
+* McHorse's McLib
+* UniDict
+
 # Version 3.9.31 (October 8, 2020)
 
 ## Config Changes

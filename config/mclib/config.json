@@ -4,8 +4,10 @@
         "primary_color": 35071,
         "enable_borders": false,
         "enable_checkbox_rendering": false,
+        "enable_trackpad_increments": true,
         "enable_grid_rendering": true,
-        "user_interface_scale": 2
+        "user_interface_scale": 2,
+        "favorite_colors": []
     },
     "tutorials": {
         "enable_mouse_rendering": false,
@@ -20,6 +22,9 @@
         "flat": false,
         "shadow": -2013265920,
         "width": 4
+    },
+    "multiskin": {
+        "multithreaded": true
     },
     "vanilla": {
         "max_packet_size": 32767
