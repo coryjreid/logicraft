@@ -1,3 +1,19 @@
+# Version 3.9.33 (November 2, 2020)
+
+## Config Changes
+
+* Enable Thermal Expansion custom augment scaling that was configured long ago but never enabled
+
+## Update
+
+* OpenSecurity
+
+## Remove
+
+* BetterFps
+* FoamFix
+* VanillaFix
+
 # Version 3.9.32 (November 1, 2020)
 
 ## Added

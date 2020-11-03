@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Logicraft_",
-  "version": "3.9.32",
+  "version": "3.9.33",
   "author": "WrathDaddy",
   "projectID": 323471,
   "files": [
@@ -206,11 +206,6 @@
       "required": true
     },
     {
-      "projectID": 278494,
-      "fileID": 2845668,
-      "required": true
-    },
-    {
       "projectID": 223094,
       "fileID": 2923460,
       "required": true
@@ -227,7 +222,7 @@
     },
     {
       "projectID": 231687,
-      "fileID": 3045906,
+      "fileID": 3099481,
       "required": true
     },
     {
@@ -506,11 +501,6 @@
       "required": true
     },
     {
-      "projectID": 229876,
-      "fileID": 2483393,
-      "required": true
-    },
-    {
       "projectID": 227391,
       "fileID": 2853959,
       "required": true
@@ -558,11 +548,6 @@
     {
       "projectID": 224641,
       "fileID": 2861573,
-      "required": true
-    },
-    {
-      "projectID": 292785,
-      "fileID": 2915154,
       "required": true
     },
     {
