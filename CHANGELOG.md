@@ -1,14 +1,20 @@
+# Version 3.10.33 (November 2, 2020)
+
+## Additions
+
+* Mob Grinding Utils
+
 # Version 3.9.33 (November 2, 2020)
 
 ## Config Changes
 
 * Enable Thermal Expansion custom augment scaling that was configured long ago but never enabled
 
-## Update
+## Updates
 
 * OpenSecurity
 
-## Remove
+## Removed
 
 * BetterFps
 * FoamFix
@@ -16,12 +22,12 @@
 
 # Version 3.9.32 (November 1, 2020)
 
-## Added
+## Additions
 
 * Project Intelligence
 * VanillaFix
 
-## Updated
+## Updates
 
 * Cyclic
 * McHorse's McLib
