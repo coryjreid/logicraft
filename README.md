@@ -9,7 +9,7 @@ around you! Utilize many machines and computers to generate everything you need
 autonomously! Make sure to remember your edge cases so things don't backup on
 you when you least expect it.
 
-This is a custom-made modpack that my friends, and I play on a server I host at
+This is a custom-made modpack that my friends and I play on a server I host at
 home. This modpack's focus is our entertainment. It may undergo vast
 periods of time with little attention. It is released publicly only so that it
 is easy for my friends to install using the Twitch launcher and is not generally
