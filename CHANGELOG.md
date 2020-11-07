@@ -1,3 +1,9 @@
+# Version 3.10.34 (November 6, 2020)
+
+## Updates
+
+* InControl!
+
 # Version 3.10.33 (November 2, 2020)
 
 ## Additions

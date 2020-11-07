@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Logicraft_",
-  "version": "3.10.33",
+  "version": "3.10.34",
   "author": "WrathDaddy",
   "projectID": 323471,
   "files": [
@@ -56,23 +56,23 @@
       "required": true
     },
     {
-      "projectID": 257356,
-      "fileID": 3002645,
-      "required": true
-    },
-    {
       "projectID": 223008,
       "fileID": 2828357,
       "required": true
     },
     {
-      "projectID": 227443,
-      "fileID": 2920505,
+      "projectID": 257356,
+      "fileID": 3101719,
       "required": true
     },
     {
       "projectID": 223565,
       "fileID": 3051542,
+      "required": true
+    },
+    {
+      "projectID": 227443,
+      "fileID": 2920505,
       "required": true
     },
     {
@@ -116,13 +116,13 @@
       "required": true
     },
     {
-      "projectID": 228027,
-      "fileID": 2574880,
+      "projectID": 291737,
+      "fileID": 2920441,
       "required": true
     },
     {
-      "projectID": 291737,
-      "fileID": 2920441,
+      "projectID": 228027,
+      "fileID": 2574880,
       "required": true
     },
     {
@@ -141,23 +141,23 @@
       "required": true
     },
     {
-      "projectID": 241344,
-      "fileID": 2480458,
-      "required": true
-    },
-    {
       "projectID": 231095,
       "fileID": 2720655,
       "required": true
     },
     {
-      "projectID": 250763,
-      "fileID": 2705813,
+      "projectID": 241344,
+      "fileID": 2480458,
       "required": true
     },
     {
       "projectID": 282064,
       "fileID": 2553444,
+      "required": true
+    },
+    {
+      "projectID": 250763,
+      "fileID": 2705813,
       "required": true
     },
     {
@@ -186,13 +186,13 @@
       "required": true
     },
     {
-      "projectID": 220318,
-      "fileID": 2842510,
+      "projectID": 299540,
+      "fileID": 2706111,
       "required": true
     },
     {
-      "projectID": 299540,
-      "fileID": 2706111,
+      "projectID": 220318,
+      "fileID": 2842510,
       "required": true
     },
     {
