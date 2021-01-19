@@ -1,3 +1,9 @@
+# Version 0.0.3 (January 18, 2021)
+
+## Config Changes
+
+- Set Quark Improved Sleeping Percentage to 50%
+
 # Version 0.0.2 (January 18, 2021)
 
 This change fixes startup crashes on servers.
