@@ -65,7 +65,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:true
-syncChunkWrites:true
+syncChunkWrites:false
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
