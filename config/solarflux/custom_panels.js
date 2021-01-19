@@ -38,7 +38,6 @@ define english "en_us"
 func init()
 {
 	// Example: (textures are extracted in /textures/ by default), uncomment to try it out! (Requires game restart)
-	
 	/*
 	panel()
 		.name("example")
@@ -53,9 +52,9 @@ func init()
 		.recipeBuilder()
 			.shape("ppp", "8c8", "8h8")
 			.bind('p', item("solarflux", "photovoltaic_cell_6"))
-			.bind('8', item("solarflux:solar_panel_8"))
+			.bind('8', item("solarflux:sp_8"))
 			.bind('c', item("chorus_fruit"))
-			.bind('h', item("skull", 5))
+			.bind('h', item("dragon_head"))
 		.build(2);
 	*/
 }

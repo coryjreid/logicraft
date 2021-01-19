@@ -1,4 +1,4 @@
-# <Logicraft_>
+# <Logicraft\_>
 
 A Minecraft: Java modpack!
 
@@ -16,9 +16,9 @@ is easy for my friends to install using the Twitch launcher and is not generally
 expected to be a popular public pack like FTB. But, please feel free to
 contribute if you find issues!
 
-| Modpack Version  | Minecraft Version | Forge Version | Link | Changelog |
-| :--------------: | :---------------: | :------------: | :---: | :--: |
-| `3.10.34`          | `1.12.2`          | `14.23.5.2854` | [Curseforge](https://www.curseforge.com/minecraft/modpacks/logicraft_/) | [Changelog](CHANGELOG.md) |
+| Modpack Version | Minecraft Version | Forge Version |                                  Link                                   |         Changelog         |
+| :-------------: | :---------------: | :-----------: | :---------------------------------------------------------------------: | :-----------------------: |
+|     `0.0.1`     |     `1.16.4`      |   `35.1.36`   | [Curseforge](https://www.curseforge.com/minecraft/modpacks/logicraft_/) | [Changelog](CHANGELOG.md) |
 
 ## Contributing
 
