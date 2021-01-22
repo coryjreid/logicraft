@@ -38,6 +38,8 @@
 	#Cap the maximum bands that will be rendered
 	#Range: 0 ~ 3
 	"Maximum Bands" = 3
+	#Enable/disable Water Ripple effects for rain and water splash
+	"Water Ripples" = true
 
 #Options that control the various fog effects in the client
 ["Fog Options"]

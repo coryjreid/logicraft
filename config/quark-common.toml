@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Use Anti Overlap" = true
 	#
@@ -140,6 +140,7 @@
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
+	Stools = true
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -182,6 +183,7 @@
 		#
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
 		"Enable Sandstone Bricks" = true
+		"Enable Blackstone Variant Bricks" = true
 
 	[building.more_stone_variants]
 		"Enable Bricks" = true
@@ -1902,6 +1904,7 @@
 		#So to display a carrot on a stick on a mending book, for example, you use:
 		#minecraft:mending=minecraft:carrot_on_a_stick
 		"Enchanting Additional Stacks" = []
+		"Food Compression Threshold" = 4
 
 	[client.usage_ticker]
 		#
