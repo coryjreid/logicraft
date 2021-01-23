@@ -1,3 +1,13 @@
+# Version 0.0.5 (January 22, 2021)
+
+## Updated
+
+- Architectury API
+- Biomes O'Plenty
+- FTB Ranks
+- Quark
+- Pam's HarvestCraft 2 - Food Core
+
 # Version 0.0.4 (January 21, 2021)
 
 ## Added
