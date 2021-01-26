@@ -1,3 +1,20 @@
+# Version 0.0.6 (January 25, 2021)
+
+## Added
+
+- Quark Oddities
+- Inventory Tweaks Renewed
+
+## Updated
+
+- Architectury API (Forge)
+- Biomes O' Plenty
+- Exotic Birds
+
+## Config Changes
+
+- Disabled inventory sorting in Quark
+
 # Version 0.0.5 (January 22, 2021)
 
 ## Updated

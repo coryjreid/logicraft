@@ -43,6 +43,10 @@
 		#Allow anything to be placed inside bird nest blocks
 		allowAnythingInNests = false
 
+	[general.cages]
+		#Allow other mobs to be caught by birdcages
+		allowAnythingInCages = false
+
 [entity]
 
 	[entity.cassowary]
