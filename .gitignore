@@ -20,6 +20,7 @@ BotaniaVars.dat
 /*.json
 /*.dll
 /*.dat
+!/minecraftinstance.json
 
 # Ignore some auto-generated config files
 config/biomesoplenty/biomes/defaults/*
