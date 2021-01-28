@@ -1,3 +1,16 @@
+# Version 0.0.7 (January 27, 2021)
+
+## Updated
+
+- Architectury API (Forge)
+- Cyclic
+- FTB GUI Library
+- FTB Teams
+- Mekanism
+- Mekanism Generators
+- Mekanism Tools
+- Quark
+
 # Version 0.0.6 (January 25, 2021)
 
 ## Added
