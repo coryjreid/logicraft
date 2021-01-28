@@ -1,3 +1,9 @@
+# Version 0.0.8 (January 27, 2021)
+
+## Config Changes
+
+- Fix ExoticBirds spawning
+
 # Version 0.0.7 (January 27, 2021)
 
 ## Updated
