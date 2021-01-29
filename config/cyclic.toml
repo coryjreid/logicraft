@@ -121,7 +121,7 @@
 			harvester = 250
 			#Power per tick while in use
 			#Range: 0 ~ 64000
-			beacon = 10
+			beacon = 0
 			#Power per use miner
 			#Range: 0 ~ 64000
 			miner = 10

@@ -1,40 +1,13 @@
-# Directories
-downloads/
-journeymap/
-logs/
-mods/
-saves/
-screenshots/
-shaderpacks/
-.idea/
+# Ignore all
+/*
 
-# Files
-.mixin.out
-.curseclient
-.ReAuth.cfg
-BotaniaVars.dat
+# Exclude assets folder
+kubejs/assets/
 
-# Only in the top-level directory
-/*.log
-/*.txt
-/*.json
-/*.dll
-/*.dat
-!/minecraftinstance.json
-
-# Ignore some auto-generated config files
-config/biomesoplenty/biomes/defaults/*
-config/splash.properties
-config/jei/worldSettings.cfg
-config/brandon3055/ResourceCache/*
-
-# Ignore configs that players may customize
-config/emoticons/keys.json
-
-# Ignore dev-only configs
-config/worldstripper.cfg
-config/moresoundconfig.cfg
-
-# Include our modpack version file
-!modpack-version.txt
-!manifest.json
+# Add back desired items
+!config/
+!defaultconfigs/
+!kubejs/
+!CHANGELOG.md
+!minecraftinstance.json
+!README.md
