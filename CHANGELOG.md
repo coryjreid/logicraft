@@ -1,3 +1,13 @@
+# Version 0.0.9 (January 29, 2021)
+
+## Updated
+
+- Blood Magic
+- Dynamic Surroundings
+- FTB GUI Library
+- KubeJS
+- Rhino
+
 # Version 0.0.8 (January 27, 2021)
 
 ## Config Changes
