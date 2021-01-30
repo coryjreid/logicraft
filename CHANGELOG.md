@@ -1,3 +1,9 @@
+# Version 0.0.10 (January 30, 2021)
+
+## Updated
+
+- Kubejs
+
 # Version 0.0.9 (January 29, 2021)
 
 ## Updated
