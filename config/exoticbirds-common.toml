@@ -3,9 +3,9 @@
 
 	[general.eggs]
 		#Allow eggs from this mod to drop eggshell when broken
-		createExoticEggshell = true
+		createExoticEggshell = false
 		#Allow chicken eggs to drop eggshell when broken
-		createVanillaEggshell = true
+		createVanillaEggshell = false
 		#Allow birds to lay eggs
 		allowEggs = false
 		#How many ticks it takes for a bird to lay an egg
@@ -28,7 +28,7 @@
 		#A list of dimensions that no birds are able to spawn in
 		blacklistedSpawningDimensions = []
 		#Allow non-tamed birds to naturally despawn
-		allowDespawning = false
+		allowDespawning = true
 
 	[general.nests]
 		#How many nests, on average, should appear when generated (0 = disabled)
@@ -39,7 +39,7 @@
 		#A list of dimensions that nests are not able to generate in
 		blacklistedNestGenDimensions = []
 		#Allow eggs to regenerate in nests
-		allowNestEggRegen = false
+		allowNestEggRegen = true
 		#Allow anything to be placed inside bird nest blocks
 		allowAnythingInNests = false
 
@@ -52,7 +52,7 @@
 	[entity.cassowary]
 		#Cassowary spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateCassowary = 5
+		spawnRateCassowary = 100
 		#Cassowary minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinCassowary = 2
@@ -67,7 +67,7 @@
 	[entity.budgerigar]
 		#Budgerigar spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateBudgerigar = 10
+		spawnRateBudgerigar = 100
 		#Budgerigar minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinBudgerigar = 2
@@ -82,7 +82,7 @@
 	[entity.duck]
 		#Duck spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateDuck = 10
+		spawnRateDuck = 100
 		#Duck minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinDuck = 2
@@ -97,7 +97,7 @@
 	[entity.flamingo]
 		#Flamingo spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateFlamingo = 8
+		spawnRateFlamingo = 100
 		#Flamingo minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinFlamingo = 2
@@ -112,7 +112,7 @@
 	[entity.gouldianfinch]
 		#Gouldian finch spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateGouldianfinch = 5
+		spawnRateGouldianfinch = 100
 		#Gouldian finch minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinGouldianfinch = 2
@@ -127,7 +127,7 @@
 	[entity.hummingbird]
 		#Hummingbird spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateHummingbird = 18
+		spawnRateHummingbird = 100
 		#Hummingbird minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinHummingbird = 2
@@ -142,7 +142,7 @@
 	[entity.kingfisher]
 		#Kingfisher spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateKingfisher = 10
+		spawnRateKingfisher = 100
 		#Kingfisher minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinKingfisher = 2
@@ -157,7 +157,7 @@
 	[entity.kiwi]
 		#Kiwi spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateKiwi = 8
+		spawnRateKiwi = 100
 		#Kiwi minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinKiwi = 2
@@ -172,7 +172,7 @@
 	[entity.lyrebird]
 		#Lyrebird spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateLyrebird = 8
+		spawnRateLyrebird = 100
 		#Lyrebird minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinLyrebird = 2
@@ -187,7 +187,7 @@
 	[entity.magpie]
 		#Magpie spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateMagpie = 12
+		spawnRateMagpie = 100
 		#Magpie minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinMagpie = 2
@@ -202,7 +202,7 @@
 	[entity.ostrich]
 		#Ostrich spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateOstrich = 5
+		spawnRateOstrich = 100
 		#Ostrich minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinOstrich = 2
@@ -217,7 +217,7 @@
 	[entity.owl]
 		#Owl spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateOwl = 6
+		spawnRateOwl = 100
 		#Owl minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinOwl = 2
@@ -232,7 +232,7 @@
 	[entity.macaw]
 		#Parrot spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateMacaw = 6
+		spawnRateMacaw = 100
 		#Parrot minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinMacaw = 2
@@ -247,7 +247,7 @@
 	[entity.peafowl]
 		#Peafowl spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRatePeafowl = 6
+		spawnRatePeafowl = 100
 		#Peafowl minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinPeafowl = 2
@@ -262,7 +262,7 @@
 	[entity.pelican]
 		#Pelican spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRatePelican = 6
+		spawnRatePelican = 100
 		#Pelican minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinPelican = 2
@@ -277,7 +277,7 @@
 	[entity.penguin]
 		#Penguin spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRatePenguin = 6
+		spawnRatePenguin = 100
 		#Penguin minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinPenguin = 2
@@ -292,7 +292,7 @@
 	[entity.pigeon]
 		#Pigeon spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRatePigeon = 12
+		spawnRatePigeon = 100
 		#Pigeon minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinPigeon = 2
@@ -307,7 +307,7 @@
 	[entity.roadrunner]
 		#Roadrunner spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateRoadrunner = 10
+		spawnRateRoadrunner = 100
 		#Roadrunner minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinRoadrunner = 2
@@ -322,7 +322,7 @@
 	[entity.gull]
 		#Seagull spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateGull = 12
+		spawnRateGull = 100
 		#Seagull minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinGull = 2
@@ -337,7 +337,7 @@
 	[entity.swan]
 		#Swan spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateSwan = 10
+		spawnRateSwan = 100
 		#Swan minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinSwan = 2
@@ -352,7 +352,7 @@
 	[entity.toucan]
 		#Toucan spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateToucan = 6
+		spawnRateToucan = 100
 		#Toucan minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinToucan = 2
@@ -367,7 +367,7 @@
 	[entity.cockatoo]
 		#Vulture spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateCockatoo = 8
+		spawnRateCockatoo = 100
 		#Vulture minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinCockatoo = 2
@@ -382,7 +382,7 @@
 	[entity.woodpecker]
 		#Woodpecker spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateWoodpecker = 12
+		spawnRateWoodpecker = 100
 		#Woodpecker minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinWoodpecker = 2
@@ -397,7 +397,7 @@
 	[entity.heron]
 		#Heron spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateHeron = 6
+		spawnRateHeron = 100
 		#Heron minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinHeron = 2
@@ -412,7 +412,7 @@
 	[entity.booby]
 		#Blue-footed booby spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateBooby = 6
+		spawnRateBooby = 100
 		#Booby minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinBooby = 2
@@ -427,7 +427,7 @@
 	[entity.cardinal]
 		#Cardinal spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateCardinal = 12
+		spawnRateCardinal = 100
 		#Cardinal minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinCardinal = 2
@@ -442,7 +442,7 @@
 	[entity.bluejay]
 		#Blue jay spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateBluejay = 12
+		spawnRateBluejay = 100
 		#Bluejay minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinBluejay = 2
@@ -457,7 +457,7 @@
 	[entity.robin]
 		#Robin spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateRobin = 12
+		spawnRateRobin = 100
 		#Robin minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinRobin = 2
@@ -472,7 +472,7 @@
 	[entity.crane]
 		#Crane spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateCrane = 6
+		spawnRateCrane = 100
 		#Crane minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinCrane = 2
@@ -487,7 +487,7 @@
 	[entity.kookaburra]
 		#Kookaburra spawn rate (0 = disabled; 1 = common; 100 = rare)
 		#Range: 0 ~ 100
-		spawnRateKookaburra = 6
+		spawnRateKookaburra = 100
 		#Kookaburra minimum group size
 		#Range: 1 ~ 50
 		spawnSizeMinKookaburra = 2

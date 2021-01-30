@@ -1,3 +1,258 @@
-"Disable Ores" = []
-"Custom Ore" = []
+"Disable Ores" = ["rftoolsbase:dimensionalshard_overworld", "rftoolsbase:dimensionalshard_nether", "rftoolsbase:dimensionalshard_end", "minecraft:gold_ore", "minecraft:iron_ore", "minecraft:coal_ore", "minecraft:lapis_ore", "minecraft:diamond_ore", "minecraft:redstone_ore", "minecraft:emerald_ore"]
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:coal_ore"
+	"Max Vein Size" = 12
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 128
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:iron_ore"
+	"Max Vein Size" = 8
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 128
+	"Spawn Rate" = 25
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:clay"
+	"Max Vein Size" = 4
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 64
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:gold_ore"
+	"Max Vein Size" = 8
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 12
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:redstone_ore"
+	"Max Vein Size" = 12
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 15
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:diamond_ore"
+	"Max Vein Size" = 8
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 25
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:lapis_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 20
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:emerald_ore"
+	"Max Vein Size" = 3
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 10
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:nether_gold_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:netherrack"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 95
+	"Spawn Rate" = 80
+
+[["Custom Ore"]]
+	"Ore Name" = "minecraft:nether_quartz_ore"
+	"Max Vein Size" = 10
+	"Filler Name" = "minecraft:netherrack"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 128
+	"Spawn Rate" = 100
+
+[["Custom Ore"]]
+	"Ore Name" = "immersiveengineering:ore_uranium"
+	"Max Vein Size" = 2
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 20
+
+[["Custom Ore"]]
+	"Ore Name" = "immersiveengineering:ore_aluminum"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 95
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "mekanism:osmium_ore"
+	"Max Vein Size" = 4
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 95
+	"Spawn Rate" = 20
+
+[["Custom Ore"]]
+	"Ore Name" = "mekanism:fluorite_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 95
+	"Spawn Rate" = 20
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:apatite_ore"
+	"Max Vein Size" = 4
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 95
+	"Spawn Rate" = 20
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:cinnabar_ore"
+	"Max Vein Size" = 2
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 64
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:niter_ore"
+	"Max Vein Size" = 2
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 64
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:sulfur_ore"
+	"Max Vein Size" = 2
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 64
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:copper_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 95
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:tin_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 34
+	"Max Vein Level" = 95
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:lead_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 15
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:silver_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 20
+
+[["Custom Ore"]]
+	"Ore Name" = "thermal:nickel_ore"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 15
+
+[["Custom Ore"]]
+	"Ore Name" = "rftoolsbase:dimensionalshard_overworld"
+	"Max Vein Size" = 4
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 33
+	"Spawn Rate" = 20
+
+[["Custom Ore"]]
+	"Ore Name" = "rftoolsbase:dimensionalshard_nether"
+	"Max Vein Size" = 6
+	"Filler Name" = "minecraft:netherrack"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 128
+	"Spawn Rate" = 100
+
+[["Custom Ore"]]
+	"Ore Name" = "rftoolsbase:dimensionalshard_end"
+	"Max Vein Size" = 12
+	"Filler Name" = "minecraft:end_stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 70
+	"Spawn Rate" = 40
+
+[["Custom Ore"]]
+	"Ore Name" = "quark:marble"
+	"Max Vein Size" = 8
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 65
+	"Max Vein Level" = 128
+	"Spawn Rate" = 50
+
+[["Custom Ore"]]
+	"Ore Name" = "quark:limestone"
+	"Max Vein Size" = 8
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 65
+	"Max Vein Level" = 128
+	"Spawn Rate" = 50
+
+[["Custom Ore"]]
+	"Ore Name" = "quark:jasper"
+	"Max Vein Size" = 4
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 65
+	"Max Vein Level" = 128
+	"Spawn Rate" = 50
+
+[["Custom Ore"]]
+	"Ore Name" = "quark:slate"
+	"Max Vein Size" = 4
+	"Filler Name" = "minecraft:stone"
+	"Min Vein Level" = 65
+	"Max Vein Level" = 128
+	"Spawn Rate" = 50
+
+[["Custom Ore"]]
+	"Ore Name" = "quark:basalt"
+	"Max Vein Size" = 10
+	"Filler Name" = "minecraft:netherrack"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 128
+	"Spawn Rate" = 30
+
+[["Custom Ore"]]
+	"Ore Name" = "quark:myalite"
+	"Max Vein Size" = 10
+	"Filler Name" = "minecraft:end_stone"
+	"Min Vein Level" = 1
+	"Max Vein Level" = 70
+	"Spawn Rate" = 20
 

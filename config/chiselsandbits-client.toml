@@ -79,5 +79,5 @@
 				[client.client.performance.models.cache]
 					#mod.chiselsandbits.config.client.performance.models.cache.size.comment
 					#Range: 0 ~ 2000
-					size = 1000
+					size = 2000
 
