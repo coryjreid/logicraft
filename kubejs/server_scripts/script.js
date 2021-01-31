@@ -5,17 +5,12 @@ settings.logRemovedRecipes = true;
 settings.logSkippedRecipes = true;
 settings.logErroringRecipes = true;
 
-const fs = require("fs");
-
 console.info(
   "Hello, World! (You will see this line every time server resources reload)"
 );
 
 onEvent("recipes", (event) => {
-  // Change recipes here
-  event.shaped(Item.of("quark:polished_marble", 4), ["MM", "MM"], {
-    M: "quark:marble",
-  });
+  event.remove({ mod: "theoneprobe" });
 });
 
 onEvent("item.tags", (event) => {

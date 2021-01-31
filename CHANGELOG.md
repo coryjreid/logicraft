@@ -1,3 +1,47 @@
+# Version 0.1.10 (January 30, 2021)
+
+## Updates
+
+- Curios API (Forge)
+- Rhino
+
+## Config Changes
+
+### Quark
+
+- Re-enable "ore generation"
+- Update config to include Wraith configurations
+
+### SimplyJetpacks2
+
+- Disable Thermal Dynamics integration
+- Disable Thermal Expansion integration
+- Enable Mekanism integration
+
+### OreTweaker
+
+- Disable "default" ore generation for every type of ore we specify a configuration for
+  (Previously, this was not done, making default/vanilla generation compete with the mod's settings)
+
+### FTB Ranks
+
+- Adjust `defaultconfigs/ftbranks/ranks.json` chunk loading values \
+  Note: this is _not_ copied to the `world` by default as expected. Once the world is created it's serverconfigs files for ftbranks must be manually edited to include these changes!
+
+### The One Probe
+
+- Disable Baubles support
+
+### KubeJS Scripts
+
+#### JEI
+
+- Hid some items for:
+  - Mekanism
+  - TheOneProbe
+- Hid spawn eggs
+- Hid creative items
+
 # Version 0.0.10 (January 30, 2021)
 
 ## Updated

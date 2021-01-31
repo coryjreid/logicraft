@@ -9,13 +9,13 @@
 		#Enable Immersive Engineering Jetpacks Integration.
 		enableIntegrationImmersiveEngineering = false
 		#Enable Mekanism Jetpacks Integration.
-		enableIntegrationMekanism = false
+		enableIntegrationMekanism = true
 		#Enable EnderIO Jetpacks Integration.
 		enableIntegrationEnderIO = false
 		#Enable Thermal Expansion Jetpacks Integration.
-		enableIntegrationThermalExpansion = true
+		enableIntegrationThermalExpansion = false
 		#Enable Thermal Dynamics Jetpacks Integration.
-		enableIntegrationThermalDynamics = true
+		enableIntegrationThermalDynamics = false
 
 	#Misc Configurations
 	[simplyjetpacks-common.misc]

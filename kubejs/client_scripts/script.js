@@ -1,8 +1,173 @@
-// priority: 0
+// priority:0
 
-console.info('Hello, World! (You will see this line every time client resources reload)')
+console.info(
+  "Hello, World! (You will see this line every time client resources reload)"
+);
 
-onEvent('jei.hide.items', event => {
+onEvent("jei.hide.items", (event) => {
   // Hide items in JEI here
   // event.hide('minecraft:cobblestone')
-})
+
+  // Mekanism Items
+  event.hide("mekanism:copper_core");
+  event.hide("mekanism:tin_core");
+  event.hide("mekanism:lead_core");
+
+  // TheOneProbe
+  event.hide("theoneprobe:probe");
+  event.hide("theoneprobe:creativeprobe");
+  event.hide("theoneprobe:probenote");
+  event.hide("theoneprobe:diamond_helmet_probe");
+  event.hide("theoneprobe:gold_helmet_probe");
+  event.hide("theoneprobe:iron_helmet_probe");
+
+  // Spawn Eggs
+  event.hide("minecraft:bat_spawn_egg");
+  event.hide("minecraft:bee_spawn_egg");
+  event.hide("minecraft:blaze_spawn_egg");
+  event.hide("minecraft:cat_spawn_egg");
+  event.hide("minecraft:cave_spider_spawn_egg");
+  event.hide("minecraft:chicken_spawn_egg");
+  event.hide("minecraft:cod_spawn_egg");
+  event.hide("minecraft:cow_spawn_egg");
+  event.hide("minecraft:creeper_spawn_egg");
+  event.hide("minecraft:dolphin_spawn_egg");
+  event.hide("minecraft:donkey_spawn_egg");
+  event.hide("minecraft:drowned_spawn_egg");
+  event.hide("minecraft:elder_guardian_spawn_egg");
+  event.hide("minecraft:enderman_spawn_egg");
+  event.hide("minecraft:endermite_spawn_egg");
+  event.hide("minecraft:evoker_spawn_egg");
+  event.hide("minecraft:fox_spawn_egg");
+  event.hide("minecraft:ghast_spawn_egg");
+  event.hide("minecraft:guardian_spawn_egg");
+  event.hide("minecraft:hoglin_spawn_egg");
+  event.hide("minecraft:horse_spawn_egg");
+  event.hide("minecraft:husk_spawn_egg");
+  event.hide("minecraft:llama_spawn_egg");
+  event.hide("minecraft:magma_cube_spawn_egg");
+  event.hide("minecraft:mooshroom_spawn_egg");
+  event.hide("minecraft:mule_spawn_egg");
+  event.hide("minecraft:ocelot_spawn_egg");
+  event.hide("minecraft:panda_spawn_egg");
+  event.hide("minecraft:parrot_spawn_egg");
+  event.hide("minecraft:phantom_spawn_egg");
+  event.hide("minecraft:pig_spawn_egg");
+  event.hide("minecraft:piglin_spawn_egg");
+  event.hide("minecraft:piglin_brute_spawn_egg");
+  event.hide("minecraft:pillager_spawn_egg");
+  event.hide("minecraft:polar_bear_spawn_egg");
+  event.hide("minecraft:pufferfish_spawn_egg");
+  event.hide("minecraft:rabbit_spawn_egg");
+  event.hide("minecraft:ravager_spawn_egg");
+  event.hide("minecraft:salmon_spawn_egg");
+  event.hide("minecraft:sheep_spawn_egg");
+  event.hide("minecraft:shulker_spawn_egg");
+  event.hide("minecraft:silverfish_spawn_egg");
+  event.hide("minecraft:skeleton_spawn_egg");
+  event.hide("minecraft:skeleton_horse_spawn_egg");
+  event.hide("minecraft:slime_spawn_egg");
+  event.hide("minecraft:spider_spawn_egg");
+  event.hide("minecraft:squid_spawn_egg");
+  event.hide("minecraft:stray_spawn_egg");
+  event.hide("minecraft:strider_spawn_egg");
+  event.hide("minecraft:trader_llama_spawn_egg");
+  event.hide("minecraft:tropical_fish_spawn_egg");
+  event.hide("minecraft:turtle_spawn_egg");
+  event.hide("minecraft:vex_spawn_egg");
+  event.hide("minecraft:villager_spawn_egg");
+  event.hide("minecraft:vindicator_spawn_egg");
+  event.hide("minecraft:wandering_trader_spawn_egg");
+  event.hide("minecraft:witch_spawn_egg");
+  event.hide("minecraft:wither_skeleton_spawn_egg");
+  event.hide("minecraft:wolf_spawn_egg");
+  event.hide("minecraft:zoglin_spawn_egg");
+  event.hide("minecraft:zombie_spawn_egg");
+  event.hide("minecraft:zombie_horse_spawn_egg");
+  event.hide("minecraft:zombie_villager_spawn_egg");
+  event.hide("minecraft:zombified_piglin_spawn_egg");
+  event.hide("exoticbirds:flamingo_spawn_egg");
+  event.hide("exoticbirds:woodpecker_spawn_egg");
+  event.hide("exoticbirds:booby_spawn_egg");
+  event.hide("exoticbirds:owl_spawn_egg");
+  event.hide("exoticbirds:peafowl_spawn_egg");
+  event.hide("exoticbirds:bluejay_spawn_egg");
+  event.hide("exoticbirds:cardinal_spawn_egg");
+  event.hide("exoticbirds:robin_spawn_egg");
+  event.hide("exoticbirds:crane_spawn_egg");
+  event.hide("exoticbirds:heron_spawn_egg");
+  event.hide("exoticbirds:lyrebird_spawn_egg");
+  event.hide("exoticbirds:kiwi_spawn_egg");
+  event.hide("exoticbirds:toucan_spawn_egg");
+  event.hide("exoticbirds:duck_spawn_egg");
+  event.hide("exoticbirds:swan_spawn_egg");
+  event.hide("exoticbirds:penguin_spawn_egg");
+  event.hide("exoticbirds:pigeon_spawn_egg");
+  event.hide("exoticbirds:budgerigar_spawn_egg");
+  event.hide("exoticbirds:gouldianfinch_spawn_egg");
+  event.hide("exoticbirds:cockatoo_spawn_egg");
+  event.hide("exoticbirds:pelican_spawn_egg");
+  event.hide("exoticbirds:roadrunner_spawn_egg");
+  event.hide("exoticbirds:cassowary_spawn_egg");
+  event.hide("exoticbirds:gull_spawn_egg");
+  event.hide("exoticbirds:ostrich_spawn_egg");
+  event.hide("exoticbirds:kingfisher_spawn_egg");
+  event.hide("exoticbirds:kookaburra_spawn_egg");
+  event.hide("exoticbirds:magpie_spawn_egg");
+  event.hide("exoticbirds:hummingbird_spawn_egg");
+  event.hide("exoticbirds:macaw_spawn_egg");
+  event.hide("quark:toretoise_spawn_egg");
+  event.hide("quark:stoneling_spawn_egg");
+  event.hide("quark:wraith_spawn_egg");
+  event.hide("quark:foxhound_spawn_egg");
+  event.hide("quark:forgotten_spawn_egg");
+  event.hide("quark:wrapped_spawn_egg");
+  event.hide("quark:frog_spawn_egg");
+  event.hide("quark:crab_spawn_egg");
+  event.hide("thermal:basalz_spawn_egg");
+  event.hide("thermal:blizz_spawn_egg");
+  event.hide("thermal:blitz_spawn_egg");
+
+  // Creative Items
+  event.hide("bloodmagic:activationcrystalcreative");
+  event.hide("botania:lens_storm");
+  event.hide("botania:creative_pool");
+  event.hide("botania:infrangible_platform");
+  event.hide("cyclic:battery_infinite");
+  event.hide("immersiveengineering:capacitor_creative");
+  event.hide("mekanism:creative_bin");
+  event.hide("mekanism:creative_fluid_tank");
+  event.hide("mekanism:creative_chemical_tank");
+  event.hide("rftoolspower:dimensionalcell_creative");
+  event.hide("rftoolsutility:creative_screen");
+  event.hide("mekanism:creative_fluid_tank");
+  event.hide("refinedstorage:creative_storage_disk");
+  event.hide("refinedstorage:creative_fluid_storage_disk");
+  event.hide("refinedstorage:creative_portable_grid");
+  event.hide("refinedstorage:creative_storage_block");
+  event.hide("refinedstorage:creative_fluid_storage_block");
+  event.hide("refinedstorage:creative_controller");
+  event.hide("refinedstorage:creative_wireless_grid");
+  event.hide("refinedstorage:creative_wireless_fluid_grid");
+  event.hide("refinedstorage:creative_wireless_crafting_monitor");
+  event.hide("refinedstorage:white_creative_controller");
+  event.hide("refinedstorage:orange_creative_controller");
+  event.hide("refinedstorage:magenta_creative_controller");
+  event.hide("refinedstorage:lime_creative_controller");
+  event.hide("refinedstorage:yellow_creative_controller");
+  event.hide("mekanism:creative_energy_cube");
+  event.hide("refinedstorage:pink_creative_controller");
+  event.hide("refinedstorage:gray_creative_controller");
+  event.hide("refinedstorage:light_gray_creative_controller");
+  event.hide("refinedstorage:cyan_creative_controller");
+  event.hide("refinedstorage:purple_creative_controller");
+  event.hide("refinedstorage:blue_creative_controller");
+  event.hide("refinedstorage:brown_creative_controller");
+  event.hide("refinedstorage:green_creative_controller");
+  event.hide("refinedstorage:black_creative_controller");
+  event.hide("refinedstorage:red_creative_controller");
+  event.hide("refinedstorageaddons:creative_wireless_crafting_grid");
+  event.hide("simplyjetpacks:jetpack_creative");
+  event.hide("simplyjetpacks:jetpack_creative_armored");
+  event.hide("theoneprobe:creativeprobe");
+});

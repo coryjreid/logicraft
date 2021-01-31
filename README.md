@@ -18,7 +18,7 @@ contribute if you find issues!
 
 | Modpack Version | Minecraft Version | Forge Version |                                  Link                                   |         Changelog         |
 | :-------------: | :---------------: | :-----------: | :---------------------------------------------------------------------: | :-----------------------: |
-|    `0.0.10`     |     `1.16.4`      |   `35.1.37`   | [Curseforge](https://www.curseforge.com/minecraft/modpacks/logicraft_/) | [Changelog](CHANGELOG.md) |
+|    `0.1.10`     |     `1.16.4`      |   `35.1.37`   | [Curseforge](https://www.curseforge.com/minecraft/modpacks/logicraft_/) | [Changelog](CHANGELOG.md) |
 
 ## Contributing
 

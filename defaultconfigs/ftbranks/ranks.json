@@ -6,7 +6,9 @@
       "type": "always_active"
     },
     "ftbranks.name_format": "<{name}>",
-    "worldstripper": false
+    "worldstripper": false,
+    "ftbchunks.max_claimed": 500,
+    "ftbchunks.max_force_loaded": 100
   },
   "admin": {
     "name": "Admin",
@@ -16,7 +18,7 @@
     },
     "ftbranks.name_format": "<&2{name}&r>",
     "worldstripper": true,
-    "ftbchunks.max_claimed": 30000,
-    "ftbchunks.max_force_loaded": 30000
+    "ftbchunks.max_claimed": 100000,
+    "ftbchunks.max_force_loaded": 100000
   }
 }
