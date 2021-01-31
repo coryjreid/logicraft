@@ -1,3 +1,13 @@
+# Version 0.1.11 (January 31, 2020)
+
+## Config Changes
+
+- Fix oregen... again
+
+## Updates
+
+- Quark
+
 # Version 0.1.10 (January 30, 2021)
 
 ## Updates
