@@ -1,4 +1,17 @@
-# Version 0.1.11 (January 31, 2020)
+# Version 0.2.11 (February 01, 2021)
+
+## Added
+
+- Advanced Mining Dimension
+
+## Config Changes
+
+### Quark
+
+- Make feeding troughs always breed animals
+- Enable most of the underground biomes in the dimension provided by the Advanced Mining Dimension mod
+
+# Version 0.1.11 (January 31, 2021)
 
 ## Config Changes
 

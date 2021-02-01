@@ -88,7 +88,7 @@
 		#
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
 		#Allowed values: (0,1]
-		"Love Chance" = 0.333333333
+		"Love Chance" = 1.0
 		Range = 10.0
 
 	[automation.metal_buttons]
@@ -602,14 +602,14 @@
 
 			[world.big_stone_clusters.granite.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.big_stone_clusters.granite.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["extreme_hills"]
+				"Biome Categories" = ["extreme_hills", "none"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.diorite]
@@ -638,14 +638,14 @@
 
 			[world.big_stone_clusters.diorite.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.big_stone_clusters.diorite.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["savanna", "jungle", "mushroom"]
+				"Biome Categories" = ["savanna", "jungle", "mushroom", "none"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.andesite]
@@ -674,14 +674,14 @@
 
 			[world.big_stone_clusters.andesite.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.big_stone_clusters.andesite.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["forest"]
+				"Biome Categories" = ["forest", "none"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.marble]
@@ -710,14 +710,14 @@
 
 			[world.big_stone_clusters.marble.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.big_stone_clusters.marble.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["plains"]
+				"Biome Categories" = ["plains", "none"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.limestone]
@@ -746,14 +746,14 @@
 
 			[world.big_stone_clusters.limestone.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.big_stone_clusters.limestone.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["swamp", "ocean"]
+				"Biome Categories" = ["swamp", "ocean", "none"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.jasper]
@@ -782,14 +782,14 @@
 
 			[world.big_stone_clusters.jasper.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.big_stone_clusters.jasper.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["mesa", "desert"]
+				"Biome Categories" = ["mesa", "desert", "none"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.slate]
@@ -818,14 +818,14 @@
 
 			[world.big_stone_clusters.slate.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.big_stone_clusters.slate.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["icy"]
+				"Biome Categories" = ["icy", "none"]
 				"Is Blacklist" = false
 
 		[world.big_stone_clusters.voidstone]
@@ -1017,7 +1017,7 @@
 
 		[world.cave_roots.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 	[world.chorus_vegetation]
 		Rarity = 150
@@ -1034,7 +1034,7 @@
 
 		[world.crevices.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 		[world.crevices.spawn_settings]
 			#
@@ -1061,7 +1061,7 @@
 
 			[world.crevices.spawn_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.crevices.spawn_settings.biomes]
 				#
@@ -1084,7 +1084,7 @@
 
 		[world.mega_caves.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 		[world.mega_caves.spawn_settings]
 			#
@@ -1111,7 +1111,7 @@
 
 			[world.mega_caves.spawn_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.mega_caves.spawn_settings.biomes]
 				#
@@ -1137,7 +1137,7 @@
 
 		[world.monster_box.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 	[world.nether_obsidian_spikes]
 		#
@@ -1167,7 +1167,7 @@
 
 			[world.new_stone_types.marble.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.new_stone_types.marble.oregen]
 				#
@@ -1187,7 +1187,7 @@
 
 			[world.new_stone_types.limestone.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.new_stone_types.limestone.oregen]
 				#
@@ -1207,7 +1207,7 @@
 
 			[world.new_stone_types.jasper.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.new_stone_types.jasper.oregen]
 				#
@@ -1227,7 +1227,7 @@
 
 			[world.new_stone_types.slate.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.new_stone_types.slate.oregen]
 				#
@@ -1314,7 +1314,7 @@
 
 		[world.underground_clay.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 		[world.underground_clay.ore_settings]
 			#
@@ -1357,14 +1357,14 @@
 
 			[world.brimstone_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.brimstone_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["mesa"]
+				"Biome Categories" = ["mesa", "none"]
 				"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
@@ -1402,7 +1402,7 @@
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.cave_crystal_underground_biome.biome_settings.biomes]
 				#
@@ -1490,14 +1490,14 @@
 
 			[world.glowshroom_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.glowshroom_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["extreme_hills", "mushroom"]
+				"Biome Categories" = ["extreme_hills", "mushroom", "none"]
 				"Is Blacklist" = false
 
 	[world.lush_underground_biome]
@@ -1527,14 +1527,14 @@
 
 			[world.lush_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.lush_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["jungle"]
+				"Biome Categories" = ["jungle", "none"]
 				"Is Blacklist" = false
 
 	[world.overgrown_underground_biome]
@@ -1564,14 +1564,14 @@
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.overgrown_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["forest"]
+				"Biome Categories" = ["forest", "none"]
 				"Is Blacklist" = false
 
 	[world.permafrost_underground_biome]
@@ -1601,14 +1601,14 @@
 
 			[world.permafrost_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.permafrost_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["icy"]
+				"Biome Categories" = ["icy", "none"]
 				"Is Blacklist" = false
 
 	[world.sandstone_underground_biome]
@@ -1638,14 +1638,14 @@
 
 			[world.sandstone_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.sandstone_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["desert"]
+				"Biome Categories" = ["desert", "none"]
 				"Is Blacklist" = false
 
 	[world.slime_underground_biome]
@@ -1675,14 +1675,14 @@
 
 			[world.slime_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.slime_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["swamp"]
+				"Biome Categories" = ["swamp", "none"]
 				"Is Blacklist" = false
 
 	[world.spider_nest_underground_biome]
@@ -1713,14 +1713,14 @@
 
 			[world.spider_nest_underground_biome.biome_settings.dimensions]
 				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 			[world.spider_nest_underground_biome.biome_settings.biomes]
 				#
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["plains"]
+				"Biome Categories" = ["plains", "none"]
 				"Is Blacklist" = false
 
 [mobs]
@@ -1822,7 +1822,7 @@
 
 		[mobs.stonelings.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 		[mobs.stonelings.spawn_config]
 			#
@@ -1840,7 +1840,7 @@
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["none", "nether", "the_end"]
+				"Biome Categories" = ["nether", "the_end"]
 				"Is Blacklist" = true
 
 	[mobs.toretoise]
@@ -1848,7 +1848,7 @@
 
 		[mobs.toretoise.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld", "mining_dimension:mining"]
 
 		[mobs.toretoise.spawn_config]
 			#
@@ -1866,7 +1866,7 @@
 				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
 				# icy, the_end, beach, forest, ocean, desert, river, swamp,
 				# mushroom, nether]
-				"Biome Categories" = ["none", "nether", "the_end"]
+				"Biome Categories" = ["nether", "the_end"]
 				"Is Blacklist" = true
 
 	[mobs.forgotten]
