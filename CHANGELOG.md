@@ -1,3 +1,19 @@
+# Version 0.2.12 (February 04, 2021)
+
+## Updated
+
+- Akashic Tome
+- Architectury API (Forge)
+- Clumps
+- Cyclic
+- Exotic Birds
+- FTB Chunks
+- Just Enough Items (JEI)
+- Morph-o-Tool
+- Pam's HarvestCraft 2 - Food Core
+- Pam's HarvestCraft 2 - Food Extended
+- Quark
+
 # Version 0.2.11 (February 01, 2021)
 
 ## Added

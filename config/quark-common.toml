@@ -391,6 +391,7 @@
 	"Springy Slime" = true
 	"Utility Recipes" = true
 	"Villagers Follow Emeralds" = true
+	"Lava Bucket As Trash" = true
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0

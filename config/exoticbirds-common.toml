@@ -31,7 +31,7 @@
 		allowDespawning = true
 
 	[general.nests]
-		#How many nests, on average, should appear when generated (0 = disabled)
+		#How many nests, on average, should appear when generated (0 = disabled; 1 = few; 100+ = many)
 		#Range: > 0
 		nestGenRate = 8
 		#A list of biomes that nests are not able to generate in
@@ -50,8 +50,8 @@
 [entity]
 
 	[entity.cassowary]
-		#Cassowary spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Cassowary spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateCassowary = 100
 		#Cassowary minimum group size
 		#Range: 1 ~ 50
@@ -65,8 +65,8 @@
 		blacklistedDimensionsCassowary = []
 
 	[entity.budgerigar]
-		#Budgerigar spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Budgerigar spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateBudgerigar = 100
 		#Budgerigar minimum group size
 		#Range: 1 ~ 50
@@ -80,8 +80,8 @@
 		blacklistedDimensionsBudgerigar = []
 
 	[entity.duck]
-		#Duck spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Duck spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateDuck = 100
 		#Duck minimum group size
 		#Range: 1 ~ 50
@@ -95,8 +95,8 @@
 		blacklistedDimensionsDuck = []
 
 	[entity.flamingo]
-		#Flamingo spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Flamingo spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateFlamingo = 100
 		#Flamingo minimum group size
 		#Range: 1 ~ 50
@@ -110,8 +110,8 @@
 		blacklistedDimensionsFlamingo = []
 
 	[entity.gouldianfinch]
-		#Gouldian finch spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Gouldian finch spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateGouldianfinch = 100
 		#Gouldian finch minimum group size
 		#Range: 1 ~ 50
@@ -125,8 +125,8 @@
 		blacklistedDimensionsGouldianfinch = []
 
 	[entity.hummingbird]
-		#Hummingbird spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Hummingbird spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateHummingbird = 100
 		#Hummingbird minimum group size
 		#Range: 1 ~ 50
@@ -140,8 +140,8 @@
 		blacklistedDimensionsHummingbird = []
 
 	[entity.kingfisher]
-		#Kingfisher spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Kingfisher spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateKingfisher = 100
 		#Kingfisher minimum group size
 		#Range: 1 ~ 50
@@ -155,8 +155,8 @@
 		blacklistedDimensionsKingfisher = []
 
 	[entity.kiwi]
-		#Kiwi spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Kiwi spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateKiwi = 100
 		#Kiwi minimum group size
 		#Range: 1 ~ 50
@@ -170,8 +170,8 @@
 		blacklistedDimensionsKiwi = []
 
 	[entity.lyrebird]
-		#Lyrebird spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Lyrebird spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateLyrebird = 100
 		#Lyrebird minimum group size
 		#Range: 1 ~ 50
@@ -185,8 +185,8 @@
 		blacklistedDimensionsLyrebird = []
 
 	[entity.magpie]
-		#Magpie spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Magpie spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateMagpie = 100
 		#Magpie minimum group size
 		#Range: 1 ~ 50
@@ -200,8 +200,8 @@
 		blacklistedDimensionsMagpie = []
 
 	[entity.ostrich]
-		#Ostrich spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Ostrich spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateOstrich = 100
 		#Ostrich minimum group size
 		#Range: 1 ~ 50
@@ -215,8 +215,8 @@
 		blacklistedDimensionsOstrich = []
 
 	[entity.owl]
-		#Owl spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Owl spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateOwl = 100
 		#Owl minimum group size
 		#Range: 1 ~ 50
@@ -230,8 +230,8 @@
 		blacklistedDimensionsOwl = []
 
 	[entity.macaw]
-		#Parrot spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Parrot spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateMacaw = 100
 		#Parrot minimum group size
 		#Range: 1 ~ 50
@@ -245,8 +245,8 @@
 		blacklistedDimensionsMacaw = []
 
 	[entity.peafowl]
-		#Peafowl spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Peafowl spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRatePeafowl = 100
 		#Peafowl minimum group size
 		#Range: 1 ~ 50
@@ -260,8 +260,8 @@
 		blacklistedDimensionsPeafowl = []
 
 	[entity.pelican]
-		#Pelican spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Pelican spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRatePelican = 100
 		#Pelican minimum group size
 		#Range: 1 ~ 50
@@ -275,8 +275,8 @@
 		blacklistedDimensionsPelican = []
 
 	[entity.penguin]
-		#Penguin spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Penguin spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRatePenguin = 100
 		#Penguin minimum group size
 		#Range: 1 ~ 50
@@ -290,8 +290,8 @@
 		blacklistedDimensionsPenguin = []
 
 	[entity.pigeon]
-		#Pigeon spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Pigeon spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRatePigeon = 100
 		#Pigeon minimum group size
 		#Range: 1 ~ 50
@@ -305,8 +305,8 @@
 		blacklistedDimensionsPigeon = []
 
 	[entity.roadrunner]
-		#Roadrunner spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Roadrunner spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateRoadrunner = 100
 		#Roadrunner minimum group size
 		#Range: 1 ~ 50
@@ -320,8 +320,8 @@
 		blacklistedDimensionsRoadrunner = []
 
 	[entity.gull]
-		#Seagull spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Seagull spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateGull = 100
 		#Seagull minimum group size
 		#Range: 1 ~ 50
@@ -335,8 +335,8 @@
 		blacklistedDimensionsGull = []
 
 	[entity.swan]
-		#Swan spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Swan spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateSwan = 100
 		#Swan minimum group size
 		#Range: 1 ~ 50
@@ -350,8 +350,8 @@
 		blacklistedDimensionsSwan = []
 
 	[entity.toucan]
-		#Toucan spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Toucan spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateToucan = 100
 		#Toucan minimum group size
 		#Range: 1 ~ 50
@@ -365,8 +365,8 @@
 		blacklistedDimensionsToucan = []
 
 	[entity.cockatoo]
-		#Vulture spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Vulture spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateCockatoo = 100
 		#Vulture minimum group size
 		#Range: 1 ~ 50
@@ -380,8 +380,8 @@
 		blacklistedDimensionsCockatoo = []
 
 	[entity.woodpecker]
-		#Woodpecker spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Woodpecker spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateWoodpecker = 100
 		#Woodpecker minimum group size
 		#Range: 1 ~ 50
@@ -395,8 +395,8 @@
 		blacklistedDimensionsWoodpecker = []
 
 	[entity.heron]
-		#Heron spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Heron spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateHeron = 100
 		#Heron minimum group size
 		#Range: 1 ~ 50
@@ -410,8 +410,8 @@
 		blacklistedDimensionsHeron = []
 
 	[entity.booby]
-		#Blue-footed booby spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Blue-footed booby spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateBooby = 100
 		#Booby minimum group size
 		#Range: 1 ~ 50
@@ -425,8 +425,8 @@
 		blacklistedDimensionsBooby = []
 
 	[entity.cardinal]
-		#Cardinal spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Cardinal spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateCardinal = 100
 		#Cardinal minimum group size
 		#Range: 1 ~ 50
@@ -440,8 +440,8 @@
 		blacklistedDimensionsCardinal = []
 
 	[entity.bluejay]
-		#Blue jay spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Blue jay spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateBluejay = 100
 		#Bluejay minimum group size
 		#Range: 1 ~ 50
@@ -455,8 +455,8 @@
 		blacklistedDimensionsBluejay = []
 
 	[entity.robin]
-		#Robin spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Robin spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateRobin = 100
 		#Robin minimum group size
 		#Range: 1 ~ 50
@@ -470,8 +470,8 @@
 		blacklistedDimensionsRobin = []
 
 	[entity.crane]
-		#Crane spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Crane spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateCrane = 100
 		#Crane minimum group size
 		#Range: 1 ~ 50
@@ -485,8 +485,8 @@
 		blacklistedDimensionsCrane = []
 
 	[entity.kookaburra]
-		#Kookaburra spawn rate (0 = disabled; 1 = common; 100 = rare)
-		#Range: 0 ~ 100
+		#Kookaburra spawn rate (0 = disabled; 1 = common; 100+ = rare)
+		#Range: > 0
 		spawnRateKookaburra = 100
 		#Kookaburra minimum group size
 		#Range: 1 ~ 50
