@@ -1,3 +1,20 @@
+# Version 0.2.13 (February 07, 2021)
+
+## Updated
+
+- Architectury API (Forge)
+- Cyclic
+- FTB GUI Library
+- McJtyLib
+- RFTools Control
+- RFTools Storage
+- RFTools Utility
+
+## Added
+
+- V-Tweaks
+- Cloth Config API (Forge)
+
 # Version 0.2.12 (February 04, 2021)
 
 ## Updated
