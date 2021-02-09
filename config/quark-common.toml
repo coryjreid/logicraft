@@ -172,6 +172,9 @@
 		"Enable Blaze Lantern" = true
 		"Enable Bonded Leather" = true
 		"Enable Bonded Rabbit Hide" = true
+		#
+		#Allowed values: [0,)
+		"Bamboo Bundle Fuel Time" = 500
 
 	[building.more_brick_types]
 		"Enable Sandy Bricks" = true

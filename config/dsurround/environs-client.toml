@@ -70,4 +70,6 @@
 	#Scaling factor to apply to waterfall sounds
 	#Range: 0 ~ 100
 	"Waterfall Volume" = 80
+	#Occlude WATERFALL sounds
+	"Occlude WATERFALL sounds" = false
 

@@ -1,3 +1,15 @@
+# Version 0.2.14 (February 09, 2021)
+
+## Updated
+
+- Architectury API (Forge)
+- Clumps
+- Dynamic Surroundings
+- GraveStone Mod
+- In Control!
+- Quark
+- Refined Storage
+
 # Version 0.2.13 (February 07, 2021)
 
 ## Updated
