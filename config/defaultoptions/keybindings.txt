@@ -33,14 +33,14 @@ key_key.hotbar.7:key.keyboard.7:NONE
 key_key.hotbar.8:key.keyboard.8:NONE
 key_key.hotbar.9:key.keyboard.9:NONE
 key_of.key.zoom:key.keyboard.z:NONE
+key_key.ftbchunks.map:key.keyboard.m:NONE
 key_sndctrl.text.quickvolumemenu.open:key.keyboard.v:ALT
 key_sndctrl.text.soundconfig.open:key.keyboard.s:ALT
 key_dsurround.text.lightlevel.toggle:key.keyboard.f7:NONE
 key_dsurround.text.chunkborders.toggle:key.keyboard.f8:NONE
-key_key.ftbchunks.map:key.keyboard.m:NONE
 key_bloodmagic.keybind.open_holding:key.keyboard.unknown:NONE
-key_key.immersivepetroleum.projector.flip:key.keyboard.unknown:NONE
 key_key.carry.desc:key.keyboard.left.shift:NONE
+key_key.immersivepetroleum.projector.flip:key.keyboard.unknown:NONE
 key_key.toggleLiquids:key.keyboard.unknown:NONE
 key_key.toggleVisible:key.keyboard.unknown:NONE
 key_key.immersiveengineering.magnetEquip:key.keyboard.unknown:NONE
@@ -52,18 +52,26 @@ key_Open Config:key.keyboard.unknown:NONE
 key_Add Block:key.keyboard.unknown:NONE
 key_Remove Block:key.keyboard.unknown:NONE
 key_Cycle Profile:key.keyboard.unknown:NONE
-key_key.invtweaks_sort_player.desc:key.keyboard.keypad.decimal:NONE
-key_key.invtweaks_sort_inventory.desc:key.keyboard.keypad.decimal:NONE
-key_key.invtweaks_sort_either.desc:key.keyboard.keypad.decimal:NONE
-key_key.openManual:key.keyboard.f1:NONE
+key_Options Gui:key.keyboard.unknown:NONE
+key_key.curios.open.desc:key.keyboard.e:SHIFT
+key_key.botania_corporea_request:key.keyboard.unknown:NONE
 key_keybind.simplyjetpacks.jetpack_gui:key.keyboard.j:ALT
 key_keybind.simplyjetpacks.jetpack_engine:key.keyboard.j:NONE
 key_keybind.simplyjetpacks.jetpack_hover:key.keyboard.h:NONE
 key_keybind.simplyjetpacks.jetpack_ehover:key.keyboard.h:ALT
 key_keybind.simplyjetpacks.jetpack_charger:key.keyboard.j:CONTROL
+key_key.invtweaks_sort_player.desc:key.keyboard.keypad.decimal:NONE
+key_key.invtweaks_sort_inventory.desc:key.keyboard.keypad.decimal:NONE
+key_key.invtweaks_sort_either.desc:key.keyboard.keypad.decimal:NONE
+key_key.refinedstorage.focusSearchBar:key.keyboard.tab:NONE
+key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.unknown:NONE
+key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown:NONE
+key_key.refinedstorage.openWirelessFluidGrid:key.keyboard.unknown:NONE
+key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown:NONE
+key_key.refinedstorage.openPortableGrid:key.keyboard.e:CONTROL
+key_key.openManual:key.keyboard.f1:NONE
 key_key.nextDestination:key.keyboard.unknown:NONE
 key_key.prevDestination:key.keyboard.unknown:NONE
-key_key.toastcontrol.clear:key.keyboard.unknown:NONE
 key_key.mekanism.mode:key.keyboard.unknown:NONE
 key_key.mekanism.head_mode:key.keyboard.unknown:NONE
 key_key.mekanism.chest_mode:key.keyboard.unknown:NONE
@@ -73,28 +81,13 @@ key_key.mekanism.description:key.keyboard.unknown:NONE
 key_key.mekanism.module_tweaker:key.keyboard.unknown:NONE
 key_key.mekanism.key_boost:key.keyboard.unknown:NONE
 key_key.mekanism.key_hud:key.keyboard.unknown:NONE
+key_key.toastcontrol.clear:key.keyboard.unknown:NONE
 key_key.cofh.mode_change_increment:key.keyboard.v:NONE
 key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown:NONE
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown:NONE
-key_keybind.baublesinventory:key.keyboard.e:CONTROL
-key_key.refinedstorage.focusSearchBar:key.keyboard.tab:NONE
-key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.unknown:NONE
-key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown:NONE
-key_key.refinedstorage.openWirelessFluidGrid:key.keyboard.unknown:NONE
-key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown:NONE
-key_key.refinedstorage.openPortableGrid:key.keyboard.unknown:NONE
-key_key.curios.open.desc:key.keyboard.e:SHIFT
-key_key.botania_corporea_request:key.keyboard.unknown:NONE
-key_Options Gui:key.keyboard.unknown:NONE
-key_quark.keybind.sort_player:key.keyboard.unknown:NONE
-key_quark.keybind.sort_container:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
-key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
-key_quark.keybind.lock_rotation:key.keyboard.r:NONE
-key_quark.keybind.camera_mode:key.keyboard.f12:NONE
-key_quark.keybind.back:key.mouse.4:NONE
+key_keybind.baublesinventory:key.keyboard.e:ALT
 key_key.refinedstorageaddons.openWirelessCraftingGrid:key.keyboard.unknown:NONE
+key_quark.keybind.camera_mode:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.chiselmode.single:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.chiselmode.snap2:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.chiselmode.snap4:key.keyboard.unknown:NONE
@@ -123,6 +116,13 @@ key_mod.chiselsandbits.other.offgrid:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.other.undo:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.other.redo:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.other.add_to_clipboard:key.keyboard.unknown:NONE
+key_quark.keybind.lock_rotation:key.keyboard.r:NONE
+key_quark.keybind.back:key.mouse.4:NONE
+key_quark.keybind.sort_player:key.keyboard.unknown:NONE
+key_quark.keybind.sort_container:key.keyboard.unknown:NONE
+key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
+key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
+key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
 key_quark.keybind.autorun:key.keyboard.keypad.subtract:NONE
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
@@ -160,7 +160,7 @@ key_key.craftingtweaks.refill_last:key.keyboard.unknown:NONE
 key_key.craftingtweaks.refill_last_stack:key.keyboard.unknown:NONE
 key_key.jei.toggleOverlay:key.keyboard.unknown:NONE
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
-key_key.jei.toggleCheatMode:key.keyboard.z:CONTROL
+key_key.jei.toggleCheatMode:key.keyboard.unknown:CONTROL
 key_key.jei.toggleEditMode:key.keyboard.x:CONTROL
 key_key.jei.showRecipe:key.keyboard.w:NONE
 key_key.jei.showUses:key.keyboard.s:NONE

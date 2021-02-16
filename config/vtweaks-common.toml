@@ -41,7 +41,7 @@
 	challengerMobsBlacklist = ["minecraft:pillager"]
 	#The frequency (out of 100 - higher means more frequent) of a mob being turned into a Challenger
 	#Range: 1 ~ 100
-	challengerMobsFrequency = 15
+	challengerMobsFrequency = 5
 	#Prevents mobs from spawning above sea level unless it's a new moon
 	peacefulSurfaceEnabled = false
 	#The lowest Y-level which mobs will be prevented from spawning

@@ -3,6 +3,7 @@
 
 # Exclude assets folder
 kubejs/assets/
+kubejs/exported/
 
 # Add back desired items
 !config/

@@ -1,3 +1,45 @@
+# Version 0.2.15 (February 15, 2021)
+
+## Added
+
+- CraftTweaker
+
+## Updates
+
+- Architectury API (Forge)
+- Carry On
+- Cloth Config API (Forge)
+- Compact Machines
+- FTB Ranks
+- In Control!
+- KubeJS Thermal
+- Mouse Tweaks
+- Patchouli
+- RFTools Storage
+- RFTools Utility
+
+## Config Changes
+
+### Default Options
+
+- Update some keybinds
+  - CTRL+E: Open Portable Grid
+  - ALT+E: Open Baubles Inventory
+  - Clear Quark Camera Mode Hotkey
+
+### Inventory Tweaks
+
+- Disable item count preview (handled by Quark)
+
+### Toast Control
+
+- Move toasts to left side of screen
+
+### V-Tweaks
+
+- Disable low health heartbeat
+- Reduce challenge mob frequency from 15 to 5
+
 # Version 0.2.14 (February 09, 2021)
 
 ## Updated

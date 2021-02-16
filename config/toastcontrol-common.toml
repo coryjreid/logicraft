@@ -40,7 +40,7 @@
 		#If toasts automatically pop into the screen without animations.
 		no_slide = false
 		#If toasts show on the left of the screen.
-		start_left = false
+		start_left = true
 
 	[client.debug]
 		#If toast classes are printed when they are shown.
