@@ -1,3 +1,15 @@
+# Version 0.2.17 (February 18, 2021)
+
+## Updates
+
+- Architectury API (Forge)
+- CraftTweaker
+- Dynamic Surroundings
+- KubeJS
+- OreTweaker
+- Quark
+- RFTools Base
+
 # Version 0.2.16 (February 16, 2021)
 
 ## Updates

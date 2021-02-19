@@ -1,4 +1,5 @@
 "Disable Ores" = ["minecraft:coal_ore", "minecraft:iron_ore", "minecraft:clay", "minecraft:gold_ore", "minecraft:redstone_ore", "minecraft:diamond_ore", "minecraft:lapis_ore", "minecraft:emerald_ore", "minecraft:nether_gold_ore", "minecraft:nether_quartz_ore", "immersiveengineering:ore_uranium", "immersiveengineering:ore_aluminum", "mekanism:uranium_ore", "mekanism:osmium_ore", "mekanism:fluorite_ore", "thermal:apatite_ore", "thermal:cinnabar_ore", "thermal:niter_ore", "thermal:sulfur_ore", "thermal:copper_ore", "thermal:tin_ore", "thermal:lead_ore", "thermal:silver_ore", "thermal:nickel_ore", "rftoolsbase:dimensionalshard_overworld", "rftoolsbase:dimensionalshard_nether", "rftoolsbase:dimensionalshard_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate", "quark:basalt", "quark:myalite"]
+"Enable Debug Output" = false
 
 [["Custom Ore"]]
 	"Ore Name" = "minecraft:coal_ore"

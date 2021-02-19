@@ -1973,6 +1973,7 @@
 	"Matrix Enchanting" = true
 	Pipes = true
 	"Totem Of Holding" = false
+	Crate = false
 
 	[oddities.backpack]
 		#
@@ -2077,6 +2078,9 @@
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
 		"Allow Anyone To Collect" = true
 		"Enable Soul Compass" = true
+
+	[oddities.crate]
+		"Max Items" = 640
 
 [experimental]
 	"Adjustable Chat" = false
