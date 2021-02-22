@@ -40,7 +40,7 @@
 	#Should maple trees generate in world
 	"Generate maple trees" = true
 	#Should spiderweb trees generate in world
-	"Generate spiderweb trees" = true
+	"Generate spiderweb trees" = false
 	#Should peach trees generate in world
 	"Generate peach trees" = true
 	#Should vanillabean trees generate in world
@@ -124,7 +124,7 @@
 	#Should starfruit trees generate in world
 	"Generate starfruit trees" = true
 	#Should paperbark trees generate in world
-	"Generate paperbark trees" = true
+	"Generate paperbark trees" = false
 
 ["Right-click Harvesting Settings"]
 	#Disable/enable right-click harvesting of crops

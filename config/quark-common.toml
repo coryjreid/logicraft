@@ -376,11 +376,11 @@
 	"Dirt To Path" = true
 	"Double Door Opening" = true
 	"Dragon Scales" = true
-	Emotes = true
-	"Enhanced Ladders" = true
-	"Glass Shard" = true
-	"Hoe Harvesting" = true
-	"Improved Sleeping" = true
+	Emotes = false
+	"Enhanced Ladders" = false
+	"Glass Shard" = false
+	"Hoe Harvesting" = false
+	"Improved Sleeping" = false
 	"Infinity Bucket" = true
 	"Lock Rotation" = true
 	"Note Block Mob Sounds" = true
@@ -438,7 +438,7 @@
 		"Hoes Can Have Fortune" = true
 
 	[tweaks.improved_sleeping]
-		"Enable Afk" = true
+		"Enable Afk" = false
 		#
 		#Allowed values: (0,)
 		"Afk Time" = 2400
@@ -483,7 +483,7 @@
 		"Empty Hand Harvest" = true
 		#
 		#Does harvesting crops with a hoe cost durability?
-		"Harvesting Costs Durability" = false
+		"Harvesting Costs Durability" = true
 		#
 		#Should Quark look for (nonvanilla) crops, and handle them?
 		"Do Harvesting Search" = true
@@ -1014,7 +1014,7 @@
 				"Is Blacklist" = false
 
 	[world.cave_roots]
-		"Chunk Attempts" = 300
+		"Chunk Attempts" = 100
 		"Min Y" = 16
 		"Max Y" = 52
 		"Enable Brewing" = true
@@ -1766,13 +1766,13 @@
 		[mobs.foxhound.spawn_config]
 			#
 			#Allowed values: (0,)
-			"Spawn Weight" = 30
+			"Spawn Weight" = 15
 			#
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#
 			#Allowed values: [1,)
-			"Max Group Size" = 2
+			"Max Group Size" = 1
 
 			[mobs.foxhound.spawn_config.biomes]
 				Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
@@ -1908,7 +1908,7 @@
 	"Chest Searching" = true
 	"Greener Grass" = true
 	"Improved Mount Hud" = true
-	"Improved Tooltips" = true
+	"Improved Tooltips" = false
 	"Usage Ticker" = true
 	"Variant Animal Textures" = true
 
@@ -1968,10 +1968,10 @@
 		"Shiny Animal Chance" = 2048
 
 [oddities]
-	Backpack = true
+	Backpack = false
 	Magnets = true
 	"Matrix Enchanting" = true
-	Pipes = true
+	Pipes = false
 	"Totem Of Holding" = false
 	Crate = false
 

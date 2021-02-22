@@ -2,7 +2,7 @@
 
 settings.logAddedRecipes = true;
 settings.logRemovedRecipes = true;
-settings.logSkippedRecipes = true;
+settings.logSkippedRecipes = false;
 settings.logErroringRecipes = true;
 
 console.info(
@@ -11,6 +11,12 @@ console.info(
 
 onEvent("recipes", (event) => {
   event.remove({ mod: "theoneprobe" });
+  event.remove({ output: "extradisks:infinite_storage_block" });
+  event.remove({ output: "extradisks:infinite_storage_part" });
+  event.remove({ output: "extradisks:infinite_storage_disk" });
+  event.remove({ output: "extradisks:infinite_fluid_storage_block" });
+  event.remove({ output: "extradisks:infinite_fluid_storage_part" });
+  event.remove({ output: "extradisks:infinite_fluid_storage_disk" });
 });
 
 onEvent("item.tags", (event) => {

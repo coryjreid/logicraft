@@ -1,3 +1,28 @@
+# Version 1.2.17 (February 21, 2021)
+
+## Added
+
+- Faster Ladder Climbing
+- Morpheus
+- Light Overlay (Rift/Forge/Fabric)
+
+## Removed
+
+- Performant
+- Mouse Tweaks
+
+## Updates
+
+- Cloth Config API (Forge)
+- CraftTweaker
+- Dynamic Surroundings
+- JEITweaker
+- KubeJS
+
+## Config Changes
+
+- A lot...
+
 # Version 0.2.17 (February 18, 2021)
 
 ## Updates

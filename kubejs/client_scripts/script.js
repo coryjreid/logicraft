@@ -8,6 +8,14 @@ onEvent("jei.hide.items", (event) => {
   // Hide items in JEI here
   // event.hide('minecraft:cobblestone')
 
+  // Extra Disks Items
+  event.hide("extradisks:infinite_storage_block");
+  event.hide("extradisks:infinite_storage_part");
+  event.hide("extradisks:infinite_storage_disk");
+  event.hide("extradisks:infinite_fluid_storage_block");
+  event.hide("extradisks:infinite_fluid_storage_part");
+  event.hide("extradisks:infinite_fluid_storage_disk");
+
   // Mekanism Items
   event.hide("mekanism:copper_core");
   event.hide("mekanism:tin_core");

@@ -10,7 +10,7 @@
 		#When enabled this gives each chisel its own chisel mode, instead of having a chisel mode globally.
 		per-chisel-mode = true
 		#When enabled notifies you of changes to for example tool modes in the chat.
-		chat-mode-notification = true
+		chat-mode-notification = false
 		#When enabled shows the newly selected tool-mode in the item name.
 		item-name-mode-display = true
 
@@ -22,12 +22,12 @@
 
 		[client.settings.clipboard]
 			#When enabled stores the data of broken chiseled blocks in your clipboard
-			add-broken-blocks = false
+			add-broken-blocks = true
 
 		[client.settings.undo]
 			#The maximum amount of undo operations that are kept in memory. If more operations are added to the undo list, the oldest operations are removed from the list.
 			#Range: > -2147483648
-			max-count = 10
+			max-count = 32
 
 		[client.settings.tape-measure]
 			#The maximum amount measurements stored before the oldest ones are removed.

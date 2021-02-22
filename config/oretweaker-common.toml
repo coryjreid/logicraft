@@ -46,7 +46,7 @@
 	"Max Vein Size" = 8
 	"Filler Name" = "minecraft:stone"
 	"Min Vein Level" = 1
-	"Max Vein Level" = 12
+	"Max Vein Level" = 22
 	"Spawn Rate" = 15
 
 [["Custom Ore"]]

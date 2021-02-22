@@ -29,5 +29,5 @@
 	#Automatically unlock IP recipes for new players, default=true
 	autounlock_recipes = true
 	#Set to false to disable the asphalt block boosting player speed, default=true
-	asphalt_speed = true
+	asphalt_speed = false
 
