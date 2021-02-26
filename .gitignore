@@ -1,6 +1,11 @@
 # Ignore all
 /*
 
+# ResilioSync Folders
+config/.sync/
+kubejs/.sync/
+defaultconfigs/.sync/
+
 # Exclude assets folder
 kubejs/assets/
 kubejs/exported/
@@ -12,3 +17,4 @@ kubejs/exported/
 !CHANGELOG.md
 !minecraftinstance.json
 !README.md
+!mods/.sync/IgnoreList

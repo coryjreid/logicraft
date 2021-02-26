@@ -376,8 +376,8 @@
 	"Dirt To Path" = true
 	"Double Door Opening" = true
 	"Dragon Scales" = true
-	Emotes = false
-	"Enhanced Ladders" = false
+	Emotes = true
+	"Enhanced Ladders" = true
 	"Glass Shard" = false
 	"Hoe Harvesting" = false
 	"Improved Sleeping" = false
@@ -432,7 +432,7 @@
 	[tweaks.enhanced_ladders]
 		#
 		#Allowed values: (,0]
-		"Fall Speed" = -0.2
+		"Fall Speed" = 0.0
 
 	[tweaks.hoe_harvesting]
 		"Hoes Can Have Fortune" = true
@@ -475,7 +475,7 @@
 		"Max Bounces" = 1
 
 	[tweaks.sign_editing]
-		"Requires Empty Hand" = false
+		"Requires Empty Hand" = true
 
 	[tweaks.simple_harvest]
 		#

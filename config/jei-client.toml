@@ -22,7 +22,7 @@
 
 [sorting]
 	#Sorting order for the ingredient list. Valid stages: [MOD_NAME, INGREDIENT_TYPE, ALPHABETICAL, CREATIVE_MENU]
-	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU"]
+	IngredientSortStages = ["ALPHABETICAL", "MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU"]
 
 [search]
 	#Search mode for Mod Names (prefix: @)
@@ -30,19 +30,19 @@
 	ModNameSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tooltips (prefix: #)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TooltipSearchMode = "ENABLED"
+	TooltipSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	TagSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	CreativeTabSearchMode = "DISABLED"
+	CreativeTabSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ColorSearchMode = "DISABLED"
+	ColorSearchMode = "REQUIRE_PREFIX"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "DISABLED"
+	ResourceIdSearchMode = "REQUIRE_PREFIX"
 	#Search advanced tooltips (visible with F3+H)
 	SearchAdvancedTooltips = false
 

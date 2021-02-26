@@ -1,3 +1,19 @@
+# Version 1.3.17 (February 26, 2021)
+
+## Added
+
+- Construction Wand
+- Lighting Wand
+
+## Updated
+
+- Architectury API (Forge)
+- CraftTweaker
+- Cyclic
+- FTB GUI Library
+- In Control!
+- Just Enough Resources (JER)
+
 # Version 1.2.17 (February 21, 2021)
 
 ## Added
