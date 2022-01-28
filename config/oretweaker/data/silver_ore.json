@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "thermal:silver_ore",
+        "filler": "minecraft:stone",
+        "minY": 1,
+        "maxY": 33,
+        "maxVeinSize": 6,
+        "spawnRate": 10.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

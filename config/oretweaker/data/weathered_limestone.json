@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "create:weathered_limestone",
+        "filler": "minecraft:stone",
+        "minY": 10,
+        "maxY": 30,
+        "maxVeinSize": 128,
+        "spawnRate": 0.015625,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

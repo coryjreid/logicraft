@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "bigreactors:benitoite_ore",
+        "filler": "minecraft:netherrack",
+        "minY": 8,
+        "maxY": 24,
+        "maxVeinSize": 2,
+        "spawnRate": 2.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

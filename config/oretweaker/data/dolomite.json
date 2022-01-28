@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "create:dolomite",
+        "filler": "minecraft:stone",
+        "minY": 20,
+        "maxY": 70,
+        "maxVeinSize": 128,
+        "spawnRate": 0.015625,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

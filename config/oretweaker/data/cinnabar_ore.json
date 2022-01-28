@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "thermal:cinnabar_ore",
+        "filler": "minecraft:stone",
+        "minY": 34,
+        "maxY": 64,
+        "maxVeinSize": 2,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

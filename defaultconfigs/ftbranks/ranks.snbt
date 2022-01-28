@@ -1,0 +1,20 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+		ftbranks.name_format: "<{name}>"
+		command: false
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 50
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "<&2{name}&r>"
+		ftbchunks.max_claimed: 100000
+		ftbchunks.max_force_loaded: 100000
+		command: true
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "create:zinc_ore",
+        "filler": "minecraft:stone",
+        "minY": 15,
+        "maxY": 70,
+        "maxVeinSize": 14,
+        "spawnRate": 4.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

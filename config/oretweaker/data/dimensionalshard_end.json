@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "rftoolsbase:dimensionalshard_end",
+        "filler": "minecraft:end_stone",
+        "minY": 1,
+        "maxY": 70,
+        "maxVeinSize": 12,
+        "spawnRate": 40.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

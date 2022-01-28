@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "immersiveengineering:ore_aluminum",
+        "filler": "minecraft:stone",
+        "minY": 34,
+        "maxY": 64,
+        "maxVeinSize": 6,
+        "spawnRate": 10.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

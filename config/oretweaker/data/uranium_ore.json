@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "mekanism:uranium_ore",
+        "filler": "minecraft:stone",
+        "minY": 1,
+        "maxY": 33,
+        "maxVeinSize": 2,
+        "spawnRate": 5.0,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }

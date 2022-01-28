@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "quark:smooth_basalt",
+        "filler": "minecraft:stone",
+        "minY": 30,
+        "maxY": 70,
+        "maxVeinSize": 128,
+        "spawnRate": 0.015625,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }
