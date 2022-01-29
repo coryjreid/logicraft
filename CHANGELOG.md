@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2
+### Updated
+- AppleSkin
+
 ## 2.0.1
 ### Removed
 - Alex's Mobs config

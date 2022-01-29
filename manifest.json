@@ -1,847 +1,979 @@
 {
+    "name": "Logicraft_",
+    "version": "2.0.2",
     "author": "Aezshma",
-    "files": [
-        {
-            "alias": "Just Enough Resources (JER) (JustEnoughResources-1.16.5-0.12.1.133.jar)",
-            "fileID": 3545538,
-            "projectID": 240630,
-            "required": true
-        },
-        {
-            "alias": "RFTools Power (rftoolspower-1.16-3.0.13.jar)",
-            "fileID": 3603473,
-            "projectID": 290209,
-            "required": true
-        },
-        {
-            "alias": "Create (create-mc1.16.5_v0.3.2g.jar)",
-            "fileID": 3536025,
-            "projectID": 328085,
-            "required": true
-        },
-        {
-            "alias": "Bad Wither No Cookie - Reloaded (bwncr-1.16.5-3.10.16.jar)",
-            "fileID": 3430455,
-            "projectID": 261251,
-            "required": true
-        },
-        {
-            "alias": "Thermal Cultivation (thermal_cultivation-1.16.5-1.4.1.3.jar)",
-            "fileID": 3555668,
-            "projectID": 271835,
-            "required": true
-        },
-        {
-            "alias": "In Control! (incontrol-1.16-5.2.2.jar)",
-            "fileID": 3513646,
-            "projectID": 257356,
-            "required": true
-        },
-        {
-            "alias": "Extra Disks (extradisks-1.16.4-1.5.1.jar)",
-            "fileID": 3328131,
-            "projectID": 351491,
-            "required": true
-        },
-        {
-            "alias": "Cosmetic Armor Reworked (CosmeticArmorReworked-1.16.5-v4a.jar)",
-            "fileID": 3540310,
-            "projectID": 237307,
-            "required": true
-        },
-        {
-            "alias": "Mystical Agradditions (MysticalAgradditions-1.16.5-4.2.4.jar)",
-            "fileID": 3548286,
-            "projectID": 256247,
-            "required": true
-        },
-        {
-            "alias": "Simply Jetpacks 2 (SimplyJetpacks2-1.16.5-2.6.12.1.jar)",
-            "fileID": 3616295,
-            "projectID": 251792,
-            "required": true
-        },
-        {
-            "alias": "KubeJS Thermal (kubejs-thermal-1605.1.4-build.4.jar)",
-            "fileID": 3573381,
-            "projectID": 421694,
-            "required": true
-        },
-        {
-            "alias": "Morpheus (Morpheus-1.16.5-4.2.70.jar)",
-            "fileID": 3215383,
-            "projectID": 69118,
-            "required": true
-        },
-        {
-            "alias": "ZeroCore 2 (ZeroCore2-1.16.5-2.1.9.jar)",
-            "fileID": 3568788,
-            "projectID": 247921,
-            "required": true
-        },
-        {
-            "alias": "Botania (Botania-1.16.5-420.2.jar)",
-            "fileID": 3608755,
-            "projectID": 225643,
-            "required": true
-        },
-        {
-            "alias": "Pam's HarvestCraft 2 - Trees (pamhc2trees-1.16.3-1.0.1.jar)",
-            "fileID": 3281234,
-            "projectID": 365460,
-            "required": true
-        },
-        {
-            "alias": "Pam's HarvestCraft 2 - Food Extended (pamhc2foodextended-1.16.3-1.0.4.jar)",
-            "fileID": 3418627,
-            "projectID": 402231,
-            "required": true
-        },
-        {
-            "alias": "Thermal Foundation (thermal_foundation-1.16.5-1.4.3.10.jar)",
-            "fileID": 3621736,
-            "projectID": 222880,
-            "required": true
-        },
-        {
-            "alias": "FTB Library (Forge) (ftb-library-forge-1605.3.4-build.90.jar)",
-            "fileID": 3553840,
-            "projectID": 404465,
-            "required": true
-        },
-        {
-            "alias": "FTB Teams (Forge) (ftb-teams-forge-1605.2.3-build.40.jar)",
-            "fileID": 3535953,
-            "projectID": 404468,
-            "required": true
-        },
-        {
-            "alias": "Mekanism (Mekanism-1.16.5-10.1.1.456.jar)",
-            "fileID": 3590099,
-            "projectID": 268560,
-            "required": true
-        },
-        {
-            "alias": "spark (spark-fabric.jar)",
-            "fileID": 3337642,
-            "projectID": 361579,
-            "required": true
-        },
-        {
-            "alias": "Mekanism Generators (MekanismGenerators-1.16.5-10.1.1.456.jar)",
-            "fileID": 3590101,
-            "projectID": 268566,
-            "required": true
-        },
-        {
-            "alias": "CoFH Core (cofh_core-1.16.5-1.4.2.9.jar)",
-            "fileID": 3621734,
-            "projectID": 69162,
-            "required": true
-        },
-        {
-            "alias": "Thermal Expansion (thermal_expansion-1.16.5-1.4.2.4.jar)",
-            "fileID": 3607549,
-            "projectID": 69163,
-            "required": true
-        },
-        {
-            "alias": "Advanced Mining Dimension (mining_dimension-1.16.5-1.0.6.jar)",
-            "fileID": 3485554,
-            "projectID": 332640,
-            "required": true
-        },
-        {
-            "alias": "MattDahEpic Core (MDECore) (mdecore-1.16.4-16.1.0.jar)",
-            "fileID": 3118780,
-            "projectID": 229595,
-            "required": true
-        },
-        {
-            "alias": "RFTools Control (rftoolscontrol-1.16-4.0.14.jar)",
-            "fileID": 3598212,
-            "projectID": 250763,
-            "required": true
-        },
-        {
-            "alias": "Waystones (Waystones_1.16.5-7.6.4.jar)",
-            "fileID": 3515707,
-            "projectID": 245755,
-            "required": true
-        },
-        {
-            "alias": "KubeJS Immersive Engineering (kubejs-immersive-engineering-1605.1.2-build.28.jar)",
-            "fileID": 3612561,
-            "projectID": 421770,
-            "required": true
-        },
-        {
-            "alias": "Comforts (Forge) (comforts-forge-1.16.5-4.0.1.3.jar)",
-            "fileID": 3438373,
-            "projectID": 276951,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Bridges - Oh The Biomes You'll Go (macawsbridgesbyg-1.16.5-2.0.jar)",
-            "fileID": 3564427,
-            "projectID": 535960,
-            "required": true
-        },
-        {
-            "alias": "Placebo (Placebo-1.16.5-4.6.1.jar)",
-            "fileID": 3536806,
-            "projectID": 283644,
-            "required": true
-        },
-        {
-            "alias": "Flywheel (flywheel-1.16-0.2.5.jar)",
-            "fileID": 3535459,
-            "projectID": 486392,
-            "required": true
-        },
-        {
-            "alias": "The One Probe (theoneprobe-1.16-3.1.4.jar)",
-            "fileID": 3319255,
-            "projectID": 245211,
-            "required": true
-        },
-        {
-            "alias": "RFTools Builder (rftoolsbuilder-1.16-3.1.5.jar)",
-            "fileID": 3598209,
-            "projectID": 347706,
-            "required": true
-        },
-        {
-            "alias": "Ore Tweaker (OreTweaker-1.16.5-2.6.0.jar)",
-            "fileID": 3520897,
-            "projectID": 242436,
-            "required": true
-        },
-        {
-            "alias": "Better Advancements (BetterAdvancements-1.16.5-0.1.1.115.jar)",
-            "fileID": 3404330,
-            "projectID": 272515,
-            "required": true
-        },
-        {
-            "alias": "Flux Networks (FluxNetworks-1.16.5-6.2.1.14.jar)",
-            "fileID": 3603093,
-            "projectID": 248020,
-            "required": true
-        },
-        {
-            "alias": "Bookshelf (Bookshelf-Forge-1.16.5-10.4.31.jar)",
-            "fileID": 3604213,
-            "projectID": 228525,
-            "required": true
-        },
-        {
-            "alias": "KleeSlabs (KleeSlabs_1.16.5-9.2.1.jar)",
-            "fileID": 3222119,
-            "projectID": 241895,
-            "required": true
-        },
-        {
-            "alias": "Curios Quark Oddities Backpack (CuriosQuarkOBP-1.16.5-1.0.2.jar)",
-            "fileID": 3199963,
-            "projectID": 445208,
-            "required": true
-        },
-        {
-            "alias": "KubeJS UI (Forge) (kubejs-ui-forge-1605.1.4-build.12.jar)",
-            "fileID": 3415279,
-            "projectID": 423490,
-            "required": true
-        },
-        {
-            "alias": "Extreme Reactors (ExtremeReactors2-1.16.5-2.0.38.jar)",
-            "fileID": 3603636,
-            "projectID": 250277,
-            "required": true
-        },
-        {
-            "alias": "Dynamic View[Forge/Fabric] (dynview.fabric-1.16.5-1.5.jar)",
-            "fileID": 3551510,
-            "projectID": 366140,
-            "required": true
-        },
-        {
-            "alias": "Building Gadgets (buildinggadgets-1.16.5-3.8.2.jar)",
-            "fileID": 3498508,
-            "projectID": 298187,
-            "required": true
-        },
-        {
-            "alias": "AI Improvements (AI-Improvements-1.16.5-0.4.0.jar)",
-            "fileID": 3533942,
-            "projectID": 233019,
-            "required": true
-        },
-        {
-            "alias": "RFTools Base (rftoolsbase-1.16-2.1.2.jar)",
-            "fileID": 3598201,
-            "projectID": 326041,
-            "required": true
-        },
-        {
-            "alias": "FTB Backups (Forge) (ftb-backups-2.1.2.2.jar)",
-            "fileID": 3482306,
-            "projectID": 314904,
-            "required": true
-        },
-        {
-            "alias": "Client Tweaks (ClientTweaks_1.16.3-5.3.0.jar)",
-            "fileID": 3222131,
-            "projectID": 251407,
-            "required": true
-        },
-        {
-            "alias": "FTB Chunks (Forge) (ftb-chunks-forge-1605.3.2-build.115.jar)",
-            "fileID": 3603374,
-            "projectID": 314906,
-            "required": true
-        },
-        {
-            "alias": "YUNG's API (Forge) (YungsApi-1.16.4-Forge-13.jar)",
-            "fileID": 3494919,
-            "projectID": 421850,
-            "required": true
-        },
-        {
-            "alias": "Light Overlay (Rift/Forge/Fabric) (light-overlay-5.8.1.jar)",
-            "fileID": 3356809,
-            "projectID": 325492,
-            "required": true
-        },
-        {
-            "alias": "Bounding Box Outline Reloaded (BBOutlineReloaded-2.4-1.16.3-forge.jar)",
-            "fileID": 3081524,
-            "projectID": 272578,
-            "required": true
-        },
-        {
-            "alias": "Corpse (corpse-1.16.5-1.0.6.jar)",
-            "fileID": 3447907,
-            "projectID": 316582,
-            "required": true
-        },
-        {
-            "alias": "Morph-o-Tool (Morph-o-Tool-1.4-27.jar)",
-            "fileID": 3190374,
-            "projectID": 245287,
-            "required": true
-        },
-        {
-            "alias": "V-Tweaks (VTweaks-1.16.4-3.5.0.jar)",
-            "fileID": 3296506,
-            "projectID": 238048,
-            "required": true
-        },
-        {
-            "alias": "Lost Trinkets (LostTrinkets-1.16.5-0.1.27.jar)",
-            "fileID": 3242497,
-            "projectID": 404038,
-            "required": true
-        },
-        {
-            "alias": "Rhino (rhino-forge-1605.1.5-build.75.jar)",
-            "fileID": 3525704,
-            "projectID": 416294,
-            "required": true
-        },
-        {
-            "alias": "Carry On (carryon-1.16.5-1.15.5.22.jar)",
-            "fileID": 3579466,
-            "projectID": 274259,
-            "required": true
-        },
-        {
-            "alias": "Refined Storage (refinedstorage-1.9.16.jar)",
-            "fileID": 3527504,
-            "projectID": 243076,
-            "required": true
-        },
-        {
-            "alias": "JEI Integration (jeiintegration_1.16.5-7.0.1.15.jar)",
-            "fileID": 3202331,
-            "projectID": 265917,
-            "required": true
-        },
-        {
-            "alias": "Curios API (Forge) (curios-forge-1.16.5-4.0.8.0.jar)",
-            "fileID": 3613039,
-            "projectID": 309927,
-            "required": true
-        },
-        {
-            "alias": "XNet (xnet-1.16-3.0.16.jar)",
-            "fileID": 3598214,
-            "projectID": 260912,
-            "required": true
-        },
-        {
-            "alias": "Wither Skeleton Tweaks (WitherSkeletonTweaks-1.16.5-5.4.1.jar)",
-            "fileID": 3537512,
-            "projectID": 255902,
-            "required": true
-        },
-        {
-            "alias": "Immersive Engineering (ImmersiveEngineering-1.16.5-5.0.7-143.jar)",
-            "fileID": 3578181,
-            "projectID": 231951,
-            "required": true
-        },
-        {
-            "alias": "Dungeon Crawl (DungeonCrawl-1.16.5-2.3.5.jar)",
-            "fileID": 3576775,
-            "projectID": 324973,
-            "required": true
-        },
-        {
-            "alias": "CraftTweaker (CraftTweaker-1.16.5-7.1.2.489.jar)",
-            "fileID": 3604977,
-            "projectID": 239197,
-            "required": true
-        },
-        {
-            "alias": "Crafting Tweaks (CraftingTweaks_1.16.5-12.2.1.jar)",
-            "fileID": 3330406,
-            "projectID": 233071,
-            "required": true
-        },
-        {
-            "alias": "KubeJS (Forge) (kubejs-forge-1605.3.19-build.258.jar)",
-            "fileID": 3584819,
-            "projectID": 238086,
-            "required": true
-        },
-        {
-            "alias": "Oh The Biomes You'll Go (byg-1.3.5.jar)",
-            "fileID": 3485079,
-            "projectID": 247560,
-            "required": true
-        },
-        {
-            "alias": "YUNG's Better Caves (Forge) (BetterCaves-Forge-1.16.4-1.1.2.jar)",
-            "fileID": 3307879,
-            "projectID": 340583,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Bridges (mcw-bridges-2.0.1-mc1.16.5.jar)",
-            "fileID": 3565142,
-            "projectID": 351725,
-            "required": true
-        },
-        {
-            "alias": "Quark (Quark-r2.4-321.jar)",
-            "fileID": 3538744,
-            "projectID": 243121,
-            "required": true
-        },
-        {
-            "alias": "YUNG's Bridges (Forge) (YungsBridges-Forge-1.16.4-1.0.1.jar)",
-            "fileID": 3494974,
-            "projectID": 536660,
-            "required": true
-        },
-        {
-            "alias": "AutoRegLib (AutoRegLib-1.6-49.jar)",
-            "fileID": 3326041,
-            "projectID": 250363,
-            "required": true
-        },
-        {
-            "alias": "Quark Oddities (QuarkOddities-1.16.3.jar)",
-            "fileID": 3088871,
-            "projectID": 301051,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Furniture (mcw-furniture-2.0.1-mc1.16.5.jar)",
-            "fileID": 3182349,
-            "projectID": 359540,
-            "required": true
-        },
-        {
-            "alias": "Architectury API (Forge) (architectury-1.28.48.jar)",
-            "fileID": 3587404,
-            "projectID": 419699,
-            "required": true
-        },
-        {
-            "alias": "McJtyLib (mcjtylib-1.16-5.1.3.jar)",
-            "fileID": 3598199,
-            "projectID": 233105,
-            "required": true
-        },
-        {
-            "alias": "MrCrayfish's Furniture Mod (cfm-7.0.0pre22-1.16.3.jar)",
-            "fileID": 3346467,
-            "projectID": 55438,
-            "required": true
-        },
-        {
-            "alias": "Compact Machines (compactmachines-4.0.0-beta.2.jar)",
-            "fileID": 3229196,
-            "projectID": 224218,
-            "required": true
-        },
-        {
-            "alias": "Controlling (Controlling-7.0.0.28.jar)",
-            "fileID": 3531453,
-            "projectID": 250398,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Paintings (mcw-paintings-1.0.2-mc1.16.5.jar)",
-            "fileID": 3394922,
-            "projectID": 438116,
-            "required": true
-        },
-        {
-            "alias": "Blood Magic  (BloodMagic-1.16.4-3.1.7-27.jar)",
-            "fileID": 3568763,
-            "projectID": 224791,
-            "required": true
-        },
-        {
-            "alias": "YUNG's Better Mineshafts (Forge) (BetterMineshafts-Forge-1.16.4-2.0.4.jar)",
-            "fileID": 3344719,
-            "projectID": 389665,
-            "required": true
-        },
-        {
-            "alias": "RFTools Dimensions (rftoolsdim-1.16-7.0.20-beta.jar)",
-            "fileID": 3598203,
-            "projectID": 240950,
-            "required": true
-        },
-        {
-            "alias": "Inventory Crafting Grid (invcrafting-1.16.2-1.1.2.jar)",
-            "fileID": 3036507,
-            "projectID": 232597,
-            "required": true
-        },
-        {
-            "alias": "Immersive Petroleum (ImmersivePetroleum-1.16.5-3.3.0-11.jar)",
-            "fileID": 3608210,
-            "projectID": 268250,
-            "required": true
-        },
-        {
-            "alias": "SwingThroughGrass (swingthroughgrass-1.16.4-1.5.3.jar)",
-            "fileID": 3103028,
-            "projectID": 264353,
-            "required": true
-        },
-        {
-            "alias": "AttributeFix (AttributeFix-1.16.5-10.1.3.jar)",
-            "fileID": 3348562,
-            "projectID": 280510,
-            "required": true
-        },
-        {
-            "alias": "KubeJS Mekanism (kubejs-mekanism-1605.1.2-build.2.jar)",
-            "fileID": 3446472,
-            "projectID": 418651,
-            "required": true
-        },
-        {
-            "alias": "FerriteCore (Forge) (ferritecore-2.1.0-forge.jar)",
-            "fileID": 3485636,
-            "projectID": 429235,
-            "required": true
-        },
-        {
-            "alias": "Thermal Locomotion (thermal_locomotion-1.16.5-1.4.1.2.jar)",
-            "fileID": 3555670,
-            "projectID": 406959,
-            "required": true
-        },
-        {
-            "alias": "FastWorkbench (FastWorkbench-1.16.5-4.6.1.jar)",
-            "fileID": 3566919,
-            "projectID": 288885,
-            "required": true
-        },
-        {
-            "alias": "AppleSkin (appleskin-forge-mc1.16.x-2.3.0.jar)",
-            "fileID": 3626709,
-            "projectID": 248787,
-            "required": true
-        },
-        {
-            "alias": "Flat Bedrock (flatbedrock-1.2.0-build.2+mc1.16.5.jar)",
-            "fileID": 3438815,
-            "projectID": 398623,
-            "required": true
-        },
-        {
-            "alias": "Fast Leaf Decay (FastLeafDecay-v25.2.jar)",
-            "fileID": 3590413,
-            "projectID": 230976,
-            "required": true
-        },
-        {
-            "alias": "Auto Ore Dictionary Converter (autooredictconv-1.16.4-16.1.10.jar)",
-            "fileID": 3285544,
-            "projectID": 232650,
-            "required": true
-        },
-        {
-            "alias": "Just Enough Items (JEI) (jei-1.16.5-7.7.1.145.jar)",
-            "fileID": 3607578,
-            "projectID": 238222,
-            "required": true
-        },
-        {
-            "alias": "Lollipop (Lollipop-1.16.5-3.2.9.jar)",
-            "fileID": 3232534,
-            "projectID": 347954,
-            "required": true
-        },
-        {
-            "alias": "Cloth Config API (Forge) (cloth-config-4.13.49-forge.jar)",
-            "fileID": 3559634,
-            "projectID": 348521,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Windows (mcw-windows-2.0.2-mc1.16.5.jar)",
-            "fileID": 3565137,
-            "projectID": 363569,
-            "required": true
-        },
-        {
-            "alias": "Inventory Tweaks Renewed (invtweaks-1.16.4-1.0.1.jar)",
-            "fileID": 3102237,
-            "projectID": 383070,
-            "required": true
-        },
-        {
-            "alias": "SuperMartijn642's Core Lib (supermartijn642corelib-1.0.16-mc1.16.5.jar)",
-            "fileID": 3596490,
-            "projectID": 454372,
-            "required": true
-        },
-        {
-            "alias": "Default Options (DefaultOptions_1.16.5-12.2.1.jar)",
-            "fileID": 3330403,
-            "projectID": 232131,
-            "required": true
-        },
-        {
-            "alias": "Patchouli (Patchouli-1.16.4-53.2.jar)",
-            "fileID": 3459118,
-            "projectID": 306770,
-            "required": true
-        },
-        {
-            "alias": "Thermal Innovation (thermal_innovation-1.16.5-1.4.1.3.jar)",
-            "fileID": 3556270,
-            "projectID": 291737,
-            "required": true
-        },
-        {
-            "alias": "RandomPatches (Forge) (randompatches-2.4.4-forge.jar)",
-            "fileID": 3211323,
-            "projectID": 285612,
-            "required": true
-        },
-        {
-            "alias": "YUNG's Extras (Forge) (YungsExtras-Forge-1.16.4-1.0.jar)",
-            "fileID": 3303283,
-            "projectID": 480006,
-            "required": true
-        },
-        {
-            "alias": "FastFurnace (FastFurnace-1.16.5-4.5.0.jar)",
-            "fileID": 3531342,
-            "projectID": 299540,
-            "required": true
-        },
-        {
-            "alias": "YUNG's Better Dungeons (Forge) (BetterDungeons-1.16.4-1.2.1.jar)",
-            "fileID": 3476138,
-            "projectID": 510089,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Doors (mcw-doors-1.0.5-mc1.16.5.jar)",
-            "fileID": 3565136,
-            "projectID": 378646,
-            "required": true
-        },
-        {
-            "alias": "Mystical Agriculture (MysticalAgriculture-1.16.5-4.2.6.jar)",
-            "fileID": 3562127,
-            "projectID": 246640,
-            "required": true
-        },
-        {
-            "alias": "Pam's HarvestCraft 2 - Crops (pamhc2crops-1.16.3-1.0.2.jar)",
-            "fileID": 3276350,
-            "projectID": 361385,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Trapdoors (mcw-trapdoors-1.0.4-mc1.16.5.jar)",
-            "fileID": 3565140,
-            "projectID": 400933,
-            "required": true
-        },
-        {
-            "alias": "ObserverLib (observerlib-1.16.5-1.5.3.jar)",
-            "fileID": 3333962,
-            "projectID": 316833,
-            "required": true
-        },
-        {
-            "alias": "Pam's HarvestCraft 2 - Food Core (pamhc2foodcore-1.16.3-1.0.2.jar)",
-            "fileID": 3190867,
-            "projectID": 372534,
-            "required": true
-        },
-        {
-            "alias": "RFTools Utility (rftoolsutility-1.16-3.1.9.jar)",
-            "fileID": 3604749,
-            "projectID": 342466,
-            "required": true
-        },
-        {
-            "alias": "YUNG's Better Strongholds (Forge) (BetterStrongholds-1.16.4-1.2.1.jar)",
-            "fileID": 3412586,
-            "projectID": 465575,
-            "required": true
-        },
-        {
-            "alias": "KubeJS Create (kubejs-create-1605.1.4-build.12.jar)",
-            "fileID": 3584608,
-            "projectID": 429371,
-            "required": true
-        },
-        {
-            "alias": "Toast Control (ToastControl-1.16.5-4.4.0.jar)",
-            "fileID": 3556882,
-            "projectID": 271740,
-            "required": true
-        },
-        {
-            "alias": "Dynamic Surroundings (DynamicSurroundings-1.16.5-4.0.5.0.jar)",
-            "fileID": 3502320,
-            "projectID": 238891,
-            "required": true
-        },
-        {
-            "alias": "Immersive Posts (immersiveposts-1.16.5-4.2.2.jar)",
-            "fileID": 3455488,
-            "projectID": 314645,
-            "required": true
-        },
-        {
-            "alias": "Clumps (Clumps-6.0.0.27.jar)",
-            "fileID": 3481298,
-            "projectID": 256717,
-            "required": true
-        },
-        {
-            "alias": "Chisels & Bits - For Forge (chiselsandbits-1.0.63.jar)",
-            "fileID": 3593643,
-            "projectID": 231095,
-            "required": true
-        },
-        {
-            "alias": "KubeJS Blood Magic (kubejs-blood-magic-1605.1.1-build.3.jar)",
-            "fileID": 3451660,
-            "projectID": 428277,
-            "required": true
-        },
-        {
-            "alias": "Inventory HUD+ (InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar)",
-            "fileID": 3505181,
-            "projectID": 357540,
-            "required": true
-        },
-        {
-            "alias": "World Stripper (World Stripper-1.16.5-2.1.0.jar)",
-            "fileID": 3415529,
-            "projectID": 250603,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Lights and Lamps (mcw-lights-1.0.2-mc1.16.5.jar)",
-            "fileID": 3565139,
-            "projectID": 502372,
-            "required": true
-        },
-        {
-            "alias": "Cucumber Library (Cucumber-1.16.5-4.1.12.jar)",
-            "fileID": 3507886,
-            "projectID": 272335,
-            "required": true
-        },
-        {
-            "alias": "TrashSlot (TrashSlot_1.16.3-12.2.1.jar)",
-            "fileID": 3098221,
-            "projectID": 235577,
-            "required": true
-        },
-        {
-            "alias": "JourneyMap (journeymap-1.16.5-5.8.0beta11.jar)",
-            "fileID": 3621132,
-            "projectID": 32274,
-            "required": true
-        },
-        {
-            "alias": "Macaw's Fences and Walls (mcw-fences-1.0.2-mc1.16.5.jar)",
-            "fileID": 3565138,
-            "projectID": 453925,
-            "required": true
-        },
-        {
-            "alias": "Nature's Compass (NaturesCompass-1.16.5-2.0.1-fabric.jar)",
-            "fileID": 3404859,
-            "projectID": 252848,
-            "required": true
-        },
-        {
-            "alias": "SuperMartijn642's Config Lib (supermartijn642configlib-1.0.9-mc1.16.jar)",
-            "fileID": 3413938,
-            "projectID": 438332,
-            "required": true
-        },
-        {
-            "alias": "Astral Sorcery (astralsorcery-1.16-1.16.5-1.13.12.jar)",
-            "fileID": 3333980,
-            "projectID": 241721,
-            "required": true
-        },
-        {
-            "alias": "JEITweaker (JEITweaker-1.16.5-1.1.0.49.jar)",
-            "fileID": 3584024,
-            "projectID": 368718,
-            "required": true
-        },
-        {
-            "alias": "BetterEnd (Forge) (betterendforge-1.16.5-1.6.3.jar)",
-            "fileID": 3467948,
-            "projectID": 428877,
-            "required": true
-        }
-    ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "minecraft": {
-        "modLoaders": [
-            {
-                "id": "forge-36.2.23",
-                "primary": true
-            }
-        ],
         "version": "1.16.5"
     },
-    "name": "Logicraft_",
     "overrides": "overrides",
-    "version": "2.0.0"
+    "files": [
+        {
+            "modId": 240630,
+            "displayName": "JustEnoughResources-1.16.5-0.12.1.133",
+            "fileName": "JustEnoughResources-1.16.5-0.12.1.133.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3545/538/JustEnoughResources-1.16.5-0.12.1.133.jar",
+            "fileLength": 235560
+        },
+        {
+            "modId": 290209,
+            "displayName": "RFToolsPower - 1.16-3.0.13",
+            "fileName": "rftoolspower-1.16-3.0.13.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3603/473/rftoolspower-1.16-3.0.13.jar",
+            "fileLength": 558162
+        },
+        {
+            "modId": 328085,
+            "displayName": "Create 1.16.5 v0.3.2g",
+            "fileName": "create-mc1.16.5_v0.3.2g.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3536/25/create-mc1.16.5_v0.3.2g.jar",
+            "fileLength": 11564279
+        },
+        {
+            "modId": 261251,
+            "displayName": "bwncr-1.16.5-3.10.16.jar",
+            "fileName": "bwncr-1.16.5-3.10.16.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3430/455/bwncr-1.16.5-3.10.16.jar",
+            "fileLength": 10554
+        },
+        {
+            "modId": 271835,
+            "displayName": "thermal_cultivation-1.16.5-1.4.1.3.jar",
+            "fileName": "thermal_cultivation-1.16.5-1.4.1.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3555/668/thermal_cultivation-1.16.5-1.4.1.3.jar",
+            "fileLength": 662926
+        },
+        {
+            "modId": 257356,
+            "displayName": "InControl - 1.16-5.2.2",
+            "fileName": "incontrol-1.16-5.2.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3513/646/incontrol-1.16-5.2.2.jar",
+            "fileLength": 190565
+        },
+        {
+            "modId": 351491,
+            "displayName": "extradisks-1.16.4-1.5.1.jar",
+            "fileName": "extradisks-1.16.4-1.5.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3328/131/extradisks-1.16.4-1.5.1.jar",
+            "fileLength": 244548
+        },
+        {
+            "modId": 237307,
+            "displayName": "CosmeticArmorReworked-1.16.5-v4a.jar",
+            "fileName": "CosmeticArmorReworked-1.16.5-v4a.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3540/310/CosmeticArmorReworked-1.16.5-v4a.jar",
+            "fileLength": 87320
+        },
+        {
+            "modId": 256247,
+            "displayName": "MysticalAgradditions-1.16.5-4.2.4.jar",
+            "fileName": "MysticalAgradditions-1.16.5-4.2.4.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3548/286/MysticalAgradditions-1.16.5-4.2.4.jar",
+            "fileLength": 259873
+        },
+        {
+            "modId": 251792,
+            "displayName": "SimplyJetpacks2-1.16.5-2.6.12.1.jar",
+            "fileName": "SimplyJetpacks2-1.16.5-2.6.12.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3616/295/SimplyJetpacks2-1.16.5-2.6.12.1.jar",
+            "fileLength": 555850
+        },
+        {
+            "modId": 421694,
+            "displayName": "kubejs-thermal-1605.1.4-build.4.jar",
+            "fileName": "kubejs-thermal-1605.1.4-build.4.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3573/381/kubejs-thermal-1605.1.4-build.4.jar",
+            "fileLength": 20345
+        },
+        {
+            "modId": 69118,
+            "displayName": "Morpheus-1.16.5-4.2.70.jar",
+            "fileName": "Morpheus-1.16.5-4.2.70.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3215/383/Morpheus-1.16.5-4.2.70.jar",
+            "fileLength": 24390
+        },
+        {
+            "modId": 247921,
+            "displayName": "ZeroCore2-1.16.5-2.1.9.jar",
+            "fileName": "ZeroCore2-1.16.5-2.1.9.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3568/788/ZeroCore2-1.16.5-2.1.9.jar",
+            "fileLength": 1121819
+        },
+        {
+            "modId": 225643,
+            "displayName": "Botania-1.16.5-420.2.jar",
+            "fileName": "Botania-1.16.5-420.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3608/755/Botania-1.16.5-420.2.jar",
+            "fileLength": 15045251
+        },
+        {
+            "modId": 365460,
+            "displayName": "pamhc2trees-1.16.3-1.0.1.jar",
+            "fileName": "pamhc2trees-1.16.3-1.0.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3281/234/pamhc2trees-1.16.3-1.0.1.jar",
+            "fileLength": 545339
+        },
+        {
+            "modId": 402231,
+            "displayName": "pamhc2foodextended-1.16.3-1.0.4.jar",
+            "fileName": "pamhc2foodextended-1.16.3-1.0.4.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3418/627/pamhc2foodextended-1.16.3-1.0.4.jar",
+            "fileLength": 1926268
+        },
+        {
+            "modId": 222880,
+            "displayName": "thermal_foundation-1.16.5-1.4.3.10.jar",
+            "fileName": "thermal_foundation-1.16.5-1.4.3.10.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3621/736/thermal_foundation-1.16.5-1.4.3.10.jar",
+            "fileLength": 4901156
+        },
+        {
+            "modId": 404465,
+            "displayName": "ftb-library-forge-1605.3.4-build.90.jar",
+            "fileName": "ftb-library-forge-1605.3.4-build.90.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3553/840/ftb-library-forge-1605.3.4-build.90.jar",
+            "fileLength": 585125
+        },
+        {
+            "modId": 268560,
+            "displayName": "Mekanism-1.16.5-10.1.1.456.jar",
+            "fileName": "Mekanism-1.16.5-10.1.1.456.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3590/99/Mekanism-1.16.5-10.1.1.456.jar",
+            "fileLength": 11155373
+        },
+        {
+            "modId": 361579,
+            "displayName": "1.6.0 (Forge 1.16.5)",
+            "fileName": "spark-forge.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3337/641/spark-forge.jar",
+            "fileLength": 2519703
+        },
+        {
+            "modId": 404468,
+            "displayName": "ftb-teams-forge-1605.2.3-build.40.jar",
+            "fileName": "ftb-teams-forge-1605.2.3-build.40.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3535/953/ftb-teams-forge-1605.2.3-build.40.jar",
+            "fileLength": 171679
+        },
+        {
+            "modId": 268566,
+            "displayName": "MekanismGenerators-1.16.5-10.1.1.456.jar",
+            "fileName": "MekanismGenerators-1.16.5-10.1.1.456.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3590/101/MekanismGenerators-1.16.5-10.1.1.456.jar",
+            "fileLength": 981335
+        },
+        {
+            "modId": 69162,
+            "displayName": "cofh_core-1.16.5-1.4.2.9.jar",
+            "fileName": "cofh_core-1.16.5-1.4.2.9.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3621/734/cofh_core-1.16.5-1.4.2.9.jar",
+            "fileLength": 1326105
+        },
+        {
+            "modId": 69163,
+            "displayName": "thermal_expansion-1.16.5-1.4.2.4.jar",
+            "fileName": "thermal_expansion-1.16.5-1.4.2.4.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3607/549/thermal_expansion-1.16.5-1.4.2.4.jar",
+            "fileLength": 709356
+        },
+        {
+            "modId": 332640,
+            "displayName": "[1.16.5] Mining World 1.16.5-1.0.6",
+            "fileName": "mining_dimension-1.16.5-1.0.6.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3485/554/mining_dimension-1.16.5-1.0.6.jar",
+            "fileLength": 138474
+        },
+        {
+            "modId": 229595,
+            "displayName": "mdecore-1.16.4-16.1.0.jar",
+            "fileName": "mdecore-1.16.4-16.1.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3118/780/mdecore-1.16.4-16.1.0.jar",
+            "fileLength": 28917
+        },
+        {
+            "modId": 250763,
+            "displayName": "RFToolsControl - 1.16-4.0.14",
+            "fileName": "rftoolscontrol-1.16-4.0.14.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3598/212/rftoolscontrol-1.16-4.0.14.jar",
+            "fileLength": 593203
+        },
+        {
+            "modId": 245755,
+            "displayName": "Waystones_1.16.5-7.6.4.jar",
+            "fileName": "Waystones_1.16.5-7.6.4.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3515/707/Waystones_1.16.5-7.6.4.jar",
+            "fileLength": 375934
+        },
+        {
+            "modId": 421770,
+            "displayName": "kubejs-immersive-engineering-1605.1.2-build.28.jar",
+            "fileName": "kubejs-immersive-engineering-1605.1.2-build.28.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3612/561/kubejs-immersive-engineering-1605.1.2-build.28.jar",
+            "fileLength": 24194
+        },
+        {
+            "modId": 276951,
+            "displayName": "comforts-forge-1.16.5-4.0.1.3.jar",
+            "fileName": "comforts-forge-1.16.5-4.0.1.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3438/373/comforts-forge-1.16.5-4.0.1.3.jar",
+            "fileLength": 225523
+        },
+        {
+            "modId": 535960,
+            "displayName": "macawsbridgesbyg-1.16.5-2.0",
+            "fileName": "macawsbridgesbyg-1.16.5-2.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3564/427/macawsbridgesbyg-1.16.5-2.0.jar",
+            "fileLength": 738311
+        },
+        {
+            "modId": 283644,
+            "displayName": "Placebo-1.16.5-4.6.1.jar",
+            "fileName": "Placebo-1.16.5-4.6.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3536/806/Placebo-1.16.5-4.6.1.jar",
+            "fileLength": 145933
+        },
+        {
+            "modId": 486392,
+            "displayName": "flywheel-1.16-0.2.5.jar",
+            "fileName": "flywheel-1.16-0.2.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3535/459/flywheel-1.16-0.2.5.jar",
+            "fileLength": 420923
+        },
+        {
+            "modId": 245211,
+            "displayName": "TheOneProbe - 1.16-3.1.4",
+            "fileName": "theoneprobe-1.16-3.1.4.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3319/255/theoneprobe-1.16-3.1.4.jar",
+            "fileLength": 327081
+        },
+        {
+            "modId": 347706,
+            "displayName": "RFToolsBuilder - 1.16-3.1.5",
+            "fileName": "rftoolsbuilder-1.16-3.1.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3598/209/rftoolsbuilder-1.16-3.1.5.jar",
+            "fileLength": 538044
+        },
+        {
+            "modId": 242436,
+            "displayName": "OreTweaker-1.16.5-2.6.0.jar",
+            "fileName": "OreTweaker-1.16.5-2.6.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3520/897/OreTweaker-1.16.5-2.6.0.jar",
+            "fileLength": 80554
+        },
+        {
+            "modId": 272515,
+            "displayName": "BetterAdvancements-1.16.5-0.1.1.115",
+            "fileName": "BetterAdvancements-1.16.5-0.1.1.115.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3404/330/BetterAdvancements-1.16.5-0.1.1.115.jar",
+            "fileLength": 63647
+        },
+        {
+            "modId": 248020,
+            "displayName": "Flux-Networks-1.16.5-6.2.1",
+            "fileName": "FluxNetworks-1.16.5-6.2.1.14.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3603/93/FluxNetworks-1.16.5-6.2.1.14.jar",
+            "fileLength": 468128
+        },
+        {
+            "modId": 228525,
+            "displayName": "Bookshelf-Forge-1.16.5-10.4.31.jar",
+            "fileName": "Bookshelf-Forge-1.16.5-10.4.31.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3604/213/Bookshelf-Forge-1.16.5-10.4.31.jar",
+            "fileLength": 316237
+        },
+        {
+            "modId": 241895,
+            "displayName": "KleeSlabs_1.16.5-9.2.1.jar",
+            "fileName": "KleeSlabs_1.16.5-9.2.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3222/119/KleeSlabs_1.16.5-9.2.1.jar",
+            "fileLength": 38992
+        },
+        {
+            "modId": 445208,
+            "displayName": "CuriosQuarkOBP-1.16.5-1.0.2.jar",
+            "fileName": "CuriosQuarkOBP-1.16.5-1.0.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3199/963/CuriosQuarkOBP-1.16.5-1.0.2.jar",
+            "fileLength": 14638
+        },
+        {
+            "modId": 423490,
+            "displayName": "kubejs-ui-forge-1605.1.4-build.12.jar",
+            "fileName": "kubejs-ui-forge-1605.1.4-build.12.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3415/279/kubejs-ui-forge-1605.1.4-build.12.jar",
+            "fileLength": 55458
+        },
+        {
+            "modId": 250277,
+            "displayName": "ExtremeReactors2-1.16.5-2.0.38.jar",
+            "fileName": "ExtremeReactors2-1.16.5-2.0.38.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3603/636/ExtremeReactors2-1.16.5-2.0.38.jar",
+            "fileLength": 2283017
+        },
+        {
+            "modId": 366140,
+            "displayName": "dynviewdist-2.0.jar",
+            "fileName": "dynviewdist-2.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3358/883/dynviewdist-2.0.jar",
+            "fileLength": 13472
+        },
+        {
+            "modId": 298187,
+            "displayName": "buildinggadgets-1.16.5-3.8.2.jar",
+            "fileName": "buildinggadgets-1.16.5-3.8.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3498/508/buildinggadgets-1.16.5-3.8.2.jar",
+            "fileLength": 912083
+        },
+        {
+            "modId": 233019,
+            "displayName": "AI-Improvements-1.16.5-0.4.0.jar",
+            "fileName": "AI-Improvements-1.16.5-0.4.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3533/942/AI-Improvements-1.16.5-0.4.0.jar",
+            "fileLength": 24737
+        },
+        {
+            "modId": 326041,
+            "displayName": "RFToolsBase - 1.16-2.1.2",
+            "fileName": "rftoolsbase-1.16-2.1.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3598/201/rftoolsbase-1.16-2.1.2.jar",
+            "fileLength": 414239
+        },
+        {
+            "modId": 314904,
+            "displayName": "ftb-backups-2.1.2.2.jar",
+            "fileName": "ftb-backups-2.1.2.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3482/306/ftb-backups-2.1.2.2.jar",
+            "fileLength": 44027
+        },
+        {
+            "modId": 251407,
+            "displayName": "ClientTweaks_1.16.3-5.3.0.jar",
+            "fileName": "ClientTweaks_1.16.3-5.3.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3222/131/ClientTweaks_1.16.3-5.3.0.jar",
+            "fileLength": 31203
+        },
+        {
+            "modId": 421850,
+            "displayName": "[1.16.4 / 1.16.5] YUNG's API vForge-13",
+            "fileName": "YungsApi-1.16.4-Forge-13.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3494/919/YungsApi-1.16.4-Forge-13.jar",
+            "fileLength": 106058
+        },
+        {
+            "modId": 314906,
+            "displayName": "ftb-chunks-forge-1605.3.2-build.115.jar",
+            "fileName": "ftb-chunks-forge-1605.3.2-build.115.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3603/374/ftb-chunks-forge-1605.3.2-build.115.jar",
+            "fileLength": 737811
+        },
+        {
+            "modId": 325492,
+            "displayName": "[Forge / Fabric 1.16.4/5] v5.8.1",
+            "fileName": "light-overlay-5.8.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3296/489/light-overlay-5.8.1.jar",
+            "fileLength": 92913
+        },
+        {
+            "modId": 272578,
+            "displayName": "BBOutlineReloaded-2.4-1.16.3-forge.jar",
+            "fileName": "BBOutlineReloaded-2.4-1.16.3-forge.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3081/524/BBOutlineReloaded-2.4-1.16.3-forge.jar",
+            "fileLength": 302721
+        },
+        {
+            "modId": 316582,
+            "displayName": "[1.16.5] Corpse 1.16.5-1.0.6",
+            "fileName": "corpse-1.16.5-1.0.6.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3447/907/corpse-1.16.5-1.0.6.jar",
+            "fileLength": 203988
+        },
+        {
+            "modId": 245287,
+            "displayName": "Morph-o-Tool-1.4-27.jar",
+            "fileName": "Morph-o-Tool-1.4-27.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3190/374/Morph-o-Tool-1.4-27.jar",
+            "fileLength": 32615
+        },
+        {
+            "modId": 238048,
+            "displayName": "V-Tweaks 1.16.x 3.5.0",
+            "fileName": "VTweaks-1.16.4-3.5.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3296/506/VTweaks-1.16.4-3.5.0.jar",
+            "fileLength": 110869
+        },
+        {
+            "modId": 404038,
+            "displayName": "LostTrinkets-1.16.5-0.1.27.jar",
+            "fileName": "LostTrinkets-1.16.5-0.1.27.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3242/497/LostTrinkets-1.16.5-0.1.27.jar",
+            "fileLength": 323141
+        },
+        {
+            "modId": 416294,
+            "displayName": "rhino-forge-1605.1.5-build.75.jar",
+            "fileName": "rhino-forge-1605.1.5-build.75.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3525/704/rhino-forge-1605.1.5-build.75.jar",
+            "fileLength": 1030440
+        },
+        {
+            "modId": 274259,
+            "displayName": "carryon-1.16.5-1.15.5.22",
+            "fileName": "carryon-1.16.5-1.15.5.22.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3579/466/carryon-1.16.5-1.15.5.22.jar",
+            "fileLength": 322836
+        },
+        {
+            "modId": 243076,
+            "displayName": "Refined Storage 1.9.16",
+            "fileName": "refinedstorage-1.9.16.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3527/504/refinedstorage-1.9.16.jar",
+            "fileLength": 3220785
+        },
+        {
+            "modId": 265917,
+            "displayName": "jeiintegration_1.16.5-7.0.1.15",
+            "fileName": "jeiintegration_1.16.5-7.0.1.15.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3202/331/jeiintegration_1.16.5-7.0.1.15.jar",
+            "fileLength": 24981
+        },
+        {
+            "modId": 309927,
+            "displayName": "curios-forge-1.16.5-4.0.5.3.jar",
+            "fileName": "curios-forge-1.16.5-4.0.5.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3456/953/curios-forge-1.16.5-4.0.5.3.jar",
+            "fileLength": 246281
+        },
+        {
+            "modId": 260912,
+            "displayName": "XNet - 1.16-3.0.16",
+            "fileName": "xnet-1.16-3.0.16.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3598/214/xnet-1.16-3.0.16.jar",
+            "fileLength": 521736
+        },
+        {
+            "modId": 255902,
+            "displayName": "WitherSkeletonTweaks-1.16.5-5.4.1.jar",
+            "fileName": "WitherSkeletonTweaks-1.16.5-5.4.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3537/512/WitherSkeletonTweaks-1.16.5-5.4.1.jar",
+            "fileLength": 27401
+        },
+        {
+            "modId": 231951,
+            "displayName": "ImmersiveEngineering-1.16.5-5.0.7-143",
+            "fileName": "ImmersiveEngineering-1.16.5-5.0.7-143.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3578/181/ImmersiveEngineering-1.16.5-5.0.7-143.jar",
+            "fileLength": 10216783
+        },
+        {
+            "modId": 324973,
+            "displayName": "DungeonCrawl-1.16.5-2.3.5",
+            "fileName": "DungeonCrawl-1.16.5-2.3.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3576/775/DungeonCrawl-1.16.5-2.3.5.jar",
+            "fileLength": 778769
+        },
+        {
+            "modId": 239197,
+            "displayName": "CraftTweaker-1.16.5-7.1.2.489.jar",
+            "fileName": "CraftTweaker-1.16.5-7.1.2.489.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3604/977/CraftTweaker-1.16.5-7.1.2.489.jar",
+            "fileLength": 2463967
+        },
+        {
+            "modId": 233071,
+            "displayName": "CraftingTweaks_1.16.5-12.2.1.jar",
+            "fileName": "CraftingTweaks_1.16.5-12.2.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3330/406/CraftingTweaks_1.16.5-12.2.1.jar",
+            "fileLength": 111189
+        },
+        {
+            "modId": 238086,
+            "displayName": "kubejs-forge-1605.3.19-build.258.jar",
+            "fileName": "kubejs-forge-1605.3.19-build.258.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3584/819/kubejs-forge-1605.3.19-build.258.jar",
+            "fileLength": 916043
+        },
+        {
+            "modId": 247560,
+            "displayName": "Biomes You Go 1.3.5 MCV: 1.16.5",
+            "fileName": "byg-1.3.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3485/79/byg-1.3.5.jar",
+            "fileLength": 10314611
+        },
+        {
+            "modId": 340583,
+            "displayName": "[1.16.4 / 1.16.5] YUNG's Better Caves v1.1.2",
+            "fileName": "BetterCaves-Forge-1.16.4-1.1.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3307/879/BetterCaves-Forge-1.16.4-1.1.2.jar",
+            "fileLength": 1402482
+        },
+        {
+            "modId": 351725,
+            "displayName": "[2.0.1 / 1.16.5] Macaw's Bridges",
+            "fileName": "mcw-bridges-2.0.1-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3565/142/mcw-bridges-2.0.1-mc1.16.5.jar",
+            "fileLength": 660418
+        },
+        {
+            "modId": 243121,
+            "displayName": "Quark-r2.4-321.jar",
+            "fileName": "Quark-r2.4-321.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3538/744/Quark-r2.4-321.jar",
+            "fileLength": 8797129
+        },
+        {
+            "modId": 536660,
+            "displayName": "[1.16.4 / 1.16.5] YUNG's Bridges v1.0.1",
+            "fileName": "YungsBridges-Forge-1.16.4-1.0.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3494/974/YungsBridges-Forge-1.16.4-1.0.1.jar",
+            "fileLength": 80085
+        },
+        {
+            "modId": 250363,
+            "displayName": "AutoRegLib-1.6-49.jar",
+            "fileName": "AutoRegLib-1.6-49.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3326/41/AutoRegLib-1.6-49.jar",
+            "fileLength": 57279
+        },
+        {
+            "modId": 301051,
+            "displayName": "QuarkOddities-1.16.3.jar",
+            "fileName": "QuarkOddities-1.16.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3088/871/QuarkOddities-1.16.3.jar",
+            "fileLength": 1896
+        },
+        {
+            "modId": 359540,
+            "displayName": "[2.0.1 / 1.16.5/4] Macaw's Furniture ",
+            "fileName": "mcw-furniture-2.0.1-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3182/349/mcw-furniture-2.0.1-mc1.16.5.jar",
+            "fileLength": 1567424
+        },
+        {
+            "modId": 419699,
+            "displayName": "[Forge 1.16.4/5] v1.28.48",
+            "fileName": "architectury-1.28.48.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3587/404/architectury-1.28.48.jar",
+            "fileLength": 544013
+        },
+        {
+            "modId": 233105,
+            "displayName": "McJtyLib - 1.16-5.1.3",
+            "fileName": "mcjtylib-1.16-5.1.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3598/199/mcjtylib-1.16-5.1.3.jar",
+            "fileLength": 644933
+        },
+        {
+            "modId": 55438,
+            "displayName": "Furniture Mod 7.0.0pre22",
+            "fileName": "cfm-7.0.0pre22-1.16.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3346/467/cfm-7.0.0pre22-1.16.3.jar",
+            "fileLength": 2033912
+        },
+        {
+            "modId": 224218,
+            "displayName": "compactmachines-4.0.0-beta.2.jar",
+            "fileName": "compactmachines-4.0.0-beta.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3229/196/compactmachines-4.0.0-beta.2.jar",
+            "fileLength": 345749
+        },
+        {
+            "modId": 250398,
+            "displayName": "Controlling-7.0.0.28.jar",
+            "fileName": "Controlling-7.0.0.28.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3531/453/Controlling-7.0.0.28.jar",
+            "fileLength": 55307
+        },
+        {
+            "modId": 438116,
+            "displayName": "[1.0.2 / 1.16.5-1.16.4] Macaw's Paintings",
+            "fileName": "mcw-paintings-1.0.2-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3394/922/mcw-paintings-1.0.2-mc1.16.5.jar",
+            "fileLength": 280686
+        },
+        {
+            "modId": 224791,
+            "displayName": "BloodMagic-1.16.4-3.1.7-27.jar",
+            "fileName": "BloodMagic-1.16.4-3.1.7-27.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3568/763/BloodMagic-1.16.4-3.1.7-27.jar",
+            "fileLength": 9505713
+        },
+        {
+            "modId": 389665,
+            "displayName": "[1.16.4 / 1.16.5] YUNG's Better Mineshafts v2.0.4",
+            "fileName": "BetterMineshafts-Forge-1.16.4-2.0.4.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3344/719/BetterMineshafts-Forge-1.16.4-2.0.4.jar",
+            "fileLength": 289307
+        },
+        {
+            "modId": 240950,
+            "displayName": "RFToolsDimensions - 1.16-7.0.20-beta",
+            "fileName": "rftoolsdim-1.16-7.0.20-beta.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3598/203/rftoolsdim-1.16-7.0.20-beta.jar",
+            "fileLength": 1491995
+        },
+        {
+            "modId": 232597,
+            "displayName": "invcrafting-1.16.2-1.1.2.jar",
+            "fileName": "invcrafting-1.16.2-1.1.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3036/507/invcrafting-1.16.2-1.1.2.jar",
+            "fileLength": 28104
+        },
+        {
+            "modId": 268250,
+            "displayName": "ImmersivePetroleum-1.16.5-3.3.0-11.jar",
+            "fileName": "ImmersivePetroleum-1.16.5-3.3.0-11.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3608/210/ImmersivePetroleum-1.16.5-3.3.0-11.jar",
+            "fileLength": 1527628
+        },
+        {
+            "modId": 264353,
+            "displayName": "swingthroughgrass-1.16.4-1.5.3.jar",
+            "fileName": "swingthroughgrass-1.16.4-1.5.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3103/28/swingthroughgrass-1.16.4-1.5.3.jar",
+            "fileLength": 22955
+        },
+        {
+            "modId": 280510,
+            "displayName": "AttributeFix-1.16.5-10.1.3.jar",
+            "fileName": "AttributeFix-1.16.5-10.1.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3348/562/AttributeFix-1.16.5-10.1.3.jar",
+            "fileLength": 9554
+        },
+        {
+            "modId": 418651,
+            "displayName": "kubejs-mekanism-1605.1.2-build.2.jar",
+            "fileName": "kubejs-mekanism-1605.1.2-build.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3446/472/kubejs-mekanism-1605.1.2-build.2.jar",
+            "fileLength": 20202
+        },
+        {
+            "modId": 429235,
+            "displayName": "ferritecore-2.1.0-forge.jar",
+            "fileName": "ferritecore-2.1.0-forge.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3485/636/ferritecore-2.1.0-forge.jar",
+            "fileLength": 108520
+        },
+        {
+            "modId": 406959,
+            "displayName": "thermal_locomotion-1.16.5-1.4.1.2.jar",
+            "fileName": "thermal_locomotion-1.16.5-1.4.1.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3555/670/thermal_locomotion-1.16.5-1.4.1.2.jar",
+            "fileLength": 209020
+        },
+        {
+            "modId": 288885,
+            "displayName": "FastWorkbench-1.16.5-4.6.1.jar",
+            "fileName": "FastWorkbench-1.16.5-4.6.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3566/919/FastWorkbench-1.16.5-4.6.1.jar",
+            "fileLength": 22218
+        },
+        {
+            "modId": 248787,
+            "displayName": "appleskin-forge-mc1.16.x-2.3.0.jar",
+            "fileName": "appleskin-forge-mc1.16.x-2.3.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3626/709/appleskin-forge-mc1.16.x-2.3.0.jar",
+            "fileLength": 47556
+        },
+        {
+            "modId": 398623,
+            "displayName": "flatbedrock-1.2.0-build.2+mc1.16.5.jar",
+            "fileName": "flatbedrock-1.2.0-build.2+mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3438/815/flatbedrock-1.2.0-build.2+mc1.16.5.jar",
+            "fileLength": 3646
+        },
+        {
+            "modId": 230976,
+            "displayName": "FastLeafDecay-v25.2.jar",
+            "fileName": "FastLeafDecay-v25.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3590/413/FastLeafDecay-v25.2.jar",
+            "fileLength": 8630
+        },
+        {
+            "modId": 232650,
+            "displayName": "autooredictconv-1.16.4-16.1.10.jar",
+            "fileName": "autooredictconv-1.16.4-16.1.10.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3285/544/autooredictconv-1.16.4-16.1.10.jar",
+            "fileLength": 35513
+        },
+        {
+            "modId": 238222,
+            "displayName": "jei-1.16.5-7.7.1.145.jar",
+            "fileName": "jei-1.16.5-7.7.1.145.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3607/578/jei-1.16.5-7.7.1.145.jar",
+            "fileLength": 827193
+        },
+        {
+            "modId": 347954,
+            "displayName": "Lollipop-1.16.5-3.2.9.jar",
+            "fileName": "Lollipop-1.16.5-3.2.9.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3232/534/Lollipop-1.16.5-3.2.9.jar",
+            "fileLength": 683534
+        },
+        {
+            "modId": 348521,
+            "displayName": "[Forge 1.16.4/5] v4.13.49",
+            "fileName": "cloth-config-4.13.49-forge.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3559/634/cloth-config-4.13.49-forge.jar",
+            "fileLength": 1341497
+        },
+        {
+            "modId": 363569,
+            "displayName": "[2.0.2 / 1.16.5] Macaw's Windows",
+            "fileName": "mcw-windows-2.0.2-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3565/137/mcw-windows-2.0.2-mc1.16.5.jar",
+            "fileLength": 798647
+        },
+        {
+            "modId": 383070,
+            "displayName": "invtweaks-1.16.4-1.0.1.jar",
+            "fileName": "invtweaks-1.16.4-1.0.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3102/237/invtweaks-1.16.4-1.0.1.jar",
+            "fileLength": 69906
+        },
+        {
+            "modId": 454372,
+            "displayName": "supermartijn642corelib-1.0.16-mc1.16.5",
+            "fileName": "supermartijn642corelib-1.0.16-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3596/490/supermartijn642corelib-1.0.16-mc1.16.5.jar",
+            "fileLength": 206650
+        },
+        {
+            "modId": 232131,
+            "displayName": "DefaultOptions_1.16.5-12.2.1.jar",
+            "fileName": "DefaultOptions_1.16.5-12.2.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3330/403/DefaultOptions_1.16.5-12.2.1.jar",
+            "fileLength": 18700
+        },
+        {
+            "modId": 306770,
+            "displayName": "Patchouli-1.16.4-53.2.jar",
+            "fileName": "Patchouli-1.16.4-53.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3459/118/Patchouli-1.16.4-53.2.jar",
+            "fileLength": 593114
+        },
+        {
+            "modId": 291737,
+            "displayName": "thermal_innovation-1.16.5-1.4.1.3.jar",
+            "fileName": "thermal_innovation-1.16.5-1.4.1.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3556/270/thermal_innovation-1.16.5-1.4.1.3.jar",
+            "fileLength": 228957
+        },
+        {
+            "modId": 285612,
+            "displayName": "RandomPatches 2.4.4-forge",
+            "fileName": "randompatches-2.4.4-forge.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3211/323/randompatches-2.4.4-forge.jar",
+            "fileLength": 423940
+        },
+        {
+            "modId": 480006,
+            "displayName": "[1.16.4 / 1.16.5] YUNG's Extras v1.0",
+            "fileName": "YungsExtras-Forge-1.16.4-1.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3303/283/YungsExtras-Forge-1.16.4-1.0.jar",
+            "fileLength": 64256
+        },
+        {
+            "modId": 299540,
+            "displayName": "FastFurnace-1.16.5-4.5.0.jar",
+            "fileName": "FastFurnace-1.16.5-4.5.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3531/342/FastFurnace-1.16.5-4.5.0.jar",
+            "fileLength": 5907
+        },
+        {
+            "modId": 510089,
+            "displayName": "[1.16.4 / 1.16.5] YUNG's Better Dungeons v1.2.1",
+            "fileName": "BetterDungeons-1.16.4-1.2.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3476/138/BetterDungeons-1.16.4-1.2.1.jar",
+            "fileLength": 510439
+        },
+        {
+            "modId": 378646,
+            "displayName": "[1.0.5 / 1.16.5] Macaw's Doors",
+            "fileName": "mcw-doors-1.0.5-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3565/136/mcw-doors-1.0.5-mc1.16.5.jar",
+            "fileLength": 870852
+        },
+        {
+            "modId": 246640,
+            "displayName": "MysticalAgriculture-1.16.5-4.2.6.jar",
+            "fileName": "MysticalAgriculture-1.16.5-4.2.6.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3562/127/MysticalAgriculture-1.16.5-4.2.6.jar",
+            "fileLength": 1604679
+        },
+        {
+            "modId": 361385,
+            "displayName": "pamhc2crops-1.16.3-1.0.2.jar",
+            "fileName": "pamhc2crops-1.16.3-1.0.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3276/350/pamhc2crops-1.16.3-1.0.2.jar",
+            "fileLength": 804052
+        },
+        {
+            "modId": 400933,
+            "displayName": "[1.0.4 / 1.16.5] Macaw's Trapdoors",
+            "fileName": "mcw-trapdoors-1.0.4-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3565/140/mcw-trapdoors-1.0.4-mc1.16.5.jar",
+            "fileLength": 364744
+        },
+        {
+            "modId": 316833,
+            "displayName": "ObserverLib-1.16.5-1.5.3.jar",
+            "fileName": "observerlib-1.16.5-1.5.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3333/962/observerlib-1.16.5-1.5.3.jar",
+            "fileLength": 150815
+        },
+        {
+            "modId": 372534,
+            "displayName": "pamhc2foodcore-1.16.3-1.0.2.jar",
+            "fileName": "pamhc2foodcore-1.16.3-1.0.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3190/867/pamhc2foodcore-1.16.3-1.0.2.jar",
+            "fileLength": 328828
+        },
+        {
+            "modId": 342466,
+            "displayName": "RFToolsUtility - 1.16-3.1.9",
+            "fileName": "rftoolsutility-1.16-3.1.9.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3604/749/rftoolsutility-1.16-3.1.9.jar",
+            "fileLength": 1595886
+        },
+        {
+            "modId": 465575,
+            "displayName": "[1.16.4 / 1.16.5] YUNG's Better Strongholds v1.2.1",
+            "fileName": "BetterStrongholds-1.16.4-1.2.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3412/586/BetterStrongholds-1.16.4-1.2.1.jar",
+            "fileLength": 541396
+        },
+        {
+            "modId": 429371,
+            "displayName": "kubejs-create-1605.1.4-build.12.jar",
+            "fileName": "kubejs-create-1605.1.4-build.12.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3584/608/kubejs-create-1605.1.4-build.12.jar",
+            "fileLength": 10233
+        },
+        {
+            "modId": 271740,
+            "displayName": "ToastControl-1.16.5-4.4.0.jar",
+            "fileName": "ToastControl-1.16.5-4.4.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3556/882/ToastControl-1.16.5-4.4.0.jar",
+            "fileLength": 24755
+        },
+        {
+            "modId": 238891,
+            "displayName": "DynamicSurroundings-1.16.5-4.0.5.0.jar",
+            "fileName": "DynamicSurroundings-1.16.5-4.0.5.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3502/320/DynamicSurroundings-1.16.5-4.0.5.0.jar",
+            "fileLength": 14746751
+        },
+        {
+            "modId": 314645,
+            "displayName": "Immersive Posts 4.2.2",
+            "fileName": "immersiveposts-1.16.5-4.2.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3455/488/immersiveposts-1.16.5-4.2.2.jar",
+            "fileLength": 527307
+        },
+        {
+            "modId": 256717,
+            "displayName": "Clumps-6.0.0.27.jar",
+            "fileName": "Clumps-6.0.0.27.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3481/298/Clumps-6.0.0.27.jar",
+            "fileLength": 18404
+        },
+        {
+            "modId": 231095,
+            "displayName": "chiselsandbits-1.0.63.jar",
+            "fileName": "chiselsandbits-1.0.63.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3593/643/chiselsandbits-1.0.63.jar",
+            "fileLength": 1283988
+        },
+        {
+            "modId": 428277,
+            "displayName": "kubejs-blood-magic-1605.1.1-build.3.jar",
+            "fileName": "kubejs-blood-magic-1605.1.1-build.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3451/660/kubejs-blood-magic-1605.1.1-build.3.jar",
+            "fileLength": 11666
+        },
+        {
+            "modId": 357540,
+            "displayName": "[Forge.1.16.2-1.16.5] InventoryHUD+ (v3.4.1)",
+            "fileName": "InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3505/181/InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar",
+            "fileLength": 197654
+        },
+        {
+            "modId": 250603,
+            "displayName": "World Stripper-1.16.5-2.1.0.jar",
+            "fileName": "World Stripper-1.16.5-2.1.0.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3415/529/World Stripper-1.16.5-2.1.0.jar",
+            "fileLength": 139989
+        },
+        {
+            "modId": 502372,
+            "displayName": "[1.0.2 / 1.16.5] Macaw's Lights and Lamps",
+            "fileName": "mcw-lights-1.0.2-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3565/139/mcw-lights-1.0.2-mc1.16.5.jar",
+            "fileLength": 491212
+        },
+        {
+            "modId": 272335,
+            "displayName": "Cucumber-1.16.5-4.1.12.jar",
+            "fileName": "Cucumber-1.16.5-4.1.12.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3507/886/Cucumber-1.16.5-4.1.12.jar",
+            "fileLength": 158447
+        },
+        {
+            "modId": 235577,
+            "displayName": "TrashSlot_1.16.3-12.2.1.jar",
+            "fileName": "TrashSlot_1.16.3-12.2.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3098/221/TrashSlot_1.16.3-12.2.1.jar",
+            "fileLength": 61032
+        },
+        {
+            "modId": 32274,
+            "displayName": "journeymap-1.16.5-5.7.3",
+            "fileName": "journeymap-1.16.5-5.7.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3397/59/journeymap-1.16.5-5.7.3.jar",
+            "fileLength": 6868069
+        },
+        {
+            "modId": 453925,
+            "displayName": "[1.0.2 / 1.16.5] Macaw's Fences and Walls",
+            "fileName": "mcw-fences-1.0.2-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3565/138/mcw-fences-1.0.2-mc1.16.5.jar",
+            "fileLength": 232179
+        },
+        {
+            "modId": 252848,
+            "displayName": "NaturesCompass-1.16.5-1.9.1-forge.jar",
+            "fileName": "NaturesCompass-1.16.5-1.9.1-forge.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3382/150/NaturesCompass-1.16.5-1.9.1-forge.jar",
+            "fileLength": 203573
+        },
+        {
+            "modId": 438332,
+            "displayName": "supermartijn642configlib-1.0.9-mc1.16",
+            "fileName": "supermartijn642configlib-1.0.9-mc1.16.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3413/938/supermartijn642configlib-1.0.9-mc1.16.jar",
+            "fileLength": 153654
+        },
+        {
+            "modId": 241721,
+            "displayName": "AstralSorcery-1.16.5-1.13.12.jar",
+            "fileName": "astralsorcery-1.16-1.16.5-1.13.12.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3333/980/astralsorcery-1.16-1.16.5-1.13.12.jar",
+            "fileLength": 30123369
+        },
+        {
+            "modId": 368718,
+            "displayName": "JEITweaker-1.16.5-1.1.0.49.jar",
+            "fileName": "JEITweaker-1.16.5-1.1.0.49.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3584/24/JEITweaker-1.16.5-1.1.0.49.jar",
+            "fileLength": 151709
+        },
+        {
+            "modId": 428877,
+            "displayName": "betterendforge-1.16.5-1.6.3.jar",
+            "fileName": "betterendforge-1.16.5-1.6.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3467/948/betterendforge-1.16.5-1.6.3.jar",
+            "fileLength": 81199992
+        }
+    ]
 }
