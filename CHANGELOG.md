@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.2
+### Added
+- JAMD
+
+### Removed
+- Advanced Mining Dimension
+
 ## 2.1.2
 ### Added
 - CTM
