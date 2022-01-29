@@ -54,6 +54,7 @@ def generateManifest(filename):
         if installedFile is not None:
             files.append({
                 'modId': i['addonID'],
+                'fileId': installedFile['id'],
                 'displayName': installedFile['displayName'],
                 'fileName': installedFile['fileName'],
                 'downloadUrl': installedFile['downloadUrl'],

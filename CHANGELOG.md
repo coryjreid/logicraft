@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.3.2
+### Added
+- Simple Discord Rich Presence
+
+### Removed
+- Auto Ore Dictionary Converter
+- Enchantment Descriptions
+
+### Tweaked
+- Controls, UI, and V-Tweaks
+- JER ore maps
+
 ## 2.2.2
 ### Added
 - JAMD

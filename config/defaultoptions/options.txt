@@ -1,4 +1,4 @@
-version:2584
+version:2586
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -9,16 +9,16 @@ entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:true
+realmsNotifications:false
 reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:false
 toggleCrouch:false
 toggleSprint:false
-mouseSensitivity:0.5
+mouseSensitivity:0.2505391836166382
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:0.0
@@ -27,13 +27,13 @@ renderDistance:16
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:160
+maxFps:163
 difficulty:2
 graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","file/1.16.zip","file/Quark Programmer Art.zip","kubejs:resource_pack"]
+resourcePacks:["bbor","vanilla","mod_resources","quark:emote_resources","file/Quark Programmer Art.zip","programer_art","file/Faithful_1.16.zip"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0

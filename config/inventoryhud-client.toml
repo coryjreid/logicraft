@@ -9,7 +9,7 @@
 	#Range: 0 ~ 100
 	invAlpha = 0
 	#Toggle on by default
-	byDefault = false
+	byDefault = true
 	#Animate recently picked up items
 	animatedInv = false
 	#Hide background if inventory is empty
@@ -36,7 +36,7 @@
 	#Allowed Values: PERCENTAGE, DAMAGE, DAMAGE_LEFT, OFF
 	armView = "PERCENTAGE"
 	#Show item durability bar
-	armBars = false
+	armBars = true
 	#Move all items at once or each one
 	moveAll = true
 	#Show/Hide empty slot icon
@@ -45,7 +45,7 @@
 	showCount = false
 	#ArmorHUD scale in persentage from 50 to 150
 	#Range: 50 ~ 150
-	armScale = 100
+	armScale = 125
 
 #Settings for Potions HUD
 [potionshud]

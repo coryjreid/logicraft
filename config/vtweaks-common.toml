@@ -2,11 +2,11 @@
 #Enchantments
 [enchantments]
 	#Enable the Lumbering enchantment for Axes
-	enableLumbering = true
+	enableLumbering = false
 	#Enable the Imperishable enchantment for any breakable item
-	enableImperishable = true
+	enableImperishable = false
 	#Feather Falling IV or above directs 100% of fall damage to boots
-	enableFeatherFallTweak = true
+	enableFeatherFallTweak = false
 	#Number of levels Imperishable costs to create in an anvil
 	#Range: 1 ~ 40
 	imperishableCost = 30
@@ -25,7 +25,7 @@
 #Mob Tweaks
 ["mob tweaks"]
 	#Allows you to gear up tamed pets any armor and/or weapon. Doesn't render, but DOES work!
-	enablePetArmory = true
+	enablePetArmory = false
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
 	#Allowed Values: DISABLED, OWNER, ALL
 	disablePetFriendlyFire = "ALL"
@@ -33,9 +33,9 @@
 	enableFeatherPlucking = true
 	#Randomly spawns more difficult (but more lootworthy) enemies.
 	#Applies to ALL enemies but those in this blacklist.
-	challengerMobsEnabled = true
+	challengerMobsEnabled = false
 	#Enable custom nametags on challenger mobs
-	challengerMobsNames = true
+	challengerMobsNames = false
 	#A string list of form <modid:item> of possible loot items a Challenger Mob could drop
 	challengerMobsLoot = ["minecraft:gold_ingot*9", "minecraft:diamond*9", "minecraft:emerald*9", "minecraft:ghast_tear*9", "minecraft:ender_pearl*9"]
 	#The class name (or part of it) of any entities that should not be turned to challenger mobs
@@ -102,7 +102,7 @@
 	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
 	durabilityTooltipSetting = "NEVER"
 	#Show a welcome message in chat when joining a world for the first time
-	enableGuideNotifier = true
+	enableGuideNotifier = false
 	#Makes all anvil tool repairs always cost 1 level of XP
 	enableCheapAnvilRepair = true
 

@@ -1,0 +1,15 @@
+{
+  "block_whitelist": [
+    "#forge:ores"
+  ],
+  "dimensions": {
+    "minecraft:overworld": true,
+    "minecraft:the_nether": true,
+    "minecraft:the_end": true,
+    "bloodmagic:dungeon": false,
+    "compactmachines:compact_world": false,
+    "jamd:mining": true
+  },
+  "height": 128,
+  "scan_radius": 25
+}
