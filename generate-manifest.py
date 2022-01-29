@@ -36,7 +36,7 @@ def usage():
 
 def generateManifest(filename):
     # Reads manifest template
-    with open('manifest-template.json') as m:
+    with open('manifest.json') as m:
         manifest = json.load(m)
 
     # Check if version is configured in manifest
@@ -51,13 +51,15 @@ def generateManifest(filename):
     files = []
     for i in data['installedAddons']:
         installedFile = i['installedFile']
-        files.append({
-            'modId': i['addonID'],
-            'displayName': installedFile['displayName'],
-            'fileName': installedFile['fileName'],
-            'downloadUrl': installedFile['downloadUrl'],
-            'fileLength': installedFile['fileLength']
-        })
+        if installedFile is not None:
+            files.append({
+                'modId': i['addonID'],
+                'displayName': installedFile['displayName'],
+                'fileName': installedFile['fileName'],
+                'downloadUrl': installedFile['downloadUrl'],
+                'fileLength': installedFile['fileLength']
+            })
+    files.sort(key=lambda x: x['modId'])
     manifest['files'] = files
 
     f.close()
