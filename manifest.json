@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "2.0.2",
+    "version": "2.1.2",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -465,6 +465,13 @@
             "fileLength": 10216783
         },
         {
+            "modId": 267602,
+            "displayName": "CTM - MC1.16.1-1.1.2.6",
+            "fileName": "CTM-MC1.16.1-1.1.2.6.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3137/659/CTM-MC1.16.1-1.1.2.6.jar",
+            "fileLength": 186068
+        },
+        {
             "modId": 324973,
             "displayName": "DungeonCrawl-1.16.5-2.3.5",
             "fileName": "DungeonCrawl-1.16.5-2.3.5.jar",
@@ -843,18 +850,18 @@
             "fileLength": 541396
         },
         {
-            "modId": 429371,
-            "displayName": "kubejs-create-1605.1.4-build.12.jar",
-            "fileName": "kubejs-create-1605.1.4-build.12.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3584/608/kubejs-create-1605.1.4-build.12.jar",
-            "fileLength": 10233
-        },
-        {
             "modId": 271740,
             "displayName": "ToastControl-1.16.5-4.4.0.jar",
             "fileName": "ToastControl-1.16.5-4.4.0.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3556/882/ToastControl-1.16.5-4.4.0.jar",
             "fileLength": 24755
+        },
+        {
+            "modId": 429371,
+            "displayName": "kubejs-create-1605.1.4-build.12.jar",
+            "fileName": "kubejs-create-1605.1.4-build.12.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3584/608/kubejs-create-1605.1.4-build.12.jar",
+            "fileLength": 10233
         },
         {
             "modId": 238891,
@@ -864,11 +871,11 @@
             "fileLength": 14746751
         },
         {
-            "modId": 314645,
-            "displayName": "Immersive Posts 4.2.2",
-            "fileName": "immersiveposts-1.16.5-4.2.2.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3455/488/immersiveposts-1.16.5-4.2.2.jar",
-            "fileLength": 527307
+            "modId": 231095,
+            "displayName": "chiselsandbits-1.0.63.jar",
+            "fileName": "chiselsandbits-1.0.63.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3593/643/chiselsandbits-1.0.63.jar",
+            "fileLength": 1283988
         },
         {
             "modId": 256717,
@@ -878,11 +885,11 @@
             "fileLength": 18404
         },
         {
-            "modId": 231095,
-            "displayName": "chiselsandbits-1.0.63.jar",
-            "fileName": "chiselsandbits-1.0.63.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3593/643/chiselsandbits-1.0.63.jar",
-            "fileLength": 1283988
+            "modId": 314645,
+            "displayName": "Immersive Posts 4.2.2",
+            "fileName": "immersiveposts-1.16.5-4.2.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3455/488/immersiveposts-1.16.5-4.2.2.jar",
+            "fileLength": 527307
         },
         {
             "modId": 428277,
@@ -934,18 +941,18 @@
             "fileLength": 6868069
         },
         {
-            "modId": 453925,
-            "displayName": "[1.0.2 / 1.16.5] Macaw's Fences and Walls",
-            "fileName": "mcw-fences-1.0.2-mc1.16.5.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3565/138/mcw-fences-1.0.2-mc1.16.5.jar",
-            "fileLength": 232179
-        },
-        {
             "modId": 252848,
             "displayName": "NaturesCompass-1.16.5-1.9.1-forge.jar",
             "fileName": "NaturesCompass-1.16.5-1.9.1-forge.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3382/150/NaturesCompass-1.16.5-1.9.1-forge.jar",
             "fileLength": 203573
+        },
+        {
+            "modId": 453925,
+            "displayName": "[1.0.2 / 1.16.5] Macaw's Fences and Walls",
+            "fileName": "mcw-fences-1.0.2-mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3565/138/mcw-fences-1.0.2-mc1.16.5.jar",
+            "fileLength": 232179
         },
         {
             "modId": 438332,

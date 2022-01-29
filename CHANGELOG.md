@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.2
+### Added
+- CTM
+- PocketStorage
+
 ## 2.0.2
 ### Updated
 - AppleSkin
