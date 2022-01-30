@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "2.3.2",
+    "version": "3.3.2",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -195,11 +195,19 @@
         },
         {
             "modId": 239197,
-            "fileId": 3604977,
-            "displayName": "CraftTweaker-1.16.5-7.1.2.489.jar",
-            "fileName": "CraftTweaker-1.16.5-7.1.2.489.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3604/977/CraftTweaker-1.16.5-7.1.2.489.jar",
-            "fileLength": 2463967
+            "fileId": 3627919,
+            "displayName": "CraftTweaker-1.16.5-7.1.2.491.jar",
+            "fileName": "CraftTweaker-1.16.5-7.1.2.491.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3627/919/CraftTweaker-1.16.5-7.1.2.491.jar",
+            "fileLength": 2464352
+        },
+        {
+            "modId": 239286,
+            "fileId": 3585192,
+            "displayName": "Cyclic-1.16.5-1.5.13.jar",
+            "fileName": "Cyclic-1.16.5-1.5.13.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3585/192/Cyclic-1.16.5-1.5.13.jar",
+            "fileLength": 3813956
         },
         {
             "modId": 240630,
@@ -243,11 +251,11 @@
         },
         {
             "modId": 243076,
-            "fileId": 3527504,
-            "displayName": "Refined Storage 1.9.16",
-            "fileName": "refinedstorage-1.9.16.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3527/504/refinedstorage-1.9.16.jar",
-            "fileLength": 3220785
+            "fileId": 3630064,
+            "displayName": "v1.9.17",
+            "fileName": "refinedstorage-1.9.17.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3630/64/refinedstorage-1.9.17.jar",
+            "fileLength": 3224062
         },
         {
             "modId": 243121,
@@ -642,6 +650,14 @@
             "fileLength": 44027
         },
         {
+            "modId": 314905,
+            "fileId": 3530024,
+            "displayName": "ftb-ranks-forge-1605.1.5-build.16.jar",
+            "fileName": "ftb-ranks-forge-1605.1.5-build.16.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3530/24/ftb-ranks-forge-1605.1.5-build.16.jar",
+            "fileLength": 64964
+        },
+        {
             "modId": 314906,
             "fileId": 3603374,
             "displayName": "ftb-chunks-forge-1605.3.2-build.115.jar",
@@ -707,11 +723,11 @@
         },
         {
             "modId": 342466,
-            "fileId": 3604749,
-            "displayName": "RFToolsUtility - 1.16-3.1.9",
-            "fileName": "rftoolsutility-1.16-3.1.9.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3604/749/rftoolsutility-1.16-3.1.9.jar",
-            "fileLength": 1595886
+            "fileId": 3627973,
+            "displayName": "RFToolsUtility - 1.16-3.1.10",
+            "fileName": "rftoolsutility-1.16-3.1.10.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3627/973/rftoolsutility-1.16-3.1.10.jar",
+            "fileLength": 1596110
         },
         {
             "modId": 347706,

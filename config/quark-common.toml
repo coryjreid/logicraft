@@ -505,7 +505,7 @@
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
 	Crevices = true
-	Deepslate = false
+	Deepslate = true
 	"Fairy Rings" = true
 	"Mega Caves" = true
 	"Monster Box" = true
@@ -1172,12 +1172,12 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Marble" = false
-		"Enable Limestone" = false
-		"Enable Jasper" = false
-		"Enable Slate" = false
-		"Enable Voidstone" = false
-		"Enable Myalite" = false
+		"Enable Marble" = true
+		"Enable Limestone" = true
+		"Enable Jasper" = true
+		"Enable Slate" = true
+		"Enable Voidstone" = true
+		"Enable Myalite" = true
 
 		[world.new_stone_types.marble]
 

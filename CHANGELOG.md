@@ -1,5 +1,21 @@
 # Changelog
 
+## 3.3.2
+### Added
+- Cyclic
+- FTB Ranks
+
+### Updated
+- CraftTweaker
+- RefinedStorage
+- RFToolsUtility
+
+### Config Changes
+- Re-enable Quark's oregen
+- Fix dynview to not exceed 10 view distance
+- (Hopefully) Stop overwriting people's JEI bookmarks
+- Removed most machines from Cyclic as other mods' machines should be used
+
 ## 2.3.2
 ### Added
 - Simple Discord Rich Presence

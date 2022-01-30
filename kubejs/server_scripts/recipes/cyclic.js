@@ -1,0 +1,30 @@
+// priority: 99
+events.listen("recipes", (event) => {
+    event.remove({ id: "cyclic:generator_fuel" });
+    event.remove({ id: "cyclic:generator_food" });
+    event.remove({ id: "cyclic:generator_fluid" });
+    event.remove({ id: "cyclic:generator_item" });
+    event.remove({ id: "cyclic:packager" });
+    event.remove({ id: "cyclic:computer_shape" });
+    event.remove({ id: "cyclic:battery" });
+    event.remove({ id: "cyclic:peat_generator" });
+    event.remove({ id: "cyclic:solidifier" });
+    event.remove({ id: "cyclic:peat_farm" });
+    event.remove({ id: "cyclic:melter" });
+    event.remove({ id: "cyclic:placer" });
+    event.remove({ id: "cyclic:breaker" });
+    event.remove({ id: "cyclic:user" });
+    event.remove({ id: "cyclic:dropper" });
+    event.remove({ id: "cyclic:forester" });
+    event.remove({ id: "cyclic:miner" });
+    event.remove({ id: "cyclic:structure" });
+    event.remove({ id: "cyclic:collector" });
+    event.remove({ id: "cyclic:collector_fluid" });
+    event.remove({ id: "cyclic:placer_fluid" });
+    event.remove({ id: "cyclic:clock" });
+    event.remove({ id: "cyclic:screen" });
+    event.remove({ id: "cyclic:fisher" });
+    event.remove({ id: "cyclic:item_infinite" });
+    event.remove({ id: "cyclic:dice" });
+    event.remove({ id: "cyclic:crafter" });
+});
