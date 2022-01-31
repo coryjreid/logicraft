@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "3.3.2",
+    "version": "3.4.2",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -888,6 +888,14 @@
             "fileName": "lanterncolors-1.16.3-2.1.1.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3067/215/lanterncolors-1.16.3-2.1.1.jar",
             "fileLength": 106482
+        },
+        {
+            "modId": 395953,
+            "fileId": 3542501,
+            "displayName": "[FORGE] Gilded Armor 1.16.5 - v1.1.5",
+            "fileName": "gildedarmor-forge-1.16.5-1.1.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3542/501/gildedarmor-forge-1.16.5-1.1.5.jar",
+            "fileLength": 40977
         },
         {
             "modId": 396803,

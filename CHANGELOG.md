@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.2
+### Added
+- GildedArmor
+
 ## 3.3.2
 ### Added
 - Cyclic
