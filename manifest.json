@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "3.5.3",
+    "version": "4.5.3",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -112,14 +112,6 @@
             "fileName": "DefaultOptions_1.16.5-12.2.1.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3330/403/DefaultOptions_1.16.5-12.2.1.jar",
             "fileLength": 18700
-        },
-        {
-            "modId": 232597,
-            "fileId": 3036507,
-            "displayName": "invcrafting-1.16.2-1.1.2.jar",
-            "fileName": "invcrafting-1.16.2-1.1.2.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3036/507/invcrafting-1.16.2-1.1.2.jar",
-            "fileLength": 28104
         },
         {
             "modId": 233019,
@@ -714,6 +706,14 @@
             "fileLength": 11564279
         },
         {
+            "modId": 334853,
+            "fileId": 3535218,
+            "displayName": "SimpleDiscordRichPresence-1.4.0-build.3+mc1.16.5.jar",
+            "fileName": "SimpleDiscordRichPresence-1.4.0-build.3+mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3535/218/SimpleDiscordRichPresence-1.4.0-build.3+mc1.16.5.jar",
+            "fileLength": 122607
+        },
+        {
             "modId": 340583,
             "fileId": 3307879,
             "displayName": "[1.16.4 / 1.16.5] YUNG's Better Caves v1.1.2",
@@ -1104,6 +1104,14 @@
             "fileName": "supermartijn642corelib-1.0.16-mc1.16.5.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3596/490/supermartijn642corelib-1.0.16-mc1.16.5.jar",
             "fileLength": 206650
+        },
+        {
+            "modId": 457570,
+            "fileId": 3546348,
+            "displayName": "Configured 1.5.1",
+            "fileName": "configured-1.5.1-1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3546/348/configured-1.5.1-1.16.5.jar",
+            "fileLength": 136584
         },
         {
             "modId": 465575,

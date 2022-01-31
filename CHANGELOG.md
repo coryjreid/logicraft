@@ -1,5 +1,17 @@
 # Changelog
 
+## 4.5.3
+### Added
+- Discord Simple Rich Presence
+- Configured
+
+### Removed
+- Inventory Crafting Grid
+
+### Config Changes
+- Tweak Simply Jetpacks 2 UI position
+- Enabled "force" Configured
+
 ## 3.5.3
 ### Added
 - Create Crafts & Additions
