@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.5.3
+### Added
+- Create Crafts & Additions
+
 ## 3.4.3
 ### Tweaked
 - Turned off Quark Matrix Enchanting

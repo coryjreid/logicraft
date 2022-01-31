@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "3.4.3",
+    "version": "3.5.3",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -1072,6 +1072,14 @@
             "fileName": "supermartijn642configlib-1.0.9-mc1.16.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3413/938/supermartijn642configlib-1.0.9-mc1.16.jar",
             "fileLength": 153654
+        },
+        {
+            "modId": 439890,
+            "fileId": 3629494,
+            "displayName": "createaddition-1.16.5-20220129a",
+            "fileName": "createaddition-1.16.5-20220129a.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3629/494/createaddition-1.16.5-20220129a.jar",
+            "fileLength": 834203
         },
         {
             "modId": 445208,
