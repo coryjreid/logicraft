@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.3
+### Tweaked
+- Turned off Quark Matrix Enchanting
+
 ## 3.4.2
 ### Added
 - GildedArmor
