@@ -8,6 +8,7 @@
 - Updated: Architectury API (Forge)
 - Removed: Extra Disks (superseded by ExtraStorage)
 - Config: Added additional cosmetic blocks to WorldStripper config to delete when checking oregen
+- Config: Increased generation rate and cluster size of Uranium
 
 ## 4.5.4
 - Fixed: Enderium Blend recipe
