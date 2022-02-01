@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.6.4
+- Added: Refined Storage Addons
+- Added: Refined Storage: Requestify
+- Added: ExtraStorage
+- Added: Cable Tiers
+- Updated: Architectury API (Forge)
+- Removed: Extra Disks (superseded by ExtraStorage)
+- Config: Added additional cosmetic blocks to WorldStripper config to delete when checking oregen
+
 ## 4.5.4
 - Fixed: Enderium Blend recipe
 - Fixed: Ender Pearl Dust recipe (pulverize 1 Ender Pearl for 1 Ender Dust)
