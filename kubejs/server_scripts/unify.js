@@ -169,20 +169,12 @@ events.listen("recipes", (event) => {
     event.remove({ output: "mcwbridges:iron_rod" });
     event.replaceInput("mcwbridges:iron_rod", "#forge:rods/iron");
 
-    event.replaceInput("appliedenergistics2:silicon", "#forge:silicon");
-    event.replaceOutput("appliedenergistics2:silicon", "refinedstorage:silicon");
-
-    event.replaceInput("appliedenergistics2:ender_dust", "#forge:dusts/ender");
-    event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender");
-    event.replaceOutput("thermal:ender_pearl_dust", "appliedenergistics2:ender_dust");
+    event.replaceInput("thermal:ender_pearl_dust", "#forge:dusts/ender_pearl");
 
     event.replaceInput("thermal:quartz_dust", "#forge:dusts/quartz");
-    event.replaceOutput("thermal:quartz_dust", "appliedenergistics2:nether_quartz_dust");
     event.replaceInput("mekanism:dust_quartz", "#forge:dusts/quartz");
-    event.replaceOutput("mekanism:dust_quartz", "appliedenergistics2:nether_quartz_dust");
 
     event.replaceInput("mekanism:dust_quartz", "#forge:dusts/quartz");
-    event.replaceOutput("mekanism:dust_quartz", "appliedenergistics2:nether_quartz_dust");
 
     event.replaceInput("mekanism:dust_lapis_lazuli", "#forge:dusts/lapis");
     event.replaceOutput("mekanism:dust_lapis_lazuli", "thermal:lapis_dust");
@@ -210,17 +202,6 @@ events.listen("recipes", (event) => {
     event.shaped(item.of("thermal:sulfur_dust", 8), ["   ", "SSS", "   "], {
         S: "mysticalagriculture:sulfur_essence",
     });
-
-    event.replaceInput("quantumstorage:chestdiamond", "krate:krate_big");
-
-    event.remove({ id: "envirocore:blocks/crystals/litherite/ct_uncraft_litherite_blocks" });
-    event.remove({ id: "envirocore:blocks/crystals/erodium/ct_uncraft_erodium_blocks" });
-    event.remove({ id: "envirocore:blocks/crystals/kyronite/ct_uncraft_kyronite_blocks" });
-    event.remove({ id: "envirocore:blocks/crystals/pladium/ct_uncraft_pladium_blocks" });
-    event.remove({ id: "envirocore:blocks/crystals/ionite/ct_uncraft_ionite_blocks" });
-    event.remove({ id: "envirocore:blocks/crystals/aethium/ct_uncraft_aethium _blocks" });
-    event.remove({ id: "envirocore:blocks/crystals/nanorite/ct_uncraft_nanorite_blocks" });
-    event.remove({ id: "envirocore:blocks/crystals/xerothium/ct_uncraft_xerothium_blocks" });
 });
 
 events.listen("item.tags", (event) => {
@@ -238,24 +219,10 @@ events.listen("item.tags", (event) => {
     event.get("forge:dusts/wood").add("thermal:sawdust");
 
     event.get("forge:dusts/sulfur").remove("immersiveengineering:dust_sulfur");
-    event.get("minecolonies:blacksmith_ingredient_excluded").remove("mekanism:dust_sulfur");
-    event.get("minecolonies:blacksmith_product_excluded").remove("mekanism:dust_sulfur");
     event.get("forge:dusts/sulfur").remove("mekanism:dust_sulfur");
-    event.get("minecolonies:dyer_ingredient").remove("mekanism:dust_sulfur");
-    event.get("minecolonies:dyer_product").remove("mekanism:dust_sulfur");
     event.get("forge:dyes/yellow").remove("mekanism:dust_sulfur");
-    event.get("minecolonies:fletcher_ingredient_excluded").remove("mekanism:dust_sulfur");
-    event.get("minecolonies:glassblower_ingredient_excluded").remove("mekanism:dust_sulfur");
-    event.get("minecolonies:stonemason_ingredient_excluded").remove("mekanism:dust_sulfur");
-    event.get("minecolonies:blacksmith_ingredient_excluded").add("thermal:sulfur_dust");
-    event.get("minecolonies:blacksmith_product_excluded").add("thermal:sulfur_dust");
     event.get("forge:dusts/sulfur").add("thermal:sulfur_dust");
-    event.get("minecolonies:dyer_ingredient").add("thermal:sulfur_dust");
-    event.get("minecolonies:dyer_product").add("thermal:sulfur_dust");
     event.get("forge:dyes/yellow").add("thermal:sulfur_dust");
-    event.get("minecolonies:fletcher_ingredient_excluded").add("thermal:sulfur_dust");
-    event.get("minecolonies:glassblower_ingredient_excluded").add("thermal:sulfur_dust");
-    event.get("minecolonies:stonemason_ingredient_excluded").add("thermal:sulfur_dust");
 
     event.get("forge:dusts/iron").remove("bloodmagic:ironsand");
     event.get("forge:dusts/gold").remove("bloodmagic:goldsand");

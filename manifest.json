@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "4.5.3",
+    "version": "4.5.4",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -163,11 +163,11 @@
         },
         {
             "modId": 238086,
-            "fileId": 3584819,
-            "displayName": "kubejs-forge-1605.3.19-build.258.jar",
-            "fileName": "kubejs-forge-1605.3.19-build.258.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3584/819/kubejs-forge-1605.3.19-build.258.jar",
-            "fileLength": 916043
+            "fileId": 3631753,
+            "displayName": "kubejs-forge-1605.3.19-build.289.jar",
+            "fileName": "kubejs-forge-1605.3.19-build.289.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3631/753/kubejs-forge-1605.3.19-build.289.jar",
+            "fileLength": 919041
         },
         {
             "modId": 238222,
@@ -979,11 +979,11 @@
         },
         {
             "modId": 419699,
-            "fileId": 3587404,
-            "displayName": "[Forge 1.16.4/5] v1.28.48",
-            "fileName": "architectury-1.28.48.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3587/404/architectury-1.28.48.jar",
-            "fileLength": 544013
+            "fileId": 3632015,
+            "displayName": "[Forge 1.16.4/5] v1.29.49",
+            "fileName": "architectury-1.29.49.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3632/15/architectury-1.29.49.jar",
+            "fileLength": 545170
         },
         {
             "modId": 421694,

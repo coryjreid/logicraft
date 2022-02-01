@@ -120,7 +120,6 @@ events.listen("jei.hide.items", function (event) {
     event.hide("create:iron_sheet");
     event.hide("immersiveengineering:plate_electrum");
     event.hide("thermal:crude_oil_bucket");
-    event.hide("thermal:ender_pearl_dust");
 });
 
 events.listen("jei.hide.fluids", (event) => {

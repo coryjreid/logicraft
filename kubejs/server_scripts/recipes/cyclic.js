@@ -27,4 +27,5 @@ events.listen("recipes", (event) => {
     event.remove({ id: "cyclic:item_infinite" });
     event.remove({ id: "cyclic:dice" });
     event.remove({ id: "cyclic:crafter" });
+    event.remove({ id: "cyclic:charm_speed" });
 });

@@ -10,6 +10,7 @@ events.listen("recipes", (event) => {
     event.recipes.thermal.pulverizer(item.of("mekanism:dust_osmium"), "#forge:ingots/osmium");
     event.recipes.thermal.pulverizer(item.of("mekanism:fluorite_gem", 6), "#forge:ores/fluorite");
     event.recipes.thermal.pulverizer(item.of("mekanism:dust_obsidian", 4), "#forge:obsidian");
+    event.recipes.thermal.pulverizer(item.of("minecraft:ender_pearl"), "#forge:dusts/ender");
 
     event.recipes.thermal.pulverizer(item.of("minecraft:glowstone_dust"), "#forge:ingots/refined_glowstone");
 

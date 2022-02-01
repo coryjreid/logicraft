@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.5.4
+- Fixed: Enderium Blend recipe
+- Fixed: Ender Pearl Dust recipe (pulverize 1 Ender Pearl for 1 Ender Dust)
+- Removed: Cyclic Speed Charm
+- Updated: Architectury API (Forge)
+- Updated: KubeJS (Forge)
+
 ## 4.5.3
 ### Added
 - Discord Simple Rich Presence

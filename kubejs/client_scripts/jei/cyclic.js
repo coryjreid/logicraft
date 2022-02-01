@@ -26,4 +26,5 @@ events.listen('jei.hide.items', function (event) {
     event.hide('cyclic:item_infinite')
     event.hide('cyclic:dice')
     event.hide('cyclic:crafter')
+    event.hide('cyclic:charm_speed')
 })
