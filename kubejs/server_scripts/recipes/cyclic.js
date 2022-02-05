@@ -8,9 +8,7 @@ events.listen("recipes", (event) => {
     event.remove({ id: "cyclic:computer_shape" });
     event.remove({ id: "cyclic:battery" });
     event.remove({ id: "cyclic:peat_generator" });
-    event.remove({ id: "cyclic:solidifier" });
     event.remove({ id: "cyclic:peat_farm" });
-    event.remove({ id: "cyclic:melter" });
     event.remove({ id: "cyclic:placer" });
     event.remove({ id: "cyclic:breaker" });
     event.remove({ id: "cyclic:user" });
