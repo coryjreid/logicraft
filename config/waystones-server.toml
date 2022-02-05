@@ -8,31 +8,31 @@
 		inverseXpCost = false
 		#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
 		#Range: > 1
-		blocksPerXPLevel = 1000
+		blocksPerXPLevel = 100
 		#The minimum base xp cost
 		#Range: 0.0 ~ Infinity
 		minimumXpCost = 0.0
 		#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 		#Range: 0.0 ~ Infinity
-		maximumXpCost = 0.0
+		maximumXpCost = "Infinity"
 
 	#These options apply to teleporting from one waystone to another by right-clicking it.
 	[server.waystoneToWaystone]
 		#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 		#Range: 0.0 ~ Infinity
-		waystoneXpCostMultiplier = 1.0
+		waystoneXpCostMultiplier = 2.0
 		#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 		#Range: 0.0 ~ Infinity
-		sharestoneXpCostMultiplier = 1.0
+		sharestoneXpCostMultiplier = 2.0
 		#The multiplier applied to the base xp cost when teleporting from a portstone.
 		#Range: 0.0 ~ Infinity
-		portstoneXpCostMultiplier = 0.0
+		portstoneXpCostMultiplier = 2.0
 
 	#These options apply to warp plates.
 	[server.warpPlate]
 		#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
 		#Range: 0.0 ~ Infinity
-		warpPlateXpCostMultiplier = 0.0
+		warpPlateXpCostMultiplier = 2.0
 		#The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
 		#Range: > 0
 		warpPlateUseTime = 20
@@ -52,10 +52,10 @@
 	[server.globalWaystones]
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 1.0
+		globalWaystonesXpCostMultiplier = 2.0
 		#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
 		#Range: 0.0 ~ Infinity
-		globalWaystoneCooldownMultiplier = 1.0
+		globalWaystoneCooldownMultiplier = 2.0
 		#Set to false to allow non-creative players to make waystones globally activated for all players.
 		globalWaystoneRequiresCreative = true
 
@@ -81,7 +81,7 @@
 	[server.dimensionalWarp]
 		#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 		#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
-		dimensionalWarp = "ALLOW"
+		dimensionalWarp = "DENY"
 		#The base xp level cost when travelling between dimensions. Ignores block distance.
 		#Range: > 0
 		dimensionalWarpXpCost = 3

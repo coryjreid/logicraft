@@ -1,9 +1,14 @@
 # Changelog
 
+## 5.7.5
+- Config: Fixed recipe conflict with Upgraded Fences and Horse Fences
+- Config: Disabled Waystone cross-dimension teleports
+- Config: Enabled and increased XP cost for using waystones
+- Enabled: Cyclic Melting Chamber
+- Enabled: Cyclic Solidification Chamber
+
 ## 5.7.4
 - Config: Reduced max view distance to 5, min to 1 (helps with lag, reducing amount of data transmitted)
-- Reenabled: 
-- Reenabled: 
 
 ## 5.6.4
 - Added: Enchanted Book Redesign
