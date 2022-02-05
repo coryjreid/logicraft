@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.6.4
+- Added: Enchanted Book Redesign
+- Removed: FTB Backups
+
 ## 4.6.4
 - Added: Refined Storage Addons
 - Added: Refined Storage: Requestify
