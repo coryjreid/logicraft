@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.7.6
+- Updated: Architectury API (Forge) to 1.29.51
+- Config: Adjusted the Waystone XP cost to not be quite so insane
+- Config: Reduced commonality of Waystone spawning
+- Config: Tweaked default keybinds for Simply Jetpacks 2
+- Config: Adjusted default jetpack HUD config for Simply Jetpacks 2
+
+IMPORTANT: You must delete your keybindings.txt and options.txt files BEFORE running the server sync to pickup the changes
+
 ## 5.7.5
 - Config: Fixed recipe conflict with Upgraded Fences and Horse Fences
 - Config: Disabled Waystone cross-dimension teleports

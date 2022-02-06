@@ -25,26 +25,26 @@
 		hudTextColor = 16777215
 		#Set the position of the Jetpack HUD on the screen.
 		#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, LEFT, RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-		hudTextPosition = "TOP_LEFT"
+		hudTextPosition = "BOTTOM_RIGHT"
 		#Set the X offset of the Jetpack HUD on the screen.
 		#Range: > -2147483648
-		hudXOffset = 0
+		hudXOffset = -5
 		#Set the Y offset of the Jetpack HUD on the screen.
 		#Range: > -2147483648
-		hudYOffset = 0
+		hudYOffset = -5
 		#Set the scale of the Jetpack HUD on the screen.
 		#Range: 1 ~ 100
 		hudScale = 1
 		#Set if the Jetpack HUD values have text shadows.
 		hudTextShadow = true
 		#Show the Throttle value in the Jetpack HUD.
-		showThrottle = true
+		showThrottle = false
 		#Show the Hover State in the HUD.
 		showHoverState = true
 		#Show the Emergency Hover State in the HUD.
-		showEHoverState = true
+		showEHoverState = false
 		#Show the Charger State in the HUD.
-		showChargerState = true
+		showChargerState = false
 
 	#Visual Configurations
 	[simplyjetpacks-client.visual]

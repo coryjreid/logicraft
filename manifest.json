@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "5.7.5",
+    "version": "5.7.6",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -995,11 +995,11 @@
         },
         {
             "modId": 419699,
-            "fileId": 3633008,
-            "displayName": "[Forge 1.16.4/5] v1.29.50",
-            "fileName": "architectury-1.29.50.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3633/8/architectury-1.29.50.jar",
-            "fileLength": 545179
+            "fileId": 3638631,
+            "displayName": "[Forge 1.16.4/5] v1.29.51",
+            "fileName": "architectury-1.29.51.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3638/631/architectury-1.29.51.jar",
+            "fileLength": 545340
         },
         {
             "modId": 421694,
