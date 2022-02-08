@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "5.7.6",
+    "version": "5.8.7",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -832,14 +832,6 @@
             "fileName": "spark-forge.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3337/641/spark-forge.jar",
             "fileLength": 2519703
-        },
-        {
-            "modId": 363363,
-            "fileId": 3506112,
-            "displayName": "Extreme Sound Muffler 3.17 - Forge 1.16.5",
-            "fileName": "extremeSoundMuffler-3.17_1.16.5.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3506/112/extremeSoundMuffler-3.17_1.16.5.jar",
-            "fileLength": 284548
         },
         {
             "modId": 363569,

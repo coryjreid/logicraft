@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.8.7
+- Removed: Extreme sound muffler (Forge)
+  It didn't work when Dynamic Surroundings which already has (verified working) sound control
+
 ## 5.8.6
 - Added: Absent by Design
 - Added: Better Compatibility Checker
