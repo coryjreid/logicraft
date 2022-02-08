@@ -20,19 +20,19 @@
 	[server.waystoneToWaystone]
 		#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 		#Range: 0.0 ~ Infinity
-		waystoneXpCostMultiplier = 1.1
+		waystoneXpCostMultiplier = 1.01
 		#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 		#Range: 0.0 ~ Infinity
-		sharestoneXpCostMultiplier = 1.1
+		sharestoneXpCostMultiplier = 1.01
 		#The multiplier applied to the base xp cost when teleporting from a portstone.
 		#Range: 0.0 ~ Infinity
-		portstoneXpCostMultiplier = 1.1
+		portstoneXpCostMultiplier = 1.01
 
 	#These options apply to warp plates.
 	[server.warpPlate]
 		#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
 		#Range: 0.0 ~ Infinity
-		warpPlateXpCostMultiplier = 1.1
+		warpPlateXpCostMultiplier = 1.01
 		#The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
 		#Range: > 0
 		warpPlateUseTime = 20
@@ -52,7 +52,7 @@
 	[server.globalWaystones]
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 1.1
+		globalWaystonesXpCostMultiplier = 1.01
 		#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
 		#Range: 0.0 ~ Infinity
 		globalWaystoneCooldownMultiplier = 2.0

@@ -1,5 +1,28 @@
 # Changelog
 
+## 6.0.0
+- Added: Lazy DataFixerUpper(LazyDFU) [FORGE]
+  - Makes Minecraft's DataFixerUpper only execute when necessary improving load times5
+- Added: Performant
+  - Server-side performance tweaks
+- Added: Starlight x Create
+  - Rewrite Minecraft's lighting engine to improve performance
+- Added: MCMT
+  - Multithread tick execution (if this breaks stuff we will rollback)
+- Added: Alex's Mobs
+  - We just need more life, damn it!
+- Updated: ImmersivePosts
+- Config: Change some Waystone multipliers from 1.1 to 1.01
+- Config: Change Waystone config to charge 1 level per 1000 blocks traveled
+- Config: Hid additional yellorium/yellorite items from JEI
+- Config: Adjusted RandomPatches packet sizes to try and prevent GodsGriever from DCing on ALT+TAB
+- Config: Removed Alex's Mobs book on world join
+- Config: Adjusted Alex's Mobs Lava Vision potion lava opacity to 0.10 from 0.65
+- Config: MCMT compatability settings enabled - disableWorldPostTick, enableChunkTimeout, enableBlankReturn
+- Config: Performant - multiEntities false to avoid conflict with MCMT
+- Config: Adjusted some keybinds
+  - Delete `options.txt` from top-level minecraft folder before opening game to get changes
+
 ## 5.8.7
 - Removed: Extreme sound muffler (Forge)
   It didn't work when Dynamic Surroundings which already has (verified working) sound control
