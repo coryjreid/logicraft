@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.8.6
+- Added: Absent by Design
+- Added: Better Compatibility Checker
+- Added: CC: Tweaked
+- Added: Extreme sound muffler (Forge)
+
 ## 5.7.6
 - Updated: Architectury API (Forge) to 1.29.51
 - Config: Adjusted the Waystone XP cost to not be quite so insane

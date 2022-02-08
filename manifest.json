@@ -554,6 +554,14 @@
             "fileLength": 9554
         },
         {
+            "modId": 282001,
+            "fileId": 3606344,
+            "displayName": "cc-tweaked-1.16.5-1.100.2.jar",
+            "fileName": "cc-tweaked-1.16.5-1.100.2.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3606/344/cc-tweaked-1.16.5-1.100.2.jar",
+            "fileLength": 1932715
+        },
+        {
             "modId": 283644,
             "fileId": 3536806,
             "displayName": "Placebo-1.16.5-4.6.1.jar",
@@ -616,6 +624,14 @@
             "fileName": "QuarkOddities-1.16.3.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3088/871/QuarkOddities-1.16.3.jar",
             "fileLength": 1896
+        },
+        {
+            "modId": 305840,
+            "fileId": 3497361,
+            "displayName": "absentbydesign-1.16.5-1.5.1.jar",
+            "fileName": "absentbydesign-1.16.5-1.5.1.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3497/361/absentbydesign-1.16.5-1.5.1.jar",
+            "fileLength": 990342
         },
         {
             "modId": 306770,
@@ -816,6 +832,14 @@
             "fileName": "spark-forge.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3337/641/spark-forge.jar",
             "fileLength": 2519703
+        },
+        {
+            "modId": 363363,
+            "fileId": 3506112,
+            "displayName": "Extreme Sound Muffler 3.17 - Forge 1.16.5",
+            "fileName": "extremeSoundMuffler-3.17_1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3506/112/extremeSoundMuffler-3.17_1.16.5.jar",
+            "fileLength": 284548
         },
         {
             "modId": 363569,
@@ -1192,6 +1216,14 @@
             "fileName": "YungsBridges-Forge-1.16.4-1.0.1.jar",
             "downloadUrl": "https://edge.forgecdn.net/files/3494/974/YungsBridges-Forge-1.16.4-1.0.1.jar",
             "fileLength": 80085
+        },
+        {
+            "modId": 551894,
+            "fileId": 3596132,
+            "displayName": "BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar",
+            "fileName": "BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3596/132/BetterCompatibilityChecker-1.0.7-build.22+mc1.16.5.jar",
+            "fileLength": 15695
         }
     ]
 }
