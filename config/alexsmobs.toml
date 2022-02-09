@@ -4,7 +4,7 @@
 	giveBookOnStartup = false
 	#Lava Opacity for the Lava Vision Potion.
 	#Range: 0.01 ~ 1.0
-	lavaVisionOpacity = 0.10
+	lavaVisionOpacity = 0.1
 	#Whether to disable certain aspects of the Lava Vision Potion. Enable if issues with shaders persist.
 	shadersCompat = false
 	#Whether bananas should drop from blocks tagged with #alexsmobs:drops_bananas

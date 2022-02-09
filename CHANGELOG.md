@@ -1,4 +1,7 @@
 # Changelog
+## 6.0.1
+- Removed: MCMT (yup - it broke on the server, but not locally; i need to do better testing)
+- Config: Reset changed Performant settings to defaults now that MCMT is gone
 
 ## 6.0.0
 - Added: Lazy DataFixerUpper(LazyDFU) [FORGE]
