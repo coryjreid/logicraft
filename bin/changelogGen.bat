@@ -1,0 +1,1 @@
+bin\git-chglog.exe -o CHANGELOG.md 6.0.1..
