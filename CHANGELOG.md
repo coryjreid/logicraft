@@ -1,4 +1,12 @@
 
+## 8.0.0 (2022-02-09)
+
+### Fix
+
+* Rollback mod upgrades for further testing
+* Correct string value to boolean value in BCC config
+
+
 ## 7.0.0 (2022-02-09)
 
 ### Chore
