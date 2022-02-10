@@ -1,6 +1,6 @@
 {
     "name": "Logicraft_",
-    "version": "7.0.0",
+    "version": "8.0.0",
     "author": "Aezshma",
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
@@ -131,11 +131,11 @@
         },
         {
             "modId": 233105,
-            "fileId": 3641836,
-            "displayName": "McJtyLib - 1.16-5.1.4",
-            "fileName": "mcjtylib-1.16-5.1.4.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3641/836/mcjtylib-1.16-5.1.4.jar",
-            "fileLength": 647045
+            "fileId": 3598199,
+            "displayName": "McJtyLib - 1.16-5.1.3",
+            "fileName": "mcjtylib-1.16-5.1.3.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3598/199/mcjtylib-1.16-5.1.3.jar",
+            "fileLength": 644933
         },
         {
             "modId": 235577,
@@ -251,11 +251,11 @@
         },
         {
             "modId": 243121,
-            "fileId": 3642325,
-            "displayName": "Quark-r2.4-322.jar",
-            "fileName": "Quark-r2.4-322.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3642/325/Quark-r2.4-322.jar",
-            "fileLength": 8796901
+            "fileId": 3538744,
+            "displayName": "Quark-r2.4-321.jar",
+            "fileName": "Quark-r2.4-321.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3538/744/Quark-r2.4-321.jar",
+            "fileLength": 8797129
         },
         {
             "modId": 245211,
@@ -787,11 +787,11 @@
         },
         {
             "modId": 348521,
-            "fileId": 3641085,
-            "displayName": "[Forge 1.16.4/5] v4.14.54",
-            "fileName": "cloth-config-4.14.54-forge.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3641/85/cloth-config-4.14.54-forge.jar",
-            "fileLength": 1458779
+            "fileId": 3559634,
+            "displayName": "[Forge 1.16.4/5] v4.13.49",
+            "fileName": "cloth-config-4.13.49-forge.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3559/634/cloth-config-4.13.49-forge.jar",
+            "fileLength": 1341497
         },
         {
             "modId": 351725,
@@ -811,11 +811,11 @@
         },
         {
             "modId": 354143,
-            "fileId": 3642362,
-            "displayName": "performant-1.16.2-5-3.85m.jar",
-            "fileName": "performant-1.16.2-5-3.85m.jar",
-            "downloadUrl": "https://edge.forgecdn.net/files/3642/362/performant-1.16.2-5-3.85m.jar",
-            "fileLength": 235088
+            "fileId": 3626783,
+            "displayName": "performant-1.16.2-5-3.84m.jar",
+            "fileName": "performant-1.16.2-5-3.84m.jar",
+            "downloadUrl": "https://edge.forgecdn.net/files/3626/783/performant-1.16.2-5-3.84m.jar",
+            "fileLength": 235018
         },
         {
             "modId": 357540,
