@@ -26,7 +26,7 @@ def main():
     # set default BCC values
     bccData['general']['modpackName'] = "Logicraft_"
     bccData['general']['modpackProjectID'] = 323471
-    bccData['general']['useMetadata'] = "false"
+    bccData['general']['useMetadata'] = False
 
     # update version
     bccData['general']['modpackVersion'] = version
