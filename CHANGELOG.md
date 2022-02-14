@@ -1,4 +1,12 @@
 
+## 8.1.0 (2022-02-13)
+
+### Fix
+
+* Stop tracking Mekanism client config so user configurations aren't overwritten
+* Adjust recipe: 4 uranium essence (2x2) -> 2 uranium ingot
+
+
 ## 8.0.0 (2022-02-09)
 
 ### Fix
