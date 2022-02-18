@@ -1960,7 +1960,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcjtylib.toml"
-hash = "896e7468e6cc1c2cfd5be8272c1ccd338e5753158bccdc19c5a0324f2abc2152"
+hash = "827288ba4f4fb38c32aa9b2dda51fa0665a47843d393897f6679a3c3e0b2ed46"
 metafile = true
 
 [[files]]
