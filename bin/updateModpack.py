@@ -45,7 +45,8 @@ def main():
         # install
         print(f"Installing pack mod {key}, file {sourceMods[key]}")
         subprocess.run(
-            ["packwiz.exe", "curseforge", "install" "--addon-id", key, "--file-id", sourceMods[key]], capture_output=True
+            [os.path.join(pwd, "bin", "packwiz.exe"), "curseforge", "install" "--addon-id", key, "--file-id", sourceMods[key]],
+            capture_output=True
         )
 
     for modId in packMods:
@@ -55,12 +56,16 @@ def main():
                 # update
                 print(f"Updating pack mod {modData['packSlug']}")
                 subprocess.run(
-                    ["packwiz.exe", "update", modData["packSlug"]], capture_output=True)
+                    [os.path.join(pwd, "bin", "packwiz.exe"), "update", modData["packSlug"]],
+                    capture_output=True
+                )
         else:
             # delete
             print(f"Deleting pack mod {modData['packSlug']}")
-            subprocess.run(["packwiz.exe", "remove", modData["packSlug"]],
-                           capture_output=True)
+            subprocess.run(
+                [os.path.join(pwd, "bin", "packwiz.exe"), "remove", modData["packSlug"]],
+                capture_output=True
+            )
 
     # nuke all managed folders in repo
     for dir in managedFolders:
