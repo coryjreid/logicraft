@@ -1860,7 +1860,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-forge.toml"
-hash = "11304249c8efbf46de49cd79c2b9072c400cc45bc3f580b9d2a0e1403074fb48"
+hash = "bd46441f69ace997803271412ed83f46f4d532aed03e4e2801a63f3c81760f5d"
 metafile = true
 
 [[files]]
