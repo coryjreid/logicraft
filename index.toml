@@ -1615,7 +1615,7 @@ metafile = true
 
 [[files]]
 file = "mods/comforts.toml"
-hash = "d1d2bbe57da1a2e5c86b1387a476c5d8131d646b3c4f0f80190e63532b0072ae"
+hash = "e2918449cf6aebc723f0f0199adb6947b3c9b348623601bb4dcbdf9af1cde086"
 metafile = true
 
 [[files]]
