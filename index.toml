@@ -1,42 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".chglog/CHANGELOG.tpl.md"
-hash = "4fff37a8a47c4078f44c4f36cff7d2664fad23575b2071c4418e7d9f52dd5cba"
-
-[[files]]
-file = ".chglog/config.yml"
-hash = "1a453c2f01efb9fd4c7732ace3ec135f91d2522ec2cdba6c18f59556d37a8171"
-
-[[files]]
-file = "CHANGELOG-OLD.md"
-hash = "393f87e93eade5b9d3627f83a3577c4bf4662c10ae123a634534257c064b12ac"
-
-[[files]]
-file = "CHANGELOG.md"
-hash = "de18c249d233f9456265a322f249422f50c9028b0adbf23aa698d6e52abd5f08"
-
-[[files]]
-file = "README.md"
-hash = "cdaabe7fb2560a76183f53a2acc2292cb0897d751ca18f901a491a4b4a63a5a9"
-
-[[files]]
-file = "bin/changelog.bat"
-hash = "e67f35a49dbfe1bd374ce269eb45a6ebd9f1239954fcf80be1918f56b1b82c3f"
-
-[[files]]
-file = "bin/git-chglog.exe"
-hash = "e1404cb637dd14bda123e2ebe488278134153839492f83668e59058ffcd4ac57"
-
-[[files]]
-file = "bin/update.bat"
-hash = "4d5dc3ed0538366ee61cb64cca9eddf6bcd48df0e994dba66199471bf93b24dc"
-
-[[files]]
-file = "bin/updateModpack.py"
-hash = "2dc0b8bde4be469a0a141633643a00048f1e183a4e7b4e7902ed3895c196fe89"
-
-[[files]]
 file = "config/BBOutlineReloaded.cfg"
 hash = "9ef3ec4413f72db117c7fb259c51d45edd03681de6bc65c327d5bb6e8e435ffa"
 
@@ -350,7 +314,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "d66d733d58a5b6e28372606023735b5a0ddf722a808e53d76af1d2be380ef17f"
+hash = "bd3823f9deee346d62070972aa81343ff92cd049cd2bea203343506a8c86cf0f"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -1353,10 +1317,6 @@ file = "defaultconfigs/thermal-server.toml"
 hash = "377a771ca8370c4e1bfdf2a318c9fb4e2ca53285cfba5423e405dcf917a9cfc8"
 
 [[files]]
-file = "discord.sh"
-hash = "679e7d0c01c19256437167c1cc6d6a319435d20136adf8039fb351dba44ab91f"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "801703f280e4ff26fb4be02067cb583a79f7618bc0966b11d55b80492fddb56b"
 
@@ -1527,10 +1487,6 @@ hash = "7fa64463a00ccabf20c1db440c0b5b8b0ceaeb713105ddee433388375610e862"
 [[files]]
 file = "kubejs/startup_scripts/script.js"
 hash = "3d9ebfdbfd3c158572affc86c002ab8d37cdf6882295fab0085faa08b6a2c675"
-
-[[files]]
-file = "manifest.json"
-hash = "474c9320e82ba3f17dd3a9429d7d8f36a69f18f1b5087b5ca9a90bacffb54e20"
 
 [[files]]
 file = "mods/absent-by-design.toml"
