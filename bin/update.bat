@@ -1,1 +1,1 @@
-python ./bin/updateModpack.py "G:/Minecraft/Instances/Logicraft_ SOURCE/minecraftinstance.json" "./config/bcc-common.toml" "./manifest.json" %1
+python ./bin/updateModpack.py "G:/Minecraft/Instances/Logicraft_ SOURCE" %1
