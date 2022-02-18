@@ -7,12 +7,15 @@ import subprocess
 
 
 def main():
-    managedFolders = ["config", "defaultconfigs", "kubejs", "resourcepacks", "scripts"]
+    managedFolders = ["config", "defaultconfigs",
+                      "kubejs", "resourcepacks", "scripts"]
     pwd = os.getcwd()
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("curseManagedInstance", help="path to the CurseForge Launcher managed Minecraft instance")
-    parser.add_argument("versionNumber", help="new version number of the modpack")
+    parser.add_argument("curseManagedInstance",
+                        help="path to the CurseForge Launcher managed Minecraft instance")
+    parser.add_argument(
+        "versionNumber", help="new version number of the modpack")
     args = parser.parse_args()
 
     mcInstanceFolder = args.curseManagedInstance
@@ -25,14 +28,16 @@ def main():
     with open(os.path.join(mcInstanceFolder, "minecraftinstance.json")) as m:
         mciData = json.load(m)
         for mod in mciData["installedAddons"]:
-            print(f"Loading data for source mod '{mod['installedFile']['id']}'")
+            print(
+                f"Loading data for source mod '{mod['installedFile']['id']}'")
             sourceMods[mod["addonID"]] = mod["installedFile"]["id"]
 
     packMods = {}
     for filename in os.listdir(os.path.join(pwd, "mods")):
         with open(os.path.join(pwd, "mods", filename), "r") as f:
             mod = toml.load(f)
-            print(f"Loading data for pack mod '{mod['update']['curseforge']['project-id']}'")
+            print(
+                f"Loading data for pack mod '{mod['update']['curseforge']['project-id']}'")
             packMods[mod["update"]["curseforge"]["project-id"]] = {
                 "fileId": mod["update"]["curseforge"]["file-id"],
                 "packSlug": filename.replace(".toml", "")
@@ -44,10 +49,8 @@ def main():
     for key in (set(sourceMods.keys()) - set(packMods.keys())):
         # install
         print(f"Installing pack mod {key}, file {sourceMods[key]}")
-        subprocess.run(
-            [os.path.join(pwd, "bin", "packwiz.exe"), "curseforge", "install" "--addon-id", key, "--file-id", sourceMods[key]],
-            capture_output=True
-        )
+        subprocess.run([os.path.join(pwd, "bin", "packwiz.exe"), "curseforge",
+                       "install" "--addon-id", str(key), "--file-id", str(sourceMods[key])])
 
     for modId in packMods:
         modData = packMods[modId]
@@ -56,16 +59,12 @@ def main():
                 # update
                 print(f"Updating pack mod {modData['packSlug']}")
                 subprocess.run(
-                    [os.path.join(pwd, "bin", "packwiz.exe"), "update", modData["packSlug"]],
-                    capture_output=True
-                )
+                    [os.path.join(pwd, "bin", "packwiz.exe"), "update", modData["packSlug"]])
         else:
             # delete
             print(f"Deleting pack mod {modData['packSlug']}")
             subprocess.run(
-                [os.path.join(pwd, "bin", "packwiz.exe"), "remove", modData["packSlug"]],
-                capture_output=True
-            )
+                [os.path.join(pwd, "bin", "packwiz.exe"), "remove", modData["packSlug"]])
 
     # nuke all managed folders in repo
     for dir in managedFolders:
@@ -80,7 +79,7 @@ def main():
         dst = os.path.join(pwd, dir)
         print(f"Copying '{src}' to '{dst}'")
         shutil.copytree(src, dst)
-    
+
     #########################
     # UPDATE BCC
     #########################
@@ -106,7 +105,13 @@ def main():
         toml.dump(bccData, outfile)
         print("Success")
     
+    print("Refreshing packwiz index")
+    subprocess.run(
+                [os.path.join(pwd, "bin", "packwiz.exe"), "refresh"])
+    print("Success")
+
     print("Pack update complete")
+
 
 if __name__ == "__main__":
     main()
