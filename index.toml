@@ -1600,7 +1600,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config-forge.toml"
-hash = "9613457b1ecc7ce910113eaddb96d9baaea162113a72304eabd0878d0b1f9ad5"
+hash = "52823e70e9ab44424f43d9a37b3f95814b330c0bb8f67dbc213f192f613f56b6"
 metafile = true
 
 [[files]]
@@ -1805,7 +1805,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-hud-forge.toml"
-hash = "48c2f2b2e491d884ba772a59d564615eac2f93ea80b31a094b667212debd4664"
+hash = "cfa955c4b16ca8e6422c651a43e41314acd1d26228ab4184296db761acc69814"
 metafile = true
 
 [[files]]
