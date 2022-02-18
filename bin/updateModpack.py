@@ -50,7 +50,7 @@ def main():
         # install
         print(f"Installing pack mod {key}, file {sourceMods[key]}")
         subprocess.run([os.path.join(pwd, "bin", "packwiz.exe"), "curseforge",
-                       "install" "--addon-id", str(key), "--file-id", str(sourceMods[key])])
+                       "install", "--addon-id", str(key), "--file-id", str(sourceMods[key])])
 
     for modId in packMods:
         modData = packMods[modId]
