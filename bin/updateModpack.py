@@ -104,6 +104,16 @@ def main():
         print(f"Writing BCC file")
         toml.dump(bccData, outfile)
         print("Success")
+
+    # update pack version
+    packData = toml.load(os.path.join(pwd, "pack.toml"))
+    packData['version'] = version
+
+    # write changes to pack.toml file
+    with open(os.path.join(pwd, "pack.toml"), 'w') as outfile:
+        print(f"Writing pack.toml file")
+        toml.dump(packData, outfile)
+        print("Success")
     
     print("Refreshing packwiz index")
     subprocess.run(
