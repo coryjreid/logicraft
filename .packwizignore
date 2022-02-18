@@ -11,3 +11,5 @@ manifest.json
 .vscode
 bin
 VERSION
+_config.yml
+index.md
