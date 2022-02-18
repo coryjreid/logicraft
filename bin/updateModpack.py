@@ -36,12 +36,12 @@ def main():
     for filename in os.listdir(os.path.join(pwd, "mods")):
         with open(os.path.join(pwd, "mods", filename), "r") as f:
             mod = toml.load(f)
-            print(
-                f"Loading data for pack mod '{mod['update']['curseforge']['project-id']}'")
-            packMods[mod["update"]["curseforge"]["project-id"]] = {
-                "fileId": mod["update"]["curseforge"]["file-id"],
-                "packSlug": filename.replace(".toml", "")
-            }
+            if "update" in mod:
+                print(f"Loading data for pack mod '{mod['update']['curseforge']['project-id']}'")
+                packMods[mod["update"]["curseforge"]["project-id"]] = {
+                    "fileId": mod["update"]["curseforge"]["file-id"],
+                    "packSlug": filename.replace(".toml", "")
+                }
 
     #########################
     # DO PACK UPDATES
