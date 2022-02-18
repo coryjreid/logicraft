@@ -2070,7 +2070,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.toml"
-hash = "b64b1abe1a0a4d00cde99ca9b57253dc9062de984f4e95b87a479c06eb46ee58"
+hash = "ee49ae892b8d1483172b2132f30b96a3ba45d2d46ba51a2113e0aee3eb90c909"
 metafile = true
 
 [[files]]
