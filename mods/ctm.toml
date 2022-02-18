@@ -1,0 +1,13 @@
+name = "ConnectedTexturesMod"
+filename = "CTM-MC1.16.1-1.1.2.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3137/659/CTM-MC1.16.1-1.1.2.6.jar"
+hash-format = "sha1"
+hash = "c097e077974a2c84c4309edfe91d76f6bdc90d4c"
+
+[update]
+[update.curseforge]
+file-id = 3137659
+project-id = 267602

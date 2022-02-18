@@ -1,0 +1,13 @@
+name = "Thermal Cultivation"
+filename = "thermal_cultivation-1.16.5-1.4.1.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3555/668/thermal_cultivation-1.16.5-1.4.1.3.jar"
+hash-format = "sha1"
+hash = "bc14d39c76c3d40c82f9a4f7525c8b07bd767944"
+
+[update]
+[update.curseforge]
+file-id = 3555668
+project-id = 271835

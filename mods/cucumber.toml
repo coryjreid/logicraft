@@ -1,0 +1,13 @@
+name = "Cucumber Library"
+filename = "Cucumber-1.16.5-4.1.12.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3507/886/Cucumber-1.16.5-4.1.12.jar"
+hash-format = "sha1"
+hash = "fe3e7e5833885e9bea09002f84b73de116a450ee"
+
+[update]
+[update.curseforge]
+file-id = 3507886
+project-id = 272335

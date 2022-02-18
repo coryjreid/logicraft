@@ -1,0 +1,13 @@
+name = "In Control!"
+filename = "incontrol-1.16-5.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3513/646/incontrol-1.16-5.2.2.jar"
+hash-format = "sha1"
+hash = "392cf58bd35ea863ca06cfac1df11db0e1b2c07c"
+
+[update]
+[update.curseforge]
+file-id = 3513646
+project-id = 257356

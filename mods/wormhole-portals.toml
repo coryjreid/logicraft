@@ -1,0 +1,13 @@
+name = "Wormhole (Portals)"
+filename = "wormhole-1.1.9-mc1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3447/487/wormhole-1.1.9-mc1.16.5.jar"
+hash-format = "sha1"
+hash = "faccc60da6ec62dbb0a1ec23ad028f16b995674e"
+
+[update]
+[update.curseforge]
+file-id = 3447487
+project-id = 396803

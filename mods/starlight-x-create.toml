@@ -1,0 +1,13 @@
+name = "Starlight x Create"
+filename = "starlight-1.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3583/654/starlight-1.2.jar"
+hash-format = "sha1"
+hash = "1f975b1d90c6744e6a867f609fdea2fb35c18705"
+
+[update]
+[update.curseforge]
+file-id = 3583654
+project-id = 560058

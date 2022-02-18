@@ -1,0 +1,13 @@
+name = "Compact Machines"
+filename = "compactmachines-4.0.0-beta.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3229/196/compactmachines-4.0.0-beta.2.jar"
+hash-format = "sha1"
+hash = "59e0e4df083a353047ae59dde167eaa88e746fef"
+
+[update]
+[update.curseforge]
+file-id = 3229196
+project-id = 224218

@@ -1,0 +1,13 @@
+name = "RFTools Power"
+filename = "rftoolspower-1.16-3.0.13.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3603/473/rftoolspower-1.16-3.0.13.jar"
+hash-format = "sha1"
+hash = "f0199b7d1393a0535c4d3753ec7e6350fb0680c9"
+
+[update]
+[update.curseforge]
+file-id = 3603473
+project-id = 290209

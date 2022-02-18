@@ -1,0 +1,13 @@
+name = "RandomPatches (Forge)"
+filename = "randompatches-2.4.4-forge.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3211/323/randompatches-2.4.4-forge.jar"
+hash-format = "sha1"
+hash = "70fb2adec035bdeb267c895692353cfc4e6d9fde"
+
+[update]
+[update.curseforge]
+file-id = 3211323
+project-id = 285612

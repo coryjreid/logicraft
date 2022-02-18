@@ -1,0 +1,13 @@
+name = "Curios Quark Oddities Backpack"
+filename = "CuriosQuarkOBP-1.16.5-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3199/963/CuriosQuarkOBP-1.16.5-1.0.2.jar"
+hash-format = "sha1"
+hash = "901e83541f32d623856b15b324193d9305c50adb"
+
+[update]
+[update.curseforge]
+file-id = 3199963
+project-id = 445208

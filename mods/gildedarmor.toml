@@ -1,0 +1,13 @@
+name = "GildedArmor"
+filename = "gildedarmor-forge-1.16.5-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3542/501/gildedarmor-forge-1.16.5-1.1.5.jar"
+hash-format = "sha1"
+hash = "cf2cc20e4e5cd96a0b555b0896876b72f5f73e4a"
+
+[update]
+[update.curseforge]
+file-id = 3542501
+project-id = 395953

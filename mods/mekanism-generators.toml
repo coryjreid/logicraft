@@ -1,0 +1,13 @@
+name = "Mekanism Generators"
+filename = "MekanismGenerators-1.16.5-10.1.1.456.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3590/101/MekanismGenerators-1.16.5-10.1.1.456.jar"
+hash-format = "sha1"
+hash = "d775667396bc49efa1067caf59cff30b589d2faa"
+
+[update]
+[update.curseforge]
+file-id = 3590101
+project-id = 268566

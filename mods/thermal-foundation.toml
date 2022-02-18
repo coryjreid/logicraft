@@ -1,0 +1,13 @@
+name = "Thermal Foundation"
+filename = "thermal_foundation-1.16.5-1.4.3.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3621/736/thermal_foundation-1.16.5-1.4.3.10.jar"
+hash-format = "sha1"
+hash = "4257d43d4f92974b66043db9f9f067f3731bf40e"
+
+[update]
+[update.curseforge]
+file-id = 3621736
+project-id = 222880

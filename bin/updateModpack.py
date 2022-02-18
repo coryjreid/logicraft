@@ -1,27 +1,89 @@
+import os
 import toml
 import json
 import argparse
+import shutil
+import subprocess
 
 
 def main():
+    managedFolders = ["config", "defaultconfigs", "kubejs", "resourcepacks", "scripts"]
+    pwd = os.getcwd()
+
     parser = argparse.ArgumentParser()
-    parser.add_argument("curseLauncherMcInstanceFile",
-                        help="path to the CurseForge Launcher minecraftinstance.json file")
-    parser.add_argument(
-        "bccFile", help="path to the Better Compatability Checker common config file")
-    parser.add_argument("manifestFile", help="path to the manifest file")
-    parser.add_argument(
-        "versionNumber", help="new version number of the modpack")
+    parser.add_argument("curseManagedInstance", help="path to the CurseForge Launcher managed Minecraft instance")
+    parser.add_argument("versionNumber", help="new version number of the modpack")
     args = parser.parse_args()
 
-    mcInstanceFile = args.curseLauncherMcInstanceFile
-    bccFile = args.bccFile
-    manifestFile = args.manifestFile
+    mcInstanceFolder = args.curseManagedInstance
     version = args.versionNumber
 
+    #########################
+    # LOAD DATA
+    #########################
+    sourceMods = {}
+    with open(os.path.join(mcInstanceFolder, "minecraftinstance.json")) as m:
+        mciData = json.load(m)
+        for mod in mciData["installedAddons"]:
+            print(f"Loading data for source mod '{mod['installedFile']['id']}'")
+            sourceMods[mod["addonID"]] = mod["installedFile"]["id"]
+
+    packMods = {}
+    for filename in os.listdir(os.path.join(pwd, "mods")):
+        with open(os.path.join(pwd, "mods", filename), "r") as f:
+            mod = toml.load(f)
+            print(f"Loading data for pack mod '{mod['update']['curseforge']['project-id']}'")
+            packMods[mod["update"]["curseforge"]["project-id"]] = {
+                "fileId": mod["update"]["curseforge"]["file-id"],
+                "packSlug": filename.replace(".toml", "")
+            }
+
+    #########################
+    # DO PACK UPDATES
+    #########################
+    for key in (set(sourceMods.keys()) - set(packMods.keys())):
+        # install
+        print(f"Installing pack mod {key}, file {sourceMods[key]}")
+        subprocess.run(
+            ["packwiz.exe", "curseforge", "install" "--addon-id", key, "--file-id", sourceMods[key]], capture_output=True
+        )
+
+    for modId in packMods:
+        modData = packMods[modId]
+        if modId in sourceMods:
+            if sourceMods[modId] != modData["fileId"]:
+                # update
+                print(f"Updating pack mod {modData['packSlug']}")
+                subprocess.run(
+                    ["packwiz.exe", "update", modData["packSlug"]], capture_output=True)
+        else:
+            # delete
+            print(f"Deleting pack mod {modData['packSlug']}")
+            subprocess.run(["packwiz.exe", "remove", modData["packSlug"]],
+                           capture_output=True)
+
+    # nuke all managed folders in repo
+    for dir in managedFolders:
+        path = os.path.join(pwd, dir)
+        if os.path.isdir(path):
+            print(f"Deleting '{path}'")
+            shutil.rmtree(path)
+
+    # copy managed folder changes from Minecraft instance folder
+    for dir in managedFolders:
+        src = os.path.join(mcInstanceFolder, dir)
+        dst = os.path.join(pwd, dir)
+        print(f"Copying '{src}' to '{dst}'")
+        shutil.copytree(src, dst)
+    
+    #########################
     # UPDATE BCC
+    #########################
     # load data
+    bccFile = os.path.join(pwd, "config", "bcc-common.toml")
+    print(f"Loading BCC data from '{bccFile}'")
     bccData = toml.load(bccFile)
+    print(f"Success")
 
     # set default BCC values
     bccData['general']['modpackName'] = "Logicraft_"
@@ -29,56 +91,17 @@ def main():
     bccData['general']['useMetadata'] = False
 
     # update version
+    print(f"Setting BCC pack version to {version}")
     bccData['general']['modpackVersion'] = version
+    print("Success")
 
     # write changes to BCC file
     with open(bccFile, 'w') as outfile:
+        print(f"Writing BCC file")
         toml.dump(bccData, outfile)
-
-    # UPDATE MANIFEST
-    # load data
-    with open(manifestFile) as m:
-        manifestData = json.load(m)
-
-    # set default manifest values
-    manifestData['name'] = "Logicraft_"
-    manifestData['author'] = "Aezshma"
-    manifestData['manifestType'] = "minecraftModpack"
-    manifestData['manifestVersion'] = 1
-    manifestData['minecraft']['version'] = "1.16.5"
-    manifestData['overrides'] = "overrides"
-
-    # update version
-    manifestData['version'] = version
-
-    # fetch mods from minecraftinstance.json
-    with open(mcInstanceFile) as m:
-        mciData = json.load(m)
-
-    files = []
-    for i in mciData['installedAddons']:
-        installedFile = i['installedFile']
-        if installedFile is not None:
-            files.append({
-                'modId': i['addonID'],
-                'fileId': installedFile['id'],
-                'displayName': installedFile['displayName'],
-                'fileName': installedFile['fileName'],
-                'downloadUrl': installedFile['downloadUrl'],
-                'fileLength': installedFile['fileLength']
-            })
-
-    # sort the data to make diffs consistent
-    files.sort(key=lambda x: x['modId'])
-    # store mods
-    manifestData['files'] = files
-
-    # write changes to manifest file
-    with open(manifestFile, 'w') as outfile:
-        json.dump(manifestData, outfile, indent=4)
-
-    print(f"Updated version to '{version}'")
-
+        print("Success")
+    
+    print("Pack update complete")
 
 if __name__ == "__main__":
     main()

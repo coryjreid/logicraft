@@ -1,0 +1,13 @@
+name = "Pocket Storage"
+filename = "pocketstorage-1.16.5-0.8.1-build.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3345/109/pocketstorage-1.16.5-0.8.1-build.10.jar"
+hash-format = "sha1"
+hash = "2b74a139afbc3d14b350847cbb3fdb2f9b61ef92"
+
+[update]
+[update.curseforge]
+file-id = 3345109
+project-id = 367734

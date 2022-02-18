@@ -1,0 +1,13 @@
+name = "JAMD"
+filename = "JAMD-1.2.4-build.17+mc1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3538/863/JAMD-1.2.4-build.17+mc1.16.5.jar"
+hash-format = "sha1"
+hash = "eb7311b9cd0e3a0a9514178eaaa81d860ad4f7ca"
+
+[update]
+[update.curseforge]
+file-id = 3538863
+project-id = 422981

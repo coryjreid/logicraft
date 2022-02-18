@@ -1,0 +1,13 @@
+name = "Refined Storage"
+filename = "refinedstorage-1.9.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3630/64/refinedstorage-1.9.17.jar"
+hash-format = "sha1"
+hash = "b480bd6ceff58d3cfa1a0372b8eb75c55b4afd79"
+
+[update]
+[update.curseforge]
+file-id = 3630064
+project-id = 243076

@@ -1,0 +1,13 @@
+name = "Mystical Agradditions"
+filename = "MysticalAgradditions-1.16.5-4.2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3548/286/MysticalAgradditions-1.16.5-4.2.4.jar"
+hash-format = "sha1"
+hash = "176c5cb9081c57087cc4dac7403226027be06f48"
+
+[update]
+[update.curseforge]
+file-id = 3548286
+project-id = 256247

@@ -1,0 +1,13 @@
+name = "Absent by Design"
+filename = "absentbydesign-1.16.5-1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3497/361/absentbydesign-1.16.5-1.5.1.jar"
+hash-format = "sha1"
+hash = "5531e1e521f3ca408f3dd347d6e57eab04703023"
+
+[update]
+[update.curseforge]
+file-id = 3497361
+project-id = 305840

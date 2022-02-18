@@ -1,0 +1,13 @@
+name = "Placebo"
+filename = "Placebo-1.16.5-4.6.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3536/806/Placebo-1.16.5-4.6.1.jar"
+hash-format = "sha1"
+hash = "b29cb61a17588639a5d8b7a5ba72f580fa87e511"
+
+[update]
+[update.curseforge]
+file-id = 3536806
+project-id = 283644

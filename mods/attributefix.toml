@@ -1,0 +1,13 @@
+name = "AttributeFix"
+filename = "AttributeFix-1.16.5-10.1.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3348/562/AttributeFix-1.16.5-10.1.3.jar"
+hash-format = "sha1"
+hash = "efeae9920dec97b3409574d869cad1c7521519b0"
+
+[update]
+[update.curseforge]
+file-id = 3348562
+project-id = 280510

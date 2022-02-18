@@ -1,0 +1,13 @@
+name = "CC: Tweaked"
+filename = "cc-tweaked-1.16.5-1.100.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3606/344/cc-tweaked-1.16.5-1.100.2.jar"
+hash-format = "sha1"
+hash = "d73fde09d3c74519213d7f34bb1e7beca49b736e"
+
+[update]
+[update.curseforge]
+file-id = 3606344
+project-id = 282001

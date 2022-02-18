@@ -1,0 +1,13 @@
+name = "XNet"
+filename = "xnet-1.16-3.0.16.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3598/214/xnet-1.16-3.0.16.jar"
+hash-format = "sha1"
+hash = "7e3d1e3bfe5d24bc698e9611a9cd8c34b85d49d9"
+
+[update]
+[update.curseforge]
+file-id = 3598214
+project-id = 260912

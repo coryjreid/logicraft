@@ -1,0 +1,13 @@
+name = "Quark"
+filename = "Quark-r2.4-321.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3538/744/Quark-r2.4-321.jar"
+hash-format = "sha1"
+hash = "d8a7c291d25ff4a1a8c5e01bb7d7ad404fe9048d"
+
+[update]
+[update.curseforge]
+file-id = 3538744
+project-id = 243121
