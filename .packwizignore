@@ -9,7 +9,6 @@ manifest.json
 .chglog
 .vscode
 bin
-VERSION
 _config.yml
 index.md
 *.bak

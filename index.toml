@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "VERSION"
+hash = "396a01fc819c08e7bf0e7d771e631d7c978f1ab771aa054652f15485b3a208d0"
+
+[[files]]
 file = "config/BBOutlineReloaded.cfg"
 hash = "9ef3ec4413f72db117c7fb259c51d45edd03681de6bc65c327d5bb6e8e435ffa"
 
