@@ -3,7 +3,7 @@ filename = "OptiFine_1.16.5_HD_U_G8.jar"
 side = "client"
 
 [download]
-url = "https://optifine.net/downloadx?f=OptiFine%5F1.16.5%5FHD%5FU%5FG8.jar&x=862175586aeda9180a5ebfc5b858dd95"
+url = "https://coryjreid.com/OptiFine_1.16.5_HD_U_G8.jar"
 
 # A number of tools can generate the hash for you, including 7-zip and sha256sum
 # packwiz supports a number of hashes, including sha256, sha512, sha1 and md5

@@ -9,10 +9,6 @@ file = "config/InventoryHUD/curios.json"
 hash = "a50b2bb441550f38d3f9ae264825f9a2aea59ffd1d029b35781c96bcadc56d53"
 
 [[files]]
-file = "config/Mekanism/client.toml"
-hash = "37921f142b05be5d0290b75f86aa2234b1ff8b7b50b50366a1c35e6568287890"
-
-[[files]]
 file = "config/Mekanism/gear.toml"
 hash = "cd35ee31a0d8c58ce44f85d42a4b20bde6b7362b9f8624b1c4f49f9d79ab606f"
 
@@ -549,38 +545,6 @@ file = "config/defaultoptions/options.txt"
 hash = "ba4b393bf65ccd97ae6b23c59efdcf0d4169615d976788d90accca2cbfd7aa6d"
 
 [[files]]
-file = "config/dsurround/dsurround-client.toml"
-hash = "3abb9f4c16fee1d97b54b69fbd3a6be9d5167f8d2199cb7dd4aad330a0ca7141"
-
-[[files]]
-file = "config/dsurround/environs-client-1.toml.bak"
-hash = "bd4afd0fbbf554516a222e44898c2626626ef6c8a985f9e0e8d3751bfa04d8e2"
-
-[[files]]
-file = "config/dsurround/environs-client-2.toml.bak"
-hash = "bd4afd0fbbf554516a222e44898c2626626ef6c8a985f9e0e8d3751bfa04d8e2"
-
-[[files]]
-file = "config/dsurround/environs-client-3.toml.bak"
-hash = "bd4afd0fbbf554516a222e44898c2626626ef6c8a985f9e0e8d3751bfa04d8e2"
-
-[[files]]
-file = "config/dsurround/environs-client-4.toml.bak"
-hash = "bd4afd0fbbf554516a222e44898c2626626ef6c8a985f9e0e8d3751bfa04d8e2"
-
-[[files]]
-file = "config/dsurround/environs-client.toml"
-hash = "bd4afd0fbbf554516a222e44898c2626626ef6c8a985f9e0e8d3751bfa04d8e2"
-
-[[files]]
-file = "config/dsurround/mobeffects-client.toml"
-hash = "f7f6a0951249f97faafe8cfae1adae81359b7a6ee41e59874689e507250e34b6"
-
-[[files]]
-file = "config/dsurround/sndctrl-client.toml"
-hash = "d0dc60b2c0e17ddb28418ead62d429add2d11e546cca1fec010c6420c2cbabd9"
-
-[[files]]
 file = "config/dungeon_crawl.toml"
 hash = "d8b01b7aba7799a252a6456e6d46aded21f46fc4d64e96e656fd6b92ae11a477"
 
@@ -703,22 +667,6 @@ hash = "15acbd244c9a07bf904072a7bd6aef136bf43706f702faa7c5af1499b3a263f3"
 [[files]]
 file = "config/jei-client.toml"
 hash = "379d65f44523d29b7d8a52c0abae92ccb0c9b0532101fbfea0c13a0be76da2ef"
-
-[[files]]
-file = "config/jei/bookmarks.ini"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "6355fc4c4efea64856365b3b1ec9c5018f67b72fc57dccdd9a030075e44e3cc9"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "82847afb0cbde99ce9d354ba6085873ccd6b19bf0c26504d351451234a12cbcb"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "6d00214e4474a78bf76ab32f4a780cbb926649115043a3f116bdcb8537f09bc0"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
@@ -2015,7 +1963,7 @@ metafile = true
 
 [[files]]
 file = "mods/optifine.toml"
-hash = "c2da77b7dfabad8641c7c04bbac21feeb612a053c149a0623aef3c3edcd68c63"
+hash = "90db713f9f70e280a045755b5222135fe4f043f9bffaaef696ab019bda374efa"
 metafile = true
 
 [[files]]
@@ -2272,6 +2220,10 @@ metafile = true
 file = "mods/zerocore.toml"
 hash = "6a4fe0d2800871b051c8f24861e170094bb6e1bddac4c9351aca67ecf94f12e2"
 metafile = true
+
+[[files]]
+file = "overrides/OptiFine_1.16.5_HD_U_G8.jar"
+hash = "3c76bc90ed44bce567cee7c20eb2c4361926f23a86e5367d596f6e624d0b494f"
 
 [[files]]
 file = "resourcepacks/Faithful_1.16.zip"
