@@ -2222,10 +2222,6 @@ hash = "6a4fe0d2800871b051c8f24861e170094bb6e1bddac4c9351aca67ecf94f12e2"
 metafile = true
 
 [[files]]
-file = "overrides/OptiFine_1.16.5_HD_U_G8.jar"
-hash = "3c76bc90ed44bce567cee7c20eb2c4361926f23a86e5367d596f6e624d0b494f"
-
-[[files]]
 file = "resourcepacks/Faithful_1.16.zip"
 hash = "10978120cf52263c9a55769e901ca301d430ee25465c80e43ab3eb3182e3b9b0"
 
