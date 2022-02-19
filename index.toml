@@ -454,7 +454,7 @@ hash = "27aa738212d7314f08bed2fcfb782a146cf5889a3f0891a74dfb1c22e94d2b2e"
 
 [[files]]
 file = "config/chiselsandbits-client.toml"
-hash = "822a77f02ecf3484a309490baf01501c69da9bb03265b38c415b71f0747272e5"
+hash = "4cb82d00b375c749738087db583401c96d5295c65c3b5d3cb5353d554198092c"
 
 [[files]]
 file = "config/chiselsandbits-common.toml"
@@ -573,10 +573,6 @@ file = "config/extremereactors/common.toml"
 hash = "8d0889b632fa58de55245eee804004b3e19f5bdac2605a8603e2449e19886301"
 
 [[files]]
-file = "config/extremesoundmuffler-client.toml"
-hash = "004d3c91903348e17e59ce2744d4568a7273b5282d6440c95b086554a9d9edbd"
-
-[[files]]
 file = "config/fastbench.cfg"
 hash = "dd7d3acccb1470a7a66a4da7873d0b6026a3372deebc6826f2ed8ccedf10de69"
 
@@ -670,7 +666,7 @@ hash = "15acbd244c9a07bf904072a7bd6aef136bf43706f702faa7c5af1499b3a263f3"
 
 [[files]]
 file = "config/jei-client.toml"
-hash = "379d65f44523d29b7d8a52c0abae92ccb0c9b0532101fbfea0c13a0be76da2ef"
+hash = "f1629efb9e780fcf4c8cceea2f58b6a9b8d4e0a9d23a79fb4eb884fa2c7ff5a0"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
@@ -1082,7 +1078,7 @@ hash = "239342573e6bec52d07758507eed375c149d07f1149c4202f68900ae5b4d2afa"
 
 [[files]]
 file = "config/performant-common.toml"
-hash = "cebe9ab6637a9c7ca44a6e10a7b0c7c7b5e2f08194df42d3fdfd1525c8ed90ef"
+hash = "32221dd8ae060fdb7cef72d3906aa5da960734840904cc07d464366754d4b1d1"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1289,10 +1285,6 @@ file = "kubejs/client_scripts/jei/byg.js"
 hash = "6c41f0c30056727c222b1080e553d9ca9b20e8174ac29da6b546ea1265e415b7"
 
 [[files]]
-file = "kubejs/client_scripts/jei/chiselsandbits.js"
-hash = "5b3621450ee6a7d139d991beb9f6c41c46657b5c79e56e88bcbf86a15d3fbc48"
-
-[[files]]
 file = "kubejs/client_scripts/jei/cyclic.js"
 hash = "1c34e65fda85337c7ad244b48f7d3d384a045028f2842a13804a41374cd4b232"
 
@@ -1314,7 +1306,7 @@ hash = "29ecf622628c00e5df4c45824ebe639876b660fbe3bfe580d6e55d40577afce8"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "7aa69a66ba4641ef958ddc956b4fc6cf555f1cf5d31f560dcb0cc5f5c71ea2a1"
+hash = "be253da2d33964f4c816457189baec367e260ac5b3f0e77b51895b9d380f8aa2"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1387,6 +1379,10 @@ hash = "9f1b8f64f0bf09d71dd3014a6996ef4a4b875e98bf26468f517f1141b5f90d3d"
 [[files]]
 file = "kubejs/server_scripts/recipes/byg.js"
 hash = "189c2617d6ddb2d99fba2c83418cd247ef9730e4072b154f5fc9ece41bf2941f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/cabletiers.js"
+hash = "d0c175bfdf9ed76cdec508385f1014ca790b64366b18306ca5cbb9056b97e9be"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/comforts.js"

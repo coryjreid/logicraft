@@ -80,6 +80,8 @@ displayTooLargePackets = true
 	entityUpdateDistanceReduction = 0
 	#List of entities excluded from beeing affected by dynamic entity updates: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
 	excludedTickDistanceMobs = []
+	#List of entities excluded from multithreaded movement. format :  ["minecraft:zombie", "minecraft:creeper"]
+	excludedThreadedMovement = []
 
 ["Entity AI Settings"]
 	#Sets the tick interval in which non-running AI tasks are rechecked. Vanilla default is 1(starting with 1.13+), this mods suggested default is 4(as it was in vanilla 1.12)
