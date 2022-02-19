@@ -1,4 +1,20 @@
 
+## 8.2.1 (2022-02-19)
+
+### Chore
+
+* Bump version number
+* Remove unused extremesoundmuffler-client config
+
+### Fix
+
+* Remove accidentally-added Cable Tiers items from the game
+* Turn off Chisels and Bits "bit injection" for JEI to cleanup JEI
+* Actually fix the broken junk from before (and ignore some more files)
+* Remove illegal characters from filename, again, because packwiz is stupid and uses URIs instead of URLs
+* Add missing comma in updateModpack.py which was preventing mod additions from working correctly
+
+
 ## 8.2.0 (2022-02-18)
 
 ### Chore
