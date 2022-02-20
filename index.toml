@@ -565,6 +565,10 @@ file = "config/enchdesc-client.toml"
 hash = "891c189b7c1829750c7027ec7739b08312e19404ce604b367eb05c5c1f48d426"
 
 [[files]]
+file = "config/entityculling.json"
+hash = "0c78e42bc9ee8629e05830c89b882382dfa24c772c9b5a16d91225e1c63b11ad"
+
+[[files]]
 file = "config/extremereactors/client.toml"
 hash = "9a4e227827aef44de7cd4854155d0c40d0dd9be9dec7fee7d9ef05c271bd5d7b"
 
@@ -1662,6 +1666,11 @@ hash = "cc94a84a34b96ba35859d757ac8ad1136a050b46abf08cf41d532d9b0c7f6d9d"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.toml"
+hash = "5826fd2f0fbc43b7b2f8ac2eccdd9a20abba8c2d47c38d234698a65bcea9700f"
+metafile = true
+
+[[files]]
 file = "mods/extrastorage.toml"
 hash = "a587231864bade92a0650ffdf67d99fc1e320e23c3a7d24573c822783b068e46"
 metafile = true
@@ -1679,6 +1688,11 @@ metafile = true
 [[files]]
 file = "mods/fastfurnace.toml"
 hash = "214815b1c38dbe25a600c00a0d80470703c99b39127dcc78687225dcfa234d1e"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.toml"
+hash = "603988360b0fb46fc12c88884d72fa7e50aeb3e08125a5a30d5b2f0f68cb20b6"
 metafile = true
 
 [[files]]
