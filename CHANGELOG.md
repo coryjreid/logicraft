@@ -1,4 +1,15 @@
 
+## 9.0.1 (2022-02-20)
+
+### Chore
+
+* Bump version
+
+### Fix
+
+* Mark Entity Culling mod as client only
+
+
 ## 9.0.0 (2022-02-20)
 
 ### Added
