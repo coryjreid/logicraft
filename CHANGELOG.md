@@ -1,4 +1,19 @@
 
+## 9.0.0 (2022-02-20)
+
+### Added
+
+* Entity Culling
+
+### Chore
+
+* Bump version
+
+### Updated
+
+* Performant
+
+
 ## 8.2.1 (2022-02-19)
 
 ### Chore
