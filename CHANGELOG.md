@@ -1,4 +1,21 @@
 
+## 10.0.0 (2022-02-20)
+
+### Added
+
+* MouseTweaks
+* Easy Villagers
+
+### Chore
+
+* Bump version
+
+### Removed
+
+* Performant
+* Entity Culling
+
+
 ## 9.0.1 (2022-02-20)
 
 ### Chore
