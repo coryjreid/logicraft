@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "5c2c6d780ccce7ec8a782e408e6623a2cf3f23cb192176a427e9adaaac4b7af1"
+hash = "ae2cf745a63ca5f47a7218ae5b4a8267295305591457a33a79c46754c1dcce0b"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -47,6 +47,10 @@ hash = "5dcb8734eaf2815c982b49ff2f9f7ed557d46b16b01e17bd9ce889c4acbd437b"
 [[files]]
 file = "config/Mekanism/world.toml"
 hash = "55a808125f46c776e17a7b6e5a7a11d260b40f96599aa11dc0aa09053b2210a1"
+
+[[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
 file = "config/YungsExtras-forge-1_16.toml"
@@ -314,7 +318,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "816e9035f8e78cf1eaa60abfc86df89c355858bd81564df0460bbfd8ab9ed34a"
+hash = "8a6ae702acfd8a9cfb4382ff56e6b8338f9687a7e43b7e00d0f87923457a129e"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -557,6 +561,10 @@ file = "config/dynview-common.toml"
 hash = "cdb819b5411bdba7da07677e47037b9e6a66c2800a4179cf47667034ccc84e83"
 
 [[files]]
+file = "config/easy_villagers-client.toml"
+hash = "d09a0b6362e4d8f43caf45df96a7712eda21345625e4473ca42848bcd38326fd"
+
+[[files]]
 file = "config/enchantedbookredesign-client.toml"
 hash = "67d40792fde4d711d5e0a7742446afb35551c6faa20ab0e7ff62aab7b2c68bf6"
 
@@ -579,6 +587,10 @@ hash = "8d0889b632fa58de55245eee804004b3e19f5bdac2605a8603e2449e19886301"
 [[files]]
 file = "config/fastbench.cfg"
 hash = "dd7d3acccb1470a7a66a4da7873d0b6026a3372deebc6826f2ed8ccedf10de69"
+
+[[files]]
+file = "config/fastsuite.cfg"
+hash = "536257fb9de1fe0aff76ee5bd9f59f9105f1b187a6bde226d027440ace65c2c3"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -734,7 +746,7 @@ hash = "e5cbe5405a25f5b5d16f2a44b9c307e8049402afc3237613e958801e0a2312a9"
 
 [[files]]
 file = "config/naturescompass-client.toml"
-hash = "0a6ab48eaea9ca8d3ace6d9724bdae134ba71e310c9cb44b48c5c06de49b9482"
+hash = "f04a95cd8ba4bf5f9c33aad2c0062c402d7c08f5f96017c0be3498a48cc3988a"
 
 [[files]]
 file = "config/naturescompass-common.toml"
@@ -1661,13 +1673,13 @@ hash = "15ca2129ed532ca2c01df198739f5430d332ac4293cc84fec7830c7bd5f7af7f"
 metafile = true
 
 [[files]]
-file = "mods/enchanted-book-redesign.toml"
-hash = "cc94a84a34b96ba35859d757ac8ad1136a050b46abf08cf41d532d9b0c7f6d9d"
+file = "mods/easy-villagers.toml"
+hash = "aeed789687b9194db03baef72894aacc303ad9c8c44108352b63d412bd7827f2"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.toml"
-hash = "67c445a362b9c870c8e015cefda542815ba730331a1a6590cc571e9d434a29f2"
+file = "mods/enchanted-book-redesign.toml"
+hash = "cc94a84a34b96ba35859d757ac8ad1136a050b46abf08cf41d532d9b0c7f6d9d"
 metafile = true
 
 [[files]]
@@ -1946,6 +1958,11 @@ hash = "425f597f89c336cea7f4eea63a3ffd8a1e96c2fa9357ecb95a97f3f0ad6f89f2"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.toml"
+hash = "466641af19e51e3514a6926c2eb91107cb52b8ce2200fe732974c80ed455d0b4"
+metafile = true
+
+[[files]]
 file = "mods/mrcrayfish-furniture-mod.toml"
 hash = "7612a5d9e5d3376f36b24eb78fe228c0ddff5a43fce4439981402e59c69e59f2"
 metafile = true
@@ -2008,11 +2025,6 @@ metafile = true
 [[files]]
 file = "mods/patchouli.toml"
 hash = "a4d6bca8d160c82158e684d1a09f538e7ab9c76e6dee063fcd66b104b8754671"
-metafile = true
-
-[[files]]
-file = "mods/performant.toml"
-hash = "e7a76fe0150e019dd9fdd30577f509975d6b82f890fa60076a79ae5d9286f050"
 metafile = true
 
 [[files]]
