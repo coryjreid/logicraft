@@ -1245,6 +1245,10 @@ file = "defaultconfigs/curios-server.toml"
 hash = "efdb5d3ac36031308fd0abd43f70a2d57d218af58ff66bc77bc1cfa8b01ca22c"
 
 [[files]]
+file = "defaultconfigs/easy_villagers-server.toml"
+hash = "7e0fbc78773672559eb85a197e84bd127176e1de62d9d7d771c391a590f25797"
+
+[[files]]
 file = "defaultconfigs/forge-server.toml"
 hash = "6a743fc14563c2ef4f0a93f87fda284422f938b59acfd0c5184dc2559d3d1637"
 
@@ -2025,6 +2029,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.toml"
 hash = "a4d6bca8d160c82158e684d1a09f538e7ab9c76e6dee063fcd66b104b8754671"
+metafile = true
+
+[[files]]
+file = "mods/performant.toml"
+hash = "e7a76fe0150e019dd9fdd30577f509975d6b82f890fa60076a79ae5d9286f050"
 metafile = true
 
 [[files]]
