@@ -1,4 +1,15 @@
 
+## 11.0.0 (2022-02-21)
+
+### Added
+
+* Performant (too laggy without it)
+
+### Chore
+
+* Bump version
+
+
 ## 10.0.0 (2022-02-20)
 
 ### Added
