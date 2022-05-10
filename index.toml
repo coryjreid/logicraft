@@ -1908,7 +1908,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-furniture.toml"
-hash = "fa92863c2dca4382fe0852bb018e4acd747df0d2ba1e70450a793d594b42aba9"
+hash = "70b48dcba857330a6afaf8b04fa1d90044a00401b0353cb0d9f381d1777467d8"
 metafile = true
 
 [[files]]
