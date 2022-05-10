@@ -1,4 +1,62 @@
 
+## 12.0.0 (2022-05-09)
+
+### Chore
+
+* Bump version
+
+### Update
+
+* ZeroCore 2
+* V-Tweaks
+* Thermal Locomotion
+* Thermal Foundation
+* The One Probe
+* SuperMartijn642's Core Lib
+* Spark
+* RFTools Utility
+* RFTools Power
+* RFTools Control
+* RFTools Builder
+* RFTools Base
+* Pocket Storage
+* Placebo
+* Performant
+* Ore Tweaker
+* Mekanism Generators
+* Mekanism
+* McJtyLib
+* Macaw's Windows
+* Macaw's Trapdoors
+* Macaw's Roofs
+* Macaw's Paintings
+* Macaw's Lights and Lamps
+* Macaw's Furniture
+* Macaw's Fences and Walls
+* Macaw's Doors
+* Macaw's Bridges - Oh The Biomes You'll Go
+* Macaw's Bridges
+* Just Enough Items (JEI)
+* JourneyMap
+* In Control!
+* Extreme Reactors
+* Dungeon Crawl
+* Cyclic
+* CraftTweaker
+* Cosmetic Armor Reworked
+* Configured
+* Comforts (Forge)
+* CoFH Core
+* Clumps
+* Cloth Config API (Fabric/Forge)
+* CC: Tweaked
+* Cable Tiers
+* AttributeFix
+* Architectury API (Fabric/Forge)
+* AppleSkin
+* Absent By Design
+
+
 ## 11.0.0 (2022-02-21)
 
 ### Added
