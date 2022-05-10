@@ -2033,7 +2033,7 @@ metafile = true
 
 [[files]]
 file = "mods/performant.toml"
-hash = "e7a76fe0150e019dd9fdd30577f509975d6b82f890fa60076a79ae5d9286f050"
+hash = "f1e32568ae72d7c4b608c0444b25b80edee09e55fbc3eb523b12742dc61cd9c9"
 metafile = true
 
 [[files]]
