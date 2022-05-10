@@ -2093,7 +2093,7 @@ metafile = true
 
 [[files]]
 file = "mods/rftools-power.toml"
-hash = "f1e6d7151960d1dc76c518636b6c634178c40dc2a1d5f8eb4d42ec548e1ed258"
+hash = "8be232bd8e3fbefe64635de58c93944b26c6dda6cb116e3ecba78314a45a43a8"
 metafile = true
 
 [[files]]
