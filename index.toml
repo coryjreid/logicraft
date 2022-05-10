@@ -1663,7 +1663,7 @@ metafile = true
 
 [[files]]
 file = "mods/dungeon-crawl.toml"
-hash = "b4388db9ad6f5a43129ded27581adcc7f875692ca4e6744502531f5f8cedef03"
+hash = "1b4740b6fe9375c5e7f40fdeb496e8d19c0b7df514fd552ca8a5e276c89ca8bb"
 metafile = true
 
 [[files]]

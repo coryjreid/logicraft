@@ -1,13 +1,13 @@
 name = "Dungeon Crawl"
-filename = "DungeonCrawl-1.16.5-2.3.5.jar"
+filename = "DungeonCrawl-1.16.5-2.3.8.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3576/775/DungeonCrawl-1.16.5-2.3.5.jar"
+url = "https://edge.forgecdn.net/files/3766/133/DungeonCrawl-1.16.5-2.3.8.jar"
 hash-format = "sha1"
-hash = "240e4f5ba8983b329b14e45616c369ec86549db1"
+hash = "c65995fc9778b674caedb6705ec130f46e987dcb"
 
 [update]
 [update.curseforge]
-file-id = 3576775
+file-id = 3766133
 project-id = 324973
