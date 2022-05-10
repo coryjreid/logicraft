@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "2c5b028d248c0f1360e819094424e3e7189f06edaa17df964068b939943a76f0"
+hash = "c123e7512302f792deafe46128f459ccbedcf7db7fff340065601998b9482e82"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -318,7 +318,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "e338658ed4306bfdbeaad96803e893c3f348533c2ff5a93e4e6684ed014e2ce5"
+hash = "0746a741f9f5a97af2f06515c932d31a7d7c28b599eb47cc288835dd4d9b14d1"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -534,7 +534,7 @@ hash = "9c0985b85e67e704a3640d028186dc0b220fa69404b9555244add55eaf5d4794"
 
 [[files]]
 file = "config/cyclic-client.toml"
-hash = "0e5d497b8a3929b3177ffa997e4ef1f696600093281b93767d0c339460160344"
+hash = "4028a752cb90a7bb0f918323796237d5a445276ee45b0af9b10b02f97a55ee89"
 
 [[files]]
 file = "config/cyclic.toml"
@@ -554,7 +554,7 @@ hash = "ba4b393bf65ccd97ae6b23c59efdcf0d4169615d976788d90accca2cbfd7aa6d"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
-hash = "d8b01b7aba7799a252a6456e6d46aded21f46fc4d64e96e656fd6b92ae11a477"
+hash = "34ba5ef111755f419697484b8797203f08d08e286520a47c742a26aa7a9555c9"
 
 [[files]]
 file = "config/dynview-common.toml"
@@ -1094,7 +1094,7 @@ hash = "239342573e6bec52d07758507eed375c149d07f1149c4202f68900ae5b4d2afa"
 
 [[files]]
 file = "config/performant-common.toml"
-hash = "32221dd8ae060fdb7cef72d3906aa5da960734840904cc07d464366754d4b1d1"
+hash = "82ffff19ba2d003c608b37eef550ebe0a3b9714c344db8571245b747260db7c7"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1182,7 +1182,7 @@ hash = "87bf70547216335e15b188960dd91baf6b9b8f2aa88e19f96c9b5d0351a05c45"
 
 [[files]]
 file = "config/vtweaks-common.toml"
-hash = "4e406d5e7f982fd7489094ad1529ee7035bf90b563f0307c5cb5460893e2e3e1"
+hash = "a7a65337dac2745601460e79c75447eaacdb549d7ad8ac0d741bed0ce6434b50"
 
 [[files]]
 file = "config/waystones-client.toml"
