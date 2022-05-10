@@ -2043,7 +2043,7 @@ metafile = true
 
 [[files]]
 file = "mods/pocket-storage.toml"
-hash = "3f8e148443b898d6cbf9b24ec24527adc8cc7cee59cb57d908869916b28c26e6"
+hash = "1de24986bce8c0683184aef469c8c4d95f494028f23affdff58fdc8a4b2bb06f"
 metafile = true
 
 [[files]]
