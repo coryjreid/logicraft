@@ -1,13 +1,13 @@
 name = "Cable Tiers"
-filename = "cabletiers-1.16.5-0.544.jar"
+filename = "cabletiers-1.16.5-0.5441.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3601/375/cabletiers-1.16.5-0.544.jar"
+url = "https://edge.forgecdn.net/files/3769/758/cabletiers-1.16.5-0.5441.jar"
 hash-format = "sha1"
-hash = "47c9300d96424efa86b7230dfbaa21baa3877a1d"
+hash = "d7c19a6b34c1b26ee22c764ec50d6bc0aea84a94"
 
 [update]
 [update.curseforge]
-file-id = 3601375
+file-id = 3769758
 project-id = 454382
