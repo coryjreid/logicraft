@@ -1,13 +1,13 @@
 name = "CoFH Core"
-filename = "cofh_core-1.16.5-1.4.2.9.jar"
+filename = "cofh_core-1.16.5-1.4.3.10.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3621/734/cofh_core-1.16.5-1.4.2.9.jar"
+url = "https://edge.forgecdn.net/files/3758/720/cofh_core-1.16.5-1.4.3.10.jar"
 hash-format = "sha1"
-hash = "bf7208e87843d821d7f7fed47960c7e21241d976"
+hash = "19ed9436c300764d7bc730de091cb8ffa1ae52e9"
 
 [update]
 [update.curseforge]
-file-id = 3621734
+file-id = 3758720
 project-id = 69162
