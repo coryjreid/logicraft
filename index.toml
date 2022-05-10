@@ -1803,7 +1803,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.toml"
-hash = "d7a50ba442580b966c144b56eb1b7a571622c86209c0133a0e31421eafb76340"
+hash = "3f8803ed3daea9508f4617adc6435597f18df2d5ba8878951ebbbbdc841d9e61"
 metafile = true
 
 [[files]]

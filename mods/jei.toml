@@ -1,13 +1,13 @@
 name = "Just Enough Items (JEI)"
-filename = "jei-1.16.5-7.7.1.150.jar"
+filename = "jei-1.16.5-7.7.1.152.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3652/153/jei-1.16.5-7.7.1.150.jar"
+url = "https://edge.forgecdn.net/files/3681/294/jei-1.16.5-7.7.1.152.jar"
 hash-format = "sha1"
-hash = "6715f545220876aa45dba9ab1547a5810e7c6fa2"
+hash = "3cc5fb94d2225af367a04fbc8b288644d6e8ac1b"
 
 [update]
 [update.curseforge]
-file-id = 3652153
+file-id = 3681294
 project-id = 238222
