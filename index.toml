@@ -1943,7 +1943,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-generators.toml"
-hash = "91aca6f9f8e8465fbe0ee3d35def55bf45a905d0cfe075eb49975d98d906eb02"
+hash = "edf599390183a6ddd9c15646a04f69c7b2a6980d564431e1042271fc24c866b4"
 metafile = true
 
 [[files]]
