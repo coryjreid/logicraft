@@ -1948,7 +1948,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism.toml"
-hash = "0c5925e7f67da4f8ca7e28efe5424d49f7b29d04768f6f554d009d0e5d60dcd4"
+hash = "2d296dcf757625fbb4deb60b00fb9fb7b0d9a87a0a682a9ae760dcfd8460c568"
 metafile = true
 
 [[files]]
