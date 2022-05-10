@@ -2188,7 +2188,7 @@ metafile = true
 
 [[files]]
 file = "mods/v-tweaks.toml"
-hash = "b480eac7eb82a53bee3a437b6b1e39cf9cde4edaa2e14d2bfe62c0cd2fa73dd7"
+hash = "2c68adba9c3ecfb600d9d9504208954e2fc9ebfcd524bb17ce25dacd2e108d89"
 metafile = true
 
 [[files]]
