@@ -2078,7 +2078,7 @@ metafile = true
 
 [[files]]
 file = "mods/rftools-builder.toml"
-hash = "4dee0b0d7b3342ce8da93b365e4fb06b75190882d8b186e54c3102c3e4050561"
+hash = "6679b8047456391ebde1076863b1e384b8f1cea41561e648a0da23452bc3a3db"
 metafile = true
 
 [[files]]
