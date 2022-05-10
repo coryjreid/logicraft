@@ -1933,7 +1933,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-windows.toml"
-hash = "ba99a9d7c9cb9bb2fbdd35690f860051354aadbf16b9f8c0820a02396a758a87"
+hash = "1ee67f0ccabfb3474106283e9c92818a4c439ab71d6b301611b8e3be833b1bf2"
 metafile = true
 
 [[files]]
