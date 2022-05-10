@@ -1778,7 +1778,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.toml"
-hash = "4fb89849bd2adadb5d4f19bf0259a49ac06349758f36a321fdf8eda6a9c0f9ef"
+hash = "294a83fb67908536bf809ab1ba43ad1a2848fe7c85fbaacb74565669ffa87303"
 metafile = true
 
 [[files]]
