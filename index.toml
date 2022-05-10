@@ -1478,7 +1478,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-forge.toml"
-hash = "3737d5655da27682300dc73c721631937d87678f82c092857db92ff476725659"
+hash = "85e1ee0f5d7d77970dbf9af9994d8759574c37a618ff2b56d58711b030294e31"
 metafile = true
 
 [[files]]
