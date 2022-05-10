@@ -1,13 +1,13 @@
 name = "Thermal Locomotion"
-filename = "thermal_locomotion-1.16.5-1.4.1.2.jar"
+filename = "thermal_locomotion-1.16.5-1.4.1.3.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3555/670/thermal_locomotion-1.16.5-1.4.1.2.jar"
+url = "https://edge.forgecdn.net/files/3758/725/thermal_locomotion-1.16.5-1.4.1.3.jar"
 hash-format = "sha1"
-hash = "3a7e91b52f5dc082d16f38e8eb62caa935faeed6"
+hash = "ffc112dff76c17670d75019e680c80a5746aa879"
 
 [update]
 [update.curseforge]
-file-id = 3555670
+file-id = 3758725
 project-id = 406959

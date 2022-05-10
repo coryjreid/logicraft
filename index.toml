@@ -2173,7 +2173,7 @@ metafile = true
 
 [[files]]
 file = "mods/thermal-locomotion.toml"
-hash = "a0249062882eea1f8b9fb9ea0e6d9be4e8ca4c61b8f23e5f08540e62cf774056"
+hash = "68e139936ad7f9f72de0424979b3829a5820450d5ee41a650efa42c315e5482c"
 metafile = true
 
 [[files]]
