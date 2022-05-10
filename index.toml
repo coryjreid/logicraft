@@ -1918,7 +1918,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-paintings.toml"
-hash = "8244620ebdef353a463528ea0523fa8ee5b13dfac380528c89dbd5aa6a338096"
+hash = "40f398c72afadc8812ac0e3183b7599e2ecd4b130845fee08a59380c251faae1"
 metafile = true
 
 [[files]]
