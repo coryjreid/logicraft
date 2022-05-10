@@ -1568,7 +1568,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config-forge.toml"
-hash = "52823e70e9ab44424f43d9a37b3f95814b330c0bb8f67dbc213f192f613f56b6"
+hash = "8b03f989cffd85de754064b76dc74af43a50c1411bb6753b471cee94dc7ff880"
 metafile = true
 
 [[files]]
