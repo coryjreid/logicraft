@@ -1893,7 +1893,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.toml"
-hash = "08b7829068958657f2bbf3ac5d147cfeccf9d24c201d27371a12f6f26b42ef29"
+hash = "454d78dbf7aa42fc591a319fa6986a2525cb6f6e422a97f10a681d314e8f7881"
 metafile = true
 
 [[files]]
