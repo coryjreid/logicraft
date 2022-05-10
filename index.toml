@@ -1608,7 +1608,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetic-armor-reworked.toml"
-hash = "baa2365621616fab956515cb480029fc3d86412f541de094b1cbf65270d04cdf"
+hash = "e29df4655223d0cadb866d78503ee6db9a5cc2478b678eebe93c12a970683040"
 metafile = true
 
 [[files]]
