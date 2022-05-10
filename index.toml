@@ -1593,7 +1593,7 @@ metafile = true
 
 [[files]]
 file = "mods/configured.toml"
-hash = "1cafb358ea8a10bf8947b46f101117b4fa04af9d946296d7d90453818df2776d"
+hash = "5e5e311c84c15bd861c4841dbb684df2313abe9909bd3ec56915810602b2702b"
 metafile = true
 
 [[files]]
