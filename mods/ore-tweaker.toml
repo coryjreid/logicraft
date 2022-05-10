@@ -1,13 +1,13 @@
 name = "Ore Tweaker"
-filename = "OreTweaker-1.16.5-2.6.0.jar"
+filename = "OreTweaker-1.16.5-2.7.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3520/897/OreTweaker-1.16.5-2.6.0.jar"
+url = "https://edge.forgecdn.net/files/3758/390/OreTweaker-1.16.5-2.7.1.jar"
 hash-format = "sha1"
-hash = "4c6e2b4bc1c86de7795bee1238111ebe6fefced3"
+hash = "f75221f6f7e17267e94205256c0141ac8ac1b2cb"
 
 [update]
 [update.curseforge]
-file-id = 3520897
+file-id = 3758390
 project-id = 242436
