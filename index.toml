@@ -1458,7 +1458,7 @@ hash = "3d9ebfdbfd3c158572affc86c002ab8d37cdf6882295fab0085faa08b6a2c675"
 
 [[files]]
 file = "mods/absent-by-design.toml"
-hash = "f256feb70630aa7918143c818f939fb530954daae227677cd166bcc55e161ff0"
+hash = "1a7a5b7bbf8de07a691b9e46db9ea2d5d612a8353abfa9574c4f989e74c6e594"
 metafile = true
 
 [[files]]
