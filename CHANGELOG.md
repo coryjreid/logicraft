@@ -1,4 +1,15 @@
 
+## 12.2.0 (2022-07-07)
+
+### Chore
+
+* Bump version
+
+### Update
+
+* A bunch of mods
+
+
 ## 12.1.0 (2022-05-09)
 
 ### Chore
