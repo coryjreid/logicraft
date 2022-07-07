@@ -58,8 +58,4 @@ ultraenergycost = 4
 #Creative Energy Cost Multiplier
 #Range: > 0
 creativeenergycost = 0
-#
-#Creative Importer Fluid Block Blacklist 
-#For Example mekanism:creative_fluid_tank
-creativeImporterFluidBlockBlacklist = ["mekanism:creative_fluid_tank", "cookingforblockheads:sink"]
 

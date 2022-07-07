@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "7b501d453d109af74aaabeeebe2d2d833937c168d695e4c80332f48f7a2999e9"
+hash = "4aba7378ad57f5f2e75a805743bdf404d85758d954a345414c262bed3fb04b7b"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -70,7 +70,7 @@ hash = "7873ba7c1614546859aea24d5821961356531326e28127783665e569f91fffcf"
 
 [[files]]
 file = "config/aiimprovements-common.toml"
-hash = "aa4099dbfd663cf700b3099193b8374106c57dcfb9aff578a0dac389e6cea31a"
+hash = "4f38f4737f0367b6c1e50305512651ce4abf382f9acf6c496c312c70c433c56c"
 
 [[files]]
 file = "config/alexsmobs.toml"
@@ -318,7 +318,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "d1d4e8ae0d6552272ca6613918b9a8bba6107885cc2cc5ff87a65d2c967ac524"
+hash = "a5ef06a6547104454c7dabf6949b4e971b5c39f9db9c430048a54069ed790af6"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -406,7 +406,7 @@ hash = "2d83067767679f9a5b4bd03ea1b0523ad104e27980b34bcc34c9b6411fbfccb0"
 
 [[files]]
 file = "config/bloodmagic-common.toml"
-hash = "a1cf3b60b7989eaefad693d180d1c10b32fa3ec6539ed22e3d570b25142c0e56"
+hash = "1d76eb11fc10bbbf8d54e51056d5c7ee203ab86f3e5f519fb31955ff6489db47"
 
 [[files]]
 file = "config/botania-client.toml"
@@ -442,7 +442,7 @@ hash = "20c0d835fec41de09ea72489e602d451c8ffb13602f2f93e0ee1d35ccfacc6dc"
 
 [[files]]
 file = "config/cabletiers-common.toml"
-hash = "1556e8d482b1dec01589bcf3173e2e7d192eb6f2e85178b947b937688c5dfc6f"
+hash = "90ad1cc62936daa671c70307e4f6eab4e8798e98ce2ff4855e45d1280b23a2d4"
 
 [[files]]
 file = "config/carryon-client.toml"
@@ -482,7 +482,7 @@ hash = "dc3c5a5d190d6281eddf4f987dc32cc0543dc89547358e1b3c150f7f94746651"
 
 [[files]]
 file = "config/computercraft-client.toml"
-hash = "b68218c31bae20db566d9da8cbc1839a1feec2dfa82cf52fe60d97ca68d04f11"
+hash = "81fac46858f5b6c5d12ef1371a1fc7a1f386057fff71f60c4389ee123640658c"
 
 [[files]]
 file = "config/configured-client.toml"
@@ -1206,7 +1206,7 @@ hash = "6869c7fe3fd0a17a47923058523bdf30df34eb883a0a124ff0e33c1a794ded1e"
 
 [[files]]
 file = "config/wormhole-common.toml"
-hash = "395ec7ef8d1e13a1b721b14ad27d565d2e5652a48e50648c12889977765ac134"
+hash = "5bfcead56ebf300fd4cf06d28347c2460780cf98f4b563e4f15cfb06a48b675f"
 
 [[files]]
 file = "config/wstweaks-common.toml"
@@ -1214,7 +1214,7 @@ hash = "19f431652ed9e8583992c3fc6adba6a1d5b3746c31830a31bb8809b91f01a068"
 
 [[files]]
 file = "config/xnet-client.toml"
-hash = "56e6b8fb09691b3f12147a9d4cd5478ea92bde5037dc230c0b449b13f6a6b9cc"
+hash = "9f06fcb055a86ec05526d31115548a51ab262f7d5bc21bfb05e648d15b4e7064"
 
 [[files]]
 file = "config/yungsbridges-forge-1_16.toml"
