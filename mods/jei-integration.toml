@@ -1,13 +1,13 @@
 name = "JEI Integration"
-filename = "jeiintegration_1.16.5-7.0.1.15.jar"
+filename = "jeiintegration_1.16.5-7.1.0.22.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3202/331/jeiintegration_1.16.5-7.0.1.15.jar"
 hash-format = "sha1"
-hash = "8f3ee8d6b2c067294279f0502c39850b82885cb5"
+hash = "b50457bb0b650114192868c2c13dab61d8062285"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3202331
+file-id = 3808959
 project-id = 265917
