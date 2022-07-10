@@ -1,0 +1,13 @@
+name = "Sound Device Options"
+filename = "sounddeviceoptions-1.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "606dd45a92ca3908517a1e6b5e68976a0000b36b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3421094
+project-id = 306555

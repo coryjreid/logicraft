@@ -1157,6 +1157,10 @@ file = "config/simplyjetpacks-common.toml"
 hash = "e38559bca373fcbd76ce0bb7152535b1bba1968ed2a7df97d2f6f2082e95cd3b"
 
 [[files]]
+file = "config/sounddeviceoptions-client.toml"
+hash = "5f99e125e215a5c2f8b850cd990100b6eb3968defb945611ba8bead70095d552"
+
+[[files]]
 file = "config/theoneprobe-client.toml"
 hash = "f107b416e4a37f87ac5c9eb294e839c19510bed2f19d35e650420e53483ecd63"
 
@@ -1949,6 +1953,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism.toml"
 hash = "2d296dcf757625fbb4deb60b00fb9fb7b0d9a87a0a682a9ae760dcfd8460c568"
+metafile = true
+
+[[files]]
+file = "mods/more-sound-config.pw.toml"
+hash = "67914b1627f97055d0a01648af59321ad0708e266d3b854c11afad230e1cb030"
 metafile = true
 
 [[files]]
