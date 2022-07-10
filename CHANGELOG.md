@@ -1,4 +1,15 @@
 
+## 12.3.0 (2022-07-10)
+
+### Added
+
+* Sound Device Options
+
+### Chore
+
+* Bumped version
+
+
 ## 12.2.1 (2022-07-07)
 
 ### Update
