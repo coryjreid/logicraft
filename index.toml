@@ -1582,7 +1582,7 @@ metafile = true
 
 [[files]]
 file = "mods/blood-magic.toml"
-hash = "67ce18e8f148fa7285e0871ac607aeef608337d5448c3debb640be5916eaeedf"
+hash = "12892f588a6b194af62f65a02d455ad6cb62715e11a7cb04f2b5291ca7b1c840"
 metafile = true
 
 [[files]]
