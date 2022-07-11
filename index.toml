@@ -429,6 +429,14 @@ file = "config/byg/byg-biomes.json"
 hash = "7a1a6ac5599b14f4991e9709c77a8d0cd92464c74bc335cdc7831d297fa616db"
 
 [[files]]
+file = "config/byg/byg-end-biomes.json"
+hash = "4ea9415d4d58ac1fc7a50196f30c4a99115b60557d01ce5d262797bb01662f34"
+
+[[files]]
+file = "config/byg/byg-end-sub-biomes.json"
+hash = "24ee5fb3018ed262156da6cbb00c4033199d2c05e2c78b554a993a5736ea5f7a"
+
+[[files]]
 file = "config/byg/byg-nether-biomes.json"
 hash = "384fa91c711db2ca12fa642206f3eea1b96b14f3b843a5dc922c2238657c10bc"
 
@@ -475,6 +483,10 @@ hash = "b03a57e8390ded8f26a3d34caaa48700f2ca7eac3d5e3beac60b65207b9d62a1"
 [[files]]
 file = "config/cofh_core-client.toml"
 hash = "8d3f63bf55074b611cc2059454b178ec9c060fd49618e2e65e95048496015908"
+
+[[files]]
+file = "config/commoncapabilities-common.toml"
+hash = "46d688d2225d63bbeec8baea28276a11696c1e449783c31cb670adbc0aeb06e4"
 
 [[files]]
 file = "config/compactmachines-common.toml"
@@ -539,6 +551,14 @@ hash = "4028a752cb90a7bb0f918323796237d5a445276ee45b0af9b10b02f97a55ee89"
 [[files]]
 file = "config/cyclic.toml"
 hash = "4aae2a7bf222cb81ea49f146d0216bd530b02c92df7ae246608ce86c967ae887"
+
+[[files]]
+file = "config/cyclopscore-client.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "config/cyclopscore-common.toml"
+hash = "91e6794e088c02171cb788cc7e60b8da069f8db19d82a4b3e8e07d42b667cc4f"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
@@ -667,6 +687,18 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 [[files]]
 file = "config/incontrol/summonaid.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/integrateddynamics-client.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "config/integrateddynamics-common.toml"
+hash = "e7e77b2876e3f616ee9d0d5d66e7d5fde7b7b1cf0bac9e374d97d00404138187"
+
+[[files]]
+file = "config/integrateddynamicscompat-common.toml"
+hash = "d8115f01856d59b305cfd6d9e3dbe291cdbedb2371076701822ea0f21fb56ec6"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
@@ -1591,6 +1623,11 @@ hash = "1c38f1091b427e61f4c2239a8a2214f56cd5b9f3ec5e7ba7d14b6e907265eb60"
 metafile = true
 
 [[files]]
+file = "mods/common-capabilities.pw.toml"
+hash = "f786da387c38f985d46d00c765ced150a88e5a65177bf3d7e4091bd43e87720e"
+metafile = true
+
+[[files]]
 file = "mods/compact-machines.toml"
 hash = "c22694d13861c2bb7177d842d73c7b25a380b086d9f88afc6ae28caadad7076f"
 metafile = true
@@ -1658,6 +1695,11 @@ metafile = true
 [[files]]
 file = "mods/cyclic.toml"
 hash = "92ffae3414dad05775fd66bf97b4eda76bafbb84ead7b74a8b1ba55059a0a605"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "53bb90dd6a039ae924a4e796c3b5b1dc69f1941b9dc47fb05c88c3c75ed544ca"
 metafile = true
 
 [[files]]
@@ -1783,6 +1825,11 @@ metafile = true
 [[files]]
 file = "mods/in-control.toml"
 hash = "50c7b2c9b8cde418e8ebe70def5d33b8d3f105910e2f51c537a332b862dd32e9"
+metafile = true
+
+[[files]]
+file = "mods/integrated-dynamics.pw.toml"
+hash = "62a8762f4eb3de6e9798395983c412a3b34b791d5b9e8d697f188af5f574aa91"
 metafile = true
 
 [[files]]
