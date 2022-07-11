@@ -701,6 +701,10 @@ file = "config/integrateddynamicscompat-common.toml"
 hash = "d8115f01856d59b305cfd6d9e3dbe291cdbedb2371076701822ea0f21fb56ec6"
 
 [[files]]
+file = "config/integratedtunnels-common.toml"
+hash = "b8b90ec6519787b8955247f202d2ece4ca5059f68311f4bee67d9250e3513410"
+
+[[files]]
 file = "config/inventoryhud-client.toml"
 hash = "8ac48cc5f0c4f119255f276243c35b0d5239fdf72eccab7e5df4359b35eb2d59"
 
@@ -1830,6 +1834,11 @@ metafile = true
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "62a8762f4eb3de6e9798395983c412a3b34b791d5b9e8d697f188af5f574aa91"
+metafile = true
+
+[[files]]
+file = "mods/integrated-tunnels.pw.toml"
+hash = "ee0849860cc16ac85744087162e08a10a99f35749aa0fadc46d9c3e0f9f0d231"
 metafile = true
 
 [[files]]
