@@ -1,0 +1,13 @@
+name = "Integrated Terminals"
+filename = "IntegratedTerminals-1.16.5-1.2.13.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f9ab5e5cbc981aba70980b755ffb6cb51dd9b21"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3694446
+project-id = 295910

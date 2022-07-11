@@ -701,6 +701,18 @@ file = "config/integrateddynamicscompat-common.toml"
 hash = "d8115f01856d59b305cfd6d9e3dbe291cdbedb2371076701822ea0f21fb56ec6"
 
 [[files]]
+file = "config/integratedterminals-client.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "config/integratedterminals-common.toml"
+hash = "602ba5f09d5ee7c4a8bf53749e0c12210633320c1fb0d98b85fbe637b83f0545"
+
+[[files]]
+file = "config/integratedterminalscompat-common.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
 file = "config/integratedtunnels-common.toml"
 hash = "b8b90ec6519787b8955247f202d2ece4ca5059f68311f4bee67d9250e3513410"
 
@@ -1834,6 +1846,11 @@ metafile = true
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "62a8762f4eb3de6e9798395983c412a3b34b791d5b9e8d697f188af5f574aa91"
+metafile = true
+
+[[files]]
+file = "mods/integrated-terminals.pw.toml"
+hash = "5919f349e5645f286e1dd462f2d261520c663e219aa840974094aafef83a58e7"
 metafile = true
 
 [[files]]
