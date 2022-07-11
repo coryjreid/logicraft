@@ -1,4 +1,26 @@
 
+## 13.0.0 (2022-07-11)
+
+### Added
+
+* Pipez
+* Integration Additions
+* Integrated Proxy
+* Integrated NBT
+* Integrated Terminals
+* Integrated Tunnels
+* Integrated Dynamics
+
+### Chore
+
+* Bumped version
+
+### Updated
+
+* Blood Magic
+* ZeroCore 2
+
+
 ## 12.3.0 (2022-07-10)
 
 ### Added
