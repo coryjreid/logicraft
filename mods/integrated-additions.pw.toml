@@ -1,0 +1,13 @@
+name = "Integrated Additions"
+filename = "integratedadditions-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34afe52582693d5261c4075259544a20380d9733"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3530275
+project-id = 496091
