@@ -1849,6 +1849,11 @@ hash = "62a8762f4eb3de6e9798395983c412a3b34b791d5b9e8d697f188af5f574aa91"
 metafile = true
 
 [[files]]
+file = "mods/integrated-nbt.pw.toml"
+hash = "44173e316be9e3a142f0d0e3d7bbfdd96f5bac6d951c032d89e702d124d877bb"
+metafile = true
+
+[[files]]
 file = "mods/integrated-terminals.pw.toml"
 hash = "5919f349e5645f286e1dd462f2d261520c663e219aa840974094aafef83a58e7"
 metafile = true
