@@ -1,0 +1,13 @@
+name = "Integrated Proxy"
+filename = "integrated_proxy-1.16-1.0.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3bbca74e2a16c4f1db3187b6b4e98dbd7927394a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3385994
+project-id = 487858

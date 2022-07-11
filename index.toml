@@ -689,6 +689,10 @@ file = "config/incontrol/summonaid.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
+file = "config/integrated_proxy-common.toml"
+hash = "da537514e23490d01a415d73d562d08a0818374a019a66bec34c77968af921c6"
+
+[[files]]
 file = "config/integrateddynamics-client.toml"
 hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
@@ -1851,6 +1855,11 @@ metafile = true
 [[files]]
 file = "mods/integrated-nbt.pw.toml"
 hash = "44173e316be9e3a142f0d0e3d7bbfdd96f5bac6d951c032d89e702d124d877bb"
+metafile = true
+
+[[files]]
+file = "mods/integrated-proxy.pw.toml"
+hash = "8a255babe594c5dea270742d727d4c0b00308560189a40e87ed5e0f474a3401a"
 metafile = true
 
 [[files]]
