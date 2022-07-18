@@ -1,4 +1,15 @@
 
+## 14.0.1 (2022-07-17)
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Increase Extreme Reactors machine sizes
+
+
 ## 14.0.0 (2022-07-17)
 
 ### Added
