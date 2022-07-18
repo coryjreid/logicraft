@@ -28,7 +28,7 @@
 	enablePetArmory = false
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
 	#Allowed Values: DISABLED, OWNER, ALL
-	disablePetFriendlyFire = "ALL"
+	disablePetFriendlyFire = "OWNER"
 	#Allows chicken feathers to be plucked w/ shears
 	enableFeatherPlucking = true
 	#A data-driven way to make some special mobs with abilities, effects, specialized loot and more!
@@ -45,7 +45,7 @@
 	#Range: 0.0 ~ 1.0
 	challengerMobGlobalChance = 0.25
 	#Any time a Baby Zombie (or Zombie Piglin) spawns, it will be replaced with an adult
-	disableBabyZombies = true
+	disableBabyZombies = false
 
 #Block Tweaks
 ["block tweaks"]
