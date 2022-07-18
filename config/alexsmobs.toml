@@ -1,10 +1,10 @@
 
 [general]
 	#Whether all players should get an Animal Dictionary when joining the world for the first time.
-	giveBookOnStartup = false
+	giveBookOnStartup = true
 	#Lava Opacity for the Lava Vision Potion.
 	#Range: 0.01 ~ 1.0
-	lavaVisionOpacity = 0.1
+	lavaVisionOpacity = 0.65
 	#Whether to disable certain aspects of the Lava Vision Potion. Enable if issues with shaders persist.
 	shadersCompat = false
 	#Whether bananas should drop from blocks tagged with #alexsmobs:drops_bananas
