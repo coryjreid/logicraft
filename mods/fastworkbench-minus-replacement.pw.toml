@@ -1,0 +1,13 @@
+name = "FastWorkbench Minus Replacement"
+filename = "fastbenchminusreplacement-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86ce8b329d7b16fb76e2248e3e68a7d20c2ed8f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3276056
+project-id = 394185
