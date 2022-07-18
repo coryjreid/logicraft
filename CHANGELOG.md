@@ -1,4 +1,43 @@
 
+## 14.0.0 (2022-07-17)
+
+### Added
+
+* Smooth Boot (Forge)
+
+### Chore
+
+* Bump version
+* Update pack info
+
+### Config
+
+* V-Tweaks - tweaked pet protection to fix Alex's Mobs conflict
+* Remove energy requirement for Refined Storage
+* Increase Osmium spawn rate
+* Updated default keybindings and settings
+* Inventory Tweaks
+* Client Tweaks
+* Regenerated Blood Magic Client
+* Regenerated Alex's Mobs
+
+### Removed
+
+* Unused config (Entity Culling)
+* Simple Discord Rich Presence (crashes)
+* Starlight x Create (memory leak)
+
+### Swapped
+
+* Fast Workbench for Fast Workbench Minus Replacement
+* Fast Furnace for Fast Furnace Minus Replacement
+
+### Updated
+
+* Immersive Petroleum
+* Macaw's Furniture
+
+
 ## 13.0.0 (2022-07-11)
 
 ### Added
