@@ -74,7 +74,7 @@ hash = "4f38f4737f0367b6c1e50305512651ce4abf382f9acf6c496c312c70c433c56c"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "e704972e7b2f14b84ada7b94c9d86b5f7ec601dbff822624a55bd9dbd703a83b"
+hash = "108ab3774d6b6d527638482dc36dd2f6c4cdb617e4d48e30bd5d45770f0f485c"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
@@ -402,7 +402,7 @@ hash = "5ec52e961abc38fc0624386c89f0f159aa99d9bce529adc1a9b26c3c7d0ec02c"
 
 [[files]]
 file = "config/bloodmagic-client.toml"
-hash = "2d83067767679f9a5b4bd03ea1b0523ad104e27980b34bcc34c9b6411fbfccb0"
+hash = "cd514c64ef59f7f262b529906fb60cca20a8ec34aeea166bc60866857bef1ed2"
 
 [[files]]
 file = "config/bloodmagic-common.toml"
@@ -478,7 +478,7 @@ hash = "9d08b5e0980597e0d2dae32aa6ac40eeacdf2d3e6bab3073ea2b2c7172cf5493"
 
 [[files]]
 file = "config/clienttweaks-client.toml"
-hash = "b03a57e8390ded8f26a3d34caaa48700f2ca7eac3d5e3beac60b65207b9d62a1"
+hash = "d53ca5c356cedb2b7b52fd59e408ec1eb44547f6d788bb66ff94bd4207af9b95"
 
 [[files]]
 file = "config/cofh_core-client.toml"
@@ -566,11 +566,11 @@ hash = "02a3e1b7896f271e2d49fa940b7385cece07c8d9f40004272bc2015f892f3027"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "0ef046219af14389cfcc8c2f97076bc8e7fe898e9804b4bd594e1cf17ba5bfeb"
+hash = "aa3808d9513fe995f0f213bd7571c6ca055aa9fbf1e72ac265cafbe3569f4a81"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "ba4b393bf65ccd97ae6b23c59efdcf0d4169615d976788d90accca2cbfd7aa6d"
+hash = "e8c44d7507e3b97dd170d3a26527af2f926cb8f8828baf496cfe90a7cfbd6a6b"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -591,10 +591,6 @@ hash = "67d40792fde4d711d5e0a7742446afb35551c6faa20ab0e7ff62aab7b2c68bf6"
 [[files]]
 file = "config/enchdesc-client.toml"
 hash = "891c189b7c1829750c7027ec7739b08312e19404ce604b367eb05c5c1f48d426"
-
-[[files]]
-file = "config/entityculling.json"
-hash = "0c78e42bc9ee8629e05830c89b882382dfa24c772c9b5a16d91225e1c63b11ad"
 
 [[files]]
 file = "config/extremereactors/client.toml"
@@ -730,7 +726,7 @@ hash = "8ac48cc5f0c4f119255f276243c35b0d5239fdf72eccab7e5df4359b35eb2d59"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "262e60fa14b7fb8ec83a4b42b85be650cba2f936f1a511ccaf52d9485a1ea4cb"
+hash = "8a1826dc590d1f9aeb763fc908433283c27352baacfe95fef5c8c239c7780087"
 
 [[files]]
 file = "config/jamd-common.toml"
@@ -966,7 +962,7 @@ hash = "09b592e4a4c556889409ae5022d4948f21728213000f1d179605247ac11d9146"
 
 [[files]]
 file = "config/oretweaker/data/osmium_ore.json"
-hash = "0cff144298337022b2170a59f3a0becd0e668c3f382ce13597b95ed5d21a5346"
+hash = "d59cba4e03f2a1160b03a34e711e6ece4af99198deca3c499047dfab833164b3"
 
 [[files]]
 file = "config/oretweaker/data/propserity_ore.json"
@@ -1217,6 +1213,10 @@ file = "config/simplyjetpacks-common.toml"
 hash = "e38559bca373fcbd76ce0bb7152535b1bba1968ed2a7df97d2f6f2082e95cd3b"
 
 [[files]]
+file = "config/smoothboot.json"
+hash = "c48d2118d21743ffdcae3e3644f19e0b38bce042962c5e3349d85a0e340e4e63"
+
+[[files]]
 file = "config/sounddeviceoptions-client.toml"
 hash = "5f99e125e215a5c2f8b850cd990100b6eb3968defb945611ba8bead70095d552"
 
@@ -1246,7 +1246,7 @@ hash = "87bf70547216335e15b188960dd91baf6b9b8f2aa88e19f96c9b5d0351a05c45"
 
 [[files]]
 file = "config/vtweaks-common.toml"
-hash = "a7a65337dac2745601460e79c75447eaacdb549d7ad8ac0d741bed0ce6434b50"
+hash = "78300fff33859280a3e0491b6c0ea2f758c7a7b310c5c2ad69ccf900889eddef"
 
 [[files]]
 file = "config/waystones-client.toml"
@@ -1339,6 +1339,14 @@ hash = "6ecd614e209640db093512337a46cc1df2d6be5b1585d024b62742e76585ea5c"
 [[files]]
 file = "defaultconfigs/morpheus-server.toml"
 hash = "7d91cd37372668e45d3b269b28df1dd0347c9626ec53e615c30a77055c64c3e9"
+
+[[files]]
+file = "defaultconfigs/refinedstorage-server.toml"
+hash = "717f6eb4d2d0db54543cd3a82f3e1dbf6236d60e7a16fb8b4460204f7486c6f6"
+
+[[files]]
+file = "defaultconfigs/refinedstorageaddons-server.toml"
+hash = "84d8c3db4f9d54a816d6cd50bc8a8caee78cf48dfbc79782b263d89c5508ec72"
 
 [[files]]
 file = "defaultconfigs/rftoolsbase-server.toml"
@@ -1776,8 +1784,8 @@ hash = "25aef47c85a18d1f4d5f72e559786a56ca5cca319a3b5ef905cc1fee3f98b0fc"
 metafile = true
 
 [[files]]
-file = "mods/fastfurnace.toml"
-hash = "214815b1c38dbe25a600c00a0d80470703c99b39127dcc78687225dcfa234d1e"
+file = "mods/fastfurnace-minus-replacement.pw.toml"
+hash = "dcad310128e57f1af4d44929bab03a2cec33861931f84f8591db1e4536c4e52e"
 metafile = true
 
 [[files]]
@@ -1786,8 +1794,8 @@ hash = "603988360b0fb46fc12c88884d72fa7e50aeb3e08125a5a30d5b2f0f68cb20b6"
 metafile = true
 
 [[files]]
-file = "mods/fastworkbench.toml"
-hash = "e202d6545465b2f4793a310c62002f2681c31cc92f033aa9178c1868b8fe5f04"
+file = "mods/fastworkbench-minus-replacement.pw.toml"
+hash = "b75ce8fdf7013269ff7c0162cde8b68a44b66707214f3b4b8a1fcdaef8f88b27"
 metafile = true
 
 [[files]]
@@ -1842,7 +1850,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-petroleum.toml"
-hash = "702ce9853b5bf17b23f4ec289057c3147fb6d205ffcb359eeac28f5e0a2e7feb"
+hash = "79aa11040fe6215bf796815cd6bf66e56f4dc974e71006a11a88eceaac37bb44"
 metafile = true
 
 [[files]]
@@ -2012,7 +2020,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-furniture.toml"
-hash = "70b48dcba857330a6afaf8b04fa1d90044a00401b0353cb0d9f381d1777467d8"
+hash = "60ebd720a15bcf1dd93d02cf18f177b4d5cff8345c9c254496be4d2336542344"
 metafile = true
 
 [[files]]
@@ -2226,23 +2234,18 @@ hash = "1a98fbdfeb9f12bdaeda732896740679ef49d6fa804465681aa1739ae662e39e"
 metafile = true
 
 [[files]]
-file = "mods/simple-discord-rich-presence.toml"
-hash = "5bef39bff19a18c47bfc14936689ca2e3fc17d92ba2b10ca88837574c4951f50"
-metafile = true
-
-[[files]]
 file = "mods/simply-jetpacks-2.toml"
 hash = "1c8765f6f97a8be9903d451198ee1ce8898f81d2d8f06fae3efa5a374c580e2a"
 metafile = true
 
 [[files]]
-file = "mods/spark.toml"
-hash = "94a9dda04e9a875589def6b7c4d61af349fceb2335a456e577adfa51c1237b14"
+file = "mods/smooth-boot-forge.pw.toml"
+hash = "8fc85728b1093f7c7ee32cfcc91d185c6d856d374277be6420be562e6b4b99a3"
 metafile = true
 
 [[files]]
-file = "mods/starlight-x-create.toml"
-hash = "78ca93c122fb037c28dfaf7d7255a8981bc789de47811e98394514b6aba2780d"
+file = "mods/spark.toml"
+hash = "94a9dda04e9a875589def6b7c4d61af349fceb2335a456e577adfa51c1237b14"
 metafile = true
 
 [[files]]
