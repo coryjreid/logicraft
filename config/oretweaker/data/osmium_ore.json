@@ -5,8 +5,8 @@
         "filler": "minecraft:stone",
         "minY": 34,
         "maxY": 64,
-        "maxVeinSize": 4,
-        "spawnRate": 10.0,
+        "maxVeinSize": 8,
+        "spawnRate": 15.0,
         "biomeBlacklist": [],
         "biomeWhitelist": []
       }
