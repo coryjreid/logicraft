@@ -1,0 +1,13 @@
+name = "Fast Furnace minus Replacement"
+filename = "fastfurnaceminusreplacement-1.1-1.16.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c7af5a173b56a57ccebf82595d2af2ad04f092d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3091598
+project-id = 389989
