@@ -598,7 +598,7 @@ hash = "9a4e227827aef44de7cd4854155d0c40d0dd9be9dec7fee7d9ef05c271bd5d7b"
 
 [[files]]
 file = "config/extremereactors/common.toml"
-hash = "8d0889b632fa58de55245eee804004b3e19f5bdac2605a8603e2449e19886301"
+hash = "3482fdb021caae09677fbfe501ea66fe6f4796c5f80e5444e6ce243162578b2a"
 
 [[files]]
 file = "config/fastbench.cfg"
