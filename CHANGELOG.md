@@ -1,4 +1,24 @@
 
+## 15.0.0 (2022-07-19)
+
+### Added
+
+* Thermal Innovation Cyclic Compat
+
+### Bugfix
+
+* Modify update script to handle new .pw.toml extension on mod files
+
+### Chore
+
+* Bump version
+
+### Updated
+
+* Integrated Dynamics
+* In Control!
+
+
 ## 14.0.1 (2022-07-17)
 
 ### Chore
