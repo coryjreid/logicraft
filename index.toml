@@ -2284,6 +2284,11 @@ hash = "f80c3917f5d6b3299a8d2a969ef308bc1676f533f57490c5feaa2a79fc41ca49"
 metafile = true
 
 [[files]]
+file = "mods/thermal-innovation-cyclic-compat.pw.toml"
+hash = "eec551e5e7d217b4142c139143c2ec2e2eb2af6ed4d57ae37de02ca0ade3e1c8"
+metafile = true
+
+[[files]]
 file = "mods/thermal-innovation.toml"
 hash = "a3621594125d58ad2af30a2d2c721ca43ce504c251e9dce3022ae427fc2cd73a"
 metafile = true
