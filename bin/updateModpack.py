@@ -55,16 +55,17 @@ def main():
     for modId in packMods:
         modData = packMods[modId]
         if modId in sourceMods:
+            slug = modData['packSlug'].replace(".pw", "")
             if sourceMods[modId] != modData["fileId"]:
                 # update
-                print(f"Updating pack mod {modData['packSlug']}")
+                print(f"Updating pack mod {slug}")
                 subprocess.run(
-                    [os.path.join(pwd, "bin", "packwiz.exe"), "update", modData["packSlug"]])
+                    [os.path.join(pwd, "bin", "packwiz.exe"), "update", slug])
         else:
             # delete
-            print(f"Deleting pack mod {modData['packSlug']}")
+            print(f"Deleting pack mod {slug}")
             subprocess.run(
-                [os.path.join(pwd, "bin", "packwiz.exe"), "remove", modData["packSlug"]])
+                [os.path.join(pwd, "bin", "packwiz.exe"), "remove", slug])
 
     # nuke all managed folders in repo
     for dir in managedFolders:
