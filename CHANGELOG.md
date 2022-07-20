@@ -1,4 +1,15 @@
 
+## 15.1.0 (2022-07-19)
+
+### Chore
+
+* Bump version
+
+### Updated
+
+* Thermal Innovation Cyclic Compat
+
+
 ## 15.0.0 (2022-07-19)
 
 ### Added
