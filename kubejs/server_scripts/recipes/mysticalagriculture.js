@@ -2,6 +2,7 @@ onEvent("recipes", (event) => {
     event.remove({ output: "bigreactors:yellorium_ingot" });
     event.remove({ output: "bigreactors:yellorium_block" });
     event.remove({ id: "mysticalagriculture:essence/common/uranium_ingot" });
+    event.remove({ id: "mysticalagriculture:augment/flight" });
 
     event.replaceOutput({}, 'bigreactors:yellorium_ingot', 'mekanism:ingot_uranium')
 

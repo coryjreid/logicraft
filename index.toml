@@ -1389,6 +1389,10 @@ file = "kubejs/client_scripts/jei/jetpack.js"
 hash = "c3601dff8d592bf9df0b52f0de26f574fe7e48eaefb8a8dd08c7c95d7f752652"
 
 [[files]]
+file = "kubejs/client_scripts/jei/mysticalagriculture.js"
+hash = "3dd6c2f6040a164d44a75b6e6ee4ec0210e5a8f824c24a210130f85d60b10063"
+
+[[files]]
 file = "kubejs/client_scripts/jei/rs.js"
 hash = "477f756291217c4b684fcd628e3e88d69e3243085a6b3ead0fb4adacb8aa722f"
 
@@ -1506,7 +1510,7 @@ hash = "9dd187458b5f15501ac2c89e8d7e64c63a4236e811147e6457b0b15f17d2cb8e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mysticalagriculture.js"
-hash = "1c375fcbc1c42d103707a7c70674c7ae4599f6115da076f3db8ab6c9c0359f0f"
+hash = "1ca7d2ee303c24533982500b66502eab629047dad37d352ddf8d828d9ec1b885"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/quark.js"
