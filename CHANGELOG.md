@@ -1,4 +1,15 @@
 
+## 15.2.0 (2022-07-24)
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Remove creative flight augment from Mystical Agriculture
+
+
 ## 15.1.0 (2022-07-19)
 
 ### Chore
