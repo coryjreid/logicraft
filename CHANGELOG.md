@@ -1,4 +1,31 @@
 
+## 15.3.0 (2022-07-25)
+
+### Added
+
+* Optifine
+* Fog Overrides [Forge]
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Rebalance SimplyJetpacks 2 jetpacks
+* Tweaked SimplyJetpacks 2 integrations
+* Hid disabled SimplyJetpacks 2 items using CraftTweaker
+
+### Removed
+
+* Fog Overrides [Forge]
+* Optifine
+
+### Updated
+
+* Cyclic
+
+
 ## 15.2.0 (2022-07-24)
 
 ### Chore
