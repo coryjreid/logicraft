@@ -1738,7 +1738,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclic.toml"
-hash = "92ffae3414dad05775fd66bf97b4eda76bafbb84ead7b74a8b1ba55059a0a605"
+hash = "efa815f484112eae478e3867d9064ea80f7dc8e66aa883dee87c9ed8bc987261"
 metafile = true
 
 [[files]]
