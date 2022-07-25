@@ -1214,7 +1214,7 @@ hash = "0cf9521f31a3763cc7414bcdd8c151049cd3b33273be9cf7c810afa905824008"
 
 [[files]]
 file = "config/simplyjetpacks-common.toml"
-hash = "7f63cd7cbb383b43efe00a96f90bc5a038d132ab805d9b1742c191c4147de5e2"
+hash = "6eb14f391d1725a2d2b55e8f5f364cbaf197831028a8dde4559f4e15fe67e38a"
 
 [[files]]
 file = "config/smoothboot.json"
