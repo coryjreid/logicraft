@@ -1824,12 +1824,6 @@ metafile = true
 [[files]]
 file = "mods/flywheel.toml"
 hash = "3a332123aec6bda27daffae9f04ccf3d0d71baa4cf3cea0ce2d5823ac9e3d432"
-metafile = true
-
-[[files]]
-file = "mods/fog-overrides.pw.toml"
-hash = "ce0f8063b32fff68d79eeb15f4a60fa3ff1e44ef63a710a94aa1aaf3d12c9440"
-metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.toml"
