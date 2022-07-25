@@ -9,6 +9,10 @@ file = "config/BBOutlineReloaded.cfg"
 hash = "9ef3ec4413f72db117c7fb259c51d45edd03681de6bc65c327d5bb6e8e435ffa"
 
 [[files]]
+file = "config/FogOverrides.toml"
+hash = "88bdb2772c5241f979daefc7070ebc5efbf18a7748672ca25e8f43cd208d32a6"
+
+[[files]]
 file = "config/InventoryHUD/curios.json"
 hash = "a50b2bb441550f38d3f9ae264825f9a2aea59ffd1d029b35781c96bcadc56d53"
 
@@ -1210,7 +1214,7 @@ hash = "0cf9521f31a3763cc7414bcdd8c151049cd3b33273be9cf7c810afa905824008"
 
 [[files]]
 file = "config/simplyjetpacks-common.toml"
-hash = "e38559bca373fcbd76ce0bb7152535b1bba1968ed2a7df97d2f6f2082e95cd3b"
+hash = "7f63cd7cbb383b43efe00a96f90bc5a038d132ab805d9b1742c191c4147de5e2"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -1823,6 +1827,11 @@ hash = "3a332123aec6bda27daffae9f04ccf3d0d71baa4cf3cea0ce2d5823ac9e3d432"
 metafile = true
 
 [[files]]
+file = "mods/fog-overrides.pw.toml"
+hash = "ce0f8063b32fff68d79eeb15f4a60fa3ff1e44ef63a710a94aa1aaf3d12c9440"
+metafile = true
+
+[[files]]
 file = "mods/ftb-chunks-forge.toml"
 hash = "3421e9d426327c7e8dd9bbffa30e804c453ed54d93353f077b8082bb27cec3a4"
 metafile = true
@@ -2393,3 +2402,7 @@ hash = "727a1911080bd4b8041986e47d9e4d556b4d78756636643470f7e54a46116349"
 [[files]]
 file = "scripts/fix_item_names.zs"
 hash = "fb206adf075b003ffbb6aaa9e5f12adadf0016f7f1f3f70afa021d82970424b9"
+
+[[files]]
+file = "scripts/simplyjetpacks2.zs"
+hash = "a7f2ec1add561fe3d182e3a96ca95f516c76bef8a6979fe097a902808858e57d"

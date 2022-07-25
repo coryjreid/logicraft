@@ -17,11 +17,6 @@
 		#Enable Thermal Dynamics Jetpacks Integration.
 		enableIntegrationThermalDynamics = false
 
-	#Misc Configurations
-	[simplyjetpacks-common.misc]
-		#Enable Advancements on Player join.
-		enableJoinAdvancements = false
-
 	#Jetpack Tuning Configurations
 	[simplyjetpacks-common.tuning]
 
@@ -1005,4 +1000,9 @@
 				emergencyHoverMode = false
 				#When enabled, this Jetpack will be able to activate Charger Mode.
 				chargerMode = false
+
+	#Misc Configurations
+	[simplyjetpacks-common.misc]
+		#Enable Advancements on Player join.
+		enableJoinAdvancements = true
 
