@@ -9,10 +9,6 @@ file = "config/BBOutlineReloaded.cfg"
 hash = "9ef3ec4413f72db117c7fb259c51d45edd03681de6bc65c327d5bb6e8e435ffa"
 
 [[files]]
-file = "config/FogOverrides.toml"
-hash = "88bdb2772c5241f979daefc7070ebc5efbf18a7748672ca25e8f43cd208d32a6"
-
-[[files]]
 file = "config/InventoryHUD/curios.json"
 hash = "a50b2bb441550f38d3f9ae264825f9a2aea59ffd1d029b35781c96bcadc56d53"
 
@@ -486,7 +482,7 @@ hash = "d53ca5c356cedb2b7b52fd59e408ec1eb44547f6d788bb66ff94bd4207af9b95"
 
 [[files]]
 file = "config/cofh_core-client.toml"
-hash = "8d3f63bf55074b611cc2059454b178ec9c060fd49618e2e65e95048496015908"
+hash = "e5770761fa49e61b38f5c0fc2e713f97b044a834cb773733239d775748d6756b"
 
 [[files]]
 file = "config/commoncapabilities-common.toml"
@@ -634,7 +630,7 @@ hash = "7b7d580fbddb34b59cfa2b08130e4514d7f84ddf33bd61e03c25299997ab5f4c"
 
 [[files]]
 file = "config/forge-client.toml"
-hash = "b8132810a2071a96260d11bc372febd948b471407e3fad6520c9b00a03743698"
+hash = "dfe6dbf482122593c99bc3adeec43dcdb4cc1e885e2bc48f320a626b64c27344"
 
 [[files]]
 file = "config/forge-common.toml"
@@ -738,11 +734,11 @@ hash = "15acbd244c9a07bf904072a7bd6aef136bf43706f702faa7c5af1499b3a263f3"
 
 [[files]]
 file = "config/jei-client.toml"
-hash = "f1629efb9e780fcf4c8cceea2f58b6a9b8d4e0a9d23a79fb4eb884fa2c7ff5a0"
+hash = "2b21c7d3b84d50f0e68718186753688e0b4abffb69077858a02e29dbd6d3682f"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
-hash = "9bb143f6d60aedc07aa7a185dac56343518f60a18e34dd4b746bd86c0024f4d1"
+hash = "dee72d5ce6e0963bb170744b11a5f6a0913726974a5508e17a0ffef14712910b"
 
 [[files]]
 file = "config/jer-world-gen-config.json"
@@ -1201,20 +1197,16 @@ file = "config/rsrequestify-common.toml"
 hash = "dd9d58eb53802e7d5192f347b50fea11d50289fc35f763c0a9268c87c73154e6"
 
 [[files]]
-file = "config/sdrp-client.toml"
-hash = "c46b5dc40c60f87fe8e78afca2106903e343deb1da4f87e3c4efbcf6218d0481"
-
-[[files]]
 file = "config/sidebar_buttons.json"
 hash = "a153e374b367790ae5d035e0ef6981e0b5438cd39d5ff5eb3dddfd654548dab7"
 
 [[files]]
 file = "config/simplyjetpacks-client.toml"
-hash = "0cf9521f31a3763cc7414bcdd8c151049cd3b33273be9cf7c810afa905824008"
+hash = "f60622daee7da374919a6f4d4acd6df621afd2ab69ece15a20f61121a7a94a35"
 
 [[files]]
 file = "config/simplyjetpacks-common.toml"
-hash = "6eb14f391d1725a2d2b55e8f5f364cbaf197831028a8dde4559f4e15fe67e38a"
+hash = "917c357c5c905f59e68a09454fb7fd99ebf5b1e84783f13eb243228cb2cffde6"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -1226,7 +1218,7 @@ hash = "5f99e125e215a5c2f8b850cd990100b6eb3968defb945611ba8bead70095d552"
 
 [[files]]
 file = "config/theoneprobe-client.toml"
-hash = "f107b416e4a37f87ac5c9eb294e839c19510bed2f19d35e650420e53483ecd63"
+hash = "9ef88afd78dd494cb1e576eef07078a238adf26b337bea99a240a38885bd2741"
 
 [[files]]
 file = "config/theoneprobe-common.toml"
@@ -1234,7 +1226,7 @@ hash = "ef421ee548a0913ad3ff8b47447e5b0e0961e4e7b74684e00e4e7765de6f716f"
 
 [[files]]
 file = "config/thermal-client.toml"
-hash = "bf031ccff2d6fb5455f335bf409b63f939e1fb6ddb0a64e11ec991f0edf2a909"
+hash = "a6a09cfe3859942830c9813563a688d745e2bdeb81a727a3b958ab231c755ba3"
 
 [[files]]
 file = "config/toastcontrol-common.toml"
