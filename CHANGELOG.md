@@ -1,4 +1,15 @@
 
+## 15.3.1 (2022-07-26)
+
+### Chore
+
+* Bump version
+
+### Remove
+
+* HD Resourcepacks
+
+
 ## 15.3.0 (2022-07-25)
 
 ### Added
