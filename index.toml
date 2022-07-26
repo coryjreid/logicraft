@@ -2377,14 +2377,6 @@ hash = "340199e43022ed61794d119c2b759aa75cf86db31f156721681000aa52b6d39e"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Faithful_1.16.zip"
-hash = "10978120cf52263c9a55769e901ca301d430ee25465c80e43ab3eb3182e3b9b0"
-
-[[files]]
-file = "resourcepacks/Quark Programmer Art.zip"
-hash = "727a1911080bd4b8041986e47d9e4d556b4d78756636643470f7e54a46116349"
-
-[[files]]
 file = "scripts/fix_item_names.zs"
 hash = "fb206adf075b003ffbb6aaa9e5f12adadf0016f7f1f3f70afa021d82970424b9"
 
