@@ -1,4 +1,15 @@
 
+## 15.3.3 (2022-07-26)
+
+### Bugfix
+
+* Rename optifine.toml to optifine.pw.toml
+
+### Chore
+
+* Bump version
+
+
 ## 15.3.2 (2022-07-26)
 
 ### Bugfix
