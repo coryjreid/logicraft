@@ -1,4 +1,15 @@
 
+## 15.3.2 (2022-07-26)
+
+### Bugfix
+
+* Readded Flywheel
+
+### Chore
+
+* Update version
+
+
 ## 15.3.1 (2022-07-26)
 
 ### Chore
