@@ -1814,8 +1814,9 @@ hash = "ac71ec97234f80024ff58b2a759a49edc6450c63e96e7168a3e61abf35b1c79d"
 metafile = true
 
 [[files]]
-file = "mods/flywheel.toml"
-hash = "3a332123aec6bda27daffae9f04ccf3d0d71baa4cf3cea0ce2d5823ac9e3d432"
+file = "mods/flywheel.pw.toml"
+hash = "9a643dece883f4eaa644aff19903b40b6ef2e2c5b9e8692c8c4c19d793618304"
+metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.toml"
