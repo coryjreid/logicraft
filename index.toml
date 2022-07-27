@@ -1285,6 +1285,10 @@ file = "defaultconfigs/astralsorcery.toml"
 hash = "0a4688631ac6a118aed8d7ef3831cd8a7cd404491f49da346de903bf96c73c59"
 
 [[files]]
+file = "defaultconfigs/buildinggadgets-server.toml"
+hash = "26f4c238df573304658ec33c72be1b081b74aaf644de397ea4ffca789e822851"
+
+[[files]]
 file = "defaultconfigs/carryon-server.toml"
 hash = "952ce73af6b25ebc5da317bcd8190dfcf1410e8c683e10ae77884c4852c1277d"
 
@@ -2377,6 +2381,10 @@ metafile = true
 file = "mods/zerocore.toml"
 hash = "340199e43022ed61794d119c2b759aa75cf86db31f156721681000aa52b6d39e"
 metafile = true
+
+[[files]]
+file = "resourcepacks/Quark Programmer Art.zip"
+hash = "727a1911080bd4b8041986e47d9e4d556b4d78756636643470f7e54a46116349"
 
 [[files]]
 file = "scripts/fix_item_names.zs"
