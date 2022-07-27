@@ -1,13 +1,13 @@
 name = "Integrated Tunnels"
-filename = "IntegratedTunnels-1.16.5-1.8.9.jar"
+filename = "IntegratedTunnels-1.16.5-1.8.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6697088461dbd4b14763d72eaba90d6006a8e215"
+hash = "1368dd480889c786c828a6518f8dc59b844941bf"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3546791
+file-id = 3900664
 project-id = 251389
