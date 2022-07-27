@@ -1735,7 +1735,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "53bb90dd6a039ae924a4e796c3b5b1dc69f1941b9dc47fb05c88c3c75ed544ca"
+hash = "5740726a3642f08fb10f3aca5548e7af27d4361105ccf62e551e282aed215575"
 metafile = true
 
 [[files]]
