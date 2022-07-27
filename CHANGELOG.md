@@ -1,4 +1,21 @@
 
+## 15.4.0 (2022-07-27)
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Increase maximums for Building Gadgets
+
+### Update
+
+* Integrated Tunnels
+* Integrated Dynamics
+* Cyclops Core
+
+
 ## 15.3.3 (2022-07-26)
 
 ### Bugfix
