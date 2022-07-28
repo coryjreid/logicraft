@@ -1202,7 +1202,7 @@ hash = "a153e374b367790ae5d035e0ef6981e0b5438cd39d5ff5eb3dddfd654548dab7"
 
 [[files]]
 file = "config/simplyjetpacks-client.toml"
-hash = "f60622daee7da374919a6f4d4acd6df621afd2ab69ece15a20f61121a7a94a35"
+hash = "9687a574f4f60c797cc174f0c39065c50ecf025ab2a2aae4a24acae1dbd12a59"
 
 [[files]]
 file = "config/simplyjetpacks-common.toml"

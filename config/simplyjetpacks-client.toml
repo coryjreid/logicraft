@@ -18,7 +18,7 @@
 		#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, LEFT, RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 		hudTextPosition = "BOTTOM_RIGHT"
 		#Show the Throttle value in the Jetpack HUD.
-		showThrottle = false
+		showThrottle = true
 		#Show the Hover State in the HUD.
 		showHoverState = true
 		#Set the X offset of the Jetpack HUD on the screen.
