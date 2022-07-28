@@ -1,4 +1,15 @@
 
+## 15.4.1 (2022-07-27)
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Show the SimplyJetpacks 2 throttle state on the jetpack HUD
+
+
 ## 15.4.0 (2022-07-27)
 
 ### Chore
