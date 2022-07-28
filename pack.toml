@@ -1,11 +1,11 @@
 name = "Logicraft_"
-version = "15.4.0"
+version = "15.4.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "27ce6e898ed456a43e25c0ec69e3111cb449aa20e2ff182280dfb8df562e573b"
+hash = "2fff4d187e228a8a45a80f451a6cc8921055e915af4ec8806e22e2c14aaeb042"
 
 [versions]
 forge = "36.2.35"
