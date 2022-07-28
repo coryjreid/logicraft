@@ -577,10 +577,6 @@ file = "config/dungeon_crawl.toml"
 hash = "34ba5ef111755f419697484b8797203f08d08e286520a47c742a26aa7a9555c9"
 
 [[files]]
-file = "config/dynview-common.toml"
-hash = "cdb819b5411bdba7da07677e47037b9e6a66c2800a4179cf47667034ccc84e83"
-
-[[files]]
 file = "config/easy_villagers-client.toml"
 hash = "d09a0b6362e4d8f43caf45df96a7712eda21345625e4473ca42848bcd38326fd"
 
@@ -1750,11 +1746,6 @@ metafile = true
 [[files]]
 file = "mods/dungeon-crawl.toml"
 hash = "f873f8571ff0849123972a2c391153e421b711465891294aa81894190bd86c11"
-metafile = true
-
-[[files]]
-file = "mods/dynamic-surroundings.toml"
-hash = "413da0089c6546e455fe4bf8dc7b418c9e0b6ce92d76cde219140dc6f6786680"
 metafile = true
 
 [[files]]
