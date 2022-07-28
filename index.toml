@@ -2235,12 +2235,12 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "afffed76e177ab269ea3e6bc50f11b9ccb82f1db1615ade04a8ef0a750624a7b"
+hash = "bd1f1597a9728b71a28969e4d7c9ed24f29b3c5fc77379a0c9ce5a7a29117594"
 metafile = true
 
 [[files]]
 file = "mods/rs-requestify.pw.toml"
-hash = "1a98fbdfeb9f12bdaeda732896740679ef49d6fa804465681aa1739ae662e39e"
+hash = "2c21fbe708655f41d7c25a6f0e5824acb359cb1d3a9ea4fb34fb0568fa762ffc"
 metafile = true
 
 [[files]]
