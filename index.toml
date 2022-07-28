@@ -1544,6 +1544,11 @@ hash = "941590e9fd0e1d9b51f0e810e045a0dd87420e216199f172e05692e0a0bb0f1d"
 metafile = true
 
 [[files]]
+file = "mods/antighost.pw.toml"
+hash = "47dc9ed435bd99edb069ae986e46cfb0c7c7f8b194bf937b7a23f6ae08a9a261"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.toml"
 hash = "1771ee6311c039866a657ede4cd6bc4e7e7044095ba32283c7cfd704600e5e55"
 metafile = true
@@ -1744,8 +1749,13 @@ hash = "a7302bbcd50cb8ed6d701c97e826d4fe422abd3b6526255e0cb2f59a8a575fe4"
 metafile = true
 
 [[files]]
-file = "mods/dungeon-crawl.toml"
+file = "mods/dungeon-crawl.pw.toml"
 hash = "f873f8571ff0849123972a2c391153e421b711465891294aa81894190bd86c11"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-surroundings.pw.toml"
+hash = "ebac196d4df9a7240edfeaf9246fb75089e84ec33e2e9f1642b99f1690c738fc"
 metafile = true
 
 [[files]]
