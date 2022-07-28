@@ -2254,6 +2254,11 @@ hash = "94a9dda04e9a875589def6b7c4d61af349fceb2335a456e577adfa51c1237b14"
 metafile = true
 
 [[files]]
+file = "mods/spawner-fix.pw.toml"
+hash = "31049023063d402e41f95cb61ce1434a75831db75ea3c6e3ddfd392c7c446dad"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.toml"
 hash = "0e06e76388505e02e24407418d757d752578c680a14a4903f7e9e7f7bfad3ea0"
 metafile = true
