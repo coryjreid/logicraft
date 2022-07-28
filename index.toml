@@ -1759,8 +1759,8 @@ hash = "a7302bbcd50cb8ed6d701c97e826d4fe422abd3b6526255e0cb2f59a8a575fe4"
 metafile = true
 
 [[files]]
-file = "mods/dungeon-crawl.pw.toml"
-hash = "f873f8571ff0849123972a2c391153e421b711465891294aa81894190bd86c11"
+file = "mods/dynamic-surroundings.pw.toml"
+hash = "ebac196d4df9a7240edfeaf9246fb75089e84ec33e2e9f1642b99f1690c738fc"
 metafile = true
 
 [[files]]
@@ -2321,6 +2321,11 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "fbaaa41e9203003377ac261da655b2991921ea9074a727c5c97bc4797bffd09e"
+metafile = true
+
+[[files]]
+file = "mods/unbreakable-spawner.pw.toml"
+hash = "2abb538f62dd2e78570e15184c65a81fa2963d2a2f248db9e582586b8bd5eb45"
 metafile = true
 
 [[files]]
