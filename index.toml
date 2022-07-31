@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "d4f43231a0a59b080df6b5d7ae2015074b26685528c2e12d39a6b03717ff1e1e"
+hash = "149cccc30d63862f6c2aa4388fa0d0c38e09ead3b7b4213ffec5abb161e9a876"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -318,7 +318,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "8783dcbfe18031acbe773fddb183162c1860da2cc1e53c641e53cb88fffc80e8"
+hash = "5ecc893b81e0495f975fae1840e1fd6053d306f54df2b663a5386c3eb50e19fa"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -1279,10 +1279,6 @@ hash = "9f06fcb055a86ec05526d31115548a51ab262f7d5bc21bfb05e648d15b4e7064"
 [[files]]
 file = "config/yungsbridges-forge-1_16.toml"
 hash = "ea4d4067fcd22f1278c2e1628d7e974c79980cdd14012fe11ea9a0b6ca5d53f2"
-
-[[files]]
-file = "cursewiz.log"
-hash = "1051b247d0fb39829ebbfb051dc3127b7e7785bce69d48643b45e3799094839c"
 
 [[files]]
 file = "defaultconfigs/astralsorcery.toml"

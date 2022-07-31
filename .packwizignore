@@ -12,6 +12,8 @@ bin
 _config.yml
 index.md
 *.bak
+*.log
 config/jei/
 config/dsurround/
 config/Mekanism/client.toml
+/*.zip
