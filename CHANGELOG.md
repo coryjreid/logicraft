@@ -1,4 +1,35 @@
 
+## 16.0.0 (2022-07-31)
+
+### Add
+
+* Better Dungeons (accidentally removed?)
+* Unbreakable Spawners
+* Better Spawner Control
+* Spawner Bug Fix
+* AntiGhost
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Disable Alex's Mobs book on server join
+
+### Remove
+
+* Unbreakable Spawner
+* Dynamic View [Forge]
+* Dynamic View [Forge]
+
+### Update
+
+* Curios
+* CC: Tweaked
+* Corpse
+
+
 ## 15.4.1 (2022-07-27)
 
 ### Chore
