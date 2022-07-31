@@ -1,4 +1,11 @@
 
+## 16.0.1 (2022-07-31)
+
+### Config
+
+* Exclude stupid log files from packwiz & update version
+
+
 ## 16.0.0 (2022-07-31)
 
 ### Add
