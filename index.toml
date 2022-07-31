@@ -318,7 +318,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "59815cf4bfa097d574a9c0dc8d32edf086ed66f8b7ddd49162e5839895d95255"
+hash = "21981908659abc7a216c1717efe6046f1a0ed1a9be3738d664983ad4f410a879"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -1277,6 +1277,10 @@ file = "config/yungsbridges-forge-1_16.toml"
 hash = "ea4d4067fcd22f1278c2e1628d7e974c79980cdd14012fe11ea9a0b6ca5d53f2"
 
 [[files]]
+file = "cursewiz.log"
+hash = "d30eea1df64739710f12f24c91b7c8cb2db75d1d814bc382d8c24e46b79d47da"
+
+[[files]]
 file = "defaultconfigs/astralsorcery.toml"
 hash = "0a4688631ac6a118aed8d7ef3831cd8a7cd404491f49da346de903bf96c73c59"
 
@@ -1630,7 +1634,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "8c8f22fde213c269830708b5b8f5b0b5f71507287a2c003a52e6cfcca7b67cd0"
+hash = "a977ab86194e30ec5079638ecc38f304c572e9ab0233b4e08069b3b958c09f49"
 metafile = true
 
 [[files]]
@@ -1695,7 +1699,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "7e1125c6d568b1c522c45871bccb49875cf30cb502f7efd70d686a8c560ce46d"
+hash = "854df917bd01a37913b26d326d6dc265650137ad20d8b6951362784cb5f6a694"
 metafile = true
 
 [[files]]
@@ -1740,7 +1744,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "88de9e0b66391586d0764e8fcca14bf6850a99ea030027bbf7946dafefcd0d5a"
+hash = "8d014579eb567326402e555ba5ab4acacf0ee62f91b1e6a660c12ade69e6d7d8"
 metafile = true
 
 [[files]]
@@ -1759,13 +1763,13 @@ hash = "a7302bbcd50cb8ed6d701c97e826d4fe422abd3b6526255e0cb2f59a8a575fe4"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-surroundings.pw.toml"
-hash = "ebac196d4df9a7240edfeaf9246fb75089e84ec33e2e9f1642b99f1690c738fc"
+file = "mods/dungeon-crawl.pw.toml"
+hash = "f873f8571ff0849123972a2c391153e421b711465891294aa81894190bd86c11"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-view.pw.toml"
-hash = "15ca2129ed532ca2c01df198739f5430d332ac4293cc84fec7830c7bd5f7af7f"
+file = "mods/dynamic-surroundings.pw.toml"
+hash = "ebac196d4df9a7240edfeaf9246fb75089e84ec33e2e9f1642b99f1690c738fc"
 metafile = true
 
 [[files]]
