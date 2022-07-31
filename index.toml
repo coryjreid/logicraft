@@ -1278,7 +1278,7 @@ hash = "ea4d4067fcd22f1278c2e1628d7e974c79980cdd14012fe11ea9a0b6ca5d53f2"
 
 [[files]]
 file = "cursewiz.log"
-hash = "d30eea1df64739710f12f24c91b7c8cb2db75d1d814bc382d8c24e46b79d47da"
+hash = "cc5965284c403fe3332994f49a3d8467cf3c95b97946d98519579298c59b1165"
 
 [[files]]
 file = "defaultconfigs/astralsorcery.toml"
@@ -2325,11 +2325,6 @@ metafile = true
 [[files]]
 file = "mods/trashslot.pw.toml"
 hash = "fbaaa41e9203003377ac261da655b2991921ea9074a727c5c97bc4797bffd09e"
-metafile = true
-
-[[files]]
-file = "mods/unbreakable-spawner.pw.toml"
-hash = "2abb538f62dd2e78570e15184c65a81fa2963d2a2f248db9e582586b8bd5eb45"
 metafile = true
 
 [[files]]
