@@ -74,7 +74,7 @@ hash = "4f38f4737f0367b6c1e50305512651ce4abf382f9acf6c496c312c70c433c56c"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "108ab3774d6b6d527638482dc36dd2f6c4cdb617e4d48e30bd5d45770f0f485c"
+hash = "6802a573bd62d83b48833385edf4d1a99bfc049d9c62b3d161b4f1eba7088e18"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
@@ -483,6 +483,10 @@ hash = "d53ca5c356cedb2b7b52fd59e408ec1eb44547f6d788bb66ff94bd4207af9b95"
 [[files]]
 file = "config/cofh_core-client.toml"
 hash = "e5770761fa49e61b38f5c0fc2e713f97b044a834cb773733239d775748d6756b"
+
+[[files]]
+file = "config/collective-common.toml"
+hash = "13c12f2e96e35599e0798d9a10933c219f99dd50ec0b5a31313f2d34656c1049"
 
 [[files]]
 file = "config/commoncapabilities-common.toml"
@@ -1278,7 +1282,7 @@ hash = "ea4d4067fcd22f1278c2e1628d7e974c79980cdd14012fe11ea9a0b6ca5d53f2"
 
 [[files]]
 file = "cursewiz.log"
-hash = "cc5965284c403fe3332994f49a3d8467cf3c95b97946d98519579298c59b1165"
+hash = "844a9eb387224113dd6160e2caa64c51ffb9ff42ed47c8dcbc9cb553bcd2f160"
 
 [[files]]
 file = "defaultconfigs/astralsorcery.toml"
