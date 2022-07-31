@@ -1,6 +1,8 @@
 Desktop.ini
 *.bak
+*.log
 config/jei/
 config/dsurround/
 config/Mekanism/client.toml
 .vscode
+/*.zip

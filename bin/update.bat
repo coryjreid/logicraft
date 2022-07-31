@@ -1,1 +1,1 @@
-python ./bin/updateModpack.py "G:/Minecraft/Instances/Logicraft_ SOURCE" %1
+java -jar ./bin/Cursewiz-1.0.jar -c "G:/Minecraft/Instances/Logicraft_ SOURCE" -m "." -v %1
