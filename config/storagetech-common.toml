@@ -1,0 +1,6 @@
+
+[general]
+	#The energy buffer of parts combiner (fluid/item)
+	#Range: 10000 ~ 2147483646
+	energyBuffer = 200000
+
