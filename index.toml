@@ -1217,6 +1217,14 @@ file = "config/sounddeviceoptions-client.toml"
 hash = "5f99e125e215a5c2f8b850cd990100b6eb3968defb945611ba8bead70095d552"
 
 [[files]]
+file = "config/storagetech-client.toml"
+hash = "384cd999532a227e852fe3eefce556b68b2898c0a885ce06b1f84ec8eea5b46f"
+
+[[files]]
+file = "config/storagetech-common.toml"
+hash = "298e3da57b0a08405fd3adb7c6e5370ab41a96ae61c94556f476c809c5d793f8"
+
+[[files]]
 file = "config/theoneprobe-client.toml"
 hash = "9ef88afd78dd494cb1e576eef07078a238adf26b337bea99a240a38885bd2741"
 
@@ -1275,6 +1283,10 @@ hash = "19f431652ed9e8583992c3fc6adba6a1d5b3746c31830a31bb8809b91f01a068"
 [[files]]
 file = "config/xnet-client.toml"
 hash = "9f06fcb055a86ec05526d31115548a51ab262f7d5bc21bfb05e648d15b4e7064"
+
+[[files]]
+file = "config/xnetgases.toml"
+hash = "301b407f78865e48bbede7fa87181658dfc82afd1ac4b8222a8c76f5434394e9"
 
 [[files]]
 file = "config/yungsbridges-forge-1_16.toml"
@@ -2378,6 +2390,11 @@ metafile = true
 [[files]]
 file = "mods/storage-for-computercraft.pw.toml"
 hash = "5a7e0b7023598294c243ecb371d682dd48d0fa37ae70e52a767e0ac704273d4c"
+metafile = true
+
+[[files]]
+file = "mods/storage-tech.pw.toml"
+hash = "e33be9f9dbbf50e6718c101d1d08e603e4df2235dbf779c2571c50ac322d75b4"
 metafile = true
 
 [[files]]
