@@ -1293,8 +1293,28 @@ file = "defaultconfigs/carryon-server.toml"
 hash = "952ce73af6b25ebc5da317bcd8190dfcf1410e8c683e10ae77884c4852c1277d"
 
 [[files]]
+file = "defaultconfigs/chiselsandbits-server.toml"
+hash = "4b24a2c646b096d87a686b639aef72d1f556ef658c258865e2158399aa1ee81e"
+
+[[files]]
 file = "defaultconfigs/cofh_core-server.toml"
 hash = "832a73bf61d7e4504675fd44ed65b0e0c237612658a18e64c166096921b171e6"
+
+[[files]]
+file = "defaultconfigs/comforts-server.toml"
+hash = "2bdb053f40cb1c75b45b551c0abb21ca52bc69003ff82b6e62dbf302c9eb4a39"
+
+[[files]]
+file = "defaultconfigs/commoncapabilities-server.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "defaultconfigs/compactmachines-server.toml"
+hash = "9caa82caadf479ab29a5d31202c38ffd08c6e406a6a0b5ae90fe10078656e6b7"
+
+[[files]]
+file = "defaultconfigs/computercraft-server.toml"
+hash = "4e6c743b97e758ea5147fed0c99efbdcc52671bda28e9a02d60df9b892db8ef6"
 
 [[files]]
 file = "defaultconfigs/constructionwand-server.toml"
@@ -1305,6 +1325,10 @@ file = "defaultconfigs/corpse-server.toml"
 hash = "3d6cca4d1b53e220f68e8900bc9ae9ae33a4a69298267e27225c4ae174546cb5"
 
 [[files]]
+file = "defaultconfigs/create-server.toml"
+hash = "d447eb32e79d6d875af8f86d43ab0e02811e8d41e2c5582038170447fde12d05"
+
+[[files]]
 file = "defaultconfigs/curios-server.toml"
 hash = "efdb5d3ac36031308fd0abd43f70a2d57d218af58ff66bc77bc1cfa8b01ca22c"
 
@@ -1313,12 +1337,24 @@ file = "defaultconfigs/easy_villagers-server.toml"
 hash = "7e0fbc78773672559eb85a197e84bd127176e1de62d9d7d771c391a590f25797"
 
 [[files]]
+file = "defaultconfigs/fastleafdecay-server.toml"
+hash = "16f73487c57e98f5985bc539f17c3f638a7cb7676517ba9cc68eabd823999c1a"
+
+[[files]]
+file = "defaultconfigs/fluxnetworks-server.toml"
+hash = "f37c47441e802e376c00bed46aa6b74995018b5ed832d75a3f6f520eca05dfae"
+
+[[files]]
 file = "defaultconfigs/forge-server.toml"
 hash = "6a743fc14563c2ef4f0a93f87fda284422f938b59acfd0c5184dc2559d3d1637"
 
 [[files]]
 file = "defaultconfigs/ftbchunks.snbt"
 hash = "94f259eb752f3fdab2274f30b431b111981467ee5ddbd7146d11c1832d266a51"
+
+[[files]]
+file = "defaultconfigs/ftbranks/README.txt"
+hash = "333e052fdfa828eb95cb356c15e81521c42e50af24dfca45331f09c08562c51e"
 
 [[files]]
 file = "defaultconfigs/ftbranks/players.snbt"
@@ -1333,12 +1369,52 @@ file = "defaultconfigs/immersiveengineering-server.toml"
 hash = "fc9345741b501b9d0d8b258b3db39c505c085742bae28de000efa98b01b8396e"
 
 [[files]]
+file = "defaultconfigs/immersivepetroleum-server.toml"
+hash = "466d90b0ec4a8eab0da5867d2019294d446fbce1cd225233ae2aad8a9942d024"
+
+[[files]]
+file = "defaultconfigs/immersiveposts-server.toml"
+hash = "006fadce7e5b1694802ff020cfc15b7354700764884e3c3894fe20449fde101b"
+
+[[files]]
+file = "defaultconfigs/integrateddynamics-server.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "defaultconfigs/integratedterminals-server.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "defaultconfigs/integratedtunnels-server.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
 file = "defaultconfigs/jei-server.toml"
 hash = "6ecd614e209640db093512337a46cc1df2d6be5b1585d024b62742e76585ea5c"
 
 [[files]]
+file = "defaultconfigs/journeymap-server.toml"
+hash = "7711871843872e29af07d860a4a5cde0b481bec0531f1638f54c4bd96a9d1b5f"
+
+[[files]]
+file = "defaultconfigs/mcjtylib-server.toml"
+hash = "48432d0782389f1abe137495646b8ba8fe1bd05b35b7068766b997dad181558f"
+
+[[files]]
 file = "defaultconfigs/morpheus-server.toml"
 hash = "7d91cd37372668e45d3b269b28df1dd0347c9626ec53e615c30a77055c64c3e9"
+
+[[files]]
+file = "defaultconfigs/pamhc2crops.toml"
+hash = "7a777b913b750154d0cc91a2c5e8683d0e8358cbba11dd33ef9951698e0b0e9d"
+
+[[files]]
+file = "defaultconfigs/pamhc2trees.toml"
+hash = "8d08c8895ef2a5133c3dbc9041a3e3469a832c5c3909cf4378b01c49acb3c542"
+
+[[files]]
+file = "defaultconfigs/pipez-server.toml"
+hash = "aaffae10bef4541ed49f941cfd9f6241f197d02b5f284db04496b55e8f6b19ed"
 
 [[files]]
 file = "defaultconfigs/refinedstorage-server.toml"
@@ -1353,8 +1429,40 @@ file = "defaultconfigs/rftoolsbase-server.toml"
 hash = "9892b260b7f0a8c4a3add3a16854ae552bd0904e046bf48582ba8d21ff2b1869"
 
 [[files]]
+file = "defaultconfigs/rftoolsbuilder-server.toml"
+hash = "3a469380cc46d3657481dfa8901af1854754b4209b482befd2c0ac230985d077"
+
+[[files]]
+file = "defaultconfigs/rftoolscontrol-server.toml"
+hash = "eb880332d63179e53bd689fb2f8f4805e5c64cced26c47717efa9e237b5c6787"
+
+[[files]]
+file = "defaultconfigs/rftoolsdim-server.toml"
+hash = "a656110885b22811061fabf11e83fb0ee2b8d4f0dc683d4ae225c3ac0d9f086f"
+
+[[files]]
+file = "defaultconfigs/rftoolspower-server.toml"
+hash = "392095f80972e1eb9cd572fb235e93303872ef57d3be2862de62e30ec148b762"
+
+[[files]]
+file = "defaultconfigs/rftoolsutility-server.toml"
+hash = "c5ef69b3a96633a1c61a4f7289624a31455f515ddea46e4f8728b1ec3bd8673a"
+
+[[files]]
+file = "defaultconfigs/simplyjetpacks-server.toml"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "defaultconfigs/storage4computercraft-server.toml"
+hash = "4098fcacfa423580e15e968805877e8c81cb873f0aabf9728a3dd9f60759edca"
+
+[[files]]
 file = "defaultconfigs/thermal-server.toml"
 hash = "377a771ca8370c4e1bfdf2a318c9fb4e2ca53285cfba5423e405dcf917a9cfc8"
+
+[[files]]
+file = "defaultconfigs/xnet-server.toml"
+hash = "3b6fbd975be9b6803d7c47e38ad05a94d33091ebdce8d3b41084f7c1fbf032de"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -2265,6 +2373,11 @@ metafile = true
 [[files]]
 file = "mods/spawner-fix.pw.toml"
 hash = "31049023063d402e41f95cb61ce1434a75831db75ea3c6e3ddfd392c7c446dad"
+metafile = true
+
+[[files]]
+file = "mods/storage-for-computercraft.pw.toml"
+hash = "5a7e0b7023598294c243ecb371d682dd48d0fa37ae70e52a767e0ac704273d4c"
 metafile = true
 
 [[files]]
