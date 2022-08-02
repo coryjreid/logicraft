@@ -1,4 +1,26 @@
 
+## 17.0.0 (2022-08-02)
+
+### Add
+
+* Xnet Gases
+* Storage Tech
+* Storage for Computercraft & default server configs for all mods
+
+### Chore
+
+* Bump version
+
+### Update
+
+* Collective (Forge)
+* Immersive Petroleum
+* InControl!
+* Macaw's Fences and Walls
+* Macaw's Lights and Lamps
+* Performant
+
+
 ## 16.0.1 (2022-07-31)
 
 ### Config
