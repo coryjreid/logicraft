@@ -2466,6 +2466,11 @@ hash = "f3e745f8cc60746024d9119ede1a05551b75007d09dc3abe325968f32976e5cc"
 metafile = true
 
 [[files]]
+file = "mods/xnet-gases.pw.toml"
+hash = "3b85d431ec63f83198262bf386275661d30945964f1ed59441afe9da94af263f"
+metafile = true
+
+[[files]]
 file = "mods/xnet.pw.toml"
 hash = "6ceb528434d767892cba0a3fcc0c4228eaf212b0f80ef633d6ae9308005f5a5a"
 metafile = true

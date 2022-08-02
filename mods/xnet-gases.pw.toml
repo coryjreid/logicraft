@@ -1,0 +1,13 @@
+name = "XNet Gases"
+filename = "XNetGases-1.16.5-2.3.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b83c6d6080c51a27d3ef1448f6b46e0f62d18bd0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3781126
+project-id = 383182
