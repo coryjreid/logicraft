@@ -6,7 +6,7 @@ hash = "9ddb0ce1740ba4e287e122945740316218eacf01ffa56e3548b21f0e70e5bcf4"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
-hash = "9ef3ec4413f72db117c7fb259c51d45edd03681de6bc65c327d5bb6e8e435ffa"
+hash = "8c4d4c52c6f11c0c6e4292255ad5b848a2d0aaebf128a4a19d2a4884151f9387"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
@@ -570,11 +570,11 @@ hash = "02a3e1b7896f271e2d49fa940b7385cece07c8d9f40004272bc2015f892f3027"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "aa3808d9513fe995f0f213bd7571c6ca055aa9fbf1e72ac265cafbe3569f4a81"
+hash = "27e664f8085be2c57e5b0345ca92b57fe0273054fcef67a65701f6e61c4bb38e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "e8c44d7507e3b97dd170d3a26527af2f926cb8f8828baf496cfe90a7cfbd6a6b"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/dungeon_crawl.toml"
@@ -726,7 +726,7 @@ hash = "8ac48cc5f0c4f119255f276243c35b0d5239fdf72eccab7e5df4359b35eb2d59"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "8a1826dc590d1f9aeb763fc908433283c27352baacfe95fef5c8c239c7780087"
+hash = "93c6a0e8c2ae963f51e3354c0d9a7695142af1d1ed178d6e9663db254d46b823"
 
 [[files]]
 file = "config/jamd-common.toml"
@@ -1154,7 +1154,7 @@ hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "ec93ba2e3569786cd48581304a9f9e10c7894482e2135dded0615877fb0e0c5c"
+hash = "af36baf59ce04ef24fd706481f25a5628df73a1620f9c19acc23a1085db51fcb"
 
 [[files]]
 file = "config/randompatches.toml"
