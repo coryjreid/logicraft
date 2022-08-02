@@ -698,7 +698,7 @@ hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
-hash = "e7e77b2876e3f616ee9d0d5d66e7d5fde7b7b1cf0bac9e374d97d00404138187"
+hash = "18bccf5c9fdc86fe20edc6fbcdda647d7555d92af2a56d6ee13c139774fc8911"
 
 [[files]]
 file = "config/integrateddynamicscompat-common.toml"
@@ -1146,7 +1146,7 @@ hash = "239342573e6bec52d07758507eed375c149d07f1149c4202f68900ae5b4d2afa"
 
 [[files]]
 file = "config/performant-common.toml"
-hash = "82ffff19ba2d003c608b37eef550ebe0a3b9714c344db8571245b747260db7c7"
+hash = "895695ab8728545c715cac589f1a1ab7c9c1d3fbef774812a270f1eeede2d050"
 
 [[files]]
 file = "config/pipez-client.toml"
