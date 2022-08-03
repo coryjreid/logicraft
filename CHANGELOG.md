@@ -1,4 +1,21 @@
 
+## 18.0.0 (2022-08-02)
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Disable a bunch of conflicting sorting stuff by Quark
+* Redid default keybinds
+* Disable 'On the Dynamics of Integration' on spawn
+
+### Remove
+
+* Spawner Bug Fix
+
+
 ## 17.0.0 (2022-08-02)
 
 ### Add
