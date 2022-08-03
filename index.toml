@@ -2383,11 +2383,6 @@ hash = "94a9dda04e9a875589def6b7c4d61af349fceb2335a456e577adfa51c1237b14"
 metafile = true
 
 [[files]]
-file = "mods/spawner-fix.pw.toml"
-hash = "31049023063d402e41f95cb61ce1434a75831db75ea3c6e3ddfd392c7c446dad"
-metafile = true
-
-[[files]]
 file = "mods/storage-for-computercraft.pw.toml"
 hash = "5a7e0b7023598294c243ecb371d682dd48d0fa37ae70e52a767e0ac704273d4c"
 metafile = true
