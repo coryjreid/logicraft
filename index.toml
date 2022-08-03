@@ -766,7 +766,7 @@ hash = "1bcee25c276b39d2084210ce6234d3775b1c7adc4bec3503178dc50b90e76bd5"
 
 [[files]]
 file = "config/losttrinkets/general_common.toml"
-hash = "a01d496507f545a9ccdc1f2d1caad47c4d53b8733fc0e373fe074669f7e9dcd3"
+hash = "facebab8f812be1470c16b45f8a2ed24bdc4fa86edc17dfa9d6588757b08d6fe"
 
 [[files]]
 file = "config/mcjtylib-client.toml"
