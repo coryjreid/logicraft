@@ -1,4 +1,16 @@
 
+## 18.1.0 (2022-08-03)
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Add keybind for Portable Crafting Grid and removed some inventory sorting keybinds
+* Disable Tha Spider and Warm Void trinkets (broken/breaking things)
+
+
 ## 18.0.0 (2022-08-02)
 
 ### Chore
