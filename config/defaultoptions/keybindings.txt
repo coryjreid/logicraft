@@ -62,20 +62,20 @@ key_key.ftbchunks.map:key.keyboard.m:SHIFT
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown:NONE
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown:NONE
 key_bloodmagic.keybind.open_holding:key.keyboard.unknown:NONE
-key_key.carry.desc:key.keyboard.left.shift:NONE
 key_key.reveal:key.keyboard.f10:NONE
+key_key.carry.desc:key.keyboard.left.shift:NONE
 key_key.immersivepetroleum.projector.flip:key.keyboard.m:NONE
 key_key.toggleLiquids:key.keyboard.unknown:NONE
 key_key.toggleVisible:key.keyboard.unknown:NONE
-key_key.immersiveengineering.magnetEquip:key.keyboard.s:NONE
-key_key.immersiveengineering.railgunZoom:key.mouse.middle:NONE
-key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown:NONE
 key_Strip World:key.keyboard.unknown:NONE
 key_Dress World:key.keyboard.unknown:NONE
 key_Open Config:key.keyboard.unknown:NONE
 key_Add Block:key.keyboard.unknown:NONE
 key_Remove Block:key.keyboard.unknown:NONE
 key_Cycle Profile:key.keyboard.unknown:NONE
+key_key.immersiveengineering.magnetEquip:key.keyboard.s:NONE
+key_key.immersiveengineering.railgunZoom:key.mouse.middle:NONE
+key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown:NONE
 key_key.integratedterminals.terminal.tab.next:key.keyboard.tab:NONE
 key_key.integratedterminals.terminal.tab.previous:key.keyboard.tab:SHIFT
 key_key.integratedterminals.terminal.craftinggrid.clearplayer:key.keyboard.unknown:SHIFT
@@ -94,19 +94,16 @@ key_key.buildinggadgets.rotate_mirror:key.keyboard.page.down:NONE
 key_key.buildinggadgets.material_list:key.keyboard.end:NONE
 key_key.corpse.death_history:key.keyboard.u:NONE
 key_key.astralsorcery.disable_perk_abilities:key.keyboard.v:NONE
+key_key.curios.open.desc:key.keyboard.b:SHIFT
 key_key.botania_corporea_request:key.keyboard.unknown:NONE
-key_key.curios.open.desc:key.keyboard.e:SHIFT
 key_key.refinedstorage.focusSearchBar:key.keyboard.tab:NONE
 key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.x:CONTROL
 key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown:NONE
 key_key.refinedstorage.openWirelessFluidGrid:key.keyboard.unknown:NONE
 key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown:NONE
-key_key.refinedstorage.openPortableGrid:key.keyboard.unknown:NONE
+key_key.refinedstorage.openPortableGrid:key.keyboard.e:SHIFT
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown:NONE
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown:NONE
-key_key.invtweaks_sort_player.desc:key.keyboard.grave.accent:NONE
-key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent:NONE
-key_key.invtweaks_sort_either.desc:key.keyboard.grave.accent:NONE
 key_keybind.simplyjetpacks.jetpack_gui:key.keyboard.k:NONE
 key_keybind.simplyjetpacks.jetpack_engine:key.keyboard.j:NONE
 key_keybind.simplyjetpacks.jetpack_hover:key.keyboard.h:NONE
@@ -114,6 +111,9 @@ key_keybind.simplyjetpacks.jetpack_ehover:key.keyboard.unknown:NONE
 key_keybind.simplyjetpacks.jetpack_charger:key.keyboard.unknown:NONE
 key_keybind.simplyjetpacks.jetpack_throttle_increase:key.keyboard.period:NONE
 key_keybind.simplyjetpacks.jetpack_throttle_decrease:key.keyboard.comma:NONE
+key_key.invtweaks_sort_player.desc:key.keyboard.grave.accent:NONE
+key_key.invtweaks_sort_inventory.desc:key.keyboard.unknown:NONE
+key_key.invtweaks_sort_either.desc:key.keyboard.unknown:NONE
 key_key.nextDestination:key.keyboard.right.bracket:NONE
 key_key.prevDestination:key.keyboard.left.bracket:NONE
 key_key.openManual:key.keyboard.f1:NONE
@@ -135,19 +135,29 @@ key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown:NONE
 key_key.cofh.mode_change_increment:key.keyboard.v:NONE
 key_key.cofh.mode_change_decrement:key.keyboard.b:NONE
 key_key.cyclic.cake:key.keyboard.unknown:NONE
-key_key.easy_villagers.pick_up:key.keyboard.v:NONE
-key_key.easy_villagers.cycle_trades:key.keyboard.unknown:NONE
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.f:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.r:ALT
+key_key.easy_villagers.pick_up:key.keyboard.v:NONE
+key_key.easy_villagers.cycle_trades:key.keyboard.unknown:NONE
 key_key.refinedstorageaddons.openWirelessCraftingGrid:key.keyboard.g:CONTROL
-key_quark.keybind.camera_mode:key.keyboard.unknown:NONE
-key_cos.key.opencosarmorinventory:key.keyboard.e:CONTROL
+key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
+key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
+key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
+key_cos.key.opencosarmorinventory:key.keyboard.e:ALT
 key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r:NONE
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown:NONE
 key_mod.chiselsandbits.keys.key.measuring-tape.reset:key.mouse.right:SHIFT
 key_mod.chiselsandbits.keys.key.undo:key.keyboard.unknown:CONTROL
 key_mod.chiselsandbits.keys.key.redo:key.keyboard.y:CONTROL
+key_key.inventoryhud.toggle:key.keyboard.i:NONE
+key_key.inventoryhud.openconfig:key.keyboard.o:NONE
+key_key.inventoryhud.togglepot:key.keyboard.unknown:NONE
+key_key.inventoryhud.togglearm:key.keyboard.unknown:NONE
+key_key.inventoryhud.toggleall:key.keyboard.unknown:NONE
+key_quark.keybind.back:key.mouse.4:NONE
+key_quark.keybind.lock_rotation:key.keyboard.k:NONE
+key_quark.keybind.autorun:key.keyboard.caps.lock:NONE
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
 key_quark.emote.wave:key.keyboard.unknown:NONE
@@ -166,20 +176,10 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:NONE
+key_quark.keybind.camera_mode:key.keyboard.unknown:NONE
 key_quark.keybind.sort_player:key.keyboard.unknown:NONE
-key_key.inventoryhud.toggle:key.keyboard.i:NONE
-key_key.inventoryhud.openconfig:key.keyboard.o:NONE
-key_key.inventoryhud.togglepot:key.keyboard.unknown:NONE
-key_key.inventoryhud.togglearm:key.keyboard.unknown:NONE
-key_key.inventoryhud.toggleall:key.keyboard.unknown:NONE
 key_quark.keybind.sort_container:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
-key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
-key_quark.keybind.lock_rotation:key.keyboard.k:NONE
-key_quark.keybind.autorun:key.keyboard.caps.lock:NONE
 key_quark.keybind.change_hotbar:key.keyboard.unknown:NONE
-key_quark.keybind.back:key.mouse.4:NONE
 key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
 key_create.keyinfo.toolbelt:key.keyboard.left.alt:NONE
 key_key.losttrinkets.trinket:key.keyboard.r:NONE
