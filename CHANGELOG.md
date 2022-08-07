@@ -1,4 +1,22 @@
 
+## 19.0.0 (2022-08-07)
+
+### Chore
+
+* Bump version
+* Update to Cursewiz 1.1
+
+### Remove
+
+* Xnet
+* Xnet Gases
+* Integrated Proxy (causing lots of log spam)
+
+### Update
+
+* Macaw's Trapdoors
+
+
 ## 18.1.0 (2022-08-03)
 
 ### Chore
