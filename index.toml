@@ -2473,11 +2473,6 @@ hash = "f3e745f8cc60746024d9119ede1a05551b75007d09dc3abe325968f32976e5cc"
 metafile = true
 
 [[files]]
-file = "mods/xnet.pw.toml"
-hash = "6ceb528434d767892cba0a3fcc0c4228eaf212b0f80ef633d6ae9308005f5a5a"
-metafile = true
-
-[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "1e472826ab3603b35efc8bc4cebe632a24717dbdf3847473efc692502f2e75ef"
 metafile = true
