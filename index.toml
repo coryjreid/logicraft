@@ -1177,14 +1177,6 @@ file = "config/rftoolscontrol-client.toml"
 hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
-file = "config/rftoolsdim-client.toml"
-hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
-
-[[files]]
-file = "config/rftoolsdim-common.toml"
-hash = "a20418b35a349fd095d179878a20de1413b00899da101b20f68aba5090213a8f"
-
-[[files]]
 file = "config/rftoolspower-client.toml"
 hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
@@ -1279,14 +1271,6 @@ hash = "5bfcead56ebf300fd4cf06d28347c2460780cf98f4b563e4f15cfb06a48b675f"
 [[files]]
 file = "config/wstweaks-common.toml"
 hash = "19f431652ed9e8583992c3fc6adba6a1d5b3746c31830a31bb8809b91f01a068"
-
-[[files]]
-file = "config/xnet-client.toml"
-hash = "9f06fcb055a86ec05526d31115548a51ab262f7d5bc21bfb05e648d15b4e7064"
-
-[[files]]
-file = "config/xnetgases.toml"
-hash = "301b407f78865e48bbede7fa87181658dfc82afd1ac4b8222a8c76f5434394e9"
 
 [[files]]
 file = "config/yungsbridges-forge-1_16.toml"
@@ -1449,10 +1433,6 @@ file = "defaultconfigs/rftoolscontrol-server.toml"
 hash = "eb880332d63179e53bd689fb2f8f4805e5c64cced26c47717efa9e237b5c6787"
 
 [[files]]
-file = "defaultconfigs/rftoolsdim-server.toml"
-hash = "a656110885b22811061fabf11e83fb0ee2b8d4f0dc683d4ae225c3ac0d9f086f"
-
-[[files]]
 file = "defaultconfigs/rftoolspower-server.toml"
 hash = "392095f80972e1eb9cd572fb235e93303872ef57d3be2862de62e30ec148b762"
 
@@ -1471,10 +1451,6 @@ hash = "4098fcacfa423580e15e968805877e8c81cb873f0aabf9728a3dd9f60759edca"
 [[files]]
 file = "defaultconfigs/thermal-server.toml"
 hash = "377a771ca8370c4e1bfdf2a318c9fb4e2ca53285cfba5423e405dcf917a9cfc8"
-
-[[files]]
-file = "defaultconfigs/xnet-server.toml"
-hash = "3b6fbd975be9b6803d7c47e38ad05a94d33091ebdce8d3b41084f7c1fbf032de"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -2335,11 +2311,6 @@ metafile = true
 [[files]]
 file = "mods/rftools-control.pw.toml"
 hash = "85e4b174baa7a5e18694bede0bf8387266c26c19b5a80ea9bc39a8725c8e0f98"
-metafile = true
-
-[[files]]
-file = "mods/rftools-dimensions.pw.toml"
-hash = "88313937618315576731870e435fc70d441b5485ad5f362717fe74269b9c47cd"
 metafile = true
 
 [[files]]
