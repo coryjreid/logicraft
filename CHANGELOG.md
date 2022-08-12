@@ -1,4 +1,24 @@
 
+## 20.0.0 (2022-08-12)
+
+### Chore
+
+* Bump version
+
+### Config
+
+* Update some keybinds to remove some conflicts
+
+### Removed
+
+* RFTools Dimensions (Lots of loaded dims causes server strain/lag)
+
+### Update
+
+* Macaw's Doors
+* Macaw's Paintings
+
+
 ## 19.0.0 (2022-08-07)
 
 ### Chore
