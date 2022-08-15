@@ -761,6 +761,10 @@ file = "config/kleeslabs-common.toml"
 hash = "633c0009729b0cf2ac0d31d7080ce4383a7c87844fb8d1ddebab3952fc5f5328"
 
 [[files]]
+file = "config/lightingwand.toml"
+hash = "1ab53ab4327aca3c541b5be5d649601b255ed5607dae7edfab035e885111867c"
+
+[[files]]
 file = "config/lightoverlay.properties"
 hash = "1bcee25c276b39d2084210ce6234d3775b1c7adc4bec3503178dc50b90e76bd5"
 
@@ -2094,6 +2098,11 @@ hash = "67414957f87d7275f60651aeafa65400202d60b9f58107287b3580385cf4642f"
 metafile = true
 
 [[files]]
+file = "mods/lighting-wand.pw.toml"
+hash = "11823f7e2bc74150740c4f5b8f59af04cb99e122e7276c8e203b14a5349f861a"
+metafile = true
+
+[[files]]
 file = "mods/lollipop.pw.toml"
 hash = "8b11a430cbef1698badad0339e22ac29c688c40ac6f0871e4c73bebb2ac35ca9"
 metafile = true
@@ -2226,6 +2235,11 @@ metafile = true
 [[files]]
 file = "mods/ore-tweaker.pw.toml"
 hash = "685479fc50b1d1a6d66ace5c6c34d0b7f9264c671b420fce84e4b8c4ef2d2a8c"
+metafile = true
+
+[[files]]
+file = "mods/organ1zedcha0s-builders-invisible-lights.pw.toml"
+hash = "f133f1a2c519b2761707df92194f669187f3ca10d6383e869b995a2755e4d3ea"
 metafile = true
 
 [[files]]
