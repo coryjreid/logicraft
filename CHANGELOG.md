@@ -1,4 +1,15 @@
 
+## 21.0.0 (2022-08-15)
+
+### Added
+
+* LightingWand
+
+### Chore
+
+* Bump version
+
+
 ## 20.0.0 (2022-08-12)
 
 ### Chore
