@@ -1794,7 +1794,7 @@ metafile = true
 
 [[files]]
 file = "mods/configured.pw.toml"
-hash = "5e5e311c84c15bd861c4841dbb684df2313abe9909bd3ec56915810602b2702b"
+hash = "c8062291ac9c4b02be34569082c6f2cea6e68a678c31f62fba5ee7807b1338a5"
 metafile = true
 
 [[files]]
