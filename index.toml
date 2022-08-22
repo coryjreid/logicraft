@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "e34ae6c635d944aa997a652db8f9432fb346d8623f8235255d17d616465cbc67"
+hash = "5618c59295ea639391a37c7a0eb0bc8f1fb7d8cf73d9e07b289cd1a7866949a2"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -318,7 +318,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "6336db88262f2860a26c4d9dc58410390460f6ae34253d78cda59af06c584e59"
+hash = "0d3d183fce98c085cda5ead80480dce4e1a39e9b1a5651152b44b2131373346e"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -451,6 +451,10 @@ hash = "20c0d835fec41de09ea72489e602d451c8ffb13602f2f93e0ee1d35ccfacc6dc"
 [[files]]
 file = "config/cabletiers-common.toml"
 hash = "90ad1cc62936daa671c70307e4f6eab4e8798e98ce2ff4855e45d1280b23a2d4"
+
+[[files]]
+file = "config/capabilityproxy-common.toml"
+hash = "9c2bce99b86721852431e4548c559c51daa743f58468343db9d592c02c106663"
 
 [[files]]
 file = "config/carryon-client.toml"
