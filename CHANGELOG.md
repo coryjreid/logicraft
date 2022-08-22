@@ -1,4 +1,19 @@
 
+## 22.0.0 (2022-08-22)
+
+### Added
+
+* CapabilityProxy
+
+### Chore
+
+* Bump version
+
+### Updated
+
+* Configured
+
+
 ## 21.0.0 (2022-08-15)
 
 ### Added
