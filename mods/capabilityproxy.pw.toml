@@ -1,0 +1,13 @@
+name = "CapabilityProxy"
+filename = "CapabilityProxy-1.16.5-2.1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e70e265ee64f22240a9a80c19aa3e3a9a99ae346"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3226483
+project-id = 266479

@@ -1728,6 +1728,11 @@ hash = "a9d1e17ad443d366155604d52151c1b3fb009b13a2c468288f1460557babd04f"
 metafile = true
 
 [[files]]
+file = "mods/capabilityproxy.pw.toml"
+hash = "cab4acc46fe0723ff4bed38451e38b1ebdc56a400fa05ff8e5136df69edaef85"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "ef43f6384629dbc94429b0eddf3ccb015d3c32b1cccae21a5cbf6752d325149f"
 metafile = true
