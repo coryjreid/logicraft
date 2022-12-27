@@ -1828,7 +1828,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafttweaker.pw.toml"
-hash = "c4cbfe89d0192b3125222628ef9ff2ddd303ed3612543c3594ab8dd2be41a6c3"
+hash = "80679bcc15bb3e3a8a288735bf4a8ca1136a4446d5c486aeb48fd1ca99847044"
 metafile = true
 
 [[files]]
