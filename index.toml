@@ -1698,7 +1698,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-spawner-control.pw.toml"
-hash = "b0e4a30aec072d40a97a913894840e37209d026ff468ab154746249082b948a8"
+hash = "f0a073e4209be586024ce11d5aa98e8dfcecdc7731572484d3811eb4a3a0bbaa"
 metafile = true
 
 [[files]]
