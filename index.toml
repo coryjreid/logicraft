@@ -1998,7 +1998,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "d22c5f5b5b14f7a4017f8eeefe93dc1b4ff7e229ea2d657059330df30f31ae01"
+hash = "7294cb62fa4978f277a49e53ff4327f3dba58c586e8bd2de381b42a98b1a1f6b"
 metafile = true
 
 [[files]]
