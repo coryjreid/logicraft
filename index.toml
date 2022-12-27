@@ -1767,6 +1767,11 @@ hash = "8b03f989cffd85de754064b76dc74af43a50c1411bb6753b471cee94dc7ff880"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "c3d83ab88fbad5552a6e8026a3ff50bc87cad7e5d98d81dcd71933bf33e3e6ff"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "3b5fff473fdfe3f434f9bc910e4808863b4bf98166ecea2debb3f6dfe626a94b"
 metafile = true
