@@ -2173,7 +2173,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-windows.pw.toml"
-hash = "1ee67f0ccabfb3474106283e9c92818a4c439ab71d6b301611b8e3be833b1bf2"
+hash = "e3901283c53ff6d440cf587ef8dba22d73b71e33df7e03a20dcd5f05b7995f0e"
 metafile = true
 
 [[files]]
