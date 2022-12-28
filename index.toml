@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "5618c59295ea639391a37c7a0eb0bc8f1fb7d8cf73d9e07b289cd1a7866949a2"
+hash = "45723c870d85db7ab25100510e4c8895013a5b9af0796c78f6a0153657f7d4a6"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -318,7 +318,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "0d3d183fce98c085cda5ead80480dce4e1a39e9b1a5651152b44b2131373346e"
+hash = "59d70e0d36be44c5cdcad9fe7c6d92b4111e941da6bc9ec3f2191a20978a2bbd"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -502,7 +502,7 @@ hash = "dc3c5a5d190d6281eddf4f987dc32cc0543dc89547358e1b3c150f7f94746651"
 
 [[files]]
 file = "config/computercraft-client.toml"
-hash = "81fac46858f5b6c5d12ef1371a1fc7a1f386057fff71f60c4389ee123640658c"
+hash = "74a4490a9e22547861cccba0a9cf729be26b2a482ca3fd2c694ea0f4d08e77f2"
 
 [[files]]
 file = "config/configured-client.toml"
@@ -558,7 +558,7 @@ hash = "4028a752cb90a7bb0f918323796237d5a445276ee45b0af9b10b02f97a55ee89"
 
 [[files]]
 file = "config/cyclic.toml"
-hash = "4aae2a7bf222cb81ea49f146d0216bd530b02c92df7ae246608ce86c967ae887"
+hash = "ce38f48119c8f1d7badeef229212b64a7eb0453bbcb3394b66a3f023db9801fb"
 
 [[files]]
 file = "config/cyclopscore-client.toml"
