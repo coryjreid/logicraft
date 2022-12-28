@@ -2163,7 +2163,7 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-roofs.pw.toml"
-hash = "ec2e07723331e279171ba7997ae8ed3889c40c993a2f697e072593f877364160"
+hash = "f2ca3ac3bbca5cbbbc51e38b6c3c951cf0ba18ed4357979ff611c2564e8063e1"
 metafile = true
 
 [[files]]
