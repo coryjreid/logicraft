@@ -1,4 +1,40 @@
 
+## 23.0.0 (2022-12-27)
+
+### Chore
+
+* Bump version
+
+### Update
+
+* ZeroCore 2
+* Thermal Foundation
+* Thermal Expansion
+* Oh The Biomes You'll Go
+* Macaw's Windows
+* Macaw's Trapdoors
+* Macaw's Roofs
+* Macaw's Furniture
+* Macaw's Fences and Walls
+* Macaw's Bridges - Oh The Biomes You'll Go
+* Macaw's Bridges
+* Just Enough Items (JEI)
+* JourneyMap
+* Integrated Tunnels
+* Integrated Dynamics
+* FTB Chunks (Forge)
+* FerriteCore (Forge)
+* Extreme Reactors
+* Cyclic
+* CraftTweaker
+* Collective (Forge)
+* CoFH Core
+* Cloth Config API (Fabric/Forge)
+* CC: Tweaked
+* Botania
+* Better Spawner Control (Forge)
+
+
 ## 22.0.0 (2022-08-22)
 
 ### Added
