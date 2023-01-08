@@ -1,4 +1,21 @@
 
+## 24.0.0 (2023-01-08)
+
+### Chore
+
+* Bump version
+
+### Update
+
+* ZeroCore 2
+* Wormhole (Portals)
+* SuperMartijn642's Core Lib
+* FTB Chunks (Forge)
+* Extreme Reactors
+* CraftTweaker
+* Collective
+
+
 ## 23.0.0 (2022-12-27)
 
 ### Chore
