@@ -2463,7 +2463,7 @@ metafile = true
 
 [[files]]
 file = "mods/wormhole-portals.pw.toml"
-hash = "f3e745f8cc60746024d9119ede1a05551b75007d09dc3abe325968f32976e5cc"
+hash = "958f21a0725ca9dbd21da439300c0abdd63a8ce6976736c173f6d0f9ba72081a"
 metafile = true
 
 [[files]]
