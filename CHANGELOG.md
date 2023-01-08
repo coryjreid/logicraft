@@ -1,4 +1,15 @@
 
+## 25.0.0 (2023-01-08)
+
+### Chore
+
+* Bump version
+
+### Remove
+
+* Wormhold Portals due to VTweaks incompatibility
+
+
 ## 24.0.0 (2023-01-08)
 
 ### Chore
