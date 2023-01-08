@@ -1273,10 +1273,6 @@ file = "config/worldstripper-common.toml"
 hash = "6869c7fe3fd0a17a47923058523bdf30df34eb883a0a124ff0e33c1a794ded1e"
 
 [[files]]
-file = "config/wormhole-common.toml"
-hash = "5bfcead56ebf300fd4cf06d28347c2460780cf98f4b563e4f15cfb06a48b675f"
-
-[[files]]
 file = "config/wstweaks-common.toml"
 hash = "19f431652ed9e8583992c3fc6adba6a1d5b3746c31830a31bb8809b91f01a068"
 
@@ -2459,11 +2455,6 @@ metafile = true
 [[files]]
 file = "mods/world-stripper.pw.toml"
 hash = "ee5f5d2d157ad0a18c2105a2b3481e803b79d028a476e82c2ca150ac49eac7dc"
-metafile = true
-
-[[files]]
-file = "mods/wormhole-portals.pw.toml"
-hash = "958f21a0725ca9dbd21da439300c0abdd63a8ce6976736c173f6d0f9ba72081a"
 metafile = true
 
 [[files]]
