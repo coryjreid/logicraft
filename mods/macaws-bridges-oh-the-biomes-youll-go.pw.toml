@@ -1,13 +1,13 @@
 name = "Macaw's Bridges - Oh The Biomes You'll Go"
-filename = "macawsbridgesbyg-1.16.5-2.4.jar"
+filename = "macawsbridgesbyg-1.16.5-2.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "daa27e7a345a6279f2f88d28d413e02013ef9ff8"
+hash = "24bfd43adae7e7dbbaa1165f5d951d03a4fed5eb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4259729
+file-id = 4602679
 project-id = 535960
