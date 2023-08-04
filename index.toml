@@ -1879,7 +1879,7 @@ metafile = true
 
 [[files]]
 file = "mods/dungeon-crawl.pw.toml"
-hash = "f873f8571ff0849123972a2c391153e421b711465891294aa81894190bd86c11"
+hash = "047650610bd22a9e4faed42fc23d8591f7384a95aff2d868bff9b6fe1a38a954"
 metafile = true
 
 [[files]]
