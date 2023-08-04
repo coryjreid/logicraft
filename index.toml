@@ -1859,7 +1859,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "8d014579eb567326402e555ba5ab4acacf0ee62f91b1e6a660c12ade69e6d7d8"
+hash = "1da259efe44c59b295ce121e4a5779a8de5b893de673db071fd8b5132d09a022"
 metafile = true
 
 [[files]]
