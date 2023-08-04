@@ -1658,6 +1658,11 @@ hash = "1771ee6311c039866a657ede4cd6bc4e7e7044095ba32283c7cfd704600e5e55"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "3ef39814eff961d73203456044854e801f8f1f3447bdf5b6fa3c1c26d234ce18"
+metafile = true
+
+[[files]]
 file = "mods/architectury-forge.pw.toml"
 hash = "26fca9fdd48a32e506d077fefb9baf09908cae3a3072f5cf4726e9c8f13fde31"
 metafile = true
