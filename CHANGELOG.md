@@ -1,4 +1,40 @@
 
+## 26.0.0 (2023-08-03)
+
+### Chore
+
+* Bump version
+
+### Update
+
+* ZeroCore 2
+* SuperMartijn642's Core Lib
+* SuperMartijn642's Config Lib
+* Placebo
+* Performant
+* Macaw's Trapdoors
+* Macaw's Roofs
+* Macaw's Lights and Lamps
+* Macaw's Furniture
+* Macaw's Doors
+* Macaw's Bridges - Oh The Biomes You'll Go
+* Macaw's Bridges
+* Just Enough Resources (JER)
+* Just Enough Items (JEI)
+* Immersive Petroleum
+* Extreme Reactors
+* Dungeon Crawl
+* Curios API (Forge)
+* CraftTweaker
+* Controlling
+* Configured
+* Cloth Config API (Fabric/Forge)
+* CC: Tweaked
+* Carry On
+* Building Gadgets
+* Architectury API (Fabric/Forge)
+
+
 ## 25.0.0 (2023-01-08)
 
 ### Chore
