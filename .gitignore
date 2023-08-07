@@ -9,3 +9,7 @@ config/Mekanism/client.toml
 /*.zip
 logs/
 saves/
+local/ftbchunks/*
+!local/ftbchunks/client-config.snbt
+local/kubejs/*
+!local/kubejs/dev.properties
