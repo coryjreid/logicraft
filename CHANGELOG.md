@@ -1,4 +1,16 @@
 
+## 27.0.0 (2023-08-06)
+
+### Chore
+
+* Bump version
+
+### Update
+
+* .gitignore file
+* Pack to Minecraft 1.19.2
+
+
 ## 26.0.0 (2023-08-03)
 
 ### Chore
