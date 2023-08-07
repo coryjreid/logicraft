@@ -67,4 +67,10 @@
 	pigmentMixer = "80000"
 	#Base energy storage (Joules).
 	paintingMachine = "40000"
+	#Base energy storage (Joules).
+	laserAmplifier = "5000000000"
+	#Base energy storage (Joules).
+	laserTractorBeam = "5000000000"
+	#Base energy storage (Joules).
+	dimensionalStabilizer = "40000"
 

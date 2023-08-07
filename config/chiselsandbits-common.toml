@@ -1,18 +1,19 @@
 
-#Options for getting help in game.
 [help]
-	#Should the help information be visible in tooltips?
+	#mod.scena.config.help.enabled-in-tooltips.comment
 	enabled-in-tooltips = true
 
-#Performance related options.
 [performance]
 
-	#Configures caches
 	[performance.caches]
 
-		#Cache size related options.
 		[performance.caches.sizes]
-			#Size of the collision box cache.
-			#Range: -9223372036854775808 ~ 9223372036854775807
+			#mod.scena.config.performance.caches.sizes.collision-boxes.comment
+			#Range: 0 ~ 9223372036854775807
 			collision-boxes = 10000
+
+	[performance.saving]
+		#mod.scena.config.performance.saving.thread-count.comment
+		#Range: 1 ~ 16
+		thread-count = 8
 

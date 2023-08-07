@@ -6,8 +6,6 @@ flowerBindingForceCheck = true
 enderPickpocket = false
 #Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
 manaEnchanter = true
-#Set this to false to disable the Mana Fluxfield (generates FE from mana). This only disables the entry and creation. Old ones that are already in the world will stay.
-manaFluxfield = true
 #Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
 relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
@@ -17,8 +15,6 @@ invertMagnetRing = false
 #Ores from mods present on this list will be picked over mods listed lower or not listed at all.
 #Applying changes at runtime requires /reload afterwards.
 orechidPriorityMods = []
-#Set this to false to disable mystical flower and mushroom worldgen. More fine-tuned customization should be done with datapacks.
-worldgen = true
 
 [blockBreakingParticles]
 	#Set this to false to remove the block breaking particles from the Terra Shatterer, as there can be a good amount in higher levels.

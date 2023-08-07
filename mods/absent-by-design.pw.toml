@@ -1,13 +1,13 @@
 name = "Absent by Design"
-filename = "absentbydesign-1.16.5-1.5.2.jar"
+filename = "absentbydesign-1.19-1.7.0.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3656/662/absentbydesign-1.16.5-1.5.2.jar"
 hash-format = "sha1"
-hash = "3fd0167ad847b4a8bdfea47863ae75545d68e427"
+hash = "42ccc9cea4edfcf68d432c927570e77b91311844"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3656662
+file-id = 3835331
 project-id = 305840

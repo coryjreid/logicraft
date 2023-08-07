@@ -1,13 +1,13 @@
 name = "Macaw's Lights and Lamps"
-filename = "mcw-lights-1.0.6-mc1.16.5forge.jar"
+filename = "mcw-lights-1.0.6-mc1.19.2forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7324c75a90ad433cc04fd017568c89e034899c25"
+hash = "adc167203e86b60a50b527f2962d2923bfc4a406"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4618173
+file-id = 4618179
 project-id = 502372

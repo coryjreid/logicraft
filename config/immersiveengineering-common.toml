@@ -13,13 +13,10 @@ importantInfo = true
 #Setting any of these to false disables the respective compat
 [compat]
 	computercraft = true
-	crafttweaker = true
 	theoneprobe = true
 	curios = true
 
 [debug]
-	#A config setting to enable debug features. These features may vary between releases, may cause crashes, and are unsupported. Do not enable unless asked to by a developer of IE.
-	enableDebug = false
 
 	[debug.wires]
 		#Enable detailed logging for the wire network. This can be useful for developers to track down issues related to wires.

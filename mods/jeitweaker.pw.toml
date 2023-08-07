@@ -1,13 +1,13 @@
 name = "JEITweaker"
-filename = "JEITweaker-1.16.5-1.1.0.49.jar"
+filename = "JeiTweaker-forge-1.19.2-4.0.12.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3584/24/JEITweaker-1.16.5-1.1.0.49.jar"
 hash-format = "sha1"
-hash = "366436f84d5b3ea3f0037b9fdb7f5f6dbf7abd44"
+hash = "825cf5043da19cef55b3ac8d6a0ab9806d96b3a0"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3584024
+file-id = 4564024
 project-id = 368718

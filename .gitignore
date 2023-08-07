@@ -7,3 +7,5 @@ config/dsurround/
 config/Mekanism/client.toml
 .vscode
 /*.zip
+logs/
+saves/

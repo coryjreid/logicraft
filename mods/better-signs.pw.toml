@@ -1,0 +1,13 @@
+name = "Better Signs"
+filename = "bettersigns-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e0720587cd4271d90356e08566bf6f223fd5eee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4544900
+project-id = 342913

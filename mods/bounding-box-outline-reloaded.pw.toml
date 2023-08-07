@@ -1,13 +1,13 @@
 name = "Bounding Box Outline Reloaded"
-filename = "BBOutlineReloaded-2.4-1.16.3-forge.jar"
+filename = "BBOutlineReloaded-2.6-1.19.2-forge.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3081/524/BBOutlineReloaded-2.4-1.16.3-forge.jar"
 hash-format = "sha1"
-hash = "17b90d6666a0c13ffd255740cc38748a25b28b92"
+hash = "a2a88196ba5fec92f3134f2213f50df680b1ee9d"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3081524
+file-id = 4262398
 project-id = 272578

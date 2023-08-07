@@ -1,13 +1,13 @@
 name = "TrashSlot"
-filename = "TrashSlot_1.16.3-12.2.1.jar"
+filename = "trashslot-forge-1.19-12.0.2.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3098/221/TrashSlot_1.16.3-12.2.1.jar"
 hash-format = "sha1"
-hash = "cd90444339d8fd5dff1070fa65ff7d6cfaa6deaf"
+hash = "85749138c47fbdcbf9e90dd48f0b1980f8e80cf2"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3098221
+file-id = 4412862
 project-id = 235577

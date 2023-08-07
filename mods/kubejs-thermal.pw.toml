@@ -1,13 +1,13 @@
 name = "KubeJS Thermal"
-filename = "kubejs-thermal-1605.1.4-build.4.jar"
+filename = "kubejs-thermal-1902.1.9-build.11.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3573/381/kubejs-thermal-1605.1.4-build.4.jar"
 hash-format = "sha1"
-hash = "0b2180832c27eab7b5861f92ba2fdf7ab4ec6dff"
+hash = "b129c4ddc939bbe903c73c1967fdfa3ee3131789"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3573381
+file-id = 4658080
 project-id = 421694

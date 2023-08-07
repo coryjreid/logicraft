@@ -1,13 +1,13 @@
 name = "Thermal Innovation"
-filename = "thermal_innovation-1.16.5-1.5.0.4.jar"
+filename = "thermal_innovation-1.19.2-10.2.0.18.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ec6a6081c455efbd4bfcb12f37b08e8f487edaf9"
+hash = "aefb9056410fc32137964fc02fba6fd7376102af"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3788896
+file-id = 4382374
 project-id = 291737

@@ -1,13 +1,13 @@
 name = "KubeJS Mekanism"
-filename = "kubejs-mekanism-1605.1.2-build.2.jar"
+filename = "kubejs-mekanism-1902.1.5-build.15.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3446/472/kubejs-mekanism-1605.1.2-build.2.jar"
 hash-format = "sha1"
-hash = "10a69a097f6bac38fdd759efbd31327fdc1cc666"
+hash = "7e1bde3cd6f24337935b5f40f0e203b7f2223b3e"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3446472
+file-id = 4651043
 project-id = 418651

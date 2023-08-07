@@ -5,13 +5,13 @@
   "forge:ingots/tin": "thermal:tin_ingot",
   "forge:gems/sapphire": "thermal:sapphire",
   "forge:ingots/bronze": "thermal:bronze_ingot",
-  "forge:ingots/copper": "create:copper_ingot",
+  "forge:ingots/copper": "minecraft:copper_ingot",
   "forge:ingots/lumium": "thermal:lumium_ingot",
   "forge:ingots/electrum": "thermal:electrum_ingot",
   "forge:silicon": "refinedstorage:silicon",
   "forge:gems/apatite": "thermal:apatite",
   "forge:ingots/silver": "thermal:silver_ingot",
-  "forge:dusts/saltpeter": "bloodmagic:saltpeter",
+  "forge:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
   "forge:ingots/steel": "mekanism:ingot_steel",
   "forge:ingots/platinum": "null",
   "forge:ingots/lead": "thermal:lead_ingot",
@@ -30,6 +30,6 @@
   "forge:ingots/enderium": "thermal:enderium_ingot",
   "forge:ingots/titanium": "null",
   "forge:rubber": "null",
-  "forge:dusts/sulfur": "bloodmagic:sulfur",
+  "forge:dusts/sulfur": "thermal:sulfur_dust",
   "forge:ingots/nickel": "thermal:nickel_ingot"
 }

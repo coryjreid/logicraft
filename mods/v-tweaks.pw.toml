@@ -1,13 +1,13 @@
 name = "V-Tweaks"
-filename = "VTweaks-1.16.4-3.6.2.jar"
+filename = "VTweaks-1.19.2-4.0.8.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3675/562/VTweaks-1.16.4-3.6.2.jar"
 hash-format = "sha1"
-hash = "ffc4bc15739b1992f597fe26e4974b262ae3307a"
+hash = "739b0640edd11d56eaf0c466ae6fbe67708b0e78"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3675562
+file-id = 4673719
 project-id = 238048

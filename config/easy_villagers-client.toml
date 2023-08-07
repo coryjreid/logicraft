@@ -8,4 +8,11 @@
 	#The location of the cycle trades button
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, NONE
 	cycle_trades_button_location = "TOP_LEFT"
+	#Disables rendering any contents of the villager blocks when set to false
+	#Set to false if you have performance issues with the mod
+	render_block_contents = true
+	#The distance in blocks at which the block contents are rendered
+	#This has no effect if 'render_block_contents' is disabled
+	#Range: 1 ~ 256
+	block_render_distance = 32
 

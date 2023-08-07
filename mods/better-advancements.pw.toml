@@ -1,13 +1,13 @@
 name = "Better Advancements"
-filename = "BetterAdvancements-1.16.5-0.1.1.115.jar"
+filename = "BetterAdvancements-1.19.2-0.2.2.142.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3404/330/BetterAdvancements-1.16.5-0.1.1.115.jar"
 hash-format = "sha1"
-hash = "7b1729250d87eb0be895687d60d313ccb9831ab2"
+hash = "2be49e130ef72fbf9b999445e396b5be7bec0169"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3404330
+file-id = 3940452
 project-id = 272515

@@ -22,7 +22,7 @@
 		ingredientNetworkObserverEnableMultithreading = true
 		#When enabled, networks will stop ticking and values will not be shown and evaluated again. This can be used to fix crashing networks by temporarily enabling this option.
 		safeMode = false
-		#The maximum frequency at which speach messages can be played in millis.
+		#The maximum frequency at which speach messages can be played in milliseconds.
 		speachMaxFrequency = 1000
 		#The maximum network energy transfer rate.
 		energyRateLimit = 2147483647
@@ -34,6 +34,16 @@
 		ingredientNetworkObserverFrequencyForced = 0
 		#If the version checker should be enabled.
 		versionChecker = true
+		#When true, use the LONG number format style. Otherwise, use the SHORT style.
+		numberCompactUseLongStyle = false
+		#The minimum number of integer digits to include in the result of the compact operator
+		numberCompactMinimumIntegerDigits = 1
+		#The minimum number of fractional digits to include in the result of the compact operator
+		numberCompactMinimumFractionDigits = 0
+		#The maximum number of integer digits to include in the result of the compact operator
+		numberCompactMaximumIntegerDigits = 3
+		#The maximum number of fractional digits to include in the result of the compact operator
+		numberCompactMaximumFractionDigits = 2
 
 [general]
 
@@ -92,6 +102,8 @@
 		machineReaderBaseConsumption = 1
 		#The base energy usage for the entity writer.
 		entityWriterBaseConsumption = 1
+		#The default port for running the network diagnostics HTTP server.
+		diagnosticsWebServerPort = 3030
 
 [machine]
 
@@ -104,6 +116,10 @@
 		defaultPartUpdateFreq = 1
 		#The NBT tags that are not allowed to be read by displaying NBT tags or performing operations on them.
 		nbtTagBlacklist = []
+		#The maximum offset in blocks a part can target.
+		maxPartOffset = 32
+		#The distance from which part offsets should be shown.
+		partOffsetRenderDistance = 16
 
 	[machine.cable]
 		#If cable shapes should be determined dynamically. Disable this if FPS issues would occur.

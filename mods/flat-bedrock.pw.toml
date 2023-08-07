@@ -1,13 +1,13 @@
-name = "Flat Bedrock"
-filename = "flatbedrock-1.2.0-build.2+mc1.16.5.jar"
+name = "Flat Bedrock (Forge / Fabric)"
+filename = "flatbedrock-forge-2.0.0-build.14+mc1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3438/815/flatbedrock-1.2.0-build.2+mc1.16.5.jar"
 hash-format = "sha1"
-hash = "edaff640577c505846a42eba698020a538a23a8f"
+hash = "55bf009762a3ee2eea8afd9c83475d5d4590d481"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3438815
+file-id = 3968403
 project-id = 398623

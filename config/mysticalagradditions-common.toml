@@ -9,6 +9,8 @@
 	essenceAppleDuration = 180
 	#Can tier 6 crops be fertilized using Mystical Fertilizer or Fertilized Essence?
 	fertilizableTier6Crops = false
+	#Should Cruxes for disabled crops be hidden and not have recipes?
+	hideUnusedCruxes = false
 	#The percentage chance that a Wither will drop a Withering Soul when killed.
 	#Range: 0.0 ~ 1.0
 	witheringSoulChance = 0.35
@@ -24,24 +26,30 @@
 	#How many End Inferium Ore veins should spawn in a chunk.
 	#Range: > 0
 	endInferiumSpawnRate = 16
-	#The maximum Y level that Nether Inferium Ore veins can spawn.
-	#Range: 0 ~ 128
-	netherInferiumSpawnHeight = 100
 	#Should End Prosperity Ore generate in the world?
 	generateEndProsperityOre = true
 	#The maximum amount of End Inferium Ore blocks that can spawn in a vein.
 	#Range: > 0
 	endInferiumSpawnSize = 8
-	#The maximum Y level that End Inferium Ore veins can spawn.
+	#The minimum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 128
-	endInferiumSpawnHeight = 100
+	endProsperitySpawnMinY = 10
 	#Should Nether Prosperity Ore generate in the world?
 	generateNetherProsperityOre = true
-	#Should Nether Inferium Ore generate in the world?
-	generateNetherInferiumOre = true
 	#The maximum Y level that Prosperity Ore veins can spawn.
 	#Range: 0 ~ 128
-	endProsperitySpawnHeight = 100
+	endProsperitySpawnMaxY = 100
+	#The maximum Y level that End Inferium Ore veins can spawn.
+	#Range: 0 ~ 128
+	endInferiumSpawnMaxY = 100
+	#Should Nether Inferium Ore generate in the world?
+	generateNetherInferiumOre = true
+	#The minimum Y level that Nether Prosperity Ore veins can spawn.
+	#Range: 0 ~ 128
+	netherProsperitySpawnMinY = 10
+	#The maximum Y level that Nether Inferium Ore veins can spawn.
+	#Range: 0 ~ 128
+	netherInferiumSpawnMaxY = 100
 	#How many End Prosperity Ore veins should spawn in a chunk.
 	#Range: > 0
 	endProsperitySpawnRate = 12
@@ -56,7 +64,13 @@
 	netherProsperitySpawnRate = 12
 	#The maximum Y level that Nether Prosperity Ore veins can spawn.
 	#Range: 0 ~ 128
-	netherProsperitySpawnHeight = 100
+	netherProsperitySpawnMaxY = 100
+	#The minimum Y level that Nether Inferium Ore veins can spawn.
+	#Range: 0 ~ 128
+	netherInferiumSpawnMinY = 10
+	#The minimum Y level that End Inferium Ore veins can spawn.
+	#Range: 0 ~ 128
+	endInferiumSpawnMinY = 10
 	#Should End Inferium Ore generate in the world?
 	generateEndInferiumOre = true
 

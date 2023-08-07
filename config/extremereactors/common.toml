@@ -112,9 +112,6 @@
 
 	#Define how Reactors works
 	[common.reactor]
-		#How much light (0-15) does a Fuel Rod emits.
-		#Range: 0 ~ 15
-		fuelRodLightValue = 15
 		#The maximum valid size of a Reactor in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Reactors.
 		#Range: 3 ~ 256

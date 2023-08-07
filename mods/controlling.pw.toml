@@ -1,13 +1,13 @@
 name = "Controlling"
-filename = "Controlling-7.0.0.29.jar"
+filename = "Controlling-forge-1.19.2-10.0+7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "38fb1a85b18941f333bc9fec33f7c20c17bdc99e"
+hash = "d4f0dd0adc62ef695fbf52df5ad92e9c888082a0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4421016
+file-id = 4050343
 project-id = 250398
