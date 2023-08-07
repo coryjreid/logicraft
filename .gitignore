@@ -1,7 +1,8 @@
 Desktop.ini
 *.bak
 *.log
-config/jei/
+config/jei/*
+!config/jei/jei-client.ini
 config/dsurround/
 config/Mekanism/client.toml
 .vscode
