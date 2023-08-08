@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "14d1a477d5e07fd35568bd01e733840d292fb8cc4017a7f3522e8d61c1c1e91f"
+hash = "3a0cc4576e16329bd9a692ac4056d9bd24f0a9865c6c2e2cec6a9419e7147e5a"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -470,7 +470,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "19291458f45d24afbbd021ffe32460e3344819c726e5dd8e0874e15b8d32bcca"
+hash = "28be88d7161ba91fa8017ad046d135abb2e732178b2aa82566ee6fad67c02dd9"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -2407,7 +2407,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
-hash = "b4622e8d8ede45aa76c6d4595087219effbe83c87ecfa6aa016f70c145d1aa64"
+hash = "f5e3281c535e0496e47c599773da24ad7513904701dff2114f584198588c47a3"
 metafile = true
 
 [[files]]
