@@ -1,4 +1,15 @@
 
+## 28.0.0 (2023-08-07)
+
+### Added
+
+* Rendering performance mods & 'side' designation
+
+### Chore
+
+* Bump version
+
+
 ## 27.0.0 (2023-08-06)
 
 ### Chore
