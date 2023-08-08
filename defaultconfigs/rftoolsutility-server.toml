@@ -25,9 +25,6 @@
 	#RF per tick/per block for the button module
 	#Range: > 0
 	buttonRFPerTick = 9
-	#RF per tick/per block for the elevator button module
-	#Range: > 0
-	elevatorButtonRFPerTick = 0
 	#RF per tick/per block for the clock module
 	#Range: > 0
 	clockRFPerTick = 1
@@ -185,6 +182,9 @@
 	blacklistedTeleportationSources = ""
 	#Comma separated list of dimension ids that the teleportation system can't teleport to
 	blacklistedTeleportationDestinations = ""
+	#Percentage of power left in a dimension before giving a warning with the destination analyzer
+	#Range: 0 ~ 100
+	dimensionWarnPercentage = 5
 
 #Settings for the environmental controller
 [environmental]

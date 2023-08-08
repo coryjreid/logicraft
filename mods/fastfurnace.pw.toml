@@ -1,6 +1,6 @@
 name = "FastFurnace"
 filename = "FastFurnace-1.19.2-7.0.0.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Better Than Llamas (Forge)"
 filename = "BetterThanLlamas-1.19.2-Forge-1.2.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

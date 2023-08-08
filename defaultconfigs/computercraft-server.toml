@@ -138,8 +138,6 @@ command_require_creative = true
 	#If set to true, Turtles will push entities out of the way instead of stopping if
 	#there is space to do so.
 	can_push = true
-	#A list of turtle actions which are disabled.
-	disabled_actions = []
 
 #Configure the size of various computer's terminals.
 #Larger terminals require more bandwidth, so use with care.

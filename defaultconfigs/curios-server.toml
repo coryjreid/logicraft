@@ -1,37 +1,50 @@
+
 #List of curio slot type settings
 [[curiosSettings]]
-  identifier = "head"
-  size = 2
+	identifier = "head"
+	size = 2
+
 [[curiosSettings]]
-  identifier = "necklace"
-  size = 2
+	identifier = "necklace"
+	size = 2
+
 [[curiosSettings]]
-  identifier = "back"
-  size = 1
+	identifier = "back"
+	size = 1
+
 [[curiosSettings]]
-  identifier = "body"
-  size = 1
+	identifier = "body"
+	size = 1
+
 [[curiosSettings]]
-  identifier = "feet"
-  size = 1
+	identifier = "feet"
+	size = 1
+
 [[curiosSettings]]
-  identifier = "jetpack"
-  size = 1
+	identifier = "jetpack"
+	size = 1
+
 [[curiosSettings]]
-  identifier = "statue"
-  size = 1
+	identifier = "statue"
+	size = 1
+
 [[curiosSettings]]
-  identifier = "bracelet"
-  size = 2
+	identifier = "bracelet"
+	size = 2
+
 [[curiosSettings]]
-  identifier = "hands"
-  size = 2
+	identifier = "hands"
+	size = 2
+
 [[curiosSettings]]
-  identifier = "ring"
-  size = 10
+	identifier = "ring"
+	size = 10
+
 [[curiosSettings]]
-  identifier = "belt"
-  size = 2
+	identifier = "belt"
+	size = 2
+
 [[curiosSettings]]
-  identifier = "charm"
-  size = 8
+	identifier = "charm"
+	size = 8
+

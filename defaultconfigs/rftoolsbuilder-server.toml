@@ -203,3 +203,21 @@
 	#Range: 100 ~ 10000000
 	planeSurfacePerTick = 40000
 
+#Settings for the mover system
+[mover]
+	#RF per tick/per block for the vehicle control module
+	#Range: > 0
+	vehicleControlRFPerTick = 0
+	#RF per tick/per block for the vehicle status module
+	#Range: > 0
+	vehicleStatusRFPerTick = 2
+	#Amount of RF used for one movement
+	#Range: > 0
+	rfPerMove = 1000
+	#Maximum RF storage that the mover controller can hold
+	#Range: > 0
+	moverControllerMaxRF = 100000
+	#RF per tick that the mover controller can receive
+	#Range: > 0
+	moverControllerRFPerTick = 1000
+
