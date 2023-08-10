@@ -1,4 +1,15 @@
 
+## 28.0.2 (2023-08-10)
+
+### Added
+
+* Better Village Immersive Engineering compatibility datapack
+
+### Chore
+
+* Bump version
+
+
 ## 28.0.1 (2023-08-10)
 
 ### Added
