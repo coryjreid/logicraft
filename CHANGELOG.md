@@ -1,4 +1,31 @@
 
+## 28.0.1 (2023-08-10)
+
+### Added
+
+* Global Packs
+* Packwiz executable
+* Docker compose file, Jenkins file, and an example environment file
+
+### Chore
+
+* Bump version
+
+### Update
+
+* Implement Jenkinsfile for autodeployment
+* Remove unneeded environment variable from Docker compose file
+* Add a container name to the Docker compose file
+
+### Updated
+
+* Just Enough Resources (JER)
+
+### Updated
+
+* Advanced Mining Dimension
+
+
 ## 28.0.0 (2023-08-07)
 
 ### Added
