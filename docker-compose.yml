@@ -24,7 +24,6 @@ services:
       PACKWIZ_URL: 'https://coryjreid.github.io/logicraft/pack.toml'
       FORCE_GAMEMODE: 'true'
       ALLOW_FLIGHT: 'true'
-      STOP_SERVER_ANNOUNCE_DELAY: 60
       #DEBUG: 'true'
       WHITELIST: ${WHITELIST}
       GAME_MODE: ${GAME_MODE}
