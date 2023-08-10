@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".env.example"
+hash = "b1bb47b2654fd6ff175e6181d1f6879815aff9a11fc1be7c7122ff390c8d1236"
+
+[[files]]
+file = "Jenkinsfile"
+hash = "b13b226e2f5521880a7aeddb9b576d6fab4d5a8f7521b328bbc0fe9b8c5a9d72"
+
+[[files]]
 file = "VERSION"
 hash = "3a0cc4576e16329bd9a692ac4056d9bd24f0a9865c6c2e2cec6a9419e7147e5a"
 
@@ -1967,6 +1975,10 @@ hash = "cc2d30e7c05caa16a914cd8ee7283faeb19197939225ef806c45b350ba34a5f1"
 [[files]]
 file = "defaultconfigs/thermal-server.toml"
 hash = "194a9d7fbb921392a25ab313f88499bb24ea5fbde488f0f38b4ac7784a63063b"
+
+[[files]]
+file = "docker-compose.yml"
+hash = "0ae00ee09d775781ea5c691f501062d9c086deef0d01e93ddc480a3b1fe7d570"
 
 [[files]]
 file = "kubejs/README.txt"
