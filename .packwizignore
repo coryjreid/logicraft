@@ -17,3 +17,6 @@ config/jei/
 config/dsurround/
 config/Mekanism/client.toml
 /*.zip
+.env.example
+docker-compose.yml
+Jenkinsfile
