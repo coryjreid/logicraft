@@ -10,7 +10,7 @@ hash = "b13b226e2f5521880a7aeddb9b576d6fab4d5a8f7521b328bbc0fe9b8c5a9d72"
 
 [[files]]
 file = "VERSION"
-hash = "3a0cc4576e16329bd9a692ac4056d9bd24f0a9865c6c2e2cec6a9419e7147e5a"
+hash = "feedf99e85d9a306e7edc480407ddc56173f9b796e2605bb6335a1b1663aa4be"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -478,7 +478,7 @@ hash = "781b8398fcbbdd432d79ee9723374ec2eba27c44c42b7be27dc077f06aef1dfc"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "28be88d7161ba91fa8017ad046d135abb2e732178b2aa82566ee6fad67c02dd9"
+hash = "c623b4cd027a1cb37799a08a06cd439db015e2008a36cc9f0c7b80f67aefbec8"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
