@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -31,11 +31,11 @@ simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:120
+maxFps:160
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
-biomeBlendRadius:2
+biomeBlendRadius:7
 renderClouds:"true"
 resourcePacks:[]
 incompatibleResourcePacks:[]

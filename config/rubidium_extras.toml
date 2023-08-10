@@ -7,7 +7,7 @@
 		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
 
 	[Settings.Misc]
-		"Render Fog" = true
+		"Render Fog" = false
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
 		"Use Borderless Fullscreen" = "FULLSCREEN"
 		"Cloud Height [Raw, Default 256]" = 256

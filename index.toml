@@ -1,20 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".env.example"
-hash = "b1bb47b2654fd6ff175e6181d1f6879815aff9a11fc1be7c7122ff390c8d1236"
-
-[[files]]
-file = "Jenkinsfile"
-hash = "b13b226e2f5521880a7aeddb9b576d6fab4d5a8f7521b328bbc0fe9b8c5a9d72"
-
-[[files]]
 file = "VERSION"
 hash = "feedf99e85d9a306e7edc480407ddc56173f9b796e2605bb6335a1b1663aa4be"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
-hash = "302bb70b54d55284fb5dadb7b7af7ee8f21be7c6e3235a18cd5597dba2061066"
+hash = "189e19703ee79a0d661674518f874e8b8ab6dd894151052eb6291fc761bcf4bf"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
@@ -646,7 +638,7 @@ hash = "3843f47cb52faddf9bc4d8dd08a4d7e30061e671128d99412ca6a6c27bd1485b"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "c6569fff4f3599cff72fe971d73ce45df3ae9a769230b5e5387a897d620da744"
+hash = "6cfbc33e93ea822b0751dfeed21b4d28afdfbc32936cf38e3f8d563eb3359eb3"
 
 [[files]]
 file = "config/betterwitchhuts-forge-1_19.toml"
@@ -679,10 +671,6 @@ hash = "0a519dcbd7f567dbd995c008287d73e04bd21f437bc671c54edf5dd4db893cf5"
 [[files]]
 file = "config/byg/README.txt"
 hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
-
-[[files]]
-file = "config/byg/backups/last_working_configs_backup.zip"
-hash = "8bd7a5577c61b3af0c8bc0a4d2b05a6603b4910d11913ba45559c9b69df224f2"
 
 [[files]]
 file = "config/byg/biomepedia.json5"
@@ -1002,11 +990,11 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "b81dacd62c66a60405700e31ffc7836cf1bb74399f6527e2b90bded2b99bc907"
+hash = "0b1275ae375d14e23ef46a8c97a37c38e49e80fb047969c4cf4d4c9c7a26be59"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "d59714a862bbe0b9b9d925ac4b46c3f0ca5418984d6a59aa70f2ea8d833a92c9"
+hash = "dc6c35b70a285f3b743a1da51a93e2eb9718dc3f3c4c674ea4c07f4055d8f121"
 
 [[files]]
 file = "config/dogslie.toml"
@@ -1087,6 +1075,10 @@ hash = "acfdb749a28106463b96980100a7e542b0b2bc3f9c9464196e0765a4f1c39061"
 [[files]]
 file = "config/ftbbackups-common.toml"
 hash = "ae249715168b16fd50e9b7108aa82af3997346a477739f60fc32e8c6ef24e97d"
+
+[[files]]
+file = "config/global_data_and_resourcepacks.toml"
+hash = "d6055224690c399a9657218b8fcb9fa2ff1f33a5f83e7a383f4b6aae835938d5"
 
 [[files]]
 file = "config/immersiveengineering-client.toml"
@@ -1262,7 +1254,7 @@ hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "df12d42c10cd216c99351acf462e31f90ba664780b6a16709da25da4bd7ba865"
+hash = "af6f0cd0e220933fac235f1a69742557e2578510b20f27fcc11dd19d9ac553ab"
 
 [[files]]
 file = "config/lightingwand-common.toml"
@@ -1318,7 +1310,7 @@ hash = "5d47dd0a56c005c033f9ccc4318f275ba5c9e89550ae8a69dbc672e11167ef56"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "be96c186dba450fe5a9e53e3f1d90d434315a22592d11ceca7bb30ba44d9e92d"
+hash = "5e07e1bad7bc1e47dfd065e974f54c12588f5fb0f0b0c1b76aa8ff33a8083bd7"
 
 [[files]]
 file = "config/oretweaker/Info.txt"
@@ -1718,11 +1710,11 @@ hash = "66bbef3dd895941e28db52d85ef5e8a1ecda6dc26377a47ff6dc623ece2f73fa"
 
 [[files]]
 file = "config/rubidium-options.json"
-hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
+hash = "4eac201954ca999e50c962092c97974396473b44c9b664da1ec2e5b07be56121"
 
 [[files]]
 file = "config/rubidium_extras.toml"
-hash = "e98c8bdc6c8a8857201032d713b19982003a8afa342a646854384c62012b6b04"
+hash = "2c1da285d7b6083b5de7aecec1521b7ec429122f3e0ba76f64b6de7181fe64a9"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -1977,8 +1969,8 @@ file = "defaultconfigs/thermal-server.toml"
 hash = "194a9d7fbb921392a25ab313f88499bb24ea5fbde488f0f38b4ac7784a63063b"
 
 [[files]]
-file = "docker-compose.yml"
-hash = "0ae00ee09d775781ea5c691f501062d9c086deef0d01e93ddc480a3b1fe7d570"
+file = "global_packs/required_data/BetterVillage_ImmersiveEngineering_1.19.3.zip"
+hash = "3c6ef2c419ce7ac9f6b63913c0f833cd243fca3333f6ccd382768599977f6da0"
 
 [[files]]
 file = "kubejs/README.txt"

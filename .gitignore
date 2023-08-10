@@ -3,6 +3,7 @@ Desktop.ini
 *.log
 config/jei/*
 !config/jei/jei-client.ini
+config/byg/backups
 config/dsurround/
 config/Mekanism/client.toml
 .vscode

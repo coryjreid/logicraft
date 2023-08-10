@@ -1,8 +1,8 @@
 {
   "quality": {
-    "weather_quality": "DEFAULT",
-    "leaves_quality": "DEFAULT",
-    "enable_vignette": true
+    "weather_quality": "FANCY",
+    "leaves_quality": "FANCY",
+    "enable_vignette": false
   },
   "advanced": {
     "arena_memory_allocator": "ASYNC",
