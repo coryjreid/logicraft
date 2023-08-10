@@ -702,7 +702,7 @@ hash = "20c0d835fec41de09ea72489e602d451c8ffb13602f2f93e0ee1d35ccfacc6dc"
 
 [[files]]
 file = "config/byg/client/biomepedia_inventory.json5"
-hash = "fe34189905301fc2821a96e626544c1fdfb2da66fda123d7f38886b088c78f97"
+hash = "a5e9cbd9ce3331dfad0c79129d7a38fbc724806549da3087b866f784966f4c33"
 
 [[files]]
 file = "config/byg/config_versions.json5"
@@ -1721,14 +1721,6 @@ file = "config/sidebar_buttons.json"
 hash = "6a2928073dd7c1a9c3ce05a1ebc3f1d90215e0beac21101437ab2505a5aba123"
 
 [[files]]
-file = "config/simplyjetpacks-client.toml"
-hash = "9687a574f4f60c797cc174f0c39065c50ecf025ab2a2aae4a24acae1dbd12a59"
-
-[[files]]
-file = "config/simplyjetpacks-common.toml"
-hash = "917c357c5c905f59e68a09454fb7fd99ebf5b1e84783f13eb243228cb2cffde6"
-
-[[files]]
 file = "config/smoothboot.json"
 hash = "c48d2118d21743ffdcae3e3644f19e0b38bce042962c5e3349d85a0e340e4e63"
 
@@ -2211,7 +2203,7 @@ metafile = true
 
 [[files]]
 file = "mods/corail-tombstone.pw.toml"
-hash = "3d3a446ce18822db2e9b394c7af8e4f9b0fe1c7c72d475e871651ea602716901"
+hash = "8ace5741ebb58598744c5a870ae381838d258df355513a28a9dd321c01cfcc78"
 metafile = true
 
 [[files]]
