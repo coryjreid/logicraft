@@ -1,6 +1,6 @@
 {
 	"ftbteams": {
-		"my_team": false
+		"my_team": true
 	},
 	"ftblibrary": {
 		"toggle.gamemode": true,
@@ -9,7 +9,7 @@
 		"toggle.night": true
 	},
 	"ftbchunks": {
-		"chunks": true,
-		"claim_chunks": true
+		"chunks": false,
+		"claim_chunks": false
 	}
 }

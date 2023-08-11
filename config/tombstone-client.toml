@@ -18,7 +18,7 @@
 	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
 	display_knowledge_message = true
 	#Equips elytra in priority when recovering your lost items [false/true|default:false]
-	equip_elytra_in_priority = false
+	equip_elytra_in_priority = true
 	#Automatically equip magic books in Curios slot [false/true|default:false]
 	equip_curio_slot_magic_book = false
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]

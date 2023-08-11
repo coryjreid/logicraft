@@ -1,5 +1,14 @@
+
+#General settings
 [general]
-modpackName = "Logicraft_"
-modpackProjectID = 323471
-modpackVersion = "28.0.2"
-useMetadata = false
+	#The name of the modpack
+	modpackName = "Logicraft_"
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = 323471
+	#The version of the modpack
+	modpackVersion = "28.0.0"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+

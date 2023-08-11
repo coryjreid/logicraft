@@ -10,5 +10,18 @@
                 "top": 67
             }
         }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "top": 99
+            },
+            "PROFILE_SELECTOR": {
+                "bottom": 21
+            },
+            "SHOW_EDITOR": {
+                "top": 101
+            }
+        }
     }
 }
