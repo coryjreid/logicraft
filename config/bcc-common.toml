@@ -7,7 +7,7 @@
 	#Range: > 0
 	modpackProjectID = 323471
 	#The version of the modpack
-	modpackVersion = "28.0.0"
+	modpackVersion = "28.0.3"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
