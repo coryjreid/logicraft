@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     String removeCommand = 'rm -rf $SERVER_DIR/'
-                    def dirs = ['config', 'defaultconfigs', 'kubejs', 'logs', 'local', 'mods', 'scripts', 'world/serverconfig']
+                    def dirs = ['config', 'defaultconfigs', 'kubejs', 'logs', 'local', 'mods', 'scripts', 'world/serverconfig', 'world/datapacks']
                     for (int i = 0; i < dirs.size(); i++) {
                         sh removeCommand + dirs[i]
                     }
@@ -41,6 +41,9 @@ pipeline {
         stage('Setup new world config') {
             steps {
                 sh 'mv $WORKSPACE/defaultconfigs $SERVER_DIR/world/serverconfig'
+                sh 'mkdir $SERVER_DIR/world/datapacks'
+                sh 'cp -r $WORKSPACE/optional_data/* $SERVER_DIR/world/datapacks'
+                sh 'cp -r $WORKSPACE/required_data/* $SERVER_DIR/world/datapacks'
             }
         }
         stage('Restart server') {
