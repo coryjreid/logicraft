@@ -42,8 +42,8 @@ pipeline {
             steps {
                 sh 'mv $WORKSPACE/defaultconfigs $SERVER_DIR/world/serverconfig'
                 sh 'mkdir $SERVER_DIR/world/datapacks'
-                sh 'cp -r $WORKSPACE/optional_data/* $SERVER_DIR/world/datapacks'
-                sh 'cp -r $WORKSPACE/required_data/* $SERVER_DIR/world/datapacks'
+                sh 'cp -r $WORKSPACE/global_packs/optional_data/* $SERVER_DIR/world/datapacks'
+                sh 'cp -r $WORKSPACE/global_packs/required_data/* $SERVER_DIR/world/datapacks'
             }
         }
         stage('Restart server') {
