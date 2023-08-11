@@ -1,4 +1,26 @@
 
+## 28.0.3 (2023-08-10)
+
+### Added
+
+* Angel Ring 2
+
+### Chore
+
+* Bump version
+
+### Removed
+
+* Dynamic Lights Reforged
+
+### Updated
+
+* A bunch of configs
+* Acceptable game versions
+* Corail Tombstone
+* O'BYG config to hide biomepedia
+
+
 ## 28.0.2 (2023-08-10)
 
 ### Added
