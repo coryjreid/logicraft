@@ -1832,6 +1832,11 @@ hash = "d30f94aab18d9ad671e52d77c8b9b081c46d9084a7e8177d03b4723e1e094a4e"
 metafile = true
 
 [[files]]
+file = "mods/dynamiclights-reforged.pw.toml"
+hash = "40387085c326f5b9feb132c33443654ada0611638655dc46a823f28a9c66cacd"
+metafile = true
+
+[[files]]
 file = "mods/easier-sleeping.pw.toml"
 hash = "38583840dfcba1846ba272850baa63c4060ba53b679f7bafc782f63cf3b10720"
 metafile = true
