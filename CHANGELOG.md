@@ -1,4 +1,44 @@
 
+## 28.0.4 (2023-08-11)
+
+### Added
+
+* Dynamic Lights Reforged
+* Angel Ring 2
+* Better Village Immersive Engineering compatibility datapack
+* Global Packs
+* Packwiz executable
+
+### Chore
+
+* Bump version
+* Bump version
+* Bump version
+* Bump version
+
+### Removed
+
+* Dynamic Lights Reforged
+
+### Update
+
+* Implement Jenkinsfile for autodeployment
+* Remove unneeded environment variable from Docker compose file
+* Add a container name to the Docker compose file
+
+### Updated
+
+* A bunch of configs
+* Acceptable game versions
+* Corail Tombstone
+* O'BYG config to hide biomepedia
+* Just Enough Resources (JER)
+
+### Updated
+
+* Advanced Mining Dimension
+
+
 ## 28.0.3 (2023-08-10)
 
 ### Added
