@@ -9,12 +9,12 @@ entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
 invertYMouse:false
-realmsNotifications:true
+realmsNotifications:false
 reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -25,7 +25,7 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-gamma:0.5
+gamma:1.0
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
@@ -41,7 +41,7 @@ resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
-soundDevice:""
+soundDevice:"OpenAL Soft on Line 1 (Virtual Audio Cable)"
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
@@ -49,7 +49,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:false
-pauseOnLostFocus:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
@@ -67,10 +67,10 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:false
 showAutosaveIndicator:true
@@ -78,7 +78,7 @@ allowServerListing:true
 chatPreview:1
 onlyShowSecureChat:false
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

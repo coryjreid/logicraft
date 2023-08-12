@@ -47,7 +47,7 @@
 	enableTreeChopDown = true
 	#The radius that this tweak will use to attempt to find leaves. Set this to a large number to detect larger trees (may cause lag)
 	#Range: > 1
-	chopdownSearchRadius = 64
+	chopdownSearchRadius = 128
 	#The number of logs above the one broken to trigger the chopdown effect
 	#Range: > 1
 	chopDownLogRequirement = 3
@@ -60,12 +60,12 @@
 [entity]
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
 	#Allowed Values: DISABLED, OWNER, ALL
-	enablePetFriendlyFireTweak = "OWNER"
+	enablePetFriendlyFireTweak = "ALL"
 	#Allows any vtweaks:clear_glass, or glow ink sac, to be activated on an item frame while sneaking to make the item frame transparent or glowing respectively.
 	enableItemFrameTweak = true
 	#The amount of time (in Milliseconds) between plucks. Defaults to 10 minutes.
 	#Range: 1 ~ 9223372036854775807
-	featurePluckingCooldown = 600000
+	featurePluckingCooldown = 60000
 	#A data-driven way to make some special mobs with abilities, effects, specialized loot and more!
 	enableChallengerMobs = true
 	#Allows chicken feathers to be plucked w/ shears
