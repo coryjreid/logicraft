@@ -59,7 +59,7 @@ def say(String container, String message) {
 
 def alertPlayersAboutPendingShutdown(int duration, String container) {
     say(container, "Server will shutdown in ${duration} seconds for an update")
-    say(container, "Please reach a safe point before shutdown")
+    say(container, "Please reach a safe point before shutdown and restart your game to pickup the updates")
     sleepOne()
 
     for(int i = (duration - 1); i >= 1; i--) {
