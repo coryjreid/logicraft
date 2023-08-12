@@ -1,4 +1,20 @@
 
+## 28.0.5 (2023-08-12)
+
+### Added
+
+* Client Tweaks
+
+### Chore
+
+* Bump version
+
+### Updated
+
+* VTweaks & Default Options config
+* Client Tweaks/JEI Configs
+
+
 ## 28.0.4 (2023-08-11)
 
 ### Added
