@@ -838,11 +838,11 @@ hash = "c6d5fe3cdd04d5572590e5a7f9fe0cf25f7ac2a8846083b8c0dffbe84ed3dcc1"
 
 [[files]]
 file = "config/clienttweaks-client.toml"
-hash = "d53ca5c356cedb2b7b52fd59e408ec1eb44547f6d788bb66ff94bd4207af9b95"
+hash = "e2258f6b53c2754ba2bd2d7eaee8a6374f9fdf484e85f0ae399e6c8bb46b8ee1"
 
 [[files]]
 file = "config/clienttweaks-common.toml"
-hash = "cf89d6916ebc47a1ace520df12d102c9e954f908e480a1743aa62af60bcaba07"
+hash = "2465e72438182dd99c626713a38e4b5e6c0c4312fcaa520368eb421aa8e41ca5"
 
 [[files]]
 file = "config/cofh_core-client.toml"
