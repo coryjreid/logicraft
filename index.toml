@@ -1722,6 +1722,11 @@ hash = "36b059a08858d8a67c051da3ef5dbaf71787482156521c37c8284a36230e6bcd"
 metafile = true
 
 [[files]]
+file = "mods/client-tweaks.pw.toml"
+hash = "921c143fd80cb1cb4e270d2a85854dae9dd93cac4bd832b072b8ab065cfa7f32"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "2c3ddac643593c3dec5bdad4a4ee6d10b62430409ee1c558ce3c5cbed9f40700"
 metafile = true
