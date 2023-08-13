@@ -758,7 +758,7 @@
 	"Fairy Rings" = true
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
-	"New Stone Types" = true
+	"New Stone Types" = false
 	"Spiral Spires" = true
 	"Azalea Wood" = true
 	"Ancient Wood" = true
@@ -1083,10 +1083,10 @@
 			Dimensions = ["minecraft:the_nether"]
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
-		"Enable Jasper" = true
-		"Enable Myalite" = true
-		"Enable Shale" = true
+		"Enable Limestone" = false
+		"Enable Jasper" = false
+		"Enable Myalite" = false
+		"Enable Shale" = false
 
 		[world.new_stone_types.limestone]
 
