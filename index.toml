@@ -2391,7 +2391,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
-hash = "7b34fbdf04e61cc4870d3c27cd995b4b6fb2b766eaa6cae539599c44a3ab76b8"
+hash = "f09b8dd9df72e507cbeb70119bd9c1c41cafde5e4806b7205ba82219591187e7"
 metafile = true
 
 [[files]]
