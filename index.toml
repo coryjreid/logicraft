@@ -66,15 +66,15 @@ hash = "0aa7cd01a4fcdb6a3be52f1212d6e5a6fd25e283de37a51841475b132fa20399"
 
 [[files]]
 file = "config/YungsExtras/README.txt"
-hash = "930ad054548d66deee0836d5160cc3ee14e16150aa83efc7a046d54c9a32af16"
+hash = "2e494050535555835f5d0cc89bde1207711e208e9a190ce9dce798ad80d5216f"
 
 [[files]]
-file = "config/YungsExtras/forge-1_16/README.txt"
-hash = "d9fd8d2fa8dca42d4ffc3573159e3d0fa2618ceb6474d38831a55786c43e1c5d"
+file = "config/YungsExtras/forge-1_19/README.txt"
+hash = "589122f27daf80f48e4e1196b283e42559beecde99a6312a7375b45919e4e6f7"
 
 [[files]]
-file = "config/YungsExtras/forge-1_16/wishing_wells.json"
-hash = "7873ba7c1614546859aea24d5821961356531326e28127783665e569f91fffcf"
+file = "config/YungsExtras/forge-1_19/wishing_wells.json"
+hash = "49b83e84fead0eb074f28f55daf593a62715c9fec3dbbf6328d715ba3a9ad1ac"
 
 [[files]]
 file = "config/ae2/client.json"
@@ -2534,6 +2534,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "18dca2ab04ea41ed6072bae4b8d2aa147d391f86db58a09cd094ab00c336629b"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras.pw.toml"
+hash = "ca615db076e1af4d04f1230aa775a826c386e366198c55d5a67e827a29cd29fd"
 metafile = true
 
 [[files]]
