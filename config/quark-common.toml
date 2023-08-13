@@ -1607,11 +1607,11 @@
 		"Bind Armor Stands With Player Heads" = true
 
 [oddities]
-	Backpack = true
+	Backpack = false
 	Crate = true
-	Magnets = true
+	Magnets = false
 	"Matrix Enchanting" = false
-	Pipes = true
+	Pipes = false
 	"Totem Of Holding" = false
 	"Tiny Potato" = true
 
