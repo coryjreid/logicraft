@@ -1029,10 +1029,6 @@ file = "config/forge-resource-caching.toml"
 hash = "acfdb749a28106463b96980100a7e542b0b2bc3f9c9464196e0765a4f1c39061"
 
 [[files]]
-file = "config/global_data_and_resourcepacks.toml"
-hash = "d6055224690c399a9657218b8fcb9fa2ff1f33a5f83e7a383f4b6aae835938d5"
-
-[[files]]
 file = "config/immersive_weathering-client.toml"
 hash = "f36bb759ebb4493cd78a3f06dd47368d82effc78cbf3113b5dfe4d9093243cd9"
 
@@ -1235,6 +1231,10 @@ hash = "5d47dd0a56c005c033f9ccc4318f275ba5c9e89550ae8a69dbc672e11167ef56"
 [[files]]
 file = "config/oculus.properties"
 hash = "b8fe229b5fec6132c236d6d24c10dd7fda9e6df60c7c122355919e8bef7c2a5b"
+
+[[files]]
+file = "config/openloader/data/Logicraft-Oregen.zip"
+hash = "682a5606ab31ef3a9defa64d3836a5306b246892bb120177babbe7bef022f9d1"
 
 [[files]]
 file = "config/pamhc2crops.toml"
@@ -1539,10 +1539,6 @@ hash = "8e68ca67646dc0de51c58cf5c67c62f3c0df07264f94b5f6634da9b8dd08662b"
 [[files]]
 file = "defaultconfigs/thermal-server.toml"
 hash = "194a9d7fbb921392a25ab313f88499bb24ea5fbde488f0f38b4ac7784a63063b"
-
-[[files]]
-file = "global_packs/required_data/BetterVillage_ImmersiveEngineering_1.19.3.zip"
-hash = "3c6ef2c419ce7ac9f6b63913c0f833cd243fca3333f6ccd382768599977f6da0"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -2274,6 +2270,11 @@ metafile = true
 [[files]]
 file = "mods/oh-the-biomes-youll-go.pw.toml"
 hash = "25b1c1ccd0ffd18bdd0ad163b8db0236717141dae5e57dba8e8fcf4aa83d3a1b"
+metafile = true
+
+[[files]]
+file = "mods/open-loader.pw.toml"
+hash = "a1e3ad26ef9afc2515b5f530cfd00e8a43675375d4ce9252cc6dcc90ad8d3957"
 metafile = true
 
 [[files]]

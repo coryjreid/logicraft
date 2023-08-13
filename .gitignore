@@ -1,4 +1,5 @@
 Desktop.ini
+/*.zip
 *.bak
 *.log
 config/jei/*
@@ -6,8 +7,8 @@ config/jei/*
 config/byg/backups
 config/dsurround/
 config/Mekanism/client.toml
+!config/openloader/data/*.zip
 .vscode
-/*.zip
 logs/
 saves/
 local/ftbchunks/*
