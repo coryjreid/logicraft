@@ -6,7 +6,7 @@ hash = "b5a81b80138d27193f728eac1194e2a522d73940ef948a972adbfaeef2be08e2"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
-hash = "4452ebdd6e455144d71b53575fc6ba9aef872af69d1b0ba6101be1aadb4906a9"
+hash = "cc6cab022cfd2fbde002d6ed969fb3b3905b5b8fdc375062b6af72b1998099bc"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
@@ -974,7 +974,7 @@ hash = "e8fb47e39698228e5174579c31e8b97aa632c37eccebe83b48ff7f428fcce947"
 
 [[files]]
 file = "config/everycomp-wood_types.toml"
-hash = "cb68d2acee4d68408fb199fafb83508597290821d66a44e97744df652327cea8"
+hash = "ed1668eb337e16c1693d76801eb7b04de547e5a2b67bcce8cf88075bd8212452"
 
 [[files]]
 file = "config/extradisks-common.toml"
@@ -1117,18 +1117,6 @@ file = "config/inventoryhud-client.toml"
 hash = "8ac48cc5f0c4f119255f276243c35b0d5239fdf72eccab7e5df4359b35eb2d59"
 
 [[files]]
-file = "config/inventoryprofilesnext/New World/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/Test/lockSlots.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/inventoryprofilesnext/Test/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
@@ -1174,7 +1162,7 @@ hash = "d778cf0e416f0ab6b209275de5d7e154f9e6e0963641387ae9c186f6e8e5175c"
 
 [[files]]
 file = "config/kiwi-client.toml"
-hash = "c066ceb70bfd23d921a72caef66d4fc7a53f001a69bd136f639ad652dcc927da"
+hash = "29deaafaed6edd2e206e356464b8257a3aec9ac840e1ac239b9d72a7c1a74752"
 
 [[files]]
 file = "config/kleeslabs-common.toml"
@@ -1231,6 +1219,10 @@ hash = "5d47dd0a56c005c033f9ccc4318f275ba5c9e89550ae8a69dbc672e11167ef56"
 [[files]]
 file = "config/oculus.properties"
 hash = "b8fe229b5fec6132c236d6d24c10dd7fda9e6df60c7c122355919e8bef7c2a5b"
+
+[[files]]
+file = "config/openloader/advanced_options.json"
+hash = "97c64147276f55cad728249dd77602661e2327fa178aeb8e0db12866df448211"
 
 [[files]]
 file = "config/openloader/data/Logicraft-Oregen.zip"

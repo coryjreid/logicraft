@@ -12,6 +12,10 @@ config/byg/backups
 config/dsurround/
 config/Mekanism/client.toml
 !config/openloader/data/*.zip
+config/inventoryprofilesnext/*
+!config/inventoryprofilesnext/integrationHints/*.json
+!config/inventoryprofilesnext/inventoryprofiles.json
+config/jecalculation/data
 
 # Directory rules
 logs/
