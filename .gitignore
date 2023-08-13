@@ -1,14 +1,19 @@
+# General filetypes to ignore
 Desktop.ini
-/*.zip
+*.zip
 *.bak
 *.log
+.vscode
+
+# Config directory rules
 config/jei/*
 !config/jei/jei-client.ini
 config/byg/backups
 config/dsurround/
 config/Mekanism/client.toml
 !config/openloader/data/*.zip
-.vscode
+
+# Directory rules
 logs/
 saves/
 local/ftbchunks/*
