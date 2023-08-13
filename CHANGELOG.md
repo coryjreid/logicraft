@@ -1,4 +1,39 @@
 
+## 29.0.0 (2023-08-13)
+
+### Added
+
+* Cupboard (dependency)
+* Datapacks
+* Open Loader
+* YUNG'S Extras & Vertical Slabs Compat
+* Vertical Slabs Compat
+* Immersive Weathering [FORGE]
+* Every Compat
+* Pack refresh helper batch script
+
+### Chore
+
+* Bump version
+
+### Removed
+
+* DRP Global Datapack
+
+### Updated
+
+* ZeroCore 2
+* Smooth Chunk Save
+* Moonlight Lib (Selene)
+* Extreme Reactors
+* Quark config - disable Backpack, Magnets, Pipes
+* Quark config - disable Glass Shards
+* Quark config - disable Hotbar Changer
+* Quark config - disable Automatic Tool Restrok (it's provided by another mod with more features)
+* Quark config - disable New Stone Types oregen
+* Extreme Reactors config to disable ore generation
+
+
 ## 28.0.5 (2023-08-12)
 
 ### Added
