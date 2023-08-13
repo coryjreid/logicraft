@@ -1954,11 +1954,6 @@ hash = "632cc987bec151520dd5636f1152c7b7af67403a5957adfdcc6d3c2e4d39ac79"
 metafile = true
 
 [[files]]
-file = "mods/immersive-weathering-forge.pw.toml"
-hash = "ee23051e2319385f19dc8b0b936143aeaa48fc17e5bfebd0c4cc77e81ded76de"
-metafile = true
-
-[[files]]
 file = "mods/in-control.pw.toml"
 hash = "046acca83ee3ddc7d9fdf2ab6d0b4651bc54b5ad87b093ae11a235979873fc02"
 metafile = true
