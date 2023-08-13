@@ -280,7 +280,7 @@
 	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
-	"Automatic Tool Restock" = true
+	"Automatic Tool Restock" = false
 	"Expanded Item Interactions" = true
 
 	[management.easy_transfering]
