@@ -1033,6 +1033,14 @@ file = "config/global_data_and_resourcepacks.toml"
 hash = "d6055224690c399a9657218b8fcb9fa2ff1f33a5f83e7a383f4b6aae835938d5"
 
 [[files]]
+file = "config/immersive_weathering-client.toml"
+hash = "f36bb759ebb4493cd78a3f06dd47368d82effc78cbf3113b5dfe4d9093243cd9"
+
+[[files]]
+file = "config/immersive_weathering-common.toml"
+hash = "4b5a4b170b0ce0c695f68f833a1fb2a20c65aa747ca879f0e1f3dcd5d9288665"
+
+[[files]]
 file = "config/immersiveengineering-client.toml"
 hash = "57f0dc8e7d950e173d2c7357da17bc471bf4769d37d443078e8b7ece7047c2e6"
 
@@ -1951,6 +1959,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "632cc987bec151520dd5636f1152c7b7af67403a5957adfdcc6d3c2e4d39ac79"
+metafile = true
+
+[[files]]
+file = "mods/immersive-weathering-forge.pw.toml"
+hash = "ee23051e2319385f19dc8b0b936143aeaa48fc17e5bfebd0c4cc77e81ded76de"
 metafile = true
 
 [[files]]
