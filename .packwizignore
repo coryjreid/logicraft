@@ -20,3 +20,4 @@ config/Mekanism/client.toml
 .env.example
 docker-compose.yml
 Jenkinsfile
+Logicraft_.code-workspace

@@ -1225,8 +1225,12 @@ file = "config/openloader/advanced_options.json"
 hash = "97c64147276f55cad728249dd77602661e2327fa178aeb8e0db12866df448211"
 
 [[files]]
-file = "config/openloader/data/Logicraft-Oregen.zip"
-hash = "682a5606ab31ef3a9defa64d3836a5306b246892bb120177babbe7bef022f9d1"
+file = "config/openloader/data/BetterVillage_ImmersiveEngineering_1.19.3.zip"
+hash = "3c6ef2c419ce7ac9f6b63913c0f833cd243fca3333f6ccd382768599977f6da0"
+
+[[files]]
+file = "config/openloader/data/Logicraft-Oregen-1.0.0.zip"
+hash = "efe1b93fedf7544ba9089de33ea13b7324dff6b112e7e64f0d6bd82211fc718f"
 
 [[files]]
 file = "config/pamhc2crops.toml"
