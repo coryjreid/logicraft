@@ -2492,6 +2492,11 @@ hash = "9d79cb80a20d48feb6d0e1ecaef5b4dd5897bc1ab7173d6dfa7cbfe4fb6f62e9"
 metafile = true
 
 [[files]]
+file = "mods/vertical-slabs-compat.pw.toml"
+hash = "7ecd2833daab34c090ad5754b2c55923dd086367b4fdeb1117c9f9c5fe785a30"
+metafile = true
+
+[[files]]
 file = "mods/wither-skeleton-tweaks.pw.toml"
 hash = "0945ae3d126ab214fb15207a79e30e5f2e65dbb5cfb4525221ecb7bd680f3367"
 metafile = true
