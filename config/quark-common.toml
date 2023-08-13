@@ -276,7 +276,7 @@
 
 [management]
 	"Easy Transfering" = false
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
