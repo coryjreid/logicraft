@@ -1847,11 +1847,6 @@ hash = "3c3db423d76d506a075a7b55a33b7bed658141002de9edc337ed496b1620d857"
 metafile = true
 
 [[files]]
-file = "mods/drp-global-datapack.pw.toml"
-hash = "b50658788183a897efd35aff0ae7ce5e69962cf290dd11bb6f586f8690cdbc04"
-metafile = true
-
-[[files]]
 file = "mods/dungeon-crawl.pw.toml"
 hash = "d30f94aab18d9ad671e52d77c8b9b081c46d9084a7e8177d03b4723e1e094a4e"
 metafile = true
