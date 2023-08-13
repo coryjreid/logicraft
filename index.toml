@@ -969,6 +969,14 @@ file = "config/enchantedbookredesign-client.toml"
 hash = "67d40792fde4d711d5e0a7742446afb35551c6faa20ab0e7ff62aab7b2c68bf6"
 
 [[files]]
+file = "config/everycomp-common.toml"
+hash = "e8fb47e39698228e5174579c31e8b97aa632c37eccebe83b48ff7f428fcce947"
+
+[[files]]
+file = "config/everycomp-wood_types.toml"
+hash = "cb68d2acee4d68408fb199fafb83508597290821d66a44e97744df652327cea8"
+
+[[files]]
 file = "config/extradisks-common.toml"
 hash = "7d7d20feff914c8cdccdad2115a5688d804c2b2d354b0de5b4e817278baf5af1"
 
@@ -1866,6 +1874,11 @@ hash = "0969cb4608e0976dc6ba691a11f79917e084ea7f7fdc2da9267965d232663ec8"
 metafile = true
 
 [[files]]
+file = "mods/every-compat.pw.toml"
+hash = "4a1440dbaf4e209501152ab6cd969d7b565617f79a0ef069e2d3ebcbbe3de57d"
+metafile = true
+
+[[files]]
 file = "mods/extra-disks.pw.toml"
 hash = "fa71fee27ddbe8c9fcad5554629334a4692157a5c43b91d2cd8e67e4bf87c484"
 metafile = true
@@ -2363,6 +2376,11 @@ metafile = true
 [[files]]
 file = "mods/saturn.pw.toml"
 hash = "f58f6967e5b7d2d966a439edf6f27a89290c41a87049c0ed7324c887bbd6998c"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "ac044748ca461791a080a4f1259451bc4ab258851fab9cc282e7a7c23ec86bcf"
 metafile = true
 
 [[files]]
