@@ -1,3 +1,8 @@
+def webserverRemote = [:]
+webserverRemote.name = 'nginx'
+webserverRemote.host = '192.168.1.245'
+webserverRemote.allowAnyHosts = true
+
 pipeline {
     agent any
 
@@ -8,7 +13,20 @@ pipeline {
     }
 
     stages {
-        stage('Do shutdown') {
+        stage('Update website') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: 'nginx-vm', passwordVariable: 'pass', usernameVariable: 'username')]) {
+                    script {
+                        webserverRemote.user = username
+                        webserverRemote.password = pass
+                        
+                        sshCommand remote: webserverRemote, command: "cd /var/www/logicraft.coryjreid.com/html && git pull && markdown README.md > index.html"
+                    }
+                }
+            }
+        }
+
+        stage('Shutdown Minecraft server') {
             steps {
                 alertPlayersAboutPendingShutdown(
                     env.SERVER_SHUTDOWN_WARNING_DURATION.toInteger(),
@@ -26,7 +44,7 @@ pipeline {
                 }
             }
         }
-        stage('Cleanup server directory') {
+        stage('Cleanup Minecraft server directory') {
             steps {
                 script {
                     String removeCommand = 'rm -rf $SERVER_DIR/'
@@ -38,12 +56,12 @@ pipeline {
                 }
             }
         }
-        stage('Setup new world config') {
+        stage('Setup new Minecraft world config') {
             steps {
                 sh 'mv $WORKSPACE/defaultconfigs $SERVER_DIR/world/serverconfig'
             }
         }
-        stage('Restart server') {
+        stage('Restart Minecraft server') {
             steps {
                 sh 'docker start $SERVER_DOCKER_CONTAINER_NAME'
             }

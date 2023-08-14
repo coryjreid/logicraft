@@ -1,4 +1,4 @@
-# <Logicraft_>
+# &lt;Logicraft_&gt;
 
 A Minecraft: Java modpack!
 
@@ -18,19 +18,19 @@ contribute if you find issues!
 
 ## How to Play with MultiMC
 
-1. Download [Java 17+](https://adoptium.net/)
+1. Download [Adoptium OpenJDK (Java) 17+](https://adoptium.net/)
 2. Download [MultiMC](https://multimc.org/)
 3. Download [packwiz-installer-bootstrap](https://github.com/packwiz/packwiz-installer-bootstrap/releases)
 4. Install Java (defaults are fine)
-5. Extract MultiMC and place it someplace safe \
+5. Extract MultiMC and place it someplace safe  
    Note: It's recommended to make a shortcut to the executable someplace convenient
-6. Open the MultiMC folder and then launch the MultiMC executable \
+6. Open the MultiMC folder and then launch the MultiMC executable  
    Note: If it's your first time opening, continue with step 6.1 below:
     1. Choose your language, click `Next`
     2. Select the Java you installed previously
     3. Set *max* memory to `8192 MiB`
     4. Set *min* memory to `4096 MiB`, click `Next`
-    5. Enabled or disable analytics as you desire, click `Finish` \
+    5. Enabled or disable analytics as you desire, click `Finish`  
        Note: When you finish the remaining steps and go to launch the game it will require you to sign into a Microsoft account - do this
 7. Click `Add Instance`
 8. Name the instance `Logicraft` (or something else if you prefer)
@@ -42,12 +42,12 @@ contribute if you find issues!
 14. Select the `Settings` tab on the left
 15. Select the `Custom commands` tab on the top-right
 16. Check the `Custom Commands` box to enable the fields
-17. In the `Pre-launch command` field enter the following *exactly*: \
-    `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://coryjreid.github.io/logicraft/pack.toml`
+17. In the `Pre-launch command` field enter the following *exactly*:  
+    `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://logicraft.coryjreid.com/pack.toml`
 18. Click `Servers` on the left
 19. Click `Add` at the top-right
 20. Change the `Name` near the bottom to `Logicraft`
-21. Change the `Address` to `coryjreid.com`
+21. Change the `Address` to `logicraft.coryjreid.com`
 22. Cut or copy the `packwiz-installer-bootstrap.jar` file you downloaded to your clipboard
 23. Select the `Version` tab at the top-left
 24. Click the `Open .minecraft` buttom at the bottom-right
