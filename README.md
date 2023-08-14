@@ -20,7 +20,7 @@ contribute if you find issues!
 
 1. Download [Adoptium OpenJDK (Java) 17+](https://adoptium.net/)
 2. Download [MultiMC](https://multimc.org/)
-3. Download [packwiz-installer-bootstrap](https://github.com/packwiz/packwiz-installer-bootstrap/releases)
+3. Download [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases)
 4. Install Java (defaults are fine)
 5. Extract MultiMC and place it someplace safe  
    Note: It's recommended to make a shortcut to the executable someplace convenient
