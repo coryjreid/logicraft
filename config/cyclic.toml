@@ -125,7 +125,7 @@
 
 		[cyclic.enchantment.magnet]
 			#Set false to stop enchantment from working
-			enabled = true
+			enabled = false
 
 		[cyclic.enchantment.multishot]
 			#Set false to stop enchantment from working
