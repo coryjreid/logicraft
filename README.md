@@ -48,7 +48,7 @@ contribute if you find issues!
 19. Click `Add` at the top-right
 20. Change the `Name` near the bottom to `Logicraft`
 21. Change the `Address` to `logicraft.coryjreid.com`
-22. Cut or copy the `packwiz-installer-bootstrap.jar` file you downloaded to your clipboard
+22. `Right-Click` and `Cut` or `Copy` the `packwiz-installer-bootstrap.jar` file you downloaded to your clipboard
 23. Select the `Version` tab at the top-left
 24. Click the `Open .minecraft` buttom at the bottom-right
 25. Paste the `packwiz-installer-bootstrap.jar` file into the opened folder, then close the folder
