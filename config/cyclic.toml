@@ -67,7 +67,7 @@
 
 		[cyclic.potion.magnetic]
 			#Set false to disable the base recipe
-			enabled = true
+			enabled = false
 
 		[cyclic.potion.wither]
 			#Set false to disable the base recipe
