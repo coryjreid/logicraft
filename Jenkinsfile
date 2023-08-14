@@ -44,6 +44,7 @@ pipeline {
                 }
             }
         }
+
         stage('Cleanup Minecraft server directory') {
             steps {
                 script {
@@ -56,11 +57,13 @@ pipeline {
                 }
             }
         }
+
         stage('Setup new Minecraft world config') {
             steps {
                 sh 'mv $WORKSPACE/defaultconfigs $SERVER_DIR/world/serverconfig'
             }
         }
+        
         stage('Restart Minecraft server') {
             steps {
                 sh 'docker start $SERVER_DOCKER_CONTAINER_NAME'
