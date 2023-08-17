@@ -1,4 +1,22 @@
 
+## 29.2.0 (2023-08-16)
+
+### Chore
+
+* Bump version
+* Bump version
+
+### Removed
+
+* Immersive Weathering (FORGE) - caused ridiculous FPS lag
+
+### Updated
+
+* V-Tweaks config; Specifically disabled 'crop tweaks' which breaks right-click harvesting for Pam's
+* Cyclic config - disabled Magnet potion
+* Cyclic config - disabled Magnet enchantment
+
+
 ## 29.0.0 (2023-08-13)
 
 ### Added
