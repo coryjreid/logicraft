@@ -21,7 +21,7 @@ services:
       SPAWN_PROTECTION: 0
       PVP: 'true'
       TZ: 'America/Denver'
-      PACKWIZ_URL: 'https://coryjreid.github.io/logicraft/pack.toml'
+      PACKWIZ_URL: 'https://logicraft.coryjreid.com/pack.toml'
       FORCE_GAMEMODE: 'true'
       ALLOW_FLIGHT: 'true'
       #DEBUG: 'true'
