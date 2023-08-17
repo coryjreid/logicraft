@@ -1378,7 +1378,7 @@ hash = "3f079b948f1b7eea11de6c1410c7fac7d5277635dd60a1c6cbd26a604755682d"
 
 [[files]]
 file = "config/vtweaks-common.toml"
-hash = "aa650819dd43abd5e0e26ae8c333768e1f4097be5f23f040340f1ee07d80f7f7"
+hash = "8186f5607a8b2bd71fa2a21fe45dca001993bcbafbacfb2c5bda07745890cccb"
 
 [[files]]
 file = "config/world-gen.json"

@@ -34,17 +34,17 @@
 #All changes made here require a game restart.
 [mixins]
 	#If enabled, this tweak prevents cactus from destroying items that run into it
-	enableCactusItemProtection = true
+	enableCactusItemProtection = false
 	#If enabled, allows splash potions of water to behave the same as throwing an item in water via V-Tweaks' Fluid Conversion Recipes
 	enableSplashPotionTweak = true
 
 [world]
 	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
-	enableStormTweak = true
+	enableStormTweak = false
 
 [block]
 	#Trees fall down (like, actually not just like lumbering). Credit to Ternsip's impl (https://www.curseforge.com/minecraft/mc-mods/chopdown)
-	enableTreeChopDown = true
+	enableTreeChopDown = false
 	#The radius that this tweak will use to attempt to find leaves. Set this to a large number to detect larger trees (may cause lag)
 	#Range: > 1
 	chopdownSearchRadius = 128
@@ -55,7 +55,7 @@
 	enableCakeDrop = true
 	#Allows the player to re-light certain blocks like Candles and Campfires (defined by the block using the `lit` blockstate) using torches or other items in the tag `vtweaks:ignition_item`
 	enableTorchLighting = true
-	enableCropTweaks = true
+	enableCropTweaks = false
 
 [entity]
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
@@ -86,5 +86,5 @@
 	#Feather Falling IV or above directs 100% of fall damage to boots
 	enableFeatherFallTweak = true
 	#Prevents any drops dropped by the player on death from despawning
-	enablePlayerDeathDropSafety = true
+	enablePlayerDeathDropSafety = false
 
