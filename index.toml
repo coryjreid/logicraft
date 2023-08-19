@@ -1999,6 +1999,11 @@ hash = "f5e3281c535e0496e47c599773da24ad7513904701dff2114f584198588c47a3"
 metafile = true
 
 [[files]]
+file = "mods/jaopca.pw.toml"
+hash = "ca228304f1ea9a7d4cbc76bc28fc5625c94dfdf10fcdfdfef4f52efc8bacaca3"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "52afe64a215ec7a20a2424de639020369e5d25fad69ede02a700edde08dd81db"
 metafile = true
