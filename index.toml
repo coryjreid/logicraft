@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "VERSION"
-hash = "b4a7f5faf97b1bebedb63c2de46af971a63d04ca40b2126fcc6dc6b6f5a20ae3"
+hash = "b35573325ffc8ed4f12d23b18375f6d011fcdba3a0b5e1e23d8a56be7a08cd8e"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
@@ -454,7 +454,7 @@ hash = "2646da90f50005591f14b6b0b47bcf91909a6f187bae5d877e97030443f383e1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "b52138c08456fb05a480bb9c9ee16dacdfaf82b0319326692bf6426cdecdb99c"
+hash = "3c6d46148979750f1bf246a0effd01d64dc459670f0cf3b74bcbf7a6f967cbc0"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -1574,6 +1574,11 @@ hash = "17b4937abae2cfbc5a538bdce574dd432e9aa2c102cd86a265ea6eec3db2e868"
 metafile = true
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "e400fdf1973bf6db16c58704683d2fb3b9bb8c842bec2b231b3ba6b457f55fef"
+metafile = true
+
+[[files]]
 file = "mods/advanced-mining-dimension.pw.toml"
 hash = "5a25d3a7c03f0d36c77765c14f0952f5997df2564b034986101e5e50ed46be17"
 metafile = true
@@ -1694,6 +1699,11 @@ hash = "b28c3da3ee3ca475f8c79cbc4e8eb2f5fd44ab488bc14bfdf1fc04dc6f6e67c4"
 metafile = true
 
 [[files]]
+file = "mods/botarium.pw.toml"
+hash = "99192cbb2aa5019f9064cfbe02c069a74b12b060f40a927c1654b2a7680ed4c1"
+metafile = true
+
+[[files]]
 file = "mods/bounding-box-outline-reloaded.pw.toml"
 hash = "542253a8518ece65f8f5ff6a7e84b1d5b9ce035f51ef5db92dee67112cba0d5a"
 metafile = true
@@ -1806,6 +1816,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "c0c8819595b27c1aff854c8570acc3fe87dd42d88d8219e7abdd4781257d6ac2"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "121bfb7dba38eff5de393befb8a4cebcce60b3425fc41d2aa9d7cfe3b3bdd3b5"
 metafile = true
 
 [[files]]
@@ -2336,6 +2351,16 @@ metafile = true
 [[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "7c0f5c7e3bbb3607a6d6382409274a95acdf050192dd355a0bab2b457abc3868"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "72f912e9893c002b994da409e5114078180139bfea729785859b1887ba5de3fe"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "248562f7717f02d954ea1b73c03033a666db6f5c9156f331cb0287869626d6da"
 metafile = true
 
 [[files]]
