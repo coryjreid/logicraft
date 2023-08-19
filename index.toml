@@ -1574,6 +1574,11 @@ hash = "17b4937abae2cfbc5a538bdce574dd432e9aa2c102cd86a265ea6eec3db2e868"
 metafile = true
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "e400fdf1973bf6db16c58704683d2fb3b9bb8c842bec2b231b3ba6b457f55fef"
+metafile = true
+
+[[files]]
 file = "mods/advanced-mining-dimension.pw.toml"
 hash = "5a25d3a7c03f0d36c77765c14f0952f5997df2564b034986101e5e50ed46be17"
 metafile = true
@@ -1691,6 +1696,11 @@ metafile = true
 [[files]]
 file = "mods/botania.pw.toml"
 hash = "b28c3da3ee3ca475f8c79cbc4e8eb2f5fd44ab488bc14bfdf1fc04dc6f6e67c4"
+metafile = true
+
+[[files]]
+file = "mods/botarium.pw.toml"
+hash = "99192cbb2aa5019f9064cfbe02c069a74b12b060f40a927c1654b2a7680ed4c1"
 metafile = true
 
 [[files]]
@@ -2336,6 +2346,16 @@ metafile = true
 [[files]]
 file = "mods/refined-storage.pw.toml"
 hash = "7c0f5c7e3bbb3607a6d6382409274a95acdf050192dd355a0bab2b457abc3868"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "72f912e9893c002b994da409e5114078180139bfea729785859b1887ba5de3fe"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "248562f7717f02d954ea1b73c03033a666db6f5c9156f331cb0287869626d6da"
 metafile = true
 
 [[files]]
