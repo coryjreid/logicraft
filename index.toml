@@ -938,7 +938,7 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "7a0826992c9f66c3e23a15308a6098fd3531a023ac395b0fe042c3da870f4dde"
+hash = "21a01cdd308d2b4e5a9a7cc7c0ce2cbce94b34e3df67d7629073df057d3a01d8"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -946,7 +946,7 @@ hash = "44dfeff0dec29eea842e7bc31710faa906a2aaa95a37fc8d93a0f2280615b2b0"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
-hash = "d3c79856591678c8ce695b1f8e51863dd69546b0d27393dc4aae36956d3358be"
+hash = "a2d20c36305d517014c77cb398c6713a0cb16a5feaae26572864de730168caee"
 
 [[files]]
 file = "config/dogslie.toml"
