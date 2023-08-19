@@ -894,7 +894,7 @@ hash = "96dbbdd6f8bccdee220f6cc077753822223b4ccd5657c4c16b9f7fc7925e8b80"
 
 [[files]]
 file = "config/createaddition-common.toml"
-hash = "3b551e952f5056bd8b27e6b48058956dd2efdcf4f99caee85ac6b4d25b390e59"
+hash = "9235c2fabbbd96562cddb7169a6ae339c9975702ea8be8e174cffc9ed77569de"
 
 [[files]]
 file = "config/cucumber-client.toml"
@@ -974,7 +974,7 @@ hash = "e8fb47e39698228e5174579c31e8b97aa632c37eccebe83b48ff7f428fcce947"
 
 [[files]]
 file = "config/everycomp-wood_types.toml"
-hash = "ed1668eb337e16c1693d76801eb7b04de547e5a2b67bcce8cf88075bd8212452"
+hash = "e3b7b33884de835b0a47d5d0090f27975b5f68ec87073181fa145485482c0c46"
 
 [[files]]
 file = "config/extradisks-common.toml"
@@ -1122,7 +1122,7 @@ hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
-hash = "215aca2d016cf9b132bb093db4fa87e2f641dfddf8f307c3127d83c51aaadce5"
+hash = "91b3c6a6853ba0871241eef65d7e0972155421c4c22615486dab25bd9e621e6e"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1261,6 +1261,10 @@ file = "config/refinedstorage-client.toml"
 hash = "1688fbd31e8cd3a63f9ca3f5aa407dc4c5725bb727e450df69a24fd45418181a"
 
 [[files]]
+file = "config/resourceful-config-web.json"
+hash = "87bac117947005b74e49baf848e85da7c129ab2b1b6f2a8c2abda498b3dd63dd"
+
+[[files]]
 file = "config/rftoolsbase-common.toml"
 hash = "e1edbb7ad648d7d6725765bd1b4f1e615ddf0e419f35a27dbd2d9dfdfbed4dc0"
 
@@ -1313,6 +1317,10 @@ file = "config/smoothchunk-common.toml"
 hash = "a398566ff05125f7ebf431175d866babe6309c9fbee654db74fc869128a62f71"
 
 [[files]]
+file = "config/smoothchunk.json"
+hash = "228d16ac3ebb3efe67596f25498f97eb4a626ac108bdc0deb2ddf0bb5c32cde9"
+
+[[files]]
 file = "config/smoothswapping.json"
 hash = "3edb7a3cca0e7c3ec09f642516aba923bd8eba7ca414289a4103912fd24a7e66"
 
@@ -1346,7 +1354,7 @@ hash = "659ff69308836c7d4cabeeb706ccd7dc72b14039f6dc49e41cec67687bd605d9"
 
 [[files]]
 file = "config/tombstone-client.toml"
-hash = "3d526a6583fb2edaea23ddcc3da0c5d2f6c0d8ef4232d93b39a2c5279cbac759"
+hash = "525ae6808824cd6ffef05a426561c28106ebb418ac2a0c20e62335945e6a9c17"
 
 [[files]]
 file = "config/tombstone-common.toml"

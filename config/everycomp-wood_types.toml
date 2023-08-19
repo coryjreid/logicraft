@@ -91,6 +91,9 @@
 			red_blossom = true
 			ancient = true
 
+		[types.leaves_type.ad_astra]
+			glacian = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -145,6 +148,11 @@
 			transformation = true
 			mining = true
 			sorting = true
+
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
 
 	[types.cut_block_type]
 
@@ -213,37 +221,6 @@
 			gray_roof = true
 			black_roof = true
 			base_roof = true
-
-		[types.cut_block_type.immersive_weathering]
-			mossy_brick = true
-			mossy_stone = true
-			snow_brick = true
-			snowy_stone = true
-			snowy_cobblestone = true
-			snowy_stone_brick = true
-			sandy_stone = true
-			sandy_cobblestone = true
-			sandy_stone_brick = true
-			cracked_brick = true
-			cut_iron = true
-			exposed_cut_iron = true
-			weathered_cut_iron = true
-			rusted_cut_iron = true
-			waxed_cut_iron = true
-			waxed_exposed_cut_iron = true
-			waxed_weathered_cut_iron = true
-			waxed_rusted_cut_iron = true
-			plate_iron = true
-			exposed_plate_iron = true
-			weathered_plate_iron = true
-			rusted_plate_iron = true
-			waxed_plate_iron = true
-			waxed_exposed_plate_iron = true
-			waxed_weathered_plate_iron = true
-			waxed_rusted_plate_iron = true
-			cracked_end_stone_brick = true
-			cracked_prismarine_brick = true
-			charred = true
 
 		[types.cut_block_type.mcwpaths]
 			andesite_running_bond = true
@@ -589,6 +566,40 @@
 			ancient_planks = true
 			permafrost = true
 			permafrost_bricks = true
+
+		[types.cut_block_type.ad_astra]
+			iron_plating = true
+			steel_plating = true
+			desh_plating = true
+			ostrum_plating = true
+			calorite_plating = true
+			moon_stone = true
+			moon_cobblestone = true
+			moon_stone_brick = true
+			polished_moon_stone = true
+			aeronos = true
+			strophar = true
+			mars_stone = true
+			mars_cobblestone = true
+			mars_stone_brick = true
+			polished_mars_stone = true
+			mercury_stone = true
+			mercury_cobblestone = true
+			mercury_stone_brick = true
+			polished_mercury_stone = true
+			venus_stone = true
+			venus_cobblestone = true
+			venus_stone_brick = true
+			polished_venus_stone = true
+			venus_sandstone_brick = true
+			glacio_stone = true
+			glacio_cobblestone = true
+			glacio_stone_brick = true
+			polished_glacio_stone = true
+			permafrost_brick = true
+			chiseled_permafrost_brick = true
+			polished_permafrost = true
+			glacian = true
 
 [entries]
 

@@ -2,12 +2,12 @@
     "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
         "buttonHints": {
             "SHOW_EDITOR": {
-                "horizontalOffset": -10,
-                "top": 71
+                "horizontalOffset": 306,
+                "top": 121
             },
             "SETTINGS": {
-                "horizontalOffset": -10,
-                "top": 67
+                "horizontalOffset": 306,
+                "top": 121
             }
         }
     },
