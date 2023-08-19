@@ -1,4 +1,15 @@
 
+## 29.5.1 (2023-08-19)
+
+### Chore
+
+* Bump version
+
+### Updated
+
+* Updated default keybinds & server
+
+
 ## 29.5.0 (2023-08-19)
 
 ### Added
