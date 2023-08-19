@@ -2103,7 +2103,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "33954ae0301e0b8e0ef26d775ff0d2125d7824ba238f8c732fbeaa0e0471f58b"
+hash = "6ecdb29b8286ce932de61ebf2ea8233cd40046b2f0fce85992202cb07eabbba2"
 metafile = true
 
 [[files]]
