@@ -1,4 +1,39 @@
 
+## 29.5.0 (2023-08-19)
+
+### Added
+
+* Missing config files
+* Create Addition
+
+### Chore
+
+* Bump version
+* Bump version
+* Bump version
+
+### Feat
+
+* include ad-astra mod
+
+### Updated
+
+* Quark
+* LootJS: KubeJS Addon
+* KubeJS
+* JEI
+* Every Compat (Wood Good)
+* Cupboard
+* Better Villages - Forge
+
+
+## 29.3.0 (2023-08-19)
+
+### Chore
+
+* Bump version
+
+
 ## 29.2.0 (2023-08-16)
 
 ### Chore
