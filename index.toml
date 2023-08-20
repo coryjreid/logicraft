@@ -2365,6 +2365,11 @@ hash = "feeee060f81012d4a69bb47e6d50886182cc28370978e1b5edab645213a0ed96"
 metafile = true
 
 [[files]]
+file = "mods/rebind-narrator.pw.toml"
+hash = "e87e1681c59a88f9f6bc4c022f3ddadbece3a2557d01e7615d97e9da989c9f83"
+metafile = true
+
+[[files]]
 file = "mods/refined-storage-addons.pw.toml"
 hash = "76c979281f6f7b7ad2ad42f362184b2d52beb73e2a17bfe4a0eedcb1a684a098"
 metafile = true
