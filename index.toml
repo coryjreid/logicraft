@@ -1577,6 +1577,10 @@ file = "kubejs/startup_scripts/unify.js"
 hash = "1758fb36be355e5d70b3542c2c6b30567f929de0b21524fae81a570c8ca57f36"
 
 [[files]]
+file = "launcher.bat"
+hash = "3e1f32635f0143c39778949fa12e1b74b1f4fb20d1ff4da121e0f6b536ff697f"
+
+[[files]]
 file = "local/ftbchunks/client-config.snbt"
 hash = "867c4144879ed2270903a0a0b53afb52f3917bfaa6ceb84c5f5ae11adc707641"
 
