@@ -3,7 +3,6 @@ Desktop.ini
 *.zip
 *.bak
 *.log
-.vscode
 
 # Config directory rules
 config/jei/*
