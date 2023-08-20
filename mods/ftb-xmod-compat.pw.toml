@@ -3,11 +3,7 @@ filename = "ftb-xmod-compat-forge-1.2.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c17f6642c98e45b5ce904c0564c3369e596871aa"
-mode = "metadata:curseforge"
+url = "https://mediafilez.forgecdn.net/files/4708/886/ftb-xmod-compat-forge-1.2.2.jar"
 
-[update]
-[update.curseforge]
-file-id = 4708886
-project-id = 889915
+hash-format = "sha256"
+hash = "f8f1116d9cd7a47790f0eec776ae50958749d600d6ac87497c82ffd84f20a3df"
