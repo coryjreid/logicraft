@@ -6,7 +6,7 @@ hash = "74a914b460189ded4ce8c3f3e83609e2f7510f32bf22fc9e864b3fb4e9757c77"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
-hash = "b4fdf91676a05ae578419d936b0bd2785709a17cc42c8cc8f5c94cfbfcbb31e0"
+hash = "af0d6fc7c15761f8a9b23fd7913ba8d830e8036f2d53cdd2d386b8c6253cebd5"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
@@ -606,7 +606,7 @@ hash = "3843f47cb52faddf9bc4d8dd08a4d7e30061e671128d99412ca6a6c27bd1485b"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "f0ed64b9325d92bf2009549d2dbd8bbc5be3e137ae462126cdcdd003f9cb18f0"
+hash = "94caa82fdbe870b82ece2f1a20b15fa1228e740879f95acf07ffdca17847433f"
 
 [[files]]
 file = "config/betterwitchhuts-forge-1_19.toml"
@@ -631,10 +631,6 @@ hash = "0a519dcbd7f567dbd995c008287d73e04bd21f437bc671c54edf5dd4db893cf5"
 [[files]]
 file = "config/byg/README.txt"
 hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
-
-[[files]]
-file = "config/byg/backups/last_working_configs_backup.zip"
-hash = "564dc278cc2d4f07120b0a91dc523e35ba097d1fa4bf2ca89c655f662567441f"
 
 [[files]]
 file = "config/byg/biomepedia.json5"
@@ -1131,10 +1127,6 @@ hash = "a14e4cc61cc1bfe4729e7076a1840c5b844dc848799c7bcfd686d14ed129fa66"
 [[files]]
 file = "config/inventoryhud-client.toml"
 hash = "8ac48cc5f0c4f119255f276243c35b0d5239fdf72eccab7e5df4359b35eb2d59"
-
-[[files]]
-file = "config/inventoryprofilesnext/Test/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
@@ -1654,7 +1646,7 @@ hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "ecb8d09d9f68ca4f982513a4e0be4684b6b2e3cdf8927ae47bdb27b508a0ff6f"
+hash = "2bef66e39f14c2dcb30f8fde578c6535bed6a9d45288d3f8a3bbc82145796d0a"
 
 [[files]]
 file = "config/lightingwand-common.toml"
@@ -1702,7 +1694,7 @@ hash = "5d47dd0a56c005c033f9ccc4318f275ba5c9e89550ae8a69dbc672e11167ef56"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3c6e5d20b8317d79fde408f41bb7f3ee8e9beb9ace09b42f5a7cee3579c725cc"
+hash = "ba60ef35521bcea33c819659d6b40b6175f3da378fce61476ad8744dd8fcaf4b"
 
 [[files]]
 file = "config/openloader/advanced_options.json"

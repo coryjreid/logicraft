@@ -16,6 +16,8 @@ index.md
 config/jei/
 config/dsurround/
 config/Mekanism/client.toml
+config/byg/backups
+config/inventoryprofilesnext/Test
 /*.zip
 .env.example
 docker-compose.yml
