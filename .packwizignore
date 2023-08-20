@@ -26,5 +26,6 @@
 /config/byg/backups/
 /config/inventoryprofilesnext/*/
 !/config/inventoryprofilesnext/integrationHints/
+/config/jecalculation/data/
 /config/jei/*/
 /config/Mekanism/client.toml

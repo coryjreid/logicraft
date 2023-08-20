@@ -4,17 +4,13 @@ Desktop.ini
 *.bak
 *.log
 
-# Config directory rules
-config/jei/*
-!config/jei/jei-client.ini
-config/byg/backups
-config/dsurround/
-config/Mekanism/client.toml
-!config/openloader/data/*.zip
-config/inventoryprofilesnext/*
-!config/inventoryprofilesnext/integrationHints/*.json
-!config/inventoryprofilesnext/inventoryprofiles.json
-config/jecalculation/data
+# Minecraft Configurations
+/config/byg/backups/
+/config/inventoryprofilesnext/*/
+!/config/inventoryprofilesnext/integrationHints/
+/config/jecalculation/data/
+/config/jei/*/
+/config/Mekanism/client.toml
 
 # Directory rules
 logs/
