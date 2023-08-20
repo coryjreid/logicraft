@@ -21,3 +21,4 @@ config/Mekanism/client.toml
 docker-compose.yml
 Jenkinsfile
 Logicraft_.code-workspace
+docs/
