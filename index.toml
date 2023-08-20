@@ -1966,6 +1966,11 @@ hash = "c0405f2f156703f6c5a181c18e96dfdbad8760c04ff3be8c088853c7b14572df"
 metafile = true
 
 [[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "a97537a65797310989730a819b70176d94da382416ec2ff78516553a4a378808"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
 metafile = true
