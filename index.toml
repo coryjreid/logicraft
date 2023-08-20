@@ -77,6 +77,10 @@ file = "config/YungsExtras/forge-1_19/wishing_wells.json"
 hash = "49b83e84fead0eb074f28f55daf593a62715c9fec3dbbf6328d715ba3a9ad1ac"
 
 [[files]]
+file = "config/ad_astra.toml"
+hash = "429c4ffcf02f8afb6148c9d52715e1c956812dab2cd2d9eb9b52587881d90d42"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "7b10da0a5f08b0b9b2e0c9d5af6bbfbdacc31d229e023f91cc0939a03bfc986f"
 
@@ -842,7 +846,7 @@ hash = "e2258f6b53c2754ba2bd2d7eaee8a6374f9fdf484e85f0ae399e6c8bb46b8ee1"
 
 [[files]]
 file = "config/clienttweaks-common.toml"
-hash = "2465e72438182dd99c626713a38e4b5e6c0c4312fcaa520368eb421aa8e41ca5"
+hash = "7bf4782d39cfa46218a10184c0ea785af59234dbb67950f8d5f4633818bb5159"
 
 [[files]]
 file = "config/cofh_core-client.toml"
@@ -942,7 +946,7 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "21a01cdd308d2b4e5a9a7cc7c0ce2cbce94b34e3df67d7629073df057d3a01d8"
+hash = "97e852aaa3fd124f1146087449dec4df3017bcb696dbf8ca06492197c622b30f"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
