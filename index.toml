@@ -6,7 +6,7 @@ hash = "74a914b460189ded4ce8c3f3e83609e2f7510f32bf22fc9e864b3fb4e9757c77"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
-hash = "6d9bd74f96adc3db2564125831c8c8cc9ee57515c9d8460359b90b8b768f82b5"
+hash = "b4fdf91676a05ae578419d936b0bd2785709a17cc42c8cc8f5c94cfbfcbb31e0"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
@@ -22,7 +22,7 @@ hash = "d233b582e3dc0a89942e4f57d5191e2c6f4a99c8e820ee83408a068c1f616ac5"
 
 [[files]]
 file = "config/Mekanism/general.toml"
-hash = "b20ddf850e73329aeea0b5d3a3e99055b035ec18770c9ee95729fb48b26bdd40"
+hash = "ca6e4b698154fee877ea1a64b1076e124f7c633e631648958dba639e3c17a6ed"
 
 [[files]]
 file = "config/Mekanism/generator-storage.toml"
@@ -606,7 +606,7 @@ hash = "3843f47cb52faddf9bc4d8dd08a4d7e30061e671128d99412ca6a6c27bd1485b"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "f33371f45309dacdb128837ccd9047c31ea86dffd263b38d00aafab4ed4f8f3c"
+hash = "f0ed64b9325d92bf2009549d2dbd8bbc5be3e137ae462126cdcdd003f9cb18f0"
 
 [[files]]
 file = "config/betterwitchhuts-forge-1_19.toml"
@@ -634,7 +634,7 @@ hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
 
 [[files]]
 file = "config/byg/backups/last_working_configs_backup.zip"
-hash = "a11e00c17801867aea9e8f5bb57f279e495824b47eb7948f17b14c81c9d4eb1f"
+hash = "564dc278cc2d4f07120b0a91dc523e35ba097d1fa4bf2ca89c655f662567441f"
 
 [[files]]
 file = "config/byg/biomepedia.json5"
@@ -1654,7 +1654,7 @@ hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "a3efd4028826efeb9291f35a45a07920a99707cd3b8439b85898ea5e66d8f103"
+hash = "ecb8d09d9f68ca4f982513a4e0be4684b6b2e3cdf8927ae47bdb27b508a0ff6f"
 
 [[files]]
 file = "config/lightingwand-common.toml"
@@ -1702,7 +1702,7 @@ hash = "5d47dd0a56c005c033f9ccc4318f275ba5c9e89550ae8a69dbc672e11167ef56"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "aa8eeb55277fd049e42bc2d6904424dbe2e68c8c6022ae21ad4a045f7a61a681"
+hash = "3c6e5d20b8317d79fde408f41bb7f3ee8e9beb9ace09b42f5a7cee3579c725cc"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
