@@ -1617,6 +1617,38 @@ file = "config/jeed-client.toml"
 hash = "ba66d3903e6e26124c1e8f1f5c841ec73778e3d844113de781f496b197065e20"
 
 [[files]]
+file = "config/jei/blacklist.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "a7595f95319660bcedf978ee6f716d6cf7c95f638b17c892ccc234fe8b177e5a"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
+hash = "c3bbef0574554aafa5fdf4736369d867307b36f5c82acdf6d295d8685c3980ec"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "185506cb5c5ac15d9ce0a9976af34ded8379316117cadf26199f7a62e85c7793"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+hash = "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+hash = "24f1a0313b8ae9b6bf450d962640312613fd0f9e9a21a26756b85a6b5ee3d46d"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "78a1195be30cf91548a2427d9c3e21e1cb11066a7c949719732a9c3a16b940d3"
+
+[[files]]
 file = "config/jeiintegration-client.toml"
 hash = "dee72d5ce6e0963bb170744b11a5f6a0913726974a5508e17a0ffef14712910b"
 

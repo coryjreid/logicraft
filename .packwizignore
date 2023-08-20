@@ -1,26 +1,30 @@
 # .packwizignore follows the same format as .gitignore, and can be used to exclude unwanted files from pack exports
 # See https://git-scm.com/docs/gitignore
 
-README.md
-CHANGELOG-OLD.md
-CHANGELOG.md
-discord.sh
-manifest.json
-.chglog
-.vscode
-bin
-_config.yml
-index.md
-*.bak
-*.log
-config/jei/
-config/dsurround/
-config/Mekanism/client.toml
-config/byg/backups
-config/inventoryprofilesnext/Test
-/*.zip
-.env.example
-docker-compose.yml
-Jenkinsfile
-Logicraft_.code-workspace
-docs/
+# Git Stuff
+/.git/**
+/.gitattributes
+/.gitignore
+
+# Modpack Development Stuff
+/bin/
+/docs/
+/.env.example
+/CHANGELOG.md
+/CHANGELOG-OLD.md
+/discord.sh
+/docker-compose.yml
+/Jenkinsfile
+/manifest.json
+/README.md
+
+# Project Config Directories
+/.chglog/
+/.vscode/
+
+# Minecraft Configurations
+/config/byg/backups/
+/config/inventoryprofilesnext/*/
+!/config/inventoryprofilesnext/integrationHints/
+/config/jei/*/
+/config/Mekanism/client.toml
