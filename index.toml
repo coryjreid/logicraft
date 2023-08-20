@@ -6,7 +6,7 @@ hash = "74a914b460189ded4ce8c3f3e83609e2f7510f32bf22fc9e864b3fb4e9757c77"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
-hash = "cc6cab022cfd2fbde002d6ed969fb3b3905b5b8fdc375062b6af72b1998099bc"
+hash = "8749cb8531714116ab85bf8b0c32309034292074c1a3d2a66ab5779891a86284"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
@@ -909,6 +909,10 @@ file = "config/cucumber-tags.json"
 hash = "1384bba7e6f21c43256ef3ad55af12181aece9609130b4ca1ee87c1629b87ade"
 
 [[files]]
+file = "config/cupboard.json"
+hash = "c84401fd4cd1943223d8a81c3f74ba1e22db337b4bafbd1143e8ba5c4ec9e84d"
+
+[[files]]
 file = "config/curios-client.toml"
 hash = "9c0985b85e67e704a3640d028186dc0b220fa69404b9555244add55eaf5d4794"
 
@@ -974,7 +978,7 @@ hash = "e8fb47e39698228e5174579c31e8b97aa632c37eccebe83b48ff7f428fcce947"
 
 [[files]]
 file = "config/everycomp-wood_types.toml"
-hash = "e3b7b33884de835b0a47d5d0090f27975b5f68ec87073181fa145485482c0c46"
+hash = "4d1e641695b0630ba32ab3af27692310c7deb1d4e0fe403cbbf9168589fd0679"
 
 [[files]]
 file = "config/extradisks-common.toml"
@@ -1254,7 +1258,7 @@ hash = "b38269d3fa35f0467ac05b779812c94b10010e68a89a38d532cd1640a0d7faea"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "8b5bf48e694a93ab709734774b1258ebc7c4a133d855608ebf648e9105472310"
+hash = "818356688ed7ecdc9aac8480e445fbca7c27e91846f26c3c878024c90bf920d6"
 
 [[files]]
 file = "config/refinedstorage-client.toml"
@@ -1302,7 +1306,7 @@ hash = "4eac201954ca999e50c962092c97974396473b44c9b664da1ec2e5b07be56121"
 
 [[files]]
 file = "config/rubidium_extras.toml"
-hash = "2c1da285d7b6083b5de7aecec1521b7ec429122f3e0ba76f64b6de7181fe64a9"
+hash = "e1ed4e9e939790afd74fe585f0e9e185d18f50a9855e2ea7351e4cd1577430df"
 
 [[files]]
 file = "config/sidebar_buttons.json"

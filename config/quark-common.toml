@@ -139,6 +139,7 @@
 	"Industrial Palette" = true
 	"Glass Item Frame" = true
 	"Variant Furnaces" = true
+	"Rainbow Lamps" = true
 
 	[building.celebratory_lamps]
 		"Light Level" = 15
@@ -274,6 +275,11 @@
 		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
 		"Item Render Scale" = 1.5
 
+	[building.rainbow_lamps]
+		"Light Level" = 15
+		#Whether Rainbow Lamps should be made from and themed on Corundum if that module is enabled.
+		"Use Corundum" = true
+
 [management]
 	"Easy Transfering" = false
 	"Hotbar Changer" = false
@@ -322,6 +328,7 @@
 		"Enable Shulker Box Interaction" = true
 		"Enable Lava Interaction" = true
 		"Allow Opening Shulker Boxes" = true
+		"Allow Rotating Bundles" = true
 
 [tools]
 	"Endermosh Music Disc" = true
@@ -417,6 +424,8 @@
 		"Add To Wandering Trader Rare" = false
 		"Draw Hud" = true
 		"Hud On Top" = false
+		#Allows retrying after a pathfinder quill fails to find a biome nearby. Turn off if you think its op
+		"Allow Retrying" = true
 
 	[tools.pickarang]
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
@@ -561,6 +570,7 @@
 	"No Durability On Cosmetics" = true
 	"Dyeable Item Frames" = true
 	"Diamond Repair" = true
+	"Map Washing" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -611,6 +621,8 @@
 		"Pet All Mobs" = false
 		#If `petAllMobs` is set, these mobs still can't be pet
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
+		#Even if `petAllMobs` is not set, these mobs can be pet
+		"Pettable Allowlist" = []
 
 	[tweaks.poison_potato_usage]
 		Chance = 0.1
@@ -649,6 +661,8 @@
 		#Which blocks should right click harvesting simulate a click on instead of breaking?
 		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
 		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
+		#Should villagers use simple harvest instead of breaking crops?
+		"Villagers Use Simple Harvest" = true
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -703,8 +717,10 @@
 		"Fortune Level" = 2
 		#Allowed values: [0,4]
 		"Harvest Level" = 2
-		"Display Fortune In Tooltip" = true
 		"Italic Tooltip" = true
+		"Display Baked Enchantments In Tooltip" = true
+		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
+		"Baked Enchantments" = []
 
 	[tweaks.renewable_spore_blossoms]
 		"Bone Meal Chance" = 0.2
@@ -750,6 +766,12 @@
 		"Repair Item Changes" = ["minecraft:netherite_sword=minecraft:diamond", "minecraft:netherite_pickaxe=minecraft:diamond", "minecraft:netherite_axe=minecraft:diamond", "minecraft:netherite_shovel=minecraft:diamond", "minecraft:netherite_hoe=minecraft:diamond", "minecraft:netherite_helmet=minecraft:diamond", "minecraft:netherite_chestplate=minecraft:diamond", "minecraft:netherite_leggings=minecraft:diamond", "minecraft:netherite_boots=minecraft:diamond"]
 		"Unrepairable Items" = []
 		"Enable Jei Hints" = true
+
+	[tweaks.hoe_harvesting]
+		#Allowed values: [1,5]
+		"Regular Hoe Radius" = 2
+		#Allowed values: [1,5]
+		"High Tier Hoe Radius" = 3
 
 [world]
 	"Big Stone Clusters" = false
@@ -1064,6 +1086,7 @@
 		"Enable Extra Loot Table" = true
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
 		"Search Range" = 6
+		"Activation Range" = 2.5
 
 		[world.monster_box.dimensions]
 			"Is Blacklist" = false
@@ -1328,7 +1351,9 @@
 
 	[mobs.crabs]
 		"Enable Brewing" = true
-		"Enable Resillience Effect" = true
+		#Whether Resilience should be required for 'How Did We Get Here?' and (if brewing is enabled) 'A Furious Cocktail'.
+		#Keep this on when brewing is disabled if your pack adds an alternative source for the effect.
+		"Resilience Required For All Effects" = true
 
 		[mobs.crabs.spawn_config]
 			#Allowed values: (0,)
@@ -1349,7 +1374,7 @@
 					"Is Blacklist" = false
 
 	[mobs.forgotten]
-		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
+		#This is the probability of a Skeleton that spawns under the height threshold being replaced with a Forgotten.
 		"Forgotten Spawn Rate" = 0.05
 		"Max Height For Spawn" = 20
 
@@ -1761,6 +1786,8 @@
 		"Disable Piston Physics Exploits" = true
 		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
+		#Fixes mushroom growth being able to replace blocks
+		"Disable Mushroom Block Removal" = true
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
