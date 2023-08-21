@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Everycomp Generated Pack","V Slab Compat Generated Pack","quark:emote_resources","file/rainbow-block-outline.zip"]
+incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources"]
 lastServer:
 lang:en_us
 soundDevice:"OpenAL Soft on Line 1 (Virtual Audio Cable)"

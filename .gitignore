@@ -4,6 +4,9 @@ Desktop.ini
 *.bak
 *.log
 
+# Resource Packs
+!/resourcepacks/*.zip
+
 # Minecraft Configurations
 /config/byg/backups/
 /config/inventoryprofilesnext/*/
