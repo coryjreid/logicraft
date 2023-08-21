@@ -926,7 +926,7 @@ hash = "4028a752cb90a7bb0f918323796237d5a445276ee45b0af9b10b02f97a55ee89"
 
 [[files]]
 file = "config/cyclic.toml"
-hash = "ee1a702a8a05b8fa77763b8512d2e2e614d77eba08c7b9942a9d231f93c67b44"
+hash = "32dc1d634cc62fcc34fb56fa58abb5c839ef6ede79f544dd49acaf6c02ac1421"
 
 [[files]]
 file = "config/cyclopscore-client.toml"
