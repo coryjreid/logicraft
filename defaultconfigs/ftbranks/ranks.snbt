@@ -3,7 +3,7 @@
 		name: "Member"
 		power: 1
 		condition: "always_active"
-		ftbranks.name_format: "<{name}>"
+		ftbranks.name_format: "{name}"
 		command: false
 		ftbchunks.max_claimed: 500
 		ftbchunks.max_force_loaded: 50
@@ -12,7 +12,7 @@
 		name: "Admin"
 		power: 1000
 		condition: "op"
-		ftbranks.name_format: "<&2{name}&r>"
+		ftbranks.name_format: "&2{name}"
 		ftbchunks.max_claimed: 100000
 		ftbchunks.max_force_loaded: 100000
 		command: true
