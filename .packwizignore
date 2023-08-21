@@ -20,6 +20,7 @@
 
 # Project Config Directories
 /.chglog/
+/.github/
 /.vscode/
 
 # Minecraft Configurations
