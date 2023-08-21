@@ -12,6 +12,7 @@
 /.env.example
 /CHANGELOG.md
 /CHANGELOG-OLD.md
+/COPYING
 /discord.sh
 /docker-compose.yml
 /Jenkinsfile
