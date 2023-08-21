@@ -2097,10 +2097,6 @@ file = "local/kubejs/dev.properties"
 hash = "8d0d54a7a003ba9a6654289dd7346109db636dba4aa9ed9b1fb96c08b7e968f1"
 
 [[files]]
-file = "local/kubejs/export/tags/minecraft/item.txt"
-hash = "e10ac0603d0812018a8dd3c1004b647bd2efe434084dd4f4a8e5ab932e873e57"
-
-[[files]]
 file = "mods/absent-by-design.pw.toml"
 hash = "17b4937abae2cfbc5a538bdce574dd432e9aa2c102cd86a265ea6eec3db2e868"
 metafile = true

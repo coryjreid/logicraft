@@ -31,3 +31,4 @@
 /config/Mekanism/client.toml
 
 /local/ftbchunks/data/
+/local/kubejs/*/
