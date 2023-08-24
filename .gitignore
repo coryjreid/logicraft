@@ -16,6 +16,14 @@ Desktop.ini
 /config/Mekanism/client.toml
 
 # Directory rules
+kubejs/*
+kubejs/config/probejs.json
+!/kubejs/README.txt
+!/kubejs/assets/
+!/kubejs/client_scripts/
+!/kubejs/config/
+!/kubejs/server_scripts/
+!/kubejs/startup_scripts/
 logs/
 saves/
 local/ftbchunks/*

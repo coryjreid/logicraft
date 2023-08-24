@@ -1,5 +1,8 @@
 # .packwizignore follows the same format as .gitignore, and can be used to exclude unwanted files from pack exports
 # See https://git-scm.com/docs/gitignore
+#
+# NOTE: RULE ORDER MATTERS!!!!
+#
 
 # Git Stuff
 /.git/**
@@ -18,6 +21,15 @@
 /Jenkinsfile
 /manifest.json
 /README.md
+/kubejs/*/
+/kubejs/*.json
+!/kubejs/README.txt
+!/kubejs/assets/
+!/kubejs/client_scripts/
+!/kubejs/config/
+/kubejs/config/probejs.json
+!/kubejs/server_scripts/
+!/kubejs/startup_scripts/
 
 # Project Config Directories
 /.chglog/
