@@ -14,7 +14,7 @@ invertMagnetRing = false
 #By default, the chosen ore is randomly picked from all ores in the ore's tag.
 #Ores from mods present on this list will be picked over mods listed lower or not listed at all.
 #Applying changes at runtime requires /reload afterwards.
-orechidPriorityMods = []
+orechidPriorityMods = ["minecraft", "kubejs", "crafttweaker", "create", "thermal", "immersiveengineering", "mekanism"]
 
 [blockBreakingParticles]
 	#Set this to false to remove the block breaking particles from the Terra Shatterer, as there can be a good amount in higher levels.

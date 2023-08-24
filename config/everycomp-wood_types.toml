@@ -411,13 +411,6 @@
 			mining = true
 			sorting = true
 
-		[types.cut_block_type.ae2]
-			sky_stone_brick = true
-			sky_stone_small_brick = true
-			smooth_quartz = true
-			quartz_brick = true
-			quartz_pillar = true
-
 		[types.cut_block_type.create]
 			copper_shingle = true
 			exposed_copper_shingle = true

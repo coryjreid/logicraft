@@ -7,6 +7,9 @@ Desktop.ini
 # Resource Packs
 !/resourcepacks/*.zip
 
+# Datapacks
+!/config/openloader/*/*.zip
+
 # Minecraft Configurations
 /config/byg/backups/
 /config/inventoryprofilesnext/*/
