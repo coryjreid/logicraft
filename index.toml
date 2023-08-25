@@ -954,11 +954,11 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "97e852aaa3fd124f1146087449dec4df3017bcb696dbf8ca06492197c622b30f"
+hash = "019be7e0a81a7ea457d4072ae72c392d3782742ade5acaa11b292002db76541e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "5fc9b3ec5ec4ab6df857febc1f17dd1aa2756dd236802fa1613b4609ea4a7566"
+hash = "9a7adf0cdec6712e485576fedfe473745dc48294d05d3965c1ea762cbb3d0654"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -1834,15 +1834,15 @@ hash = "3edb7a3cca0e7c3ec09f642516aba923bd8eba7ca414289a4103912fd24a7e66"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "cb4bfeb0b48adff6c06bd95972678ede2a81bb8d67a630b2d495e28911427a65"
+hash = "9e5ef6625cb75e20ad43805cc89ab9095b7d77c3b85753c077fea94786529137"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "1d0c773aefcc6f78581be4062aa039ebe1fafe4f6cde76810d9059a2a402d42c"
+hash = "b4d4d02ae38d4f4d9bffbe40237e57fcc2b0abf00375e9cacdbaa7c95c7a844f"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "14e4ab9589f19df41d409aa9ee82dcb75283b20659431d3daa63e1105f008fc6"
+hash = "a97d1d1a42ce7fe86cf544eb6b08e08d51e7b2fad5b04697e6f127fcd96249b3"
 
 [[files]]
 file = "config/spark/config.json"
@@ -2078,7 +2078,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/client_scripts/cyclic.js"
-hash = "3a9cb31fa0464a6847e90336cf46fafd28fe087e41d6a1380daaa77fadfc6a42"
+hash = "39fbce148150a9c8ade1b87b8d6b5fc4f7fc1ff2634c983ad8806238a3d57778"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -2090,7 +2090,11 @@ hash = "218015b3f9acb94ac37c5b034398066e1d736b5d2ba558346dc489bc6f15115d"
 
 [[files]]
 file = "kubejs/server_scripts/cyclic.js"
-hash = "8e86131c396a305884ec7706cec39662d0a33ec9a190a1c01eae835562cdc7ad"
+hash = "bc234de061115b7451089f15901a437c4e3e7468d1151bd93161770b57f19ce4"
+
+[[files]]
+file = "kubejs/startup_scripts/example.js"
+hash = "395c96d3ddd178821db851f387e91560e606ea752177f66d2016f12bd0542b8f"
 
 [[files]]
 file = "launcher.bat"

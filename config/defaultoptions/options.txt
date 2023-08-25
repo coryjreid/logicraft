@@ -3,7 +3,7 @@ autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
-chatLinksPrompt:true
+chatLinksPrompt:false
 enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","inmemory:jaopca","Everycomp Generated Pack","V Slab Compat Generated Pack","quark:emote_resources","file/rainbow-block-outline.zip"]
+resourcePacks:["vanilla","mod_resources","Everycomp Generated Pack","V Slab Compat Generated Pack","quark:emote_resources","file/rainbow-block-outline.zip"]
 incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources"]
 lastServer:
 lang:en_us
