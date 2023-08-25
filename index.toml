@@ -2094,7 +2094,7 @@ hash = "bc234de061115b7451089f15901a437c4e3e7468d1151bd93161770b57f19ce4"
 
 [[files]]
 file = "kubejs/server_scripts/pulverizer_crusher_compatibility.js"
-hash = "cce06a412859cfd978218840f9dfd9c2cf72a89ead325b6eb0dd5d127b27b598"
+hash = "9c60bac77fcc4dedd18dad2019fba031e6553b658356a3dc177b7a8fd9e275d7"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
