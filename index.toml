@@ -2085,6 +2085,10 @@ file = "kubejs/client_scripts/jei_hide_items.js"
 hash = "b01588fda79cf51f80fa0d88fd10f33ec1af8da2565dcc68f5b2ded3b3f9517e"
 
 [[files]]
+file = "kubejs/client_scripts/pipez.js"
+hash = "ec68ae007699063fefbe17f6df72313678f1977febc9fc9c22675a0ad08ad464"
+
+[[files]]
 file = "kubejs/config/client.properties"
 hash = "503ec926a8f9e44d9e0c9559517af7a494c1876767cd92d480317b6adf48c563"
 
