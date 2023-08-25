@@ -13,8 +13,27 @@ pipeline {
     }
 
     stages {
-        stage('Update website') {
+        stage('Test Modpack') {
             steps {
+                echoBanner("TESTING MODPACK", ["CLONIING REPO...", "SETTING EXEC FLAG...", "RUNNING PACKWIZ SERVE...", "TESTING PACKWIZ INSTALL..."])
+                checkout poll: false, scm: scmGit(branches: [[name: '*/1.19.2']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/coryjreid/logicraft.git']])
+                sh 'chmod +x $WORKSPACE/bin/packwiz'
+                sh 'nohup bash -c "$WORKSPACE/bin/packwiz serve --basic -p 9090 2>&1 &"'
+                sh 'mkdir $WORKSPACE/test_install'
+                sh 'cd $WORKSPACE/test_install && wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar'
+                sh 'cd $WORKSPACE/test_install && java -jar $WORKSPACE/test_install/packwiz-installer-bootstrap.jar --no-gui http://localhost:9090/pack.toml'
+            }
+            post {
+                cleanup {
+                    sh 'git reset --hard'
+                    sh 'git clean -xdf'
+                }
+            }
+        }
+
+        stage('Deploy website') {
+            steps {
+                echoBanner("DEPLOYING MODPACK WEBSITE", ["PULLING CHANGES...", "GENERATING INDEX PAGE..."])
                 withCredentials([usernamePassword(credentialsId: 'nginx-vm', passwordVariable: 'pass', usernameVariable: 'username')]) {
                     script {
                         webserverRemote.user = username
@@ -26,8 +45,14 @@ pipeline {
             }
         }
 
-        stage('Shutdown Minecraft server') {
+        stage('Deploy Minecraft server') {
             steps {
+                echoBanner("DEPLOYING SERVER", ["CHECK SERVER RUNNING...", "SHUTTING DOWN SERVER...", "AWAITING SERVER SHUTDOWN...", "REFRESHING SERVER CONFIGS...", "LAUNCHING SERVER..."])
+                script {
+                    def r = sh script: 'docker ps --filter "name=$SERVER_DOCKER_CONTAINER_NAME" --filter "status=running" --quiet', returnStdout: true
+                    return (r != '')
+                }
+
                 alertPlayersAboutPendingShutdown(
                     env.SERVER_SHUTDOWN_WARNING_DURATION.toInteger(),
                     env.SERVER_DOCKER_CONTAINER_NAME)
@@ -42,11 +67,7 @@ pipeline {
                         }
                     }
                 }
-            }
-        }
 
-        stage('Cleanup Minecraft server directory') {
-            steps {
                 script {
                     String removeCommand = 'rm -rf $SERVER_DIR/'
                     def dirs = ['config', 'defaultconfigs', 'kubejs', 'logs', 'local', 'mods', 'scripts', 'world/serverconfig']
@@ -55,17 +76,9 @@ pipeline {
                     }
                     sh removeCommand + 'packwiz.json'
                 }
-            }
-        }
 
-        stage('Setup new Minecraft world config') {
-            steps {
                 sh 'mv $WORKSPACE/defaultconfigs $SERVER_DIR/world/serverconfig'
-            }
-        }
-        
-        stage('Restart Minecraft server') {
-            steps {
+
                 sh 'docker start $SERVER_DOCKER_CONTAINER_NAME'
             }
         }
@@ -100,4 +113,39 @@ def doShutdown(String container) {
 
 def sleepOne() {
     sh 'sleep 1s'
+}
+
+def echoBanner(def ... msgs) {
+   echo createBanner(msgs)
+}
+
+def errorBanner(def ... msgs) {
+   error(createBanner(msgs))
+}
+
+def createBanner(def ... msgs) {
+   return """
+       ===========================================
+
+       ${msgFlatten(null, msgs).join("\n        ")}
+
+       ===========================================
+   """
+}
+
+// flatten function hack included in case Jenkins security
+// is set to preclude calling Groovy flatten() static method
+// NOTE: works well on all nested collections except a Map
+def msgFlatten(def list, def msgs) {
+   list = list ?: []
+   if (!(msgs instanceof String) && !(msgs instanceof GString)) {
+       msgs.each { msg ->
+           list = msgFlatten(list, msg)
+       }
+   }
+   else {
+       list += msgs
+   }
+
+   return  list
 }
