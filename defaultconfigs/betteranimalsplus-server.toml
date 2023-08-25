@@ -3,7 +3,7 @@
 
 	[entities.lammergeier]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
 		taming_items = ["minecraft:bone"]
 
@@ -67,7 +67,7 @@
 
 	[entities.pheasant]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.pheasant.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -98,7 +98,7 @@
 
 	[entities.squirrel]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.squirrel.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -131,7 +131,7 @@
 
 	[entities.songbird]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.songbird.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -164,7 +164,7 @@
 
 	[entities.badger]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.badger.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -197,7 +197,7 @@
 
 	[entities.crab]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.crab.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -228,7 +228,7 @@
 
 	[entities.horseshoecrab]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.horseshoecrab.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -290,7 +290,7 @@
 
 	[entities.turkey]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.turkey.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -350,7 +350,7 @@
 
 	[entities.goose]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 		#List of blacklisted item IDs that cannot be picked up. Accepts tags by prefixing them with '#'.
 		pickup_blacklist = ["betteranimalsplus:goose_egg", "betteranimalsplus:golden_goose_egg"]
 
@@ -414,7 +414,7 @@
 
 	[entities.walrus]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.walrus.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -532,7 +532,7 @@
 
 	[entities.brownbear]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.brownbear.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -563,7 +563,7 @@
 
 	[entities.blackbear]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.blackbear.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -594,7 +594,7 @@
 
 	[entities.deer]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.deer.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -625,7 +625,7 @@
 
 	[entities.feralwolf]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
 		taming_items = ["minecraft:bone"]
 
@@ -660,7 +660,7 @@
 
 	[entities.coyote]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 		#Makes coyote always hostile (removes ability to tame!)
 		hostile_during_daytime = false
 		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
@@ -724,7 +724,7 @@
 
 	[entities.reindeer]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.reindeer.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -755,7 +755,7 @@
 
 	[entities.boar]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.boar.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
@@ -804,7 +804,7 @@
 			spawn_naturally = true
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
-			spawn_weight = 7
+			spawn_weight = 1
 			#Minimum amount of entities in spawned groups
 			#Range: 1 ~ 9999
 			minimum_group_size = 1
@@ -857,7 +857,7 @@
 
 	[entities.moose]
 		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
-		can_despawn = false
+		can_despawn = true
 
 		[entities.moose.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition

@@ -1922,7 +1922,7 @@ hash = "35f9b0d8688d0b0a06af3bbb8c0439546bb71a47e6c0ae913163b7a200b71ef2"
 
 [[files]]
 file = "defaultconfigs/betteranimalsplus-server.toml"
-hash = "4f6f9d00df6ca64a8d73c04f1049c70b8b894b90d6d61a387d79e579822a0d01"
+hash = "16cd370aa87704df8ac0f1eef1b4d7a9165c6e64a7dcdfa66983dd1028292f14"
 
 [[files]]
 file = "defaultconfigs/buildinggadgets-server.toml"
