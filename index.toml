@@ -2077,6 +2077,10 @@ file = "kubejs/client_scripts/cyclic.js"
 hash = "39fbce148150a9c8ade1b87b8d6b5fc4f7fc1ff2634c983ad8806238a3d57778"
 
 [[files]]
+file = "kubejs/client_scripts/extra_disks.js"
+hash = "313677fc831365b8fe3d59e5ba7101fd481e157e990b411f3d1d11c8879cd146"
+
+[[files]]
 file = "kubejs/client_scripts/jei_hide_items.js"
 hash = "b01588fda79cf51f80fa0d88fd10f33ec1af8da2565dcc68f5b2ded3b3f9517e"
 
@@ -2091,6 +2095,10 @@ hash = "218015b3f9acb94ac37c5b034398066e1d736b5d2ba558346dc489bc6f15115d"
 [[files]]
 file = "kubejs/server_scripts/cyclic.js"
 hash = "bc234de061115b7451089f15901a437c4e3e7468d1151bd93161770b57f19ce4"
+
+[[files]]
+file = "kubejs/server_scripts/extra_disks.js"
+hash = "47f68cc82e845da4a12b34ab8dd7ceb3400df862028e81e80f90cd75b4cf505a"
 
 [[files]]
 file = "kubejs/server_scripts/pulverizer_crusher_compatibility.js"
