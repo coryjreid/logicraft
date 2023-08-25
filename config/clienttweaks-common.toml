@@ -7,7 +7,7 @@
 	#This option will hide your offhand item. It can be toggled via an optional key binding.
 	hideOffhandItem = false
 	#This option will hide your own potion particle effects for your client (other players will still see them).
-	hideOwnParticleEffects = false
+	hideOwnParticleEffects = true
 	#This option will hide your shield unless you are holding a weapon.
 	hideShieldUnlessHoldingWeapon = true
 	#This prevents torches from being placed from your offhand at all.
@@ -25,9 +25,9 @@
 	#This option will disable log stripping.
 	disableLogStripping = false
 	#This adds back the master volume slider to the options screen. Saves you a click!
-	masterVolumeSlider = true
+	masterVolumeSlider = false
 	#This adds back the music volume slider to the options screen. Saves you a click!
-	musicVolumeSlider = true
+	musicVolumeSlider = false
 	#This option will make iron fences and glass panes have a bigger hitbox while placing them, making it easier to aim.
 	paneBuildingSupport = true
 	#This option makes the recipe book not shift the inventory when opened. Works best with smaller GUI scales / bigger resolutions.
