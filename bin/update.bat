@@ -1,1 +1,0 @@
-java -jar ./bin/Cursewiz-1.1.jar -c "G:/Minecraft/Instances/Logicraft_ SOURCE" -m "." -v %1
