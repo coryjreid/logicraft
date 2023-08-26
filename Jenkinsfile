@@ -64,7 +64,7 @@ pipeline {
                         webserverRemote.password = PASSWORD
                         def websiteRootPath = '/var/www/logicraft.coryjreid.com/html'
                         def directories = ['config', 'defaultconfigs', 'kubejs', 'local', 'mods', 'resourcepacks', 'scripts']
-                        def files = ['README.md', 'index.toml', 'pack.toml']
+                        def files = ['index.toml', 'launcher.bat', 'pack.toml', 'README.md']
                         
                         echo 'Cleanup website root'
                         sshCommand remote: webserverRemote, command: "cd ${websiteRootPath} && rm -rf ./*"
