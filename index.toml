@@ -946,7 +946,7 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "ec68ebfbbec9ba2b95a781023f266acd66d8d5553f897d1ffb47a5e02252a787"
+hash = "b2a15ce337b345d4a5c95c8dfd48c09f2ca8e8996f73927247b7137bfae02b77"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -1130,11 +1130,11 @@ hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
-hash = "91b3c6a6853ba0871241eef65d7e0972155421c4c22615486dab25bd9e621e6e"
+hash = "b00ad21a7ea0f2bac95bb00cf485bcab1106c010dade1f3f3e5854be03f06a0d"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "a44027e5b5bf7106a7657a84978cbdb46b0d55ac9db0cf77636d4670c4ebfdc3"
+hash = "e9ff2878e668a2bfde2d7efa46c6d43a83deacf3a4d8e749a4065e07450b52d9"
 
 [[files]]
 file = "config/jaopca/custom_forms.json"
@@ -2089,8 +2089,12 @@ file = "kubejs/server_scripts/extra_disks.js"
 hash = "47f68cc82e845da4a12b34ab8dd7ceb3400df862028e81e80f90cd75b4cf505a"
 
 [[files]]
+file = "kubejs/server_scripts/multiservopress_mechanicalpress_compatibility.js"
+hash = "31fa43ba68734a94fce62288c26c851c5c4ba7cae8c3aea784da5e7e9a742e1f"
+
+[[files]]
 file = "kubejs/server_scripts/pulverizer_crusher_compatibility.js"
-hash = "81f62bd80eb2a0ebb56ce0f122d6a46d0fb8992a77141db15301e99fb5aec8a3"
+hash = "3eec1d523ad00dde5af31977ff153a421a6c25619d3a7509ff6b885146a7334b"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"

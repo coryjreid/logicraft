@@ -14,13 +14,31 @@
     "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
         "buttonHints": {
             "SETTINGS": {
-                "top": 99
+                "horizontalOffset": 28,
+                "top": -22
             },
             "PROFILE_SELECTOR": {
-                "bottom": 21
+                "bottom": 132
             },
             "SHOW_EDITOR": {
-                "top": 101
+                "horizontalOffset": 45,
+                "top": -7
+            },
+            "MOVE_TO_CONTAINER": {
+                "bottom": -12
+            },
+            "SORT": {
+                "horizontalOffset": 12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 40,
+                "bottom": -28
             }
         }
     }

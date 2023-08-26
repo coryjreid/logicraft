@@ -56,5 +56,8 @@ ServerEvents.recipes(event => {
     // Ingots -> Dust
     event.recipes.mekanism.crushing(Item.of('#forge:dusts/cyanite', 1), Item.of('#forge:ingots/cyanite', 1))
     event.recipes.mekanism.crushing(Item.of('#forge:dusts/graphite', 1), Item.of('#forge:ingots/graphite', 1))
+
+    // Sheet -> Dust
+    event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_zinc', 1), Item.of('#forge:plates/zinc', 1))
   })
   
