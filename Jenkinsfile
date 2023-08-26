@@ -45,12 +45,12 @@ pipeline {
             steps {
                 echo 'Add execute permission for Packwiz'
                 sh 'chmod +x $WORKSPACE/bin/packwiz'
-                echo 'Add execute permission for toml command'
-                sh 'chmod +x $WORKSPACE/bin/toml'
+                echo 'Add execute permission for Dasel'
+                sh 'chmod +x $WORKSPACE/bin/dasel'
                 echo 'Update modpack version'
-                sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackName Logicraft_'
-                sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackProjectID 323471'
-                sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackVersion `date +%Y%m%d%H%M%S`'
+                sh '$WORKSPACE/bin/dasel put -f $WORKSPACE/config/bcc-common.toml -r toml -v Logicraft general.modpackName'
+                sh '$WORKSPACE/bin/dasel put -f $WORKSPACE/config/bcc-common.toml -r toml -v 323471 general.modpackProjectID'
+                sh '$WORKSPACE/bin/dasel put -f $WORKSPACE/config/bcc-common.toml -r toml -v `date +%Y%m%d%H%M%S` general.modpackVersion'
                 echo 'Refresh pack definition'
                 sh '$WORKSPACE/bin/packwiz refresh'
             }
