@@ -13,14 +13,24 @@ pipeline {
     }
 
     stages {
+        stage('Checkout Changes') {
+            steps {
+                scmSkip(deleteBuild: true, skipPattern:'.*\\[ci skip\\].*')
+                checkout poll: false, scm: scmGit(branches: [[name: '*/1.19.2']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/coryjreid/logicraft.git']])
+            }
+        }
+
         stage('Test Modpack') {
             steps {
-                echoBanner("TESTING MODPACK", ["CLONIING REPO...", "SETTING EXEC FLAG...", "RUNNING PACKWIZ SERVE...", "TESTING PACKWIZ INSTALL..."])
-                checkout poll: false, scm: scmGit(branches: [[name: '*/1.19.2']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/coryjreid/logicraft.git']])
+                echo 'Add execute permission for Packwiz'
                 sh 'chmod +x $WORKSPACE/bin/packwiz'
+                echo 'Serve modpack on localhost:9090'
                 sh 'nohup bash -c "$WORKSPACE/bin/packwiz serve --basic -p 9090 2>&1 &"'
+                echo 'Create test_install directory'
                 sh 'mkdir $WORKSPACE/test_install'
+                echo 'Download packwiz-installer-bootstrap.jar'
                 sh 'cd $WORKSPACE/test_install && wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar'
+                echo 'Run install to validate modpack'
                 sh 'cd $WORKSPACE/test_install && java -jar $WORKSPACE/test_install/packwiz-installer-bootstrap.jar --no-gui http://localhost:9090/pack.toml'
             }
             post {
@@ -31,15 +41,44 @@ pipeline {
             }
         }
 
+        stage('Set Modpack Version') {
+            steps {
+                echo 'Update modpack version'
+                sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackName Logicraft_'
+                sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackProjectID 323471'
+                sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackVersion `date +%Y%m%d%H%M%S`'
+                echo 'Refresh pack definition'
+                sh '$WORKSPACE/bin/packwiz refresh'
+            }
+        }
+
         stage('Deploy website') {
             steps {
-                echoBanner("DEPLOYING MODPACK WEBSITE", ["PULLING CHANGES...", "GENERATING INDEX PAGE..."])
-                withCredentials([usernamePassword(credentialsId: 'nginx-vm', passwordVariable: 'pass', usernameVariable: 'username')]) {
+                withCredentials([usernamePassword(credentialsId: 'nginx-vm', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME')]) {
                     script {
-                        webserverRemote.user = username
-                        webserverRemote.password = pass
+                        webserverRemote.user = USERNAME
+                        webserverRemote.password = PASSWORD
+                        def websiteRootPath = '/var/www/logicraft.coryjreid.com/html'
+                        def directories = ['config', 'defaultconfigs', 'kubejs', 'local', 'mods', 'resourcepacks', 'scripts']
+                        def files = ['README.md', 'index.toml', 'pack.toml']
                         
-                        sshCommand remote: webserverRemote, command: "cd /var/www/logicraft.coryjreid.com/html && git pull && markdown README.md > index.html"
+                        echo 'Cleanup website root'
+                        sshCommand remote: webserverRemote, command: "cd ${websiteRootPath} && rm -rf ./*"
+                        
+                        echo 'Copy folders to website'
+                        for (int i = 0; i < directories.size(); i++) {
+                            sh 'scp -i ~/.ssh/id_rsa -r $WORKSPACE/' + directories[i] + ' $USERNAME@' + webserverRemote.host + ':' + websiteRootPath
+                        }
+                        
+                        echo 'Copy files to website'
+                        for (int i = 0; i < files.size(); i++) {
+                            sh 'scp -i ~/.ssh/id_rsa $WORKSPACE/' + files[i] + ' $USERNAME@' + webserverRemote.host + ':' + websiteRootPath
+                        }
+
+                        echo 'Generate index page'
+                        sshCommand remote: webserverRemote, command: "cd ${websiteRootPath} && markdown README.md > index.html"
+                        echo 'Cleanup README'
+                        sshCommand remote: webserverRemote, command: "rm ${websiteRootPath}/README.md"
                     }
                 }
             }
@@ -47,18 +86,21 @@ pipeline {
 
         stage('Deploy Minecraft server') {
             steps {
-                echoBanner("DEPLOYING SERVER", ["CHECK SERVER RUNNING...", "SHUTTING DOWN SERVER...", "AWAITING SERVER SHUTDOWN...", "REFRESHING SERVER CONFIGS...", "LAUNCHING SERVER..."])
+                echo 'Validate Minecraft server is running'
                 script {
                     def r = sh script: 'docker ps --filter "name=$SERVER_DOCKER_CONTAINER_NAME" --filter "status=running" --quiet', returnStdout: true
                     return (r != '')
                 }
 
+                echo 'Alert players of pending shutdown'
                 alertPlayersAboutPendingShutdown(
                     env.SERVER_SHUTDOWN_WARNING_DURATION.toInteger(),
                     env.SERVER_DOCKER_CONTAINER_NAME)
 
+                echo 'Perform shutdown'
                 sh 'docker exec $SERVER_DOCKER_CONTAINER_NAME rcon-cli stop'
 
+                echo 'Wait for shutdown to complete'
                 timeout(2) {
                     waitUntil(initialRecurrencePeriod: 15000) {
                         script {
@@ -68,6 +110,7 @@ pipeline {
                     }
                 }
 
+                echo 'Cleanup server directory'
                 script {
                     String removeCommand = 'rm -rf $SERVER_DIR/'
                     def dirs = ['config', 'defaultconfigs', 'kubejs', 'logs', 'local', 'mods', 'scripts', 'world/serverconfig']
@@ -79,6 +122,7 @@ pipeline {
 
                 sh 'mv $WORKSPACE/defaultconfigs $SERVER_DIR/world/serverconfig'
 
+                echo 'Start Minecraft server'
                 sh 'docker start $SERVER_DOCKER_CONTAINER_NAME'
             }
         }
@@ -113,39 +157,4 @@ def doShutdown(String container) {
 
 def sleepOne() {
     sh 'sleep 1s'
-}
-
-def echoBanner(def ... msgs) {
-   echo createBanner(msgs)
-}
-
-def errorBanner(def ... msgs) {
-   error(createBanner(msgs))
-}
-
-def createBanner(def ... msgs) {
-   return """
-       ===========================================
-
-       ${msgFlatten(null, msgs).join("\n        ")}
-
-       ===========================================
-   """
-}
-
-// flatten function hack included in case Jenkins security
-// is set to preclude calling Groovy flatten() static method
-// NOTE: works well on all nested collections except a Map
-def msgFlatten(def list, def msgs) {
-   list = list ?: []
-   if (!(msgs instanceof String) && !(msgs instanceof GString)) {
-       msgs.each { msg ->
-           list = msgFlatten(list, msg)
-       }
-   }
-   else {
-       list += msgs
-   }
-
-   return  list
 }
