@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout Changes') {
             steps {
-                scmSkip(deleteBuild: true, skipPattern:'.*\\[ci skip\\].*')
+                // scmSkip(deleteBuild: true, skipPattern:'.*\\[ci skip\\].*')
                 checkout poll: false, scm: scmGit(branches: [[name: '*/1.19.2']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/coryjreid/logicraft.git']])
             }
         }
