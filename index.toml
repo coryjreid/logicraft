@@ -1605,12 +1605,12 @@ file = "config/jaopca/modules/tiny_dusts.toml"
 hash = "29f885679211fb9cd2e71f15b6de10d8b3e88660e9069b6782d0d3b1aa00a681"
 
 [[files]]
-file = "config/jecalculation/config.toml"
-hash = "e26125514cb0d408b8c70eef89f373eef615605a9c656b7aee564c2d9b6437bd"
+file = "config/jecalculation/config-1.toml.bak"
+hash = "6bad9e2052cfd19e08a01882fda05270fabf6b7bf52c94207660d097a2ce43af"
 
 [[files]]
-file = "config/jecalculation/record.json"
-hash = "6074ab4ccac3086ed2bbf2542cd1be9b0eeb32901c88c46b9585ef4fb2a4dce7"
+file = "config/jecalculation/config.toml"
+hash = "6bad9e2052cfd19e08a01882fda05270fabf6b7bf52c94207660d097a2ce43af"
 
 [[files]]
 file = "config/jeed-client.toml"

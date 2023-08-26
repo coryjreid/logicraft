@@ -15,6 +15,7 @@ Desktop.ini
 /config/inventoryprofilesnext/*/
 !/config/inventoryprofilesnext/integrationHints/
 /config/jecalculation/data/
+/config/jecalculation/record.json
 /config/jei/*/
 /config/Mekanism/client.toml
 
