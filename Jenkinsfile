@@ -63,21 +63,12 @@ pipeline {
                         webserverRemote.user = USERNAME
                         webserverRemote.password = PASSWORD
                         def websiteRootPath = '/var/www/logicraft.coryjreid.com/html'
-                        def directories = ['config', 'defaultconfigs', 'kubejs', 'local', 'mods', 'resourcepacks', 'scripts']
-                        def files = ['index.toml', 'launcher.bat', 'pack.toml', 'README.md']
                         
                         echo 'Cleanup website root'
                         sshCommand remote: webserverRemote, command: "cd ${websiteRootPath} && rm -rf ./*"
                         
-                        echo 'Copy folders to website'
-                        for (int i = 0; i < directories.size(); i++) {
-                            sh 'scp -i ~/.ssh/id_rsa -r $WORKSPACE/' + directories[i] + ' $USERNAME@' + webserverRemote.host + ':' + websiteRootPath
-                        }
-                        
-                        echo 'Copy files to website'
-                        for (int i = 0; i < files.size(); i++) {
-                            sh 'scp -i ~/.ssh/id_rsa $WORKSPACE/' + files[i] + ' $USERNAME@' + webserverRemote.host + ':' + websiteRootPath
-                        }
+                        echo 'Copy pack to website'
+                        sh 'scp -i ~/.ssh/id_rsa -r $WORKSPACE/* $USERNAME@' + webserverRemote.host + ':' + websiteRootPath
 
                         echo 'Generate index page'
                         sshCommand remote: webserverRemote, command: "cd ${websiteRootPath} && markdown README.md > index.html"
