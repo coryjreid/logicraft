@@ -1605,10 +1605,6 @@ file = "config/jaopca/modules/tiny_dusts.toml"
 hash = "29f885679211fb9cd2e71f15b6de10d8b3e88660e9069b6782d0d3b1aa00a681"
 
 [[files]]
-file = "config/jecalculation/config-1.toml.bak"
-hash = "6bad9e2052cfd19e08a01882fda05270fabf6b7bf52c94207660d097a2ce43af"
-
-[[files]]
 file = "config/jecalculation/config.toml"
 hash = "6bad9e2052cfd19e08a01882fda05270fabf6b7bf52c94207660d097a2ce43af"
 

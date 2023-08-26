@@ -37,6 +37,7 @@
 /.vscode/
 
 # Minecraft Configurations
+**.bak
 /config/byg/backups/
 /config/inventoryprofilesnext/*/
 !/config/inventoryprofilesnext/integrationHints/
