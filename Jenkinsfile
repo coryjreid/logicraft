@@ -85,11 +85,13 @@ pipeline {
                         sshCommand remote: webserverRemote, command: "rm ${websiteRootPath}/README.md"
                     }
                 }
-                scmSkip(deleteBuild: false, skipPattern:'.*\\[webonly\\].*')
             }
         }
 
         stage('Deploy Minecraft server') {
+            when{
+                when { not { changelog '.*\\[webonly\\].*'} }
+            }
             steps {
                 echo 'Validate Minecraft server is running'
                 script {
