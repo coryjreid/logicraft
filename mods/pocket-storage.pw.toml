@@ -1,0 +1,13 @@
+name = "Pocket Storage"
+filename = "pocketstorage-1.19-1.0.2-build.23.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "61d214abf9b35d3f21046e32a269c986a5b3944c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3873783
+project-id = 367734

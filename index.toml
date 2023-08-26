@@ -6,7 +6,7 @@ hash = "af0d6fc7c15761f8a9b23fd7913ba8d830e8036f2d53cdd2d386b8c6253cebd5"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
-hash = "0dc44320725117f0413dfa9eab6a35f6824206c2fe8d19e844e23e2c18002fe3"
+hash = "681db8ac1eedd2be56ba1a3c82746240cb8362015e7cc4f43a698c752bdd7637"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -946,11 +946,11 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "b2a15ce337b345d4a5c95c8dfd48c09f2ca8e8996f73927247b7137bfae02b77"
+hash = "e25a4e80c307c0e720e19bed86d98633e628af2877de4d30b6e908053a2586b8"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "2a212f3135457c9c006e314db00bcb4afd3c73e361daa98589c93289fee1b801"
+hash = "193ff144459a24294b874d0222ed611a4ffe0b0a64100db0953a9656b76b2faa"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -1122,7 +1122,7 @@ hash = "a14e4cc61cc1bfe4729e7076a1840c5b844dc848799c7bcfd686d14ed129fa66"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
-hash = "8ac48cc5f0c4f119255f276243c35b0d5239fdf72eccab7e5df4359b35eb2d59"
+hash = "9b1781c29543228db00a6a5f0d7eb9f527bd56d1abf1d36cf3c6871fb669e00b"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
@@ -1614,7 +1614,7 @@ hash = "fecaa4caab1f336d368517de9460169d61dceea5fbd6b6bbbeae940a9620b223"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f72bb2f217a45bc467f3a7fae108a12653f51c081ffe6194234b83dacdafc8cf"
+hash = "a192df1d094d3f3e5ae02da06f0e295a796eb4accff43a73d2345d88afe83281"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -2870,6 +2870,11 @@ metafile = true
 [[files]]
 file = "mods/pluto.pw.toml"
 hash = "4ccba84a626f957a1e5bbdcc93be31b6b9fc688061f6ba5aacfb43bc4465a562"
+metafile = true
+
+[[files]]
+file = "mods/pocket-storage.pw.toml"
+hash = "120c10638825c95a954c5f9c0f811ae144218e3dffbd514b0a6cfd852bd31aab"
 metafile = true
 
 [[files]]
