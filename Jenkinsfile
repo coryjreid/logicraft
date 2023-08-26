@@ -43,6 +43,10 @@ pipeline {
 
         stage('Set Modpack Version') {
             steps {
+                echo 'Add execute permission for Packwiz'
+                sh 'chmod +x $WORKSPACE/bin/packwiz'
+                echo 'Add execute permission for toml command'
+                sh 'chmod +x $WORKSPACE/bin/toml'
                 echo 'Update modpack version'
                 sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackName Logicraft_'
                 sh '$WORKSPACE/bin/toml set $WORKSPACE/config/bcc-common.toml general.modpackProjectID 323471'
