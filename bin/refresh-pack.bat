@@ -1,1 +1,0 @@
-.\bin\packwiz.exe refresh
