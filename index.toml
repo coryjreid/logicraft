@@ -1001,6 +1001,10 @@ file = "config/extremereactors/common.toml"
 hash = "7df9df8e110962fe56144215db6b0bd18c628937757982c0e1c7531645a29f01"
 
 [[files]]
+file = "config/extremesoundmuffler-client.toml"
+hash = "74612b4c27697f3d39a3826c6002ec723cb29c5fbf2eebe0b087d5d713bb3fcd"
+
+[[files]]
 file = "config/fastbench.cfg"
 hash = "710932d815313b759bdae2002b44819aca63ceafd8b3e375d61b126ed298daf9"
 
@@ -1829,18 +1833,6 @@ file = "config/smoothswapping.json"
 hash = "3edb7a3cca0e7c3ec09f642516aba923bd8eba7ca414289a4103912fd24a7e66"
 
 [[files]]
-file = "config/sound_physics_remastered/occlusion.properties"
-hash = "9e5ef6625cb75e20ad43805cc89ab9095b7d77c3b85753c077fea94786529137"
-
-[[files]]
-file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "b4d4d02ae38d4f4d9bffbe40237e57fcc2b0abf00375e9cacdbaa7c95c7a844f"
-
-[[files]]
-file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "a97d1d1a42ce7fe86cf544eb6b08e08d51e7b2fad5b04697e6f127fcd96249b3"
-
-[[files]]
 file = "config/spark/config.json"
 hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
@@ -2445,6 +2437,11 @@ hash = "7edfc2aa12a9da0e18ca882c9f2c38e3e5dddb85ec18ad958f33752e69a728a0"
 metafile = true
 
 [[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+hash = "d127e484368f38af2791d8e9964a9d292934ddf9182f9c62b1c3cd5211b05795"
+metafile = true
+
+[[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 hash = "748c5c263a548dab5922f738b5deb49e20ffe3cb2cf258298d86f23a98dfb9dc"
 metafile = true
@@ -2987,11 +2984,6 @@ metafile = true
 [[files]]
 file = "mods/smooth-swapping.pw.toml"
 hash = "ef97889600b4200494cfd8b05ca228d80101ad6254016533632306f018cd4a3e"
-metafile = true
-
-[[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "f2911639cfd58f1f44df7835493555a5aea7a729413f1c5f6dae744136d4c782"
 metafile = true
 
 [[files]]
