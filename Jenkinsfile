@@ -89,8 +89,10 @@ pipeline {
         }
 
         stage('Deploy Minecraft server') {
-            when{
-                when { not { changelog '.*\\[webonly\\].*'} }
+            when {
+                not {
+                    changelog '.*\\[webonly\\].*'
+                }
             }
             steps {
                 echo 'Validate Minecraft server is running'
