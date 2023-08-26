@@ -1,43 +1,60 @@
 ServerEvents.recipes(event => {
-    // RECIPES ARE (OUTPUT, INPUT)
-    // event.recipes.thermal.pulverizer(Item.of('', 1), Item.of('', 1))
-    event.recipes.thermal.pulverizer(Item.of('minecraft:quartz', 2), Item.of('byg:brimstone_nether_quartz_ore', 1))
-    event.recipes.thermal.pulverizer(Item.of('minecraft:quartz', 2), Item.of('byg:blue_nether_quartz_ore', 1))
-    event.recipes.thermal.pulverizer(Item.of('minecraft:quartz', 2), Item.of('minecraft:nether_quartz_ore', 1))
-    event.recipes.thermal.pulverizer(Item.of('minecraft:quartz', 2), Item.of('byg:raw_quartz_block', 1))
+    // RECIPES ARE (OUTPUT, INPUT)    
 
-    // RECIPES ARE (OUTPUT, INPUT)
-    // event.recipes.thermal.pulverizer(Item.of('', 1), Item.of('', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dirty_dust_iron', 1), Item.of('mekanism:clump_iron', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dirty_dust_gold', 1), Item.of('mekanism:clump_gold', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dirty_dust_osmium', 1), Item.of('mekanism:clump_osmium', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dirty_dust_copper', 1), Item.of('mekanism:clump_copper', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dirty_dust_tin', 1), Item.of('mekanism:clump_tin', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dirty_dust_lead', 1), Item.of('mekanism:clump_lead', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dirty_dust_uranium', 1), Item.of('mekanism:clump_uranium', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dust_osmium', 1), Item.of('mekanism:raw_osmium', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dust_fluorite', 1), Item.of('mekanism:fluorite_gem', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dust_refined_obsidian', 1), Item.of('mekanism:ingot_refined_obsidian', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dust_quartz', 1), Item.of('minecraft:quartz', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dust_charcoal', 1), Item.of('minecraft:charcoal', 1))
-    event.recipes.thermal.pulverizer(Item.of('mekanism:dust_coal', 1), Item.of('#minecraft:coals', 1))
+    // Clumps -> Dirty Dust
+    event.recipes.thermal.pulverizer(Item.of('#mekanism:dirty_dusts/iron', 1), Item.of('#mekanism:clumps/iron', 1))
+    event.recipes.thermal.pulverizer(Item.of('#mekanism:dirty_dusts/gold', 1), Item.of('#mekanism:clumps/gold', 1))
+    event.recipes.thermal.pulverizer(Item.of('#mekanism:dirty_dusts/osmium', 1), Item.of('#mekanism:clumps/osmium', 1))
+    event.recipes.thermal.pulverizer(Item.of('#mekanism:dirty_dusts/copper', 1), Item.of('#mekanism:clumps/copper', 1))
+    event.recipes.thermal.pulverizer(Item.of('#mekanism:dirty_dusts/tin', 1), Item.of('#mekanism:clumps/tin', 1))
+    event.recipes.thermal.pulverizer(Item.of('#mekanism:dirty_dusts/lead', 1), Item.of('#mekanism:clumps/lead', 1))
+    event.recipes.thermal.pulverizer(Item.of('#mekanism:dirty_dusts/uranium', 1), Item.of('#mekanism:clumps/uranium', 1))
 
-    // RECIPES ARE (OUTPUT, INPUT)
-    // event.recipes.mekanism.crushing(Item.of('', 1), Item.of('', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:quartz_dust', 1), Item.of('minecraft:quartz', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:nickel_dust', 1), Item.of('thermal:raw_nickel', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:nickel_dust', 2), Item.of('#forge:ores/nickel', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:silver_dust', 1), Item.of('thermal:raw_silver', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:silver_dust', 2), Item.of('#forge:ores/silver', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:ender_pearl_dust', 1), Item.of('minecraft:ender_pearl', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:sawdust', 8), ['#forge:stripped_logs', '#forge:stripped_wood', '#minecraft:logs', '#minecraft:logs_that_burn', 'byg:all/logs'])
-    event.recipes.mekanism.crushing(Item.of('thermal:sulfur_dust', 1), Item.of('thermal:sulfur', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:niter_dust', 1), Item.of('thermal:niter', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:cinnabar_dust', 1), Item.of('thermal:cinnabar', 1))
-    event.recipes.mekanism.crushing(Item.of('thermal:apatite_dust', 1), Item.of('thermal:apatite', 1))
-    event.recipes.mekanism.crushing(Item.of('mekanism:dust_osmium', 1), Item.of('mekanism:raw_osmium', 1))
-    event.recipes.mekanism.crushing(Item.of('minecraft:glowstone_dust', 4), Item.of('minecraft:glowstone', 1))
-    event.recipes.mekanism.crushing(Item.of('bigreactors:cyanite_dust', 1), Item.of('bigreactors:cyanite_ingot', 1))
-    event.recipes.mekanism.crushing(Item.of('bigreactors:graphite_dust', 1), Item.of('bigreactors:graphite_ingot', 1))
+    // Gems -> Dust
+    event.recipes.thermal.pulverizer(Item.of('#forge:dusts/fluorite', 1), Item.of('#forge:gems/fluorite', 1))
+    event.recipes.thermal.pulverizer(Item.of('#forge:dusts/quartz', 1), Item.of('#forge:gems/quartz', 1))
+    
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/sulfur', 1), Item.of('#forge:gems/sulfur', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/quartz', 1), Item.of('#forge:gems/quartz', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/niter', 1), Item.of('#forge:gems/niter', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/cinnabar', 1), Item.of('#forge:gems/cinnabar', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/apatite', 1), Item.of('#forge:gems/apatite', 1))
+    
+    // Misc -> Dust    
+    event.recipes.thermal.pulverizer(Item.of('#forge:dusts/refined_obsidian', 1), Item.of('#forge:ingots/refined_obsidian', 1))    
+    event.recipes.thermal.pulverizer(Item.of('#forge:dusts/charcoal', 1), Item.of('#forge:charcoal', 1))
+    event.recipes.thermal.pulverizer(Item.of('#forge:dusts/coal', 1), Item.of('#minecraft:coals', 1))
+    
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/ender_pearl', 1), Item.of('#forge:ender_pearls', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/wood', 8), ['#forge:stripped_logs', '#forge:stripped_wood', '#minecraft:logs', '#minecraft:logs_that_burn', 'byg:all/logs'])
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/glowstone', 4), Item.of('#forge:storage_blocks/glowstone', 1))
+
+    // Raw -> Dust
+    event.recipes.thermal.pulverizer(Item.of('#forge:dusts/osmium', 1), Item.of('#forge:raw_materials/osmium', 1))
+    event.recipes.thermal.pulverizer(Item.of('#forge:dusts/uranium', 1), Item.of('#forge:raw_materials/uranium', 1))
+    event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_zinc', 2), Item.of('#forge:raw_materials/zinc', 1))
+    
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/nickel', 1), Item.of('#forge:raw_materials/nickel', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/silver', 1), Item.of('#forge:raw_materials/silver', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/osmium', 1), Item.of('#forge:raw_materials/osmium', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/uranium', 1), Item.of('#forge:raw_materials/uranium', 1))
+    event.recipes.mekanism.crushing(Item.of('create:crushed_raw_zinc', 2), Item.of('#forge:raw_materials/zinc', 1))
+
+    // Ores -> Dust
+    event.recipes.thermal.pulverizer(Item.of('#forge:gems/quartz', 2), Item.of('byg:brimstone_nether_quartz_ore', 1))
+    event.recipes.thermal.pulverizer(Item.of('#forge:gems/quartz', 2), Item.of('byg:blue_nether_quartz_ore', 1))
+    event.recipes.thermal.pulverizer(Item.of('#forge:gems/quartz', 2), Item.of('minecraft:nether_quartz_ore', 1))
+    event.recipes.thermal.pulverizer(Item.of('#forge:gems/quartz', 2), Item.of('byg:raw_quartz_block', 1))
+
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/nickel', 2), Item.of('#forge:ores/nickel', 1))    
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/silver', 2), Item.of('#forge:ores/silver', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:gems/quartz', 2), Item.of('byg:brimstone_nether_quartz_ore', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:gems/quartz', 2), Item.of('byg:blue_nether_quartz_ore', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:gems/quartz', 2), Item.of('minecraft:nether_quartz_ore', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:gems/quartz', 2), Item.of('byg:raw_quartz_block', 1))
+    
+    // Ingots -> Dust
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/cyanite', 1), Item.of('#forge:ingots/cyanite', 1))
+    event.recipes.mekanism.crushing(Item.of('#forge:dusts/graphite', 1), Item.of('#forge:ingots/graphite', 1))
   })
   

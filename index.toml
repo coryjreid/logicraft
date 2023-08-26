@@ -914,7 +914,7 @@ hash = "b7904b35735ae1e6396911f306a8e74f8e42677c4e8c11f01af2b5bf65f5037c"
 
 [[files]]
 file = "config/cucumber-tags.json"
-hash = "58467789acb8600f8dbfb093f2d7d206b2c0f51303049d2ea8acfaa271709b3a"
+hash = "b80d245d275c35281711cdc33b80624b09a632d2650843a7a8c4496ba7e478ec"
 
 [[files]]
 file = "config/cupboard.json"
@@ -2106,7 +2106,7 @@ hash = "47f68cc82e845da4a12b34ab8dd7ceb3400df862028e81e80f90cd75b4cf505a"
 
 [[files]]
 file = "kubejs/server_scripts/pulverizer_crusher_compatibility.js"
-hash = "9c60bac77fcc4dedd18dad2019fba031e6553b658356a3dc177b7a8fd9e275d7"
+hash = "81f62bd80eb2a0ebb56ce0f122d6a46d0fb8992a77141db15301e99fb5aec8a3"
 
 [[files]]
 file = "kubejs/startup_scripts/example.js"
