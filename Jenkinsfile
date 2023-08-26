@@ -15,8 +15,8 @@ pipeline {
     stages {
         stage('Checkout Changes') {
             steps {
-                // scmSkip(deleteBuild: true, skipPattern:'.*\\[ci skip\\].*')
                 checkout poll: false, scm: scmGit(branches: [[name: '*/1.19.2']], extensions: [], userRemoteConfigs: [[credentialsId: 'github', url: 'https://github.com/coryjreid/logicraft.git']])
+                scmSkip(deleteBuild: false, skipPattern:'.*\\[nobuild\\].*')
             }
         }
 
@@ -85,6 +85,7 @@ pipeline {
                         sshCommand remote: webserverRemote, command: "rm ${websiteRootPath}/README.md"
                     }
                 }
+                scmSkip(deleteBuild: false, skipPattern:'.*\\[webonly\\].*')
             }
         }
 
