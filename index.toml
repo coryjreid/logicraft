@@ -466,7 +466,7 @@ hash = "d048f1f87fd8e006a5a77accb0416f7ef673197b29d65d0397dce7eb6b2b7d0f"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
-hash = "9376911f8431f28c6d7cef493ac8466491a79961793096385ad2e88aea4ffdf2"
+hash = "2c5eba79cde20bd1658a43dc0527e5d45b2e462d2f065e228527eee8513446be"
 
 [[files]]
 file = "config/betteranimalsplus-client.toml"
@@ -914,7 +914,7 @@ hash = "b80d245d275c35281711cdc33b80624b09a632d2650843a7a8c4496ba7e478ec"
 
 [[files]]
 file = "config/cupboard.json"
-hash = "c84401fd4cd1943223d8a81c3f74ba1e22db337b4bafbd1143e8ba5c4ec9e84d"
+hash = "368923d2cf11c5f31305d1c0c546035ec1f3e957f44c7068df1da600befa44ad"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -946,7 +946,7 @@ hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "e25a4e80c307c0e720e19bed86d98633e628af2877de4d30b6e908053a2586b8"
+hash = "c965e9a65823996e757737fbd61f183069c838d1a73e64898cf76e2c7252b162"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -1130,11 +1130,11 @@ hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
-hash = "b00ad21a7ea0f2bac95bb00cf485bcab1106c010dade1f3f3e5854be03f06a0d"
+hash = "f273859cd7bca308c5b940001bc49ce4adce9b48c91b4e4f83df7fb69aba9200"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "e9ff2878e668a2bfde2d7efa46c6d43a83deacf3a4d8e749a4065e07450b52d9"
+hash = "64951884a3b5b44066c6c45dc1d406189fbc104deff55b93bd575a887db2a2a7"
 
 [[files]]
 file = "config/jaopca/custom_forms.json"

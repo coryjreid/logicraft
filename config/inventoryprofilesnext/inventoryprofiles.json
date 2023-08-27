@@ -1,5 +1,11 @@
 {
     "ModSettings": {
+        "villager_trading_enable": {
+            "value": false
+        },
+        "restock_hotbar": {
+            "value": true
+        },
         "first_run": false
     },
     "GuiSettings": {
@@ -11,10 +17,85 @@
         },
         "enable_profiles_ui": {
             "value": false
+        },
+        "show_continuous_crafting_checkbox": {
+            "value": false
         }
     },
     "LockedSlotsSettings": {
         "lock_slots_disable_user_interaction": {
+            "value": true
+        },
+        "locked_slots_allow_pickup_into_empty": {
+            "value": true
+        },
+        "locked_slots_empty_hotbar_as_semi_locked": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "auto_refill_wait_tick": 5,
+        "auto_refill_match_any_food": true,
+        "type_visual_durability_notification": "CHAT",
+        "type_visual_replace_success_notification": "CHAT",
+        "type_visual_replace_failed_notification": "CHAT"
+    },
+    "ScrollSettings": {
+        "scroll_full_stack": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_leave_last": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_spread": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_throw": {
+            "main": {
+                "keys": ""
+            }
+        }
+    },
+    "Hotkeys": {
+        "scroll_to_chest": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "scroll_to_inventory": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "global_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "local_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_global_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_local_trade": {
+            "main": {
+                "keys": ""
+            }
+        }
+    },
+    "Tweaks": {
+        "prevent_close_gui_drop_item": {
             "value": true
         }
     }

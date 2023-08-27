@@ -1,45 +1,307 @@
 {
-    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
-        "buttonHints": {
-            "SHOW_EDITOR": {
-                "horizontalOffset": 306,
-                "top": 121
-            },
-            "SETTINGS": {
-                "horizontalOffset": 306,
-                "top": 121
-            }
-        }
+    "com.refinedmods.refinedstorage.container.AlternativesContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
     },
-    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
-        "buttonHints": {
-            "SETTINGS": {
-                "horizontalOffset": 28,
-                "top": -22
-            },
-            "PROFILE_SELECTOR": {
-                "bottom": 132
-            },
-            "SHOW_EDITOR": {
-                "horizontalOffset": 45,
-                "top": -7
-            },
-            "MOVE_TO_CONTAINER": {
-                "bottom": -12
-            },
-            "SORT": {
-                "horizontalOffset": 12
-            },
-            "SORT_COLUMNS": {
-                "horizontalOffset": 12
-            },
-            "SORT_ROWS": {
-                "horizontalOffset": 12
-            },
-            "CONTINUOUS_CRAFTING": {
-                "horizontalOffset": 40,
-                "bottom": -28
-            }
-        }
+    "com.refinedmods.refinedstorage.container.AmountContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.BaseContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.ConstructorContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.ControllerContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.CrafterContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.CrafterManagerContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.CraftingMonitorContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.CraftingSettingsContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.DestructorContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.DetectorContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.DiskDriveContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.DiskManipulatorContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.ExporterContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.ExternalStorageContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.FilterContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.FluidAmountContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.FluidInterfaceContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.FluidStorageContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.GridContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.ImporterContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.InterfaceContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.NetworkTransmitterContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.RelayContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.SecurityManagerContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.StorageContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.StorageMonitorContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.container.WirelessTransmitterContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.AmountSpecifyingScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.BaseScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.ConstructorScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.ControllerScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.CrafterBlockEntitySynchronizationClientListener": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.CrafterManagerScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.CrafterScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.CraftingMonitorScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.DestructorScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.DetectorScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.DiskDriveScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.DiskManipulatorScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.EmptyScreenInfoProvider": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.ExporterScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.ExternalStorageScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.FilterScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.FluidAmountScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.FluidInterfaceScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.FluidStorageBlockScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.ImporterScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.InterfaceScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.IScreenInfoProvider": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.ItemAmountScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.KeyInputListener": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.NetworkTransmitterScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.PriorityScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.RelayScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.SecurityManagerScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.StorageBlockScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.StorageMonitorScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.StorageScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.StorageScreenSynchronizationParameters": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "com.refinedmods.refinedstorage.screen.WirelessTransmitterScreen": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
     }
 }
