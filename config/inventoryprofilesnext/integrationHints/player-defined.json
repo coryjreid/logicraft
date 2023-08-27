@@ -303,5 +303,200 @@
         "ignore": true,
         "playerSideOnly": false,
         "force": true
+    },
+    "mekanism.client.gui.machine.GuiAdvancedElectricMachine": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiAntiprotonicNucleosynthesizer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalCrystallizer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalDissolutionChamber": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalInfuser": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalOxidizer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiChemicalWasher": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiCombiner": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiDigitalMiner": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiDigitalMinerConfig": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiElectricMachine": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiElectricPump": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiElectrolyticSeparator": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiFactory": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiFluidicPlenisher": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiFormulaicAssemblicator": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiFuelwoodHeater": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiIsotopicCentrifuge": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiMetallurgicInfuser": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiNutritionalLiquifier": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiOredictionificator": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiPaintingMachine": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiPigmentExtractor": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiPigmentMixer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiPRC": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiPrecisionSawmill": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiResistiveHeater": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiRotaryCondensentrator": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiSeismicVibrator": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.client.gui.machine.GuiSolarNeutronActivator": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.ContainerProvider": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.IEmptyContainer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.IGUIWindow": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.ISecurityContainer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.ITrackableContainer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.MekanismContainer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.ModuleTweakerContainer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.QIOItemViewerContainer": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
+    },
+    "mekanism.common.inventory.container.SelectedWindowData": {
+        "ignore": true,
+        "playerSideOnly": false,
+        "force": true
     }
 }
