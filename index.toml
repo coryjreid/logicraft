@@ -2532,7 +2532,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-terminals.pw.toml"
-hash = "2898399f7ffb2693e0871e657a69ea415bd82b795587553a605761998050bf29"
+hash = "64fecb5647464e22d9caad96047e9fc7c234fbed7b66ad99fd1a2a50066e5228"
 metafile = true
 
 [[files]]
