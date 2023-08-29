@@ -44,6 +44,30 @@
             "group": "build"
         },
         {
+            "label": "Docs: Serve",
+            "type": "shell",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "never",
+                "focus": false,
+                "panel":"dedicated",
+                "showReuseMessage": false,
+                "clear": false,
+                "close": true
+            },
+            "problemMatcher": [],
+            "group": "none"
+        },
+        {
             "label": "Clean Timestamped Config",
             "type": "shell",
             "command": "git",
