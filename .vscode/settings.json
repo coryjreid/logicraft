@@ -1,3 +1,6 @@
 {
-    "explorer.autoReveal": false
+    "explorer.autoReveal": false,
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-action.json": "file:///d%3A/Projects/Logicraft/modpack/.github/workflows/release-please.yml"
+    }
 }
