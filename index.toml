@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/BBOutlineReloaded.cfg"
-hash = "af0d6fc7c15761f8a9b23fd7913ba8d830e8036f2d53cdd2d386b8c6253cebd5"
+hash = "8ac777214d5987550916d4ae9ef247fd422d259637c724810ac823baf5356bbc"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
@@ -610,7 +610,7 @@ hash = "3843f47cb52faddf9bc4d8dd08a4d7e30061e671128d99412ca6a6c27bd1485b"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "02537ef8afc221f39bc62aafa9efd1e7ab4b7d005fb66a7a4a00022c7b625905"
+hash = "e2932cf0a2147dc6dce43cdd319e22160285767ef0e372bbf6be5601ce7b137f"
 
 [[files]]
 file = "config/betterwitchhuts-forge-1_19.toml"
@@ -1670,7 +1670,7 @@ hash = "b630e660d677e22c694d5b87b5f2da9d8029e2a0ca9cbecbcdb6a774eae6e5c0"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "2bef66e39f14c2dcb30f8fde578c6535bed6a9d45288d3f8a3bbc82145796d0a"
+hash = "b180ebb5cd15625cc698fde31ce83559cc65f96a5ae1881ae4247bc1b1fe5d82"
 
 [[files]]
 file = "config/lightingwand-common.toml"
@@ -1718,7 +1718,7 @@ hash = "5d47dd0a56c005c033f9ccc4318f275ba5c9e89550ae8a69dbc672e11167ef56"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ba60ef35521bcea33c819659d6b40b6175f3da378fce61476ad8744dd8fcaf4b"
+hash = "fce42ab9d79ca2da7063ae03182a1868bccb29091a052332af06964aa7ad7a02"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
@@ -2272,7 +2272,7 @@ metafile = true
 
 [[files]]
 file = "mods/chisels-bits.pw.toml"
-hash = "c324a6791dbb090123f20d2d870e2beaa0d15df69ac3596b19422f3bedff7869"
+hash = "eaf5ff310b162fe7f6443807011b9a3b5735ce20898b81ec8628ec2111fc0626"
 metafile = true
 
 [[files]]
@@ -2382,7 +2382,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "3a698f901d9b1e76f8a75b534daa0b865a54cb898c8275ad06bd450387f93d5d"
+hash = "2183046224c7919d56fe1241c39deab70a4d63eaa444bfd1eaf9250bd09be514"
 metafile = true
 
 [[files]]
@@ -2522,7 +2522,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "64fc58af52c46e75c5e96cac73d8cbed7d64642c173ebe2cd4d8406a7a05d71d"
+hash = "9054e2ce7bb1576458dcec08fae9ebf3a745723685a81c5da06f28f8e5e7544e"
 metafile = true
 
 [[files]]
@@ -2537,7 +2537,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-tunnels.pw.toml"
-hash = "a4a7a3acfd31b7c2ea757f133c2eeb2e7801742551437e452f241bb226402aa4"
+hash = "d04ba3343ee8feaa376247d4405b47cf6e8552bb3a1ecf5546ecbe931e64fe12"
 metafile = true
 
 [[files]]
@@ -2637,7 +2637,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "6ecdb29b8286ce932de61ebf2ea8233cd40046b2f0fce85992202cb07eabbba2"
+hash = "cafcd994b51f3c2bd875fa2cc2f597da6485ca95f8be0a3c2d59891608028173"
 metafile = true
 
 [[files]]

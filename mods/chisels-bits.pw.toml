@@ -1,13 +1,13 @@
 name = "Chisels & Bits - For Forge"
-filename = "chisels-and-bits-forge-1.3.135.jar"
+filename = "chisels-and-bits-forge-1.3.142.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4833e1c0b595babd7eb0874851e8ff4d90376939"
+hash = "c50db39cf3d824258010cb23abea901c4c83b35d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4449160
+file-id = 4724660
 project-id = 231095
