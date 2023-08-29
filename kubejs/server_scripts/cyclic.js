@@ -44,6 +44,7 @@ ServerEvents.recipes(event => {
             { output: 'cyclic:fireball' },
             { output: 'cyclic:crafting_stick' },
             { output: 'cyclic:crafting_bag' },
+            { output: 'cyclic:ender_eye_reuse' }
         ]
     })
     event.shapeless(
