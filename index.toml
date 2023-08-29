@@ -1706,7 +1706,7 @@ hash = "8fad5e2206758eceae2ee8618886715ef1de63eecf60f4f20d237be8f75d157c"
 
 [[files]]
 file = "config/mysticalagriculture-common.toml"
-hash = "ed463702fa12815324223ec56f4673131bcbb1266c5dc3a606be85cb602b2fcc"
+hash = "9e10374729524436bc798d3b6243b9a8fc5efa7114e65be78b4bf36e75dd7123"
 
 [[files]]
 file = "config/naturescompass-client.toml"
@@ -2069,6 +2069,10 @@ file = "kubejs/client_scripts/jei_hide_items.js"
 hash = "b01588fda79cf51f80fa0d88fd10f33ec1af8da2565dcc68f5b2ded3b3f9517e"
 
 [[files]]
+file = "kubejs/client_scripts/mysticalagriculture.js"
+hash = "e4698c11dd3b38f7d9227fa818909d985bd31835a929ec94495226722788fa91"
+
+[[files]]
 file = "kubejs/client_scripts/pipez.js"
 hash = "ec68ae007699063fefbe17f6df72313678f1977febc9fc9c22675a0ad08ad464"
 
@@ -2091,6 +2095,10 @@ hash = "47f68cc82e845da4a12b34ab8dd7ceb3400df862028e81e80f90cd75b4cf505a"
 [[files]]
 file = "kubejs/server_scripts/multiservopress_mechanicalpress_compatibility.js"
 hash = "31fa43ba68734a94fce62288c26c851c5c4ba7cae8c3aea784da5e7e9a742e1f"
+
+[[files]]
+file = "kubejs/server_scripts/mysticalagriculture.js"
+hash = "be4bf45de5f14048103e7b70c9dac30ef631853c8fe682eee062c8e9781a97df"
 
 [[files]]
 file = "kubejs/server_scripts/pulverizer_crusher_compatibility.js"

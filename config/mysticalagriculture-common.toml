@@ -15,10 +15,10 @@
 	#Should wearing a full set of Awakened Supremium armor grant the Plant Growth AOE set bonus?
 	awakenedSupremiumSetBonus = true
 	#Should Supremium Tools be enchantable in an Enchanting Table?
-	enchantableSupremiumTools = false
+	enchantableSupremiumTools = true
 	#The amount of time in seconds between each Growth Accelerator growth tick.
 	#Range: > 1
-	growthAcceleratorCooldown = 10
+	growthAcceleratorCooldown = 2
 	#Should fake players be able to use watering cans?
 	fakePlayerWatering = true
 	#Should the Ender Dragon drop essence when killed with an essence weapon?
