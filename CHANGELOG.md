@@ -2,6 +2,7 @@
 
 ## 1.0.0 (2023-08-29)
 
+**NOTE: This is a re-release which resets the version number and lists some old commits which used the correct style.** 
 
 ### Features
 
