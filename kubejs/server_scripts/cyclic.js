@@ -1,3 +1,8 @@
+ItemEvents.rightClicked(event => {
+    if (event.getItem() == new Item.of('cyclic:experience_food')) {
+        event.cancel()
+    }
+})
 ServerEvents.recipes(event => {
     event.remove({
         mod: 'cyclic',
