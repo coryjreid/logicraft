@@ -20,6 +20,7 @@ Desktop.ini
 /config/Mekanism/client.toml
 
 # Directory rules
+node_modules/
 kubejs/*
 kubejs/config/probejs.json
 !/kubejs/README.txt
