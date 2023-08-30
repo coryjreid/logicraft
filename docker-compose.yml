@@ -50,6 +50,7 @@ services:
   backups:
     image: itzg/mc-backup
     container_name: mcb
+    network_mode: 'host'
     depends_on:
       mc:
         condition: service_healthy
