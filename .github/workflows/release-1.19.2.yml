@@ -1,3 +1,5 @@
+name: Release Task
+
 on:
   push:
     branches:
@@ -6,8 +8,6 @@ on:
 permissions:
   contents: write
   pull-requests: write
-  
-name: release-please
 
 jobs:
   release-please:
@@ -18,3 +18,4 @@ jobs:
           release-type: simple
           package-name: release-please-action
           default-branch: 1.19.2
+          token: ${{ secrets.ACTIONS_RETRIGGER_TOKEN }}
