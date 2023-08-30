@@ -30,6 +30,8 @@ services:
       OPS: ${OPS}
       UID: ${UID}
       GID: ${GID}
+      RCON_CMDS_STARTUP:  |-
+        gamerule doFireTick false
     depends_on:
       restore-backup:
         condition: service_completed_successfully
