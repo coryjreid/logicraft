@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/coryjreid/logicraft/compare/v1.1.0...v1.2.0) (2023-08-30)
+
+
+### Features
+
+* disable fire tick gamerule on every start of the server ([dffc3b2](https://github.com/coryjreid/logicraft/commit/dffc3b2461abb2d108905a6bfce5a3f4720c51db))
+
 ## [1.1.0](https://github.com/coryjreid/logicraft/compare/v1.0.0...v1.1.0) (2023-08-30)
 
 
