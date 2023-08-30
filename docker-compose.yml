@@ -48,6 +48,7 @@ services:
       - ${BACKUP_DIR}:/backups:ro
   backups:
     image: itzg/mc-backup
+    container_name: mcb
     depends_on:
       mc:
         condition: service_healthy
