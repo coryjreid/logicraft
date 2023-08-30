@@ -11,7 +11,7 @@ services:
       VERSION: '1.19.2'
       TYPE: 'FORGE'
       FORGE_VERSION: '43.2.21'
-      MEMORY: '12G'
+      MEMORY: '4G'
       USE_AIKAR_FLAGS: 'true'
       DIFFICULTY: 'hard'
       ENABLE_WHITELIST: 'true'
@@ -21,7 +21,7 @@ services:
       SPAWN_PROTECTION: 0
       PVP: 'true'
       TZ: 'America/Denver'
-      PACKWIZ_URL: 'https://logicraft.coryjreid.com/pack.toml'
+      PACKWIZ_URL: ${PACKWIZ_URL}
       FORCE_GAMEMODE: 'true'
       ALLOW_FLIGHT: 'true'
       #DEBUG: 'true'
@@ -30,5 +30,35 @@ services:
       OPS: ${OPS}
       UID: ${UID}
       GID: ${GID}
+    depends_on:
+      restore-backup:
+        condition: service_completed_successfully
     volumes:
       - ${DATA_DIR}:/data
+  # "init" container for mc to restore the data volume when empty    
+  restore-backup:
+    # Same image as mc, but any base image with bash and tar will work
+    image: itzg/mc-backup
+    restart: no
+    entrypoint: restore-tar-backup
+    volumes:
+      # Must be same mount as mc service, needs to be writable
+      - ${DATA_DIR}:/data
+      # Must be same mount as backups service, but can be read-only
+      - ${BACKUP_DIR}:/backups:ro
+  backups:
+    image: itzg/mc-backup
+    depends_on:
+      mc:
+        condition: service_healthy
+    environment:
+      BACKUP_INTERVAL: "15m"
+      RCON_HOST: mc
+      # since this service waits for mc to be healthy, no initial delay is needed
+      INITIAL_DELAY: 0
+      TZ: 'America/Denver'
+      PAUSE_IF_NO_PLAYERS: 'true'
+      PRUNE_BACKUPS_DAYS: 1
+    volumes:
+      - ${DATA_DIR}:/data:ro
+      - ${BACKUP_DIR}:/backups
