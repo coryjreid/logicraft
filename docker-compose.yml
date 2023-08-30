@@ -55,7 +55,7 @@ services:
       mc:
         condition: service_healthy
     environment:
-      BACKUP_INTERVAL: "15m"
+      BACKUP_INTERVAL: "30m"
       RCON_HOST: mc
       # since this service waits for mc to be healthy, no initial delay is needed
       INITIAL_DELAY: 0
