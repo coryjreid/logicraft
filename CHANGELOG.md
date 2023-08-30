@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/coryjreid/logicraft/compare/v1.0.0...v1.1.0) (2023-08-30)
+
+
+### Features
+
+* upgrade ftb chunks ([2b127d5](https://github.com/coryjreid/logicraft/commit/2b127d5a01656e75f93b054e321bc123ab18d5f2))
+* upgrade integrated terminals ([4f7ca8e](https://github.com/coryjreid/logicraft/commit/4f7ca8eba3158b029bd6c4e383679875ecd327d5))
+
 ## 1.0.0 (2023-08-29)
 
 **NOTE: This is a re-release which resets the version number and lists some old commits which used the correct style.** 
