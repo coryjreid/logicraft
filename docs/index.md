@@ -1,26 +1,42 @@
 ---
+layout: default
 title: Home
-layout: home
+nav_order: 1
+description: "A Minecraft Forge-based modpack centered on the idea of automatically generating the resources you need"
+permalink: /
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Focus on automating all the things
+{: .fs-9 }
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Logicraft gives you all the tools you need to generate infinite resources to be able to acquire all the end-game things.
+{: .fs-6 .fw-300 }
 
-More specifically, the created site:
+---
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+This pack is designed to give you powerful tools to quickly start automating production of resources. Your goal should be to acquire the minimum resources needed to begin this process, and then progressively increase the amount and quantity of items you're producing until you can attain the end-game gear of your choice!
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+There are a number of technology mods in the pack to allow you to choose your own adventure such as:
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- Thermal Series of mods
+- Mekanism
+- Botania
 
-To get started with creating a site, just click "[use this template]"!
+Typically people choose to chase the armor of Botania or Mekanism. You can combine these systems in any way you desire, or explore each as an individual entity. The choice is yours!
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+## About the project
 
-#### Thank you to the contributors of Just the Docs!
+Logicraft is &copy; 2020-{{ "now" | date: "%Y" }} by [Cory J Reid](https://coryjreid.com).
+
+### License
+
+Logicraft is distributed by a [GPLv3 license](https://github.com/coryjreid/logicraft/blob/1.19.2/COPYING).
+
+### Contributing
+
+While playing the pack please take note of any issues you encounter. This includes, but is not limited to, bugs, glitches, crashes, inconsistencies, irregularities, or balance issues. Once identified, please open an Issue on GitHub with as much documentation/supporting evidence as you can supply. In particular, steps to reproduce are the most useful.
+
+#### Thank you to the contributors of Logicraft!
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
@@ -29,14 +45,3 @@ If you want to maintain your docs in the `docs` directory of an existing project
   </li>
 {% endfor %}
 </ul>
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
