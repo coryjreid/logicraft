@@ -88,7 +88,7 @@ pipeline {
             steps {
                 echo 'Validate Minecraft server is running'
                 script {
-                    def r = sh script: 'docker ps --filter "name=$SERVER_DOCKER_CONTAINER_NAME" --filter "status=running" --quiet', returnStdout: true
+                    def r = sh script: 'docker ps --filter "name=^$SERVER_DOCKER_CONTAINER_NAME$$" --filter "status=running" --quiet', returnStdout: true
                     return (r != '')
                 }
 
@@ -104,7 +104,7 @@ pipeline {
                 timeout(2) {
                     waitUntil(initialRecurrencePeriod: 15000) {
                         script {
-                            def r = sh script: 'docker ps --filter "name=$SERVER_DOCKER_CONTAINER_NAME" --filter "status=running" --quiet', returnStdout: true
+                            def r = sh script: 'docker ps --filter "name=^$SERVER_DOCKER_CONTAINER_NAME$$" --filter "status=running" --quiet', returnStdout: true
                             return (r == '')
                         }
                     }
