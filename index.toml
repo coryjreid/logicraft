@@ -1862,7 +1862,7 @@ hash = "d83b7263ca213fb3c2ea61e543f866d59ddde22dd9722278bf47198fc1e1d4d0"
 
 [[files]]
 file = "config/tombstone-server.toml"
-hash = "c7cedbcffd2c749ddb1453f66610f4b1a0b63c585449ff883900f88fc0688266"
+hash = "a55cfaed98cd24b748dcf10cc90cabf3652d340e23324c3c6e66c38638e9784d"
 
 [[files]]
 file = "config/trashslot-client.toml"

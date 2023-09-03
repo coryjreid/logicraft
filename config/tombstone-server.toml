@@ -65,7 +65,7 @@
 	scroll_of_knowledge_loss = 0
 	#Maximum uses of a tablet [1..10|default:3]
 	#Range: 1 ~ 10
-	tablet_max_use = 3
+	tablet_max_use = 10
 	#Cooldown in second after using a tablet [60..1200|default:300]
 	#Range: 60 ~ 1200
 	tablet_cooldown = 60
@@ -74,10 +74,10 @@
 [decorative_grave]
 	#The cooldown in hours to pray with the Ankh [1..10|default:3]
 	#Range: 1 ~ 10
-	cooldown_to_pray = 3
+	cooldown_to_pray = 1
 	#The cooldown in minutes to reset the perks with the ankh of Pray [20..1440|default:120]
 	#Range: 20 ~ 1440
-	cooldown_reset_perk = 60
+	cooldown_reset_perk = 20
 
 #Allows to disable some magic items
 [allowedMagicItems]
