@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/coryjreid/logicraft/compare/v1.2.0...v1.3.0) (2023-09-03)
+
+
+### Features
+
+* adjust some corail tombstone settings ([be050e7](https://github.com/coryjreid/logicraft/commit/be050e7652799ec72829253850c8422e1cb0ef1c))
+* upgrade mods carry on, cupboard, every compat, kubejs, macaw's stuff ([ea2405f](https://github.com/coryjreid/logicraft/commit/ea2405f23732430fae96df68d767a50e8fef0dbe))
+
 ## [1.2.0](https://github.com/coryjreid/logicraft/compare/v1.1.0...v1.2.0) (2023-08-30)
 
 
