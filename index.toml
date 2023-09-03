@@ -914,7 +914,7 @@ hash = "b80d245d275c35281711cdc33b80624b09a632d2650843a7a8c4496ba7e478ec"
 
 [[files]]
 file = "config/cupboard.json"
-hash = "368923d2cf11c5f31305d1c0c546035ec1f3e957f44c7068df1da600befa44ad"
+hash = "eb7990d46c2afbc5f287b8e6e37ad4b8d9b28f8807e8ca701cc6698084db1307"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -2082,7 +2082,7 @@ hash = "503ec926a8f9e44d9e0c9559517af7a494c1876767cd92d480317b6adf48c563"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "218015b3f9acb94ac37c5b034398066e1d736b5d2ba558346dc489bc6f15115d"
+hash = "ac74305201ff30fe9d31b76e9aa522eccc96e4d7de9bdf5b2e8fb67cf9769d03"
 
 [[files]]
 file = "kubejs/server_scripts/cyclic.js"
@@ -2118,7 +2118,7 @@ hash = "867c4144879ed2270903a0a0b53afb52f3917bfaa6ceb84c5f5ae11adc707641"
 
 [[files]]
 file = "local/kubejs/dev.properties"
-hash = "8d0d54a7a003ba9a6654289dd7346109db636dba4aa9ed9b1fb96c08b7e968f1"
+hash = "133d2892c3be602b58058227411f8797fe67189213f072e07fc080fd8a35c254"
 
 [[files]]
 file = "mods/absent-by-design.pw.toml"
@@ -2262,7 +2262,7 @@ metafile = true
 
 [[files]]
 file = "mods/carry-on.pw.toml"
-hash = "8bbefdc705e24ebd5d8c2d39de530d3767def3153d8d364d49a93cdc930bddbc"
+hash = "8bd9c4362f4cd5a47f1b4dce7003d81bc176ec609683f209ea4d05909b7887e4"
 metafile = true
 
 [[files]]
@@ -2367,7 +2367,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "a7772c1f7948e87e8adb3357b65277226fe454d670aa2268963729df075d1363"
+hash = "913d9e2d447f5ec5b66277219458a9c932ed6b21c27a51483d8d9bb9c9de1455"
 metafile = true
 
 [[files]]
@@ -2422,7 +2422,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "87d0711680d6b8647d100934e398730ad6e4cfb7dc945473e74ec4234306a843"
+hash = "c8fc2a092200c108ef7951a1394e4597b0c07f276c952bf8924df8bbe6141816"
 metafile = true
 
 [[files]]
@@ -2637,7 +2637,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "cafcd994b51f3c2bd875fa2cc2f597da6485ca95f8be0a3c2d59891608028173"
+hash = "8a03effbc934572ee85bbe3163c8435e4db4b14cc968ca8c8d7e645500549b2b"
 metafile = true
 
 [[files]]
@@ -2702,12 +2702,12 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-furniture.pw.toml"
-hash = "0c0819e3f1ca43c84af57322e215cd56c8b94a1b620dd021000e0af5775e8af5"
+hash = "4bea29c085005c64ebb779e2b831f531d390889ca93057e7feaaf68329ec7544"
 metafile = true
 
 [[files]]
 file = "mods/macaws-furnitures-oh-the-biomes-youll-go.pw.toml"
-hash = "6fa868a8afa26b117494528b5bc61f5bb0dae4508b96b7a3bdcaa34451a1c936"
+hash = "81b569c56bc20302d3521fb78ad4ce25ad9e34ea056c7e9c307639af8c192bab"
 metafile = true
 
 [[files]]
