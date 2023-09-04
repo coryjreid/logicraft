@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/coryjreid/logicraft/compare/v1.3.0...v1.4.0) (2023-09-04)
+
+
+### Features
+
+* add starlight ([afa3863](https://github.com/coryjreid/logicraft/commit/afa38636dee71e35bd91a4517a75a959527c1e94))
+
 ## [1.3.0](https://github.com/coryjreid/logicraft/compare/v1.2.0...v1.3.0) (2023-09-03)
 
 
