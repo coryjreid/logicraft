@@ -98,7 +98,7 @@ pipeline {
                     env.SERVER_DOCKER_CONTAINER_NAME)
 
                 echo 'Perform shutdown'
-                sh 'docker exec $SERVER_DOCKER_CONTAINER_NAME rcon-cli stop'
+                sh 'cd $SERVER_DIR && docker compose down'
 
                 echo 'Wait for shutdown to complete'
                 timeout(2) {
@@ -123,7 +123,7 @@ pipeline {
                 sh 'mv $WORKSPACE/defaultconfigs $SERVER_DIR/world/serverconfig'
 
                 echo 'Start Minecraft server'
-                sh 'docker start $SERVER_DOCKER_CONTAINER_NAME'
+                sh 'cd $SERVER_DIR && docker compose up -d'
             }
         }
     }
