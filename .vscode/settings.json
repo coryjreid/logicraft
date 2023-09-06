@@ -2,5 +2,10 @@
     "explorer.autoReveal": false,
     "yaml.schemas": {
         "https://json.schemastore.org/github-action.json": "file:///d%3A/Projects/Logicraft/modpack/.github/workflows/release-please.yml"
+    },
+    "logicraft": {
+        "testInstanceName": "Logicraft Testing",
+        "testInstancePath": "${env:APPDATA}\\PrismLauncher\\instances\\${config:logicraft.testInstanceName}\\.minecraft",
+        "launcherExecutablePath": "${env:LOCALAPPDATA}\\Programs\\PrismLauncher\\prismlauncher.exe"
     }
 }

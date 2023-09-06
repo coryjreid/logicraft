@@ -2,47 +2,27 @@
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
     "version": "2.0.0",
+    "presentation": {
+        "reveal": "never",
+        "revealProblems": "onProblem",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "close": false,
+        "clear": true
+    },
+    "problemMatcher": [],
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "C:\\Windows\\System32\\cmd.exe",
+                "args": [
+                    "/c"
+                ]
+            }
+        }
+    },
     "tasks": [
-        {
-            "label": "Packwiz: Refresh",
-            "type": "shell",
-            "command": "./bin/packwiz.exe",
-            "args": [
-                "refresh"
-            ],
-            "presentation": {
-                "echo": false,
-                "reveal": "never",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": false,
-                "close": true
-            },
-            "problemMatcher": [],
-            "group": "build"
-        },
-        {
-            "label": "Packwiz: Serve",
-            "type": "shell",
-            "command": "./bin/packwiz.exe",
-            "args": [
-                "serve",
-                "-p",
-                "9090"
-            ],
-            "presentation": {
-                "echo": false,
-                "reveal": "never",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": false,
-                "close": true
-            },
-            "problemMatcher": [],
-            "group": "build"
-        },
+        // ########## DOCS COMMANDS START ##########
         {
             "label": "Docs: Serve",
             "type": "shell",
@@ -56,19 +36,13 @@
                 "cwd": "${workspaceFolder}/docs"
             },
             "presentation": {
-                "echo": false,
-                "reveal": "never",
-                "focus": false,
-                "panel":"dedicated",
-                "showReuseMessage": false,
-                "clear": false,
-                "close": true
-            },
-            "problemMatcher": [],
-            "group": "none"
+                "panel": "dedicated"
+            }
         },
+        // ########## DOCS COMMANDS END ##########
+        // ########## HELPER COMMANDS START ##########
         {
-            "label": "Clean Timestamped Config",
+            "label": "Helper: Reset Timestamped Config",
             "type": "shell",
             "command": "git",
             "args": [
@@ -77,18 +51,240 @@
                 "./config/bettervillage_1.properties",
                 "./config/libraryferret_1.properties",
                 "./config/oculus.properties"
+            ]
+        },
+        // ########## HELPER COMMANDS END ##########
+        // ########## PACKWIZ COMMANDS START ##########
+        {
+            "label": "Packwiz: Refresh",
+            "type": "shell",
+            "command": "./bin/packwiz.exe",
+            "args": [
+                "refresh"
+            ],
+            "dependsOn": [
+                "Helper: Reset Timestamped Config"
+            ]
+        },
+        {
+            "label": "Packwiz: Serve",
+            "type": "shell",
+            "command": "./bin/packwiz.exe",
+            "args": [
+                "serve",
+                "-p",
+                "9090"
+            ]
+        },
+        // ########## PACKWIZ COMMANDS END ##########
+        // ########## RUN COMMANDS START ##########
+        {
+            "label": "Run: Test Instance",
+            "type": "process",
+            "command": "${config:logicraft.launcherExecutablePath}",
+            "args": [
+                "-l",
+                "'${config:logicraft.testInstanceName}'"
             ],
             "presentation": {
-                "echo": false,
-                "reveal": "never",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": false,
+                "panel": "dedicated"
+            }
+        },
+        // ########## RUN COMMANDS END ##########
+        // ########## SETUP COMMANDS START ##########
+        {
+            "label": "Setup: Instance -> Project Links",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Prepare Directory for Links: Remove Config Folder",
+                "Prepare Directory for Links: Remove Defaultconfigs Folder",
+                "Prepare Directory for Links: Remove KubeJS Folder",
+                "Prepare Directory for Links: Remove Local Folder",
+                "Prepare Directory for Links: Remove Launcher.bat File",
+                "Make Junction: 'config'",
+                "Make Junction: 'defaultconfigs'",
+                "Make Junction: 'kubejs'",
+                "Make Junction: 'local'",
+                "Make Link: 'launcher.bat'"
+            ],
+            "presentation": {
                 "close": true
+            }
+        },
+        // ########## SETUP COMMANDS END ##########
+        // ########## MAKE LINKS SUBCOMMANDS START ##########
+        {
+            "label": "Prepare Directory for Links: Remove Config Folder",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": {
+                    "value": "if exist \"${config:logicraft.testInstancePath}\\config\" rmdir",
+                    "quoting": "weak"
+                },
+                "args": [
+                    "/q",
+                    "${config:logicraft.testInstancePath}\\config"
+                ]
             },
-            "problemMatcher": [],
-            "group": "build"
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Prepare Directory for Links: Remove Defaultconfigs Folder",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": {
+                    "value": "if exist \"${config:logicraft.testInstancePath}\\defaultconfigs\" rmdir",
+                    "quoting": "weak"
+                },
+                "args": [
+                    "/q",
+                    "${config:logicraft.testInstancePath}\\defaultconfigs"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Prepare Directory for Links: Remove KubeJS Folder",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": {
+                    "value": "if exist \"${config:logicraft.testInstancePath}\\kubejs\" rmdir",
+                    "quoting": "weak"
+                },
+                "args": [
+                    "/q",
+                    "${config:logicraft.testInstancePath}\\kubejs"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Prepare Directory for Links: Remove Local Folder",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": {
+                    "value": "if exist \"${config:logicraft.testInstancePath}\\local\" rmdir",
+                    "quoting": "weak"
+                },
+                "args": [
+                    "/q",
+                    "${config:logicraft.testInstancePath}\\local"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Prepare Directory for Links: Remove Launcher.bat File",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": "del",
+                "args": [
+                    "/q",
+                    "/f",
+                    "${config:logicraft.testInstancePath}\\launcher.bat"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Make Junction: 'config'",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": "mklink",
+                "args": [
+                    "/j",
+                    "${config:logicraft.testInstancePath}\\config",
+                    "${workspaceFolder}\\config"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Make Junction: 'defaultconfigs'",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": "mklink",
+                "args": [
+                    "/j",
+                    "${config:logicraft.testInstancePath}\\defaultconfigs",
+                    "${workspaceFolder}\\defaultconfigs"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Make Junction: 'kubejs'",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": "mklink",
+                "args": [
+                    "/j",
+                    "${config:logicraft.testInstancePath}\\kubejs",
+                    "${workspaceFolder}\\kubejs"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Make Junction: 'local'",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": "mklink",
+                "args": [
+                    "/j",
+                    "${config:logicraft.testInstancePath}\\local",
+                    "${workspaceFolder}\\local"
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
+        },
+        {
+            "label": "Make Link: 'launcher.bat'",
+            "type": "shell",
+            "hide": true,
+            "windows": {
+                "command": "mklink",
+                "args": [
+                    "${config:logicraft.testInstancePath}\\launcher.bat",
+                    "${workspaceFolder}\\launcher.bat",
+                    "&&",
+                    {
+                        "value": "exit /b 0",
+                        "quoting": "weak"
+                    }
+                ]
+            },
+            "presentation": {
+                "close": true
+            }
         }
+        // ########## MAKE LINKS SUBCOMMANDS END ##########
     ]
 }
