@@ -94,7 +94,7 @@
 		burnPerAssembly = 1
 		#The radius of the explosion that occurs from a meltdown.
 		#Range: 1.0 ~ 500.0
-		meltdownRadius = 8.0
+		meltdownRadius = 100.0
 		#Amount of fuel (mB) that each assembly contributes to the fuel and waste capacity. Max = fuelAssemblies * maxFuelPerAssembly
 		#Range: 1 ~ 2251799813685247
 		maxFuelPerAssembly = 8000
