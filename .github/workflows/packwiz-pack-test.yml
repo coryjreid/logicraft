@@ -22,7 +22,7 @@ jobs:
     - name: Make Packwiz executable
       run: chmod +x ./bin/packwiz
     - name: Run the Packwiz server
-      run: nohup bash -c ""$WORKSPACE/bin/packwiz" serve --basic -p 9090 2>&1 &"
+      run: nohup bash -c ""./bin/packwiz" serve --basic -p 9090 2>&1 &"
     - name: Make test install directory
       run: mkdir ./install
     - name: Download Packwiz Installer Bootstrap
