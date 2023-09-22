@@ -1,0 +1,33 @@
+#
+# Tests that the modpack is in a distributable state.
+#
+name: Packwiz Pack Test
+
+on: workflow_dispatch
+  
+jobs:
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4.0.0
+    - name: Set up JDK 11
+      uses: actions/setup-java@v3
+      with:
+        java-version: 17
+        distribution: temurin
+    - name: Make Packwiz executable
+      run: chmod +x ./bin/packwiz
+    - name: Run the Packwiz server
+      run: nohup bash -c ""$WORKSPACE/bin/packwiz" serve --basic -p 9090 2>&1 &"
+    - name: Make test install directory
+      run: mkdir ./install
+    - name: Download Packwiz Installer Bootstrap
+      working-directory: ./install
+      run: wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+    - name: Test installing the modpack
+      working-directory: ./install
+      run: java -jar "./packwiz-installer-bootstrap.jar" --no-gui http://localhost:9090/pack.toml
