@@ -43,7 +43,7 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.IONOS_LOGICRAFT_WEB_ADDRESS }} >> ~/.ssh/known_hosts
       - name: Cleanup website root
-        run: ssh ${{ secrets.IONOS_LOGICRAFT_SSH_USERNAME }}@${{ secrets.IONOS_LOGICRAFT_WEB_ADDRESS }} 'rm -rf /var/www/logicraft.cc/html/*'
+        run: ssh ${{ secrets.IONOS_LOGICRAFT_SSH_USERNAME }}@${{ secrets.IONOS_LOGICRAFT_WEB_ADDRESS }} -i /home/runner/.ssh/id_rsa 'rm -rf /var/www/logicraft.cc/html/*'
       - name: Generate index page
         run: markdown README.md > index.html
       - name: Copy website contents
