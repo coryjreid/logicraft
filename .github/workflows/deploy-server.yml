@@ -14,11 +14,13 @@ jobs:
       - name: Install markdown command
         run: apt get install -y markdown
   test:
+    needs: setup
     runs-on: ubuntu-latest
     steps:
       - name: Run Packwiz Pack Test
         uses: ./.github/workflows/packwiz-pack-test.yml
   update-version:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Make Packwiz executable
@@ -34,6 +36,7 @@ jobs:
       - name: Refresh Packwiz indices
         run: ./bin/packwiz refresh
   deploy:
+    needs: update-version
     runs-on: ubuntu-latest
     steps:
       - name: Install SSH Key
