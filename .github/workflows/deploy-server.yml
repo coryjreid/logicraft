@@ -12,7 +12,7 @@ jobs:
           java-version: 17
           distribution: temurin
       - name: Install markdown command
-        run: apt get install -y markdown
+        run: apt-get install -y markdown
   test:
     needs: setup
     runs-on: ubuntu-latest
