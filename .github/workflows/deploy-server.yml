@@ -1,7 +1,7 @@
 name: Deploy Minecraft server
 on: workflow_dispatch
 jobs:
-  deploy:
+  deploy-server:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -13,12 +13,20 @@ jobs:
           distribution: temurin
       - name: Install markdown command
         run: sudo apt-get install -y markdown
-      - name: Run Packwiz Pack Test
-        uses: ./.github/workflows/packwiz-pack-test.yml
       - name: Make Packwiz executable
         run: chmod +x ./bin/packwiz
       - name: Make Dasel executable
         run: chmod +x ./bin/dasel
+      - name: Run the Packwiz server
+        run: nohup bash -c ""./bin/packwiz" serve --basic -p 9090 2>&1 &"
+      - name: Make test install directory
+        run: mkdir ./install
+      - name: Download Packwiz Installer Bootstrap
+        working-directory: ./install
+        run: wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+      - name: Test installing the modpack
+        working-directory: ./install
+        run: java -jar "./packwiz-installer-bootstrap.jar" --no-gui http://localhost:9090/pack.toml
       - name: Set modpack name
         run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v Logicraft general.modpackName
       - name: Set modpack curseforge project id
