@@ -27,6 +27,8 @@ jobs:
       - name: Test installing the modpack
         working-directory: ./install
         run: java -jar "./packwiz-installer-bootstrap.jar" --no-gui http://localhost:9090/pack.toml
+      - name: Cleanup
+        run: rm -rf ./install
       - name: Set modpack name
         run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v Logicraft general.modpackName
       - name: Set modpack curseforge project id
@@ -48,4 +50,3 @@ jobs:
         run: markdown README.md > index.html
       - name: Copy website contents
         run: rsync -avz --exclude=.git ./* ${{ secrets.IONOS_LOGICRAFT_SSH_USERNAME }}@${{ secrets.IONOS_LOGICRAFT_WEB_ADDRESS }}:/var/www/logicraft.cc/html
-    
