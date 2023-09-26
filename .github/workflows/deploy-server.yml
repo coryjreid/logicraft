@@ -9,7 +9,6 @@ env:
   MINECRAFT_DOCKER_CONTAINER_NAME: ${{ secrets.GAME_SERVER_DOCKER_CONTAINER_NAME }}
   MINECRAFT_COMPOSE_DIRECTORY: ${{ secrets.GAME_SERVER_COMPOSE_DIRECTORY }}
   DEPLOYMENT_SCRIPT_NAME: redeploy-game-server.sh
-  DEPLOYMENT_SCRIPT_PATH: /tmp/$DEPLOYMENT_SCRIPT_NAME
 
 jobs:
   validate-pack-before-deploy:
@@ -23,6 +22,9 @@ jobs:
     needs: [validate-pack-before-deploy, deploy-web-server]
     steps:
       # Setup
+      - name: "Set dynamic environment variables"
+        run: |
+          echo "DEPLOYMENT_SCRIPT_PATH=/tmp/$DEPLOYMENT_SCRIPT_NAME" >> $GITHUB_ENV
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
         with:
