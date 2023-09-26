@@ -2,6 +2,17 @@ name: Deploy Minecraft Server
 
 on: 
   workflow_dispatch:
+    inputs:
+      skip-tests:
+        description: "Skip packwiz tests"
+        default: false
+        required: true
+        type: boolean
+      skip-web-server-deploy:
+        description: "Skip web server deployment"
+        default: false
+        required: true
+        type: boolean
   release:
     types: [published]
 
@@ -12,8 +23,10 @@ env:
 
 jobs:
   validate-pack-before-deploy:
+    if: inputs.skip-tests == false
     uses: ./.github/workflows/packwiz-pack-test.yml
   deploy-web-server:
+    if: inputs.skip-web-server-deploy == false
     uses: ./.github/workflows/deploy-web-server.yml
     secrets: inherit
     needs: validate-pack-before-deploy
