@@ -12,12 +12,12 @@ remove_server_subfile() {
 }
 
 if [[ $(docker ps --filter "name=^$MINECRAFT_DOCKER_CONTAINER_NAME\$" --filter "status=running" --quiet) ]]; then
-        local duration=60
+        duration=60
         say "Server will shutdown in $duration seconds for an update"
         say "Please reach a safe point before shutdown and &c&lrestart your game&r to pickup the updates"
-        for (( i = 1; i <= $duration; i++ ))
-        do 
-            local seconds="seconds" && [[ $i == 1 ]] && seconds="second"
+        for (( i=$duration; i>=1; i-- ))
+        do
+            seconds="seconds" && [[ $i == 1 ]] && seconds="second"
             if [ "$i" -gt 10 ] && [ $(expr $i % 10) -eq 0 ] || [ "$i" -le 10 ]; then
                 say "Shutting down in $i $seconds"
             fi
@@ -29,6 +29,7 @@ if [[ $(docker ps --filter "name=^$MINECRAFT_DOCKER_CONTAINER_NAME\$" --filter "
 fi
 
 echo "Cleanup modpack files"
+sudo su $MINECRAFT_USER
 for directory in 'config', 'defaultconfigs', 'kubejs', 'logs', 'local', 'mods', 'scripts', 'world/serverconfig'; do
     remove_server_subfile "$directory"
 done
@@ -38,4 +39,5 @@ echo "Move updated world configuration"
 mv $MINECRAFT_COMPOSE_DIRECTORY/server/defaultconfigs $MINECRAFT_COMPOSE_DIRECTORY/server/world/serverconfig
 
 echo "Start server"
+exit
 cd $MINECRAFT_COMPOSE_DIRECTORY && docker compose up -d
