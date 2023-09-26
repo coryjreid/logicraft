@@ -18,7 +18,7 @@ if [[ $(docker ps --filter "name=^$MINECRAFT_DOCKER_CONTAINER_NAME\$" --filter "
         for (( i = 1; i <= $duration; i++ ))
         do 
             local seconds="seconds" && [[ $i == 1 ]] && seconds="second"
-            if [[ ($i > 10 && $i % 10 == 0) || ($i <= 10) ]]; then
+            if [ "$i" -gt 10 ] && [ $(expr $i % 10) -eq 0 ] || [ "$i" -le 10 ]; then
                 say "Shutting down in $i $seconds"
             fi
             sleep 1s
