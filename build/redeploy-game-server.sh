@@ -29,7 +29,7 @@ if [[ $(docker ps --filter "name=^$MINECRAFT_DOCKER_CONTAINER_NAME\$" --filter "
 fi
 
 echo "Cleanup modpack files"
-sudo -i -E -u $MINECRAFT_USER bash << EOF
+sudo -E -u $MINECRAFT_USER bash << EOF
 remove_server_subfile() {
     local subfolder=$MINECRAFT_COMPOSE_DIRECTORY/server/$1
     echo "Removing '$subfolder'"
