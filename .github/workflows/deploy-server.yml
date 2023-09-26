@@ -16,6 +16,8 @@ jobs:
     uses: ./.github/workflows/packwiz-pack-test.yml
   deploy-web-server:
     uses: ./.github/workflows/deploy-web-server.yml
+    with:
+          key: ${{ secrets.WEB_SERVER_SSH_KEY }}
     needs: validate-pack-before-deploy
   deploy-server:
     runs-on: ubuntu-latest
