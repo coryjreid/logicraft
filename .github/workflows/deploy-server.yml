@@ -17,7 +17,6 @@ on:
     types: [published]
 
 env:
-  MINECRAFT_DOCKER_CONTAINER_NAME: ${{ secrets.GAME_SERVER_DOCKER_CONTAINER_NAME }}
   DEPLOYMENT_SCRIPT_NAME: redeploy-game-server.sh
 
 jobs:
@@ -61,13 +60,16 @@ jobs:
         env:
           SERVER_ROOT: ${{ secrets.GAME_SERVER_COMPOSE_DIRECTORY }}/server
           SCRIPT_PATH: ${{ env.DEPLOYMENT_SCRIPT_PATH }}
+          MINECRAFT_USER: ${{ secrets.GAME_SERVER_MINECRAFT_USERNAME }}
+          MINECRAFT_DOCKER_CONTAINER_NAME: ${{ secrets.GAME_SERVER_DOCKER_CONTAINER_NAME }}
+          MINECRAFT_COMPOSE_DIRECTORY: ${{ GAME_SERVER_COMPOSE_DIRECTORY }}
         with:
           host: ${{ secrets.GAME_SERVER_IP }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.GAME_SERVER_SSH_KEY }}
           port: 22
           script_stop: true
-          envs: SERVER_ROOT,SCRIPT_PATH
+          envs: SERVER_ROOT,SCRIPT_PATH,MINECRAFT_USER,MINECRAFT_DOCKER_CONTAINER_NAME,MINECRAFT_COMPOSE_DIRECTORY
           script: cd $SERVER_ROOT && $SCRIPT_PATH
       # Cleanup
       - name: Cleanup
