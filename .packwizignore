@@ -11,6 +11,7 @@
 
 # Modpack Development Stuff
 /bin/
+/build/
 /docs/
 /node_modules/
 /.env.example

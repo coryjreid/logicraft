@@ -1,0 +1,47 @@
+name: Deploy Web Server
+
+on:
+  - workflow_dispatch
+  - workflow_call
+
+jobs:
+  deploy-web-server:
+    runs-on: ubuntu-latest
+    steps:
+        # Setup
+      - name: Checkout Repository
+        uses: actions/checkout@v4.0.0
+      - name: Install Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: 17
+          distribution: temurin
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.WEB_SERVER_SSH_KEY }}
+          known_hosts: "just-a-placeholder-so-we-dont-get-errors"
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H ${{ secrets.WEB_SERVER_IP }} >> ~/.ssh/known_hosts
+      - name: Install markdown command
+        run: sudo apt-get install -y markdown
+      - name: Make Packwiz executable
+        run: chmod +x ./bin/packwiz
+      - name: Make Dasel executable
+        run: chmod +x ./bin/dasel
+        # Prepare Files
+      - name: Set modpack name
+        run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v Logicraft general.modpackName
+      - name: Set modpack curseforge project id
+        run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v 323471 general.modpackProjectID
+      - name: Set modpack version
+        run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v `echo -n "$(<version.txt)"` general.modpackVersion
+      - name: Refresh Packwiz indices
+        run: ./bin/packwiz refresh
+        # Deploy Website
+      - name: Cleanup webserver root
+        run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.WEB_SERVER_IP }} 'rm -rf /var/www/logicraft.cc/html/*'
+      - name: Generate index page
+        run: markdown README.md > index.html
+      - name: Copy contents to webserver
+        run: rsync -avz --exclude=.git ./* ${{ secrets.SSH_USERNAME }}@${{ secrets.WEB_SERVER_IP }}:/var/www/logicraft.cc/html

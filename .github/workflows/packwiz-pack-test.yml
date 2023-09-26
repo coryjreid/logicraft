@@ -1,17 +1,17 @@
-#
-# Tests that the modpack is in a distributable state.
-#
 name: Packwiz Pack Test
 
-on: workflow_dispatch
+on: 
+  - workflow_dispatch
+  - workflow_call
+
+env:
+  TEST_DIRECTORY: ./install
   
 jobs:
-
   test:
-
     runs-on: ubuntu-latest
-
     steps:
+      # Setup
     - name: Checkout
       uses: actions/checkout@v4.0.0
     - name: Install Java
@@ -21,13 +21,17 @@ jobs:
         distribution: temurin
     - name: Make Packwiz executable
       run: chmod +x ./bin/packwiz
+    - name: Make test install directory
+      run: mkdir $TEST_DIRECTORY
+      # Perform test
     - name: Run the Packwiz server
       run: nohup bash -c ""./bin/packwiz" serve --basic -p 9090 2>&1 &"
-    - name: Make test install directory
-      run: mkdir ./install
     - name: Download Packwiz Installer Bootstrap
-      working-directory: ./install
+      working-directory: $TEST_DIRECTORY
       run: wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
     - name: Test installing the modpack
-      working-directory: ./install
+      working-directory: $TEST_DIRECTORY
       run: java -jar "./packwiz-installer-bootstrap.jar" --no-gui http://localhost:9090/pack.toml
+      # Cleanup
+    - name: Cleanup
+      run: rm -rf $TEST_DIRECTORY

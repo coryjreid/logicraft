@@ -1,52 +1,39 @@
-name: Deploy Minecraft server
-on: workflow_dispatch
+name: Deploy Minecraft Server
+
+on: 
+  workflow_dispatch:
+  release:
+    types: [published]
+
+env:
+  MINECRAFT_DOCKER_CONTAINER_NAME: ${{ GAME_SERVER_DOCKER_CONTAINER_NAME }}
+  MINECRAFT_COMPOSE_DIRECTORY: ${{ GAME_SERVER_COMPOSE_DIRECTORY }}
+  DEPLOYMENT_SCRIPT_NAME: redeploy-game-server.sh
+  DEPLOYMENT_SCRIPT_PATH: /tmp/$DEPLOYMENT_SCRIPT_NAME
+
 jobs:
+  validate-pack-before-deploy:
+    uses: ./.github/workflows/packwiz-pack-test.yml
+  deploy-web-server:
+    uses: ./.github/workflows/deploy-web-server.yml
   deploy-server:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4.0.0
-      - name: Install Java
-        uses: actions/setup-java@v3
-        with:
-          java-version: 17
-          distribution: temurin
-      - name: Install markdown command
-        run: sudo apt-get install -y markdown
-      - name: Make Packwiz executable
-        run: chmod +x ./bin/packwiz
-      - name: Make Dasel executable
-        run: chmod +x ./bin/dasel
-      - name: Run the Packwiz server
-        run: nohup bash -c ""./bin/packwiz" serve --basic -p 9090 2>&1 &"
-      - name: Make test install directory
-        run: mkdir ./install
-      - name: Download Packwiz Installer Bootstrap
-        working-directory: ./install
-        run: wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
-      - name: Test installing the modpack
-        working-directory: ./install
-        run: java -jar "./packwiz-installer-bootstrap.jar" --no-gui http://localhost:9090/pack.toml
-      - name: Cleanup
-        run: rm -rf ./install
-      - name: Set modpack name
-        run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v Logicraft general.modpackName
-      - name: Set modpack curseforge project id
-        run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v 323471 general.modpackProjectID
-      - name: Set modpack version
-        run: ./bin/dasel put -f ./config/bcc-common.toml -r toml -v `date +%Y%m%d%H%M%S` general.modpackVersion
-      - name: Refresh Packwiz indices
-        run: ./bin/packwiz refresh
+      # Setup
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
         with:
-          key: ${{ secrets.IONOS_LOGICRAFT_WEB_SSH_KEY }}
-          known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+          key: ${{ secrets.GAME_SERVER_SSH_KEY }}
+          known_hosts: "just-a-placeholder-so-we-dont-get-errors"
       - name: Adding Known Hosts
-        run: ssh-keyscan -H ${{ secrets.IONOS_LOGICRAFT_WEB_ADDRESS }} >> ~/.ssh/known_hosts
-      - name: Cleanup website root
-        run: ssh ${{ secrets.IONOS_LOGICRAFT_SSH_USERNAME }}@${{ secrets.IONOS_LOGICRAFT_WEB_ADDRESS }} -i /home/runner/.ssh/id_rsa 'rm -rf /var/www/logicraft.cc/html/*'
-      - name: Generate index page
-        run: markdown README.md > index.html
-      - name: Copy website contents
-        run: rsync -avz --exclude=.git ./* ${{ secrets.IONOS_LOGICRAFT_SSH_USERNAME }}@${{ secrets.IONOS_LOGICRAFT_WEB_ADDRESS }}:/var/www/logicraft.cc/html
+        run: ssh-keyscan -H ${{ secrets.GAME_SERVER_IP }} >> ~/.ssh/known_hosts
+      - name: Copy deploy script to game server
+        run: scp ./build/$DEPLOYMENT_SCRIPT_NAME ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }}:$DEPLOYMENT_SCRIPT_PATH
+      - name: Make deploy script executable
+        run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "chmod +x $DEPLOYMENT_SCRIPT_PATH"
+      # Deploy
+      - name: Run deploy script
+        run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "$DEPLOYMENT_SCRIPT_PATH"
+      # Cleanup
+      - name: Cleanup
+        run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "rm -f $DEPLOYMENT_SCRIPT_PATH"
