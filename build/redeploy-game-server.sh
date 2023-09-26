@@ -29,7 +29,7 @@ if [[ $(docker ps --filter "name=^$MINECRAFT_DOCKER_CONTAINER_NAME\$" --filter "
 fi
 
 echo "Cleanup modpack files"
-sudo su $MINECRAFT_USER
+sudo -i -u $MINECRAFT_USER bash << EOF
 for directory in 'config', 'defaultconfigs', 'kubejs', 'logs', 'local', 'mods', 'scripts', 'world/serverconfig'; do
     remove_server_subfile "$directory"
 done
@@ -37,6 +37,7 @@ remove_server_subfile "packwiz.json"
 
 echo "Move updated world configuration"
 mv $MINECRAFT_COMPOSE_DIRECTORY/server/defaultconfigs $MINECRAFT_COMPOSE_DIRECTORY/server/world/serverconfig
+EOF
 
 echo "Start server"
 exit
