@@ -29,7 +29,13 @@ if [[ $(docker ps --filter "name=^$MINECRAFT_DOCKER_CONTAINER_NAME\$" --filter "
 fi
 
 echo "Cleanup modpack files"
-sudo -i -u $MINECRAFT_USER bash << EOF
+sudo -i -E -u $MINECRAFT_USER bash << EOF
+remove_server_subfile() {
+    local subfolder=$MINECRAFT_COMPOSE_DIRECTORY/server/$1
+    echo "Removing '$subfolder'"
+    rm -rf $subfolder
+}
+
 for directory in 'config', 'defaultconfigs', 'kubejs', 'logs', 'local', 'mods', 'scripts', 'world/serverconfig'; do
     remove_server_subfile "$directory"
 done
@@ -40,5 +46,4 @@ mv $MINECRAFT_COMPOSE_DIRECTORY/server/defaultconfigs $MINECRAFT_COMPOSE_DIRECTO
 EOF
 
 echo "Start server"
-exit
 cd $MINECRAFT_COMPOSE_DIRECTORY && docker compose up -d
