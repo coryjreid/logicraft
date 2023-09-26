@@ -36,8 +36,7 @@ jobs:
     steps:
       # Setup
       - name: "Set dynamic environment variables"
-        run: |
-          echo "DEPLOYMENT_SCRIPT_PATH=/tmp/$DEPLOYMENT_SCRIPT_NAME" >> $GITHUB_ENV
+        run: echo "DEPLOYMENT_SCRIPT_PATH=/tmp/$DEPLOYMENT_SCRIPT_NAME" >> $GITHUB_ENV
       - name: Checkout Repository
         uses: actions/checkout@v4.0.0
       - name: Install SSH Key
@@ -53,7 +52,18 @@ jobs:
         run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "chmod +x $DEPLOYMENT_SCRIPT_PATH"
       # Deploy
       - name: Run deploy script
-        run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "$DEPLOYMENT_SCRIPT_PATH"
+        uses: appleboy/ssh-action@master
+        env:
+          SERVER_ROOT: $MINECRAFT_COMPOSE_DIRECTORY/server
+          SCRIPT_PATH: $DEPLOYMENT_SCRIPT_PATH
+        with:
+          host: ${{ secrets.GAME_SERVER_IP }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.GAME_SERVER_SSH_KEY }}
+          port: 22
+          script_stop: true
+          envs: SERVER_ROOT
+          script: cd $SERVER_ROOT && $SCRIPT_PATH
       # Cleanup
       - name: Cleanup
         run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "rm -f $DEPLOYMENT_SCRIPT_PATH"
