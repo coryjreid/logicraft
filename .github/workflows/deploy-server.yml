@@ -67,7 +67,7 @@ jobs:
           key: ${{ secrets.GAME_SERVER_SSH_KEY }}
           port: 22
           script_stop: true
-          envs: SERVER_ROOT
+          envs: SERVER_ROOT,SCRIPT_PATH
           script: cd $SERVER_ROOT && $SCRIPT_PATH
       # Cleanup
       - name: Cleanup
