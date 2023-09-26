@@ -62,7 +62,7 @@ jobs:
           SCRIPT_PATH: ${{ env.DEPLOYMENT_SCRIPT_PATH }}
           MINECRAFT_USER: ${{ secrets.GAME_SERVER_MINECRAFT_USERNAME }}
           MINECRAFT_DOCKER_CONTAINER_NAME: ${{ secrets.GAME_SERVER_DOCKER_CONTAINER_NAME }}
-          MINECRAFT_COMPOSE_DIRECTORY: ${{ GAME_SERVER_COMPOSE_DIRECTORY }}
+          MINECRAFT_COMPOSE_DIRECTORY: ${{ secrets.GAME_SERVER_COMPOSE_DIRECTORY }}
         with:
           host: ${{ secrets.GAME_SERVER_IP }}
           username: ${{ secrets.SSH_USERNAME }}
