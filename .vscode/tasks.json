@@ -58,7 +58,7 @@
         {
             "label": "Packwiz: Refresh",
             "type": "shell",
-            "command": "./bin/packwiz.exe",
+            "command": ".\\bin\\packwiz.exe",
             "args": [
                 "refresh"
             ],
@@ -69,7 +69,7 @@
         {
             "label": "Packwiz: Serve",
             "type": "shell",
-            "command": "./bin/packwiz.exe",
+            "command": ".\\bin\\packwiz.exe",
             "args": [
                 "serve",
                 "-p",
