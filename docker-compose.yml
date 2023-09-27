@@ -4,7 +4,6 @@ services:
   mc:
     image: itzg/minecraft-server
     container_name: mc
-    network_mode: 'host'
     environment:
       EULA: 'true'
       VERSION: '1.19.2'
@@ -16,7 +15,7 @@ services:
       ENABLE_WHITELIST: 'true'
       ENFORCE_WHITELIST: 'true'
       ENABLE_COMMAND_BLOCK: 'true'
-      MAX_TICK_TIME: -1
+      MAX_TICK_TIME: 60000
       SPAWN_PROTECTION: 0
       PVP: 'true'
       TZ: 'America/Denver'
@@ -31,37 +30,5 @@ services:
       GID: ${GID}
       RCON_CMDS_STARTUP:  |-
         gamerule doFireTick false
-    depends_on:
-      restore-backup:
-        condition: service_completed_successfully
     volumes:
       - ${DATA_DIR}:/data
-  # "init" container for mc to restore the data volume when empty    
-  restore-backup:
-    # Same image as mc, but any base image with bash and tar will work
-    image: itzg/mc-backup
-    restart: no
-    entrypoint: restore-tar-backup
-    volumes:
-      # Must be same mount as mc service, needs to be writable
-      - ${DATA_DIR}:/data
-      # Must be same mount as backups service, but can be read-only
-      - ${BACKUP_DIR}:/backups:ro
-  backups:
-    image: itzg/mc-backup
-    container_name: mcb
-    network_mode: 'host'
-    depends_on:
-      mc:
-        condition: service_healthy
-    environment:
-      BACKUP_INTERVAL: "30m"
-      RCON_HOST: mc
-      # since this service waits for mc to be healthy, no initial delay is needed
-      INITIAL_DELAY: 0
-      TZ: 'America/Denver'
-      PAUSE_IF_NO_PLAYERS: 'true'
-      PRUNE_BACKUPS_DAYS: 1
-    volumes:
-      - ${DATA_DIR}:/data:ro
-      - ${BACKUP_DIR}:/backups
