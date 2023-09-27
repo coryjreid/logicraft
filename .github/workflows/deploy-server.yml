@@ -87,6 +87,16 @@ jobs:
         run: ssh ${{ secrets.GAME_SERVER_MINECRAFT_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "rm -f /tmp/prepare-for-deployment.sh"
         # Startup
       - name: "Startup: Execute command"
-        run: |
-          echo "Start server"
-          cd $MINECRAFT_COMPOSE_DIRECTORY && docker compose up -d
+        uses: appleboy/ssh-action@master
+        env:
+          MINECRAFT_COMPOSE_DIRECTORY: ${{ secrets.GAME_SERVER_COMPOSE_DIRECTORY }}
+        with:
+          host: ${{ secrets.GAME_SERVER_IP }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.GAME_SERVER_SSH_KEY }}
+          port: 22
+          script_stop: true
+          envs: MINECRAFT_COMPOSE_DIRECTORY
+          script: |
+            echo "Start server"
+            cd $MINECRAFT_COMPOSE_DIRECTORY && docker compose up -d
