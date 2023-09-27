@@ -3139,6 +3139,10 @@ hash = "4740df6a935f9109871109a74dc58a004d399931d6ebe3eca44f1c1f08314e8d"
 metafile = true
 
 [[files]]
+file = "resourcepacks/VanillaTweaks-Fullbright.zip"
+hash = "bc6c16750ee714baecf9390ce63129be345beb2fcb163e22243eb9f4b31cf638"
+
+[[files]]
 file = "resourcepacks/rainbow-block-outline.zip"
 hash = "b4875bae6688910137f3521f25d5e2413f5c1c400e3abc01ae3a0a487b0c7d7b"
 
