@@ -43,11 +43,11 @@ contribute if you find issues!
 15. Select the `Custom commands` tab on the top-right
 16. Check the `Custom Commands` box to enable the fields
 17. In the `Pre-launch command` field enter the following *exactly*:  
-    `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://logicraft.coryjreid.com/pack.toml`
+    `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://logicraft.cc/pack.toml`
 18. Click `Servers` on the left
 19. Click `Add` at the top-right
 20. Change the `Name` near the bottom to `Logicraft`
-21. Change the `Address` to `logicraft.coryjreid.com`
+21. Change the `Address` to `game.logicraft.cc`
 22. `Right-Click` and `Cut` or `Copy` the `packwiz-installer-bootstrap.jar` file you downloaded to your clipboard
 23. Select the `Version` tab at the top-left
 24. Click the `Open .minecraft` buttom at the bottom-right
@@ -58,7 +58,7 @@ You are now ready to launch the game. Upon doing so, if you are prompted to logi
 
 ## Changelog
 
-I maintain a separate changelog documenting changes for each version of the modpack. Please checkout [CHANGELOG.md](CHANGELOG.md) to view this.
+I maintain a separate changelog documenting changes for each version of the modpack. Please checkout [CHANGELOG.md](https://github.com/coryjreid/logicraft/blob/1.19.2/README.md) to view this.
 
 ## Contributing
 
