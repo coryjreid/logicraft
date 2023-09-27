@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.5.0](https://github.com/coryjreid/logicraft/compare/v1.4.0...v1.5.0) (2023-09-27)
+
+
+### Features
+
+* make bigger boom when f**k up reactor ([#23](https://github.com/coryjreid/logicraft/issues/23)) ([55d5d28](https://github.com/coryjreid/logicraft/commit/55d5d28e871ebff07a53d95a86ad2112de6d7d22))
+
+
+### Bug Fixes
+
+* add vanilla tweaks fullbright resourcepack (might need alternative) ([64d5ae9](https://github.com/coryjreid/logicraft/commit/64d5ae924190754047096e7c75d51fe62d5073e3))
+* **ci:** add sudo to markdown install command ([c8457c2](https://github.com/coryjreid/logicraft/commit/c8457c2a4cf32b5b55bfafafa48a812d5ab1b54a))
+* **ci:** can't use -i and -E ([89de0bd](https://github.com/coryjreid/logicraft/commit/89de0bdd1ef5b959fb224f50c923a19dffa1efae))
+* **ci:** combine all "subjobs" into a single job for resource sharing ([2e47b08](https://github.com/coryjreid/logicraft/commit/2e47b0826756c54affb3f7646af603d6d3d6a990))
+* **ci:** don't forget secrets. /forehead ([93d40b7](https://github.com/coryjreid/logicraft/commit/93d40b751e1539e28175121d04b89b13090aaa19))
+* **ci:** ensure environment variables are set during startup command ([1d11502](https://github.com/coryjreid/logicraft/commit/1d11502c0fc46c82578c0eab129f5b943fe69fe3))
+* **ci:** fix path in packwiz build github action ([6865484](https://github.com/coryjreid/logicraft/commit/6865484ae1ea19bc865b3548042d19a1330290fa))
+* **ci:** fix the apt-get comment to install markdown command ([ecd9c55](https://github.com/coryjreid/logicraft/commit/ecd9c558fa0bfe7472288452ef94c84ab7d2697c))
+* **ci:** make jobs sequential in deploy-server action ([53bd4fa](https://github.com/coryjreid/logicraft/commit/53bd4fa89da066f665f6c4e76d387f4ed1e18f72))
+* **ci:** make sure to copy defaultconfigs over to game server ([981a243](https://github.com/coryjreid/logicraft/commit/981a2435dcb361459a82c7fd74f06e87d939f5a4))
+* **ci:** move the test steps directly into the action ([d651d27](https://github.com/coryjreid/logicraft/commit/d651d275b3fc60df3656543259b092a4e84a30f0))
+* remove the defunct angel ring which jebaits everyone ([f0c56b6](https://github.com/coryjreid/logicraft/commit/f0c56b628550c0b3b2984760d738f2cd8f8c79b0))
+* setup default keybindings for mekasuit and builder's gadget ([47769e8](https://github.com/coryjreid/logicraft/commit/47769e8395087f02bf8c3519a7258f03d83dc173))
+
 ## [1.4.0](https://github.com/coryjreid/logicraft/compare/v1.3.0...v1.4.0) (2023-09-04)
 
 
