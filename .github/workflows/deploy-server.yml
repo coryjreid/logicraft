@@ -67,6 +67,8 @@ jobs:
       - name: "Shutdown: Cleanup"
         run: ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.GAME_SERVER_IP }} "rm -f /tmp/shutdown.sh"
         # Prepare for deployment
+      - name: "Deployment: Copy default configs"
+        run: scp -r ./defaultconfigs ${{ secrets.GAME_SERVER_MINECRAFT_USERNAME }}@${{ secrets.GAME_SERVER_IP }}:${{ secrets.GAME_SERVER_COMPOSE_DIRECTORY }}/server/defaultconfigs
       - name: "Deployment: Copy script to server"
         run: scp ./build/game-server-scripts/prepare-for-deployment.sh ${{ secrets.GAME_SERVER_MINECRAFT_USERNAME }}@${{ secrets.GAME_SERVER_IP }}:/tmp/prepare-for-deployment.sh
       - name: "Deployment: Make script executable"
